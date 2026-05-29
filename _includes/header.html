@@ -1,0 +1,12 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Beranda">
+    <span class="brand-mark">W</span>
+    <span>WebJasa</span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+    {% for item in site.nav %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

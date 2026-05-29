@@ -1,0 +1,63 @@
+---
+layout: default
+title: Jasa Pembuatan Website Profesional
+description: Buat website bisnis yang cepat, responsif, dan SEO-ready. Cocok untuk company profile, landing page, portofolio, dan blog.
+---
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Jasa Website GitHub Pages</p>
+    <h1>Website profesional untuk bisnis Anda, cepat online dan SEO-ready.</h1>
+    <p>Kami membantu membuat website company profile, landing page, blog, dan halaman layanan yang ringan, responsive, dan mudah dikelola.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ '/kontak/' | relative_url }}">Konsultasi Gratis</a>
+      <a class="btn" href="{{ '/layanan/' | relative_url }}">Lihat Layanan</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <span>Mulai dari</span>
+    <strong>Rp 500rb</strong>
+    <p>Landing page cepat, mobile-friendly, siap dipasang ke domain sendiri.</p>
+  </div>
+</section>
+
+<section class="section">
+  <p class="eyebrow">Layanan utama</p>
+  <h2>Paket pembuatan website</h2>
+  <div class="grid cards">
+    <article><h3>Landing Page</h3><p>Satu halaman promosi untuk produk, jasa, event, atau campaign.</p></article>
+    <article><h3>Company Profile</h3><p>Website bisnis lengkap dengan halaman layanan, tentang, blog, dan kontak.</p></article>
+    <article><h3>Blog SEO</h3><p>Struktur artikel, sitemap, feed, meta tag, dan halaman blog siap pakai.</p></article>
+  </div>
+</section>
+
+<section class="section split">
+  <div>
+    <p class="eyebrow">Kenapa pilih kami</p>
+    <h2>Ringan, aman, dan mudah dipublish ke GitHub Pages.</h2>
+  </div>
+  <ul class="checklist">
+    <li>Desain responsif untuk HP dan desktop</li>
+    <li>SEO meta tag memakai plugin jekyll-seo-tag</li>
+    <li>Sitemap otomatis dengan jekyll-sitemap</li>
+    <li>Feed blog otomatis dengan jekyll-feed</li>
+  </ul>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">Blog terbaru</p>
+      <h2>Tips website dan digital marketing</h2>
+    </div>
+    <a href="{{ '/blog/' | relative_url }}">Lihat semua</a>
+  </div>
+  <div class="grid cards">
+    {% for post in site.posts limit:3 %}
+      <article>
+        <p class="post-date">{{ post.date | date: "%d %b %Y" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
