@@ -2,7 +2,7 @@
 layout: post
 title: Checklist SEO untuk Website Baru
 description: Checklist SEO dasar sebelum website baru dipublish ke Google.
-author: WebJasa
+author: Aksisoft Media
 ---
 
 Sebelum website dipublish, pastikan elemen SEO dasar sudah tersedia.

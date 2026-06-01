@@ -2,7 +2,7 @@
 layout: post
 title: Cara Memilih Jasa Pembuatan Website untuk Bisnis
 description: Panduan singkat memilih jasa pembuatan website agar hasilnya profesional, cepat, dan sesuai kebutuhan bisnis.
-author: WebJasa
+author: Aksisoft Media
 ---
 
 Memilih jasa pembuatan website tidak cukup hanya melihat harga. Anda juga perlu memperhatikan kecepatan website, tampilan mobile, struktur SEO, dan kemudahan pengelolaan konten.
