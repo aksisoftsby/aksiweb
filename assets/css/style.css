@@ -2,21 +2,21 @@
 
 /* WhatsApp Floating Button */
 .wa-floating {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background-color: #25d366;
-  color: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  z-index: 1000;
-  text-decoration: none;
-  transition: transform 0.3s ease;
+  position: fixed !important;
+  bottom: 25px !important;
+  right: 25px !important;
+  background-color: #25d366 !important;
+  color: #fff !important;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+  z-index: 9999 !important;
+  text-decoration: none !important;
+  transition: transform 0.3s ease !important;
 }
 .wa-floating:hover {
   transform: scale(1.1);
