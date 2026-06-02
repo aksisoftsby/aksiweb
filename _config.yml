@@ -27,6 +27,10 @@ collections:
   pages:
     output: true
     permalink: /:name/
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/
+    sort_by: order
 
 nav:
   - title: Beranda
