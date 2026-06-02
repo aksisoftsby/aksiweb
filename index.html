@@ -46,6 +46,26 @@ description: Buat website bisnis yang cepat, responsif, dan SEO-ready. Cocok unt
 <section class="section">
   <div class="section-head">
     <div>
+      <p class="eyebrow">Portfolio terbaru</p>
+      <h2>Proyek yang telah kami selesaikan</h2>
+    </div>
+    <a href="{{ '/portfolio/' | relative_url }}">Lihat semua</a>
+  </div>
+  <div class="grid cards">
+    {% assign sorted_portfolio = site.portfolio | sort: 'order' | limit: 3 %}
+    {% for item in sorted_portfolio %}
+      <article>
+        <p class="post-date">{{ item.category }}</p>
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.description | truncate: 120 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <div>
       <p class="eyebrow">Blog terbaru</p>
       <h2>Tips website dan digital marketing</h2>
     </div>
