@@ -13,7 +13,7 @@ permalink: /portfolio/
     <div class="eyebrow">{{ item.category }}</div>
     <h3>{{ item.title }}</h3>
     <p>{{ item.description }}</p>
-    <a href="{{ item.url }}" class="read-more">Lihat Detail →</a>
+    <a href="{{ item.url | relative_url }}" class="read-more">Lihat Detail →</a>
   </article>
   {% endfor %}
 </div>
