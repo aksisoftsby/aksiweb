@@ -1,1596 +1,1249 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proposal Google Ads - PT Indo Mandiri Isolasi</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/index.min.css">
-  <style>
-    * {
-      font-family: 'Inter', sans-serif;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      background: #f8fafc;
-    }
-
-    .proposal-page {
-      min-height: 100vh;
-      background: white;
-      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-      margin: 2rem auto;
-      max-width: 1100px;
-      position: relative;
-    }
-
-    .cover-gradient {
-      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0ea5e9 100%);
-    }
-
-    .section-title {
-      position: relative;
-      padding-bottom: 0.75rem;
-    }
-
-    .section-title::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 60px;
-      height: 4px;
-      background: linear-gradient(90deg, #0ea5e9, #0f172a);
-      border-radius: 2px;
-    }
-
-    .toc-item {
-      transition: all 0.2s;
-      border-left: 3px solid transparent;
-    }
-
-    .toc-item:hover {
-      border-left-color: #0ea5e9;
-      background: #f1f5f9;
-      padding-left: 1rem;
-    }
-
-    .keyword-tag {
-      display: inline-block;
-      padding: 0.35rem 0.75rem;
-      margin: 0.25rem;
-      background: #e0f2fe;
-      color: #0369a1;
-      border-radius: 9999px;
-      font-size: 0.8rem;
-      border: 1px solid #bae6fd;
-      transition: all 0.2s;
-    }
-
-    .keyword-tag:hover {
-      background: #0ea5e9;
-      color: white;
-      transform: translateY(-2px);
-    }
-
-    .negative-tag {
-      background: #fee2e2;
-      color: #991b1b;
-      border-color: #fecaca;
-    }
-
-    .negative-tag:hover {
-      background: #ef4444;
-      color: white;
-    }
-
-    .package-card {
-      transition: all 0.3s;
-      border: 2px solid #e2e8f0;
-    }
-
-    .package-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    }
-
-    .package-featured {
-      border-color: #0ea5e9;
-      background: linear-gradient(180deg, #f0f9ff 0%, white 100%);
-    }
-
-    .timeline-item {
-      position: relative;
-      padding-left: 2rem;
-      padding-bottom: 2rem;
-      border-left: 3px solid #0ea5e9;
-    }
-
-    .timeline-item::before {
-      content: '';
-      position: absolute;
-      left: -10px;
-      top: 0;
-      width: 17px;
-      height: 17px;
-      border-radius: 50%;
-      background: #0ea5e9;
-      border: 3px solid white;
-      box-shadow: 0 0 0 3px #0ea5e9;
-    }
-
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.6s;
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    @media print {
-      .proposal-page {
-        margin: 0;
-        box-shadow: none;
-        page-break-after: always;
-      }
-
-      .no-print {
-        display: none !important;
-      }
-    }
-
-    .nav-link {
-      transition: all 0.2s;
-    }
-
-    .nav-link:hover {
-      color: #0ea5e9;
-    }
-
-    .stat-card {
-      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-      border-left: 4px solid #0ea5e9;
-    }
-
-    .wa-btn {
-      background: #25D366;
-      color: white;
-      transition: all 0.3s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      font-weight: 600;
-    }
-
-    .wa-btn:hover {
-      background: #1ebe57;
-      transform: translateY(-2px);
-      box-shadow: 0 10px 15px -3px rgba(37, 211, 102, 0.4);
-    }
-
-    .wa-float {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 100;
-      background: #25D366;
-      color: white;
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
-      transition: all 0.3s;
-      animation: pulse 2s infinite;
-    }
-
-    .wa-float:hover {
-      transform: scale(1.1);
-    }
-
-    @keyframes pulse {
-
-      0%,
-      100% {
-        box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
-      }
-
-      50% {
-        box-shadow: 0 10px 25px rgba(37, 211, 102, 0.7), 0 0 0 10px rgba(37, 211, 102, 0.1);
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposal Google Ads - PT Indo Mandiri Isolasi</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.16/index.min.css">
+<style>
+* { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+body { background: #f8fafc; }
+.proposal-page { 
+  min-height: 100vh; 
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1100px;
+  position: relative;
+}
+.cover-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #0ea5e9 100%);
+}
+.section-title {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #0ea5e9, #0f172a);
+  border-radius: 2px;
+}
+.toc-item {
+  transition: all 0.2s;
+  border-left: 3px solid transparent;
+}
+.toc-item:hover {
+  border-left-color: #0ea5e9;
+  background: #f1f5f9;
+  padding-left: 1rem;
+}
+.keyword-tag {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  margin: 0.25rem;
+  background: #e0f2fe;
+  color: #0369a1;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  border: 1px solid #bae6fd;
+  transition: all 0.2s;
+}
+.keyword-tag:hover {
+  background: #0ea5e9;
+  color: white;
+  transform: translateY(-2px);
+}
+.negative-tag {
+  background: #fee2e2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+.negative-tag:hover {
+  background: #ef4444;
+  color: white;
+}
+.package-card {
+  transition: all 0.3s;
+  border: 2px solid #e2e8f0;
+}
+.package-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.package-featured {
+  border-color: #0ea5e9;
+  background: linear-gradient(180deg, #f0f9ff 0%, white 100%);
+}
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  border-left: 3px solid #0ea5e9;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #0ea5e9;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #0ea5e9;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media print {
+  .proposal-page { margin: 0; box-shadow: none; page-break-after: always; }
+  .no-print { display: none !important; }
+}
+.nav-link { transition: all 0.2s; }
+.nav-link:hover { color: #0ea5e9; }
+.stat-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border-left: 4px solid #0ea5e9;
+}
+.wa-btn {
+  background: #25D366;
+  color: white;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+.wa-btn:hover {
+  background: #1ebe57;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(37, 211, 102, 0.4);
+}
+.wa-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+  background: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s;
+  animation: pulse 2s infinite;
+}
+.wa-float:hover {
+  transform: scale(1.1);
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4); }
+  50% { box-shadow: 0 10px 25px rgba(37, 211, 102, 0.7), 0 0 0 10px rgba(37, 211, 102, 0.1); }
+}
+</style>
 </head>
-
 <body class="bg-slate-100">
 
-  <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads" target="_blank"
-    class="wa-float no-print" title="Chat WhatsApp">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
-      <path
-        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-    </svg>
-  </a>
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads" target="_blank" class="wa-float no-print" title="Chat WhatsApp">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
 
-  <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur shadow-sm z-50 no-print">
-    <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
-      <div class="flex items-center gap-2">
-        <img
-          src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png"
-          class="h-8" alt="Aksisoft">
-        <span class="font-bold text-slate-800">Proposal</span>
-      </div>
-      <div class="hidden md:flex gap-5 text-sm text-slate-600">
-        <a href="#cover" class="nav-link">Cover</a>
-        <a href="#profil" class="nav-link">Profil</a>
-        <a href="#analisa" class="nav-link">Analisa</a>
-        <a href="#keyword" class="nav-link">Keyword</a>
-        <a href="#paket" class="nav-link">Paket</a>
-        <a href="#estimasi" class="nav-link">Estimasi</a>
-      </div>
-      <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads"
-        target="_blank"
-        class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-600 transition flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white">
-          <path
-            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z" />
-        </svg>
-        WhatsApp
-      </a>
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur shadow-sm z-50 no-print">
+  <div class="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
+    <div class="flex items-center gap-2">
+      <img src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png" class="h-8" alt="Aksisoft">
+      <span class="font-bold text-slate-800">Proposal</span>
     </div>
-  </nav>
+    <div class="hidden md:flex gap-5 text-sm text-slate-600">
+      <a href="#cover" class="nav-link">Cover</a>
+      <a href="#profil" class="nav-link">Profil</a>
+      <a href="#analisa" class="nav-link">Analisa</a>
+      <a href="#keyword" class="nav-link">Keyword</a>
+      <a href="#paket" class="nav-link">Paket</a>
+      <a href="#estimasi" class="nav-link">Estimasi</a>
+    </div>
+    <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads" target="_blank" class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-600 transition flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+</nav>
 
-  <div class="pt-16">
+<div class="pt-16">
 
-    <!-- 1. COVER -->
-    <section id="cover" class="proposal-page overflow-hidden">
-      <div class="cover-gradient min-h-screen flex flex-col justify-between p-12 text-white relative">
-        <div class="absolute top-0 right-0 w-96 h-96 bg-sky-400/20 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
-
-        <div class="relative z-10">
-          <div class="flex items-center gap-3 mb-12">
-            <img
-              src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png"
-              class="h-16 bg-white rounded-lg p-2" alt="Aksisoft">
-            <div>
-              <div class="text-xs text-sky-200 tracking-widest">DIGITAL MARKETING AGENCY</div>
-              <div class="font-bold text-xl">Aksisoft</div>
-            </div>
-          </div>
-
-          <div class="text-xs text-sky-200 tracking-widest mb-4">PROPOSAL PENAWARAN</div>
-          <h1 class="text-5xl md:text-6xl font-black leading-tight mb-6">
-            Google Ads<br>
-            <span class="text-sky-300">Peningkatan Leads</span><br>
-            Penjualan Rockwool<br>
-            Kedap Suara
-          </h1>
-          <div class="h-1 w-32 bg-sky-400 my-8"></div>
-        </div>
-
-        <div class="relative z-10 grid md:grid-cols-2 gap-8">
-          <div>
-            <div class="text-xs text-sky-200 tracking-widest mb-2">DITUTUPKAN KEPADA</div>
-            <div class="text-2xl font-bold mb-1">PT Indo Mandiri Isolasi</div>
-            <div class="text-sky-100 text-sm">Simpang Darmo Timur No. 19Y<br>Surabaya</div>
-          </div>
-          <div>
-            <div class="text-xs text-sky-200 tracking-widest mb-2">DIBUAT OLEH</div>
-            <div class="text-2xl font-bold mb-1">Aksisoft</div>
-            <div class="text-sky-100 text-sm">https://aksisoft.web.id</div>
-            <div class="mt-4 text-xs text-sky-200 tracking-widest mb-2">TANGGAL</div>
-            <div class="text-lg font-semibold">28 Juli 2026</div>
-            <div class="mt-2 text-xs text-sky-200">Berlaku hingga 27 Agustus 2026 (30 hari)</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 2. DAFTAR ISI -->
-    <section id="daftar-isi" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Daftar Isi</h2>
-      <p class="text-slate-500 mb-8">Daftar seluruh bagian dalam proposal ini</p>
-
-      <div class="grid md:grid-cols-2 gap-3">
-        <a href="#profil" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">01</span><span
-            class="font-medium">Profil Singkat Aksisoft</span></a>
-        <a href="#profil-klien" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">02</span><span
-            class="font-medium">Profil Singkat PT Indo Mandiri Isolasi</span></a>
-        <a href="#analisa" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">03</span><span
-            class="font-medium">Analisa Pasar Rockwool di Indonesia</span></a>
-        <a href="#kompetitor" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">04</span><span
-            class="font-medium">Analisa Kompetitor Google Search</span></a>
-        <a href="#tujuan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">05</span><span
-            class="font-medium">Tujuan Kampanye</span></a>
-        <a href="#wilayah" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">06</span><span
-            class="font-medium">Target Wilayah</span></a>
-        <a href="#keyword" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">07</span><span
-            class="font-medium">Daftar Keyword (80+)</span></a>
-        <a href="#negative" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">08</span><span
-            class="font-medium">Negative Keyword (50+)</span></a>
-        <a href="#struktur" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">09</span><span
-            class="font-medium">Struktur Campaign Google Ads</span></a>
-        <a href="#rsa" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">10</span><span
-            class="font-medium">Contoh Responsive Search Ads</span></a>
-        <a href="#optimasi" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">11</span><span
-            class="font-medium">Strategi Optimasi</span></a>
-        <a href="#paket" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">12</span><span
-            class="font-medium">Paket Harga</span></a>
-        <a href="#estimasi" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">13</span><span
-            class="font-medium">Perhitungan Estimasi</span></a>
-        <a href="#timeline" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">14</span><span
-            class="font-medium">Timeline Pekerjaan</span></a>
-        <a href="#laporan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">15</span><span
-            class="font-medium">Laporan Bulanan</span></a>
-        <a href="#kesimpulan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span
-            class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">16</span><span
-            class="font-medium">Kesimpulan</span></a>
-      </div>
-    </section>
-
-    <!-- 3. PROFIL AKSISOFT -->
-    <section id="profil" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Profil Singkat Aksisoft</h2>
-      <p class="text-slate-500 mb-8">Mitra digital marketing terpercaya untuk pertumbuhan bisnis Anda</p>
-
-      <div class="bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8 text-white mb-8">
-        <div class="flex items-start gap-4">
-          <img
-            src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png"
-            class="h-20 bg-white rounded-lg p-2">
-          <div>
-            <h3 class="text-2xl font-bold mb-2">Aksisoft</h3>
-            <p class="text-sky-100 text-sm leading-relaxed">
-              Aksisoft adalah agensi digital marketing yang berfokus pada solusi berbasis data untuk membantu bisnis
-              berkembang di era digital. Dengan pengalaman menangani berbagai industri, kami siap membantu PT Indo
-              Mandiri Isolasi mencapai target penjualan melalui strategi Google Ads yang terukur dan efektif.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-4">
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2">🎯</div>
-          <h4 class="font-bold text-slate-800 mb-1">Google Ads Specialist</h4>
-          <p class="text-sm text-slate-600">Sertifikasi Google Ads Partner dengan pengalaman mengelola budget iklan
-            hingga miliaran rupiah.</p>
-        </div>
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2">💻</div>
-          <h4 class="font-bold text-slate-800 mb-1">Website Development</h4>
-          <p class="text-sm text-slate-600">Pembuatan website profesional, responsif, dan SEO-friendly untuk mendukung
-            kampanye digital.</p>
-        </div>
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2">🔍</div>
-          <h4 class="font-bold text-slate-800 mb-1">SEO</h4>
-          <p class="text-sm text-slate-600">Optimasi mesin pencari untuk meningkatkan visibilitas organik dan traffic
-            berkualitas.</p>
-        </div>
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2"></div>
-          <h4 class="font-bold text-slate-800 mb-1">Landing Page</h4>
-          <p class="text-sm text-slate-600">Desain landing page high-converting untuk memaksimalkan konversi dari iklan
-            berbayar.</p>
-        </div>
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2">📊</div>
-          <h4 class="font-bold text-slate-800 mb-1">Jasa Digital Marketing</h4>
-          <p class="text-sm text-slate-600">Strategi pemasaran digital terintegrasi mencakup SEO, SEM, Social Media, dan
-            Content Marketing.</p>
-        </div>
-        <div class="stat-card p-6 rounded-xl">
-          <div class="text-3xl mb-2">🛠️</div>
-          <h4 class="font-bold text-slate-800 mb-1">Maintenance Website</h4>
-          <p class="text-sm text-slate-600">Layanan pemeliharaan website rutin untuk menjaga performa, keamanan, dan
-            update konten.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 4. PROFIL KLIEN -->
-    <section id="profil-klien" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Profil Singkat PT Indo Mandiri Isolasi</h2>
-      <p class="text-slate-500 mb-8">Informasi mengenai perusahaan klien</p>
-
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <h4 class="font-bold text-slate-800 mb-4 flex items-center gap-2">
-            <span class="bg-sky-100 text-sky-700 w-8 h-8 rounded-lg flex items-center justify-center"></span>
-            Informasi Perusahaan
-          </h4>
-          <table class="w-full text-sm">
-            <tr class="border-b border-slate-100">
-              <td class="py-2 text-slate-500 w-32">Nama</td>
-              <td class="py-2 font-medium">PT Indo Mandiri Isolasi</td>
-            </tr>
-            <tr class="border-b border-slate-100">
-              <td class="py-2 text-slate-500">Alamat</td>
-              <td class="py-2 font-medium">Simpang Darmo Timur No. 19Y, Surabaya</td>
-            </tr>
-            <tr class="border-b border-slate-100">
-              <td class="py-2 text-slate-500">Industri</td>
-              <td class="py-2 font-medium">Material Bangunan / Isolasi</td>
-            </tr>
-            <tr class="border-b border-slate-100">
-              <td class="py-2 text-slate-500">Produk</td>
-              <td class="py-2 font-medium">Rockwool Kedap Suara</td>
-            </tr>
-            <tr>
-              <td class="py-2 text-slate-500">Target</td>
-              <td class="py-2 font-medium">B2B & B2C</td>
-            </tr>
-          </table>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <h4 class="font-bold text-slate-800 mb-4 flex items-center gap-2">
-            <span class="bg-sky-100 text-sky-700 w-8 h-8 rounded-lg flex items-center justify-center">📦</span>
-            Produk Utama
-          </h4>
-          <ul class="space-y-2 text-sm">
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Slab / Board</li>
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Blanket / Roll</li>
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Pipe Insulation</li>
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Acoustic Panel</li>
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool untuk Dinding & Atap
-            </li>
-            <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool untuk HVAC & Industrial
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="mt-6 bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
-        <h4 class="font-bold text-amber-900 mb-2">💡 Peluang Pasar</h4>
-        <p class="text-sm text-amber-800">Dengan meningkatnya kesadaran akan efisiensi energi dan peredaman suara di
-          Indonesia, permintaan rockwool sebagai material isolasi premium terus bertumbuh. Google Ads menjadi saluran
-          paling tepat untuk menjangkau calon pembeli yang aktif mencari solusi isolasi.</p>
-      </div>
-    </section>
-
-    <!-- 5. ANALISA PASAR -->
-    <section id="analisa" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Analisa Pasar Rockwool di Indonesia</h2>
-      <p class="text-slate-500 mb-8">Gambaran umum industri rockwool dan peluang pertumbuhan</p>
-
-      <div class="grid md:grid-cols-4 gap-4 mb-8">
-        <div class="bg-gradient-to-br from-sky-500 to-blue-600 text-white p-6 rounded-xl">
-          <div class="text-3xl font-black">12%</div>
-          <div class="text-sm text-sky-100 mt-1">CAGR Pasar Isolasi 2024-2030</div>
-        </div>
-        <div class="bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 rounded-xl">
-          <div class="text-3xl font-black">Rp 8.5T</div>
-          <div class="text-sm text-slate-300 mt-1">Nilai Pasar Material Isolasi Indonesia</div>
-        </div>
-        <div class="bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-6 rounded-xl">
-          <div class="text-3xl font-black">+18%</div>
-          <div class="text-sm text-emerald-100 mt-1">Pertumbuhan Konstruksi Hijau</div>
-        </div>
-        <div class="bg-gradient-to-br from-orange-500 to-red-500 text-white p-6 rounded-xl">
-          <div class="text-3xl font-black">65%</div>
-          <div class="text-sm text-orange-100 mt-1">Pencarian via Mobile Device</div>
-        </div>
-      </div>
-
-      <div class="space-y-4">
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <h4 class="font-bold text-slate-800 mb-3">📈 Tren Industri</h4>
-          <p class="text-sm text-slate-600 leading-relaxed">Industri konstruksi di Indonesia menunjukkan pertumbuhan
-            yang stabil dengan fokus pada bangunan hijau dan efisiensi energi. Rockwool menjadi pilihan utama untuk
-            isolasi termal dan akustik di gedung komersial, hotel, rumah sakit, dan perumahan premium. Regulasi
-            pemerintah terkait efisiensi energi semakin mendorong adopsi material isolasi berkualitas.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <h4 class="font-bold text-slate-800 mb-3">🎯 Target Audience</h4>
-          <div class="grid md:grid-cols-2 gap-3 text-sm">
-            <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span>
-              <div><strong>Kontraktor & Developer</strong><br><span class="text-slate-500">Pembangunan gedung, hotel,
-                  apartemen</span></div>
-            </div>
-            <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span>
-              <div><strong>Arsitek & Konsultan</strong><br><span class="text-slate-500">Spesifikasi material untuk
-                  proyek</span></div>
-            </div>
-            <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span>
-              <div><strong>Industri Manufaktur</strong><br><span class="text-slate-500">Isolasi pabrik, HVAC, cold
-                  storage</span></div>
-            </div>
-            <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span>
-              <div><strong>Pemilik Rumah</strong><br><span class="text-slate-500">Renovasi, home studio, peredam
-                  suara</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <h4 class="font-bold text-slate-800 mb-3">🔍 Perilaku Pencarian</h4>
-          <p class="text-sm text-slate-600 leading-relaxed">Volume pencarian untuk kata kunci terkait rockwool di
-            Indonesia menunjukkan tren naik, terutama di kota-kota besar seperti Jakarta, Surabaya, dan Denpasar.
-            Pencarian terbanyak terjadi pada jam kerja (09:00-17:00) dari perangkat mobile, menunjukkan bahwa calon
-            pembeli mencari informasi saat dalam perjalanan atau di lokasi proyek.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. ANALISA KOMPETITOR -->
-    <section id="kompetitor" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Analisa Kompetitor Google Search</h2>
-      <p class="text-slate-500 mb-8">Peta persaingan iklan di Google untuk kata kunci rockwool</p>
-
-      <div class="bg-white border border-slate-200 rounded-xl overflow-hidden mb-6">
-        <table class="w-full text-sm">
-          <thead class="bg-slate-900 text-white">
-            <tr>
-              <th class="p-4 text-left">Kompetitor</th>
-              <th class="p-4 text-left">Estimasi Budget/Bulan</th>
-              <th class="p-4 text-left">Kekuatan</th>
-              <th class="p-4 text-left">Kelemahan</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-100">
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-medium">Kompetitor A (Nasional)</td>
-              <td class="p-4">Rp 50-80 juta</td>
-              <td class="p-4">Brand kuat, landing page lengkap</td>
-              <td class="p-4">Harga tinggi, respons lambat</td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-medium">Kompetitor B (Regional Jawa)</td>
-              <td class="p-4">Rp 20-35 juta</td>
-              <td class="p-4">Harga kompetitif, stok ready</td>
-              <td class="p-4">SEO lemah, tidak mobile-friendly</td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-medium">Kompetitor C (Distributor)</td>
-              <td class="p-4">Rp 10-20 juta</td>
-              <td class="p-4">Multi-brand, variasi produk</td>
-              <td class="p-4">Tidak ada spesialisasi rockwool</td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-medium">Kompetitor D (Importir)</td>
-              <td class="p-4">Rp 30-50 juta</td>
-              <td class="p-4">Produk impor berkualitas</td>
-              <td class="p-4">Lead time panjang, harga premium</td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-medium">Kompetitor E (Lokal Surabaya)</td>
-              <td class="p-4">Rp 5-15 juta</td>
-              <td class="p-4">Harga murah, pengiriman cepat</td>
-              <td class="p-4">Branding lemah, website sederhana</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-4">
-        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
-          <div class="text-emerald-700 font-bold mb-2">✅ Keunggulan Kami</div>
-          <p class="text-sm text-slate-700">Fokus spesialisasi rockwool, landing page konversi tinggi, dan tim respons
-            cepat untuk follow-up leads.</p>
-        </div>
-        <div class="bg-sky-50 border border-sky-200 rounded-xl p-5">
-          <div class="text-sky-700 font-bold mb-2">🎯 Strategi Diferensiasi</div>
-          <p class="text-sm text-slate-700">Target keyword long-tail dengan intent tinggi, geo-targeting spesifik, dan
-            ad copy yang menekankan keunggulan produk.</p>
-        </div>
-        <div class="bg-amber-50 border border-amber-200 rounded-xl p-5">
-          <div class="text-amber-700 font-bold mb-2">⚡ Peluang</div>
-          <p class="text-sm text-slate-700">Banyak kompetitor belum mengoptimalkan mobile experience dan conversion
-            tracking, memberikan celah untuk unggul.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. TUJUAN KAMPANYE -->
-    <section id="tujuan" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Tujuan Kampanye</h2>
-      <p class="text-slate-500 mb-8">Target yang ingin dicapai melalui kampanye Google Ads</p>
-
-      <div class="grid md:grid-cols-2 gap-5">
-        <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
-          <div class="text-4xl mb-3">🎯</div>
-          <h4 class="font-bold text-slate-800 mb-2">Meningkatkan Leads Berkualitas</h4>
-          <p class="text-sm text-slate-600">Mendapatkan leads berkualitas per bulan dari calon pembeli rockwool yang
-            benar-benar memiliki kebutuhan.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
-          <div class="text-4xl mb-3">📊</div>
-          <h4 class="font-bold text-slate-800 mb-2">Meningkatkan Brand Awareness</h4>
-          <p class="text-sm text-slate-600">Membangun kehadiran digital PT Indo Mandiri Isolasi sebagai penyedia
-            rockwool terpercaya di wilayah target.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
-          <div class="text-4xl mb-3">💰</div>
-          <h4 class="font-bold text-slate-800 mb-2">ROI Positif</h4>
-          <p class="text-sm text-slate-600">Mencapai Cost Per Lead yang kompetitif dengan target ROAS minimal 5x dari
-            total investasi iklan.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
-          <div class="text-4xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Pertumbuhan Berkelanjutan</h4>
-          <p class="text-sm text-slate-600">Membangun fondasi kampanye yang dapat di-scale up seiring pertumbuhan bisnis
-            dan budget yang tersedia.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 8. TARGET WILAYAH -->
-    <section id="wilayah" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Target Wilayah</h2>
-      <p class="text-slate-500 mb-8">Area geografis yang menjadi fokus kampanye Google Ads</p>
-
-      <div class="grid md:grid-cols-3 gap-4 mb-6">
-        <div class="bg-gradient-to-br from-sky-500 to-blue-600 text-white p-6 rounded-xl">
-          <div class="text-2xl mb-2">🏙️</div>
-          <h4 class="font-bold mb-1">Jawa</h4>
-          <p class="text-sm text-sky-100">Jakarta, Surabaya</p>
-        </div>
-        <div class="bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-6 rounded-xl">
-          <div class="text-2xl mb-2">🏝️</div>
-          <h4 class="font-bold mb-1">Bali</h4>
-          <p class="text-sm text-emerald-100">Denpasar, Badung, Gianyar</p>
-        </div>
-        <div class="bg-gradient-to-br from-orange-500 to-red-500 text-white p-6 rounded-xl">
-          <div class="text-2xl mb-2">🌋</div>
-          <h4 class="font-bold mb-1">NTB & NTT</h4>
-          <p class="text-sm text-orange-100">Mataram, Bima, Kupang, dan sekitarnya</p>
-        </div>
-      </div>
-
-      <div class="bg-white border border-slate-200 rounded-xl p-6">
-        <h4 class="font-bold text-slate-800 mb-4">📍 Daftar Kota Target</h4>
-        <div class="grid md:grid-cols-4 gap-2">
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Jakarta</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Surabaya
-          </div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Denpasar
-          </div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Badung</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Gianyar</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Singaraja
-          </div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Mataram</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Bima</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Sumbawa Besar
-          </div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kupang</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Labuan Bajo
-          </div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Maumere</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Ende</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar
-            Bali lainnya</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar
-            NTB lainnya</div>
-          <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar
-            NTT lainnya</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 9. KEYWORDS -->
-    <section id="keyword" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Daftar Keyword</h2>
-      <p class="text-slate-500 mb-8">80+ keyword yang ditargetkan untuk kampanye Google Ads</p>
-
-      <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 mb-6 flex items-center gap-3">
-        <span class="text-2xl">📊</span>
+<!-- 1. COVER -->
+<section id="cover" class="proposal-page overflow-hidden">
+  <div class="cover-gradient min-h-screen flex flex-col justify-between p-12 text-white relative">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-sky-400/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10">
+      <div class="flex items-center gap-3 mb-12">
+        <img src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png" class="h-16 bg-white rounded-lg p-2" alt="Aksisoft">
         <div>
-          <div class="font-bold text-sky-900">Total Keyword: 85</div>
-          <div class="text-sm text-sky-700">Dibagi dalam 4 grup iklan berdasarkan intent dan produk</div>
+          <div class="text-xs text-sky-200 tracking-widest">DIGITAL MARKETING AGENCY</div>
+          <div class="font-bold text-xl">Aksisoft</div>
         </div>
       </div>
+      
+      <div class="text-xs text-sky-200 tracking-widest mb-4">PROPOSAL PENAWARAN</div>
+      <h1 class="text-5xl md:text-6xl font-black leading-tight mb-6">
+        Google Ads<br>
+        <span class="text-sky-300">Peningkatan Leads</span><br>
+        Penjualan Rockwool<br>
+        Kedap Suara
+      </h1>
+      <div class="h-1 w-32 bg-sky-400 my-8"></div>
+    </div>
 
-      <div class="space-y-6">
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
-            <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 1</span>
-            Keyword Produk Rockwool (20 keyword)
-          </h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag">rockwool</span><span class="keyword-tag">jual rockwool</span><span
-              class="keyword-tag">harga rockwool</span><span class="keyword-tag">rockwool slab</span><span
-              class="keyword-tag">rockwool board</span><span class="keyword-tag">rockwool blanket</span><span
-              class="keyword-tag">rockwool roll</span><span class="keyword-tag">rockwool pipe insulation</span><span
-              class="keyword-tag">rockwool acoustic panel</span><span class="keyword-tag">rockwool density
-              80</span><span class="keyword-tag">rockwool density 100</span><span class="keyword-tag">rockwool density
-              120</span><span class="keyword-tag">rockwool tebal 50mm</span><span class="keyword-tag">rockwool tebal
-              100mm</span><span class="keyword-tag">rockwool fireproof</span><span class="keyword-tag">rockwool tahan
-              api</span><span class="keyword-tag">rockwool peredam suara</span><span class="keyword-tag">rockwool
-              isolasi panas</span><span class="keyword-tag">rockwool isolasi termal</span><span
-              class="keyword-tag">rockwool isolasi akustik</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
-            <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 2</span>
-            Keyword Aplikasi & Solusi (22 keyword)
-          </h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag">rockwool untuk dinding</span><span class="keyword-tag">rockwool untuk
-              atap</span><span class="keyword-tag">rockwool untuk partisi</span><span class="keyword-tag">rockwool untuk
-              plafon</span><span class="keyword-tag">rockwool untuk studio musik</span><span
-              class="keyword-tag">rockwool untuk home theater</span><span class="keyword-tag">rockwool untuk
-              pabrik</span><span class="keyword-tag">rockwool untuk HVAC</span><span class="keyword-tag">rockwool untuk
-              cold storage</span><span class="keyword-tag">rockwool untuk gedung</span><span
-              class="keyword-tag">rockwool untuk hotel</span><span class="keyword-tag">rockwool untuk rumah
-              sakit</span><span class="keyword-tag">rockwool untuk apartemen</span><span class="keyword-tag">rockwool
-              untuk industri</span><span class="keyword-tag">rockwool untuk furnace</span><span
-              class="keyword-tag">rockwool untuk boiler</span><span class="keyword-tag">rockwool untuk
-              ducting</span><span class="keyword-tag">rockwool untuk sandwich panel</span><span
-              class="keyword-tag">rockwool untuk ceiling</span><span class="keyword-tag">rockwool untuk acoustic
-              treatment</span><span class="keyword-tag">rockwool untuk soundproofing</span><span
-              class="keyword-tag">rockwool untuk thermal insulation</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
-            <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 3</span>
-            Keyword Pembelian & Lokasi (22 keyword)
-          </h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag">distributor rockwool</span><span class="keyword-tag">supplier rockwool</span><span
-              class="keyword-tag">toko rockwool</span><span class="keyword-tag">agen rockwool</span><span
-              class="keyword-tag">grosir rockwool</span><span class="keyword-tag">jual rockwool surabaya</span><span
-              class="keyword-tag">jual rockwool jakarta</span><span class="keyword-tag">jual rockwool bali</span><span
-              class="keyword-tag">jual rockwool denpasar</span><span class="keyword-tag">jual rockwool
-              mataram</span><span class="keyword-tag">jual rockwool kupang</span><span class="keyword-tag">harga
-              rockwool per meter</span><span class="keyword-tag">harga rockwool per lembar</span><span
-              class="keyword-tag">harga rockwool per roll</span><span class="keyword-tag">rockwool murah</span><span
-              class="keyword-tag">rockwool berkualitas</span><span class="keyword-tag">rockwool original</span><span
-              class="keyword-tag">rockwool garuda</span><span class="keyword-tag">rockwool rockwool</span><span
-              class="keyword-tag">rockwool paroc</span><span class="keyword-tag">rockwool owens corning</span><span
-              class="keyword-tag">rockwool knauf</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
-            <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 4</span>
-            Keyword Informasi & Long-tail (21 keyword)
-          </h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag">cara pasang rockwool</span><span class="keyword-tag">spesifikasi
-              rockwool</span><span class="keyword-tag">keunggulan rockwool</span><span class="keyword-tag">rockwool vs
-              glasswool</span><span class="keyword-tag">rockwool vs rockwool</span><span class="keyword-tag">rockwool
-              tahan berapa derajat</span><span class="keyword-tag">rockwool aman untuk kesehatan</span><span
-              class="keyword-tag">rockwool untuk peredam suara ruangan</span><span class="keyword-tag">rockwool untuk
-              isolasi atap baja ringan</span><span class="keyword-tag">rockwool untuk dinding bata ringan</span><span
-              class="keyword-tag">rockwool untuk peredam mesin</span><span class="keyword-tag">rockwool untuk peredam
-              genset</span><span class="keyword-tag">rockwool untuk peredam AC</span><span class="keyword-tag">rockwool
-              untuk peredam kompresor</span><span class="keyword-tag">rockwool untuk peredam ruang meeting</span><span
-              class="keyword-tag">rockwool untuk peredam bioskop</span><span class="keyword-tag">rockwool untuk peredam
-              studio recording</span><span class="keyword-tag">rockwool untuk isolasi pipa steam</span><span
-              class="keyword-tag">rockwool untuk isolasi tangki</span><span class="keyword-tag">rockwool untuk fire
-              stopping</span><span class="keyword-tag">rockwool untuk fire rating</span>
-          </div>
-        </div>
+    <div class="relative z-10 grid md:grid-cols-2 gap-8">
+      <div>
+        <div class="text-xs text-sky-200 tracking-widest mb-2">DITUTUPKAN KEPADA</div>
+        <div class="text-2xl font-bold mb-1">PT Indo Mandiri Isolasi</div>
+        <div class="text-sky-100 text-sm">Simpang Darmo Timur No. 19Y<br>Surabaya</div>
       </div>
-    </section>
-
-    <!-- 10. NEGATIVE KEYWORDS -->
-    <section id="negative" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Negative Keyword</h2>
-      <p class="text-slate-500 mb-8">50+ keyword yang akan dikecualikan untuk menghemat budget iklan</p>
-
-      <div class="bg-red-50 border border-red-200 rounded-xl p-4 mb-6 flex items-center gap-3">
-        <span class="text-2xl"></span>
-        <div>
-          <div class="font-bold text-red-900">Total Negative Keyword: 55</div>
-          <div class="text-sm text-red-700">Mencegah klik tidak relevan dan mengoptimalkan budget</div>
-        </div>
+      <div>
+        <div class="text-xs text-sky-200 tracking-widest mb-2">DIBUAT OLEH</div>
+        <div class="text-2xl font-bold mb-1">Aksisoft</div>
+        <div class="text-sky-100 text-sm">https://aksisoft.web.id</div>
+        <div class="mt-4 text-xs text-sky-200 tracking-widest mb-2">TANGGAL</div>
+        <div class="text-lg font-semibold">28 Juli 2026</div>
+        <div class="mt-2 text-xs text-sky-200">Berlaku hingga 27 Agustus 2026 (30 hari)</div>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="space-y-4">
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3">🎵 Kategori: Musik & Hiburan (bukan pembelian)</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">rockwool lirik lagu</span><span
-              class="keyword-tag negative-tag">rockwool band</span><span class="keyword-tag negative-tag">rockwool
-              musik</span><span class="keyword-tag negative-tag">rockwool spotify</span><span
-              class="keyword-tag negative-tag">rockwool youtube</span><span class="keyword-tag negative-tag">rockwool
-              album</span><span class="keyword-tag negative-tag">rockwool download mp3</span><span
-              class="keyword-tag negative-tag">rockwool chord gitar</span>
-          </div>
-        </div>
+<!-- 2. DAFTAR ISI -->
+<section id="daftar-isi" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Daftar Isi</h2>
+  <p class="text-slate-500 mb-8">Daftar seluruh bagian dalam proposal ini</p>
+  
+  <div class="grid md:grid-cols-2 gap-3">
+    <a href="#profil" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">01</span><span class="font-medium">Profil Singkat Aksisoft</span></a>
+    <a href="#profil-klien" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">02</span><span class="font-medium">Profil Singkat PT Indo Mandiri Isolasi</span></a>
+    <a href="#analisa" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">03</span><span class="font-medium">Analisa Pasar Rockwool di Indonesia</span></a>
+    <a href="#kompetitor" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">04</span><span class="font-medium">Analisa Kompetitor Google Search</span></a>
+    <a href="#tujuan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">05</span><span class="font-medium">Tujuan Kampanye</span></a>
+    <a href="#wilayah" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">06</span><span class="font-medium">Target Wilayah</span></a>
+    <a href="#keyword" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">07</span><span class="font-medium">Daftar Keyword (80+)</span></a>
+    <a href="#negative" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">08</span><span class="font-medium">Negative Keyword (50+)</span></a>
+    <a href="#struktur" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">09</span><span class="font-medium">Struktur Campaign Google Ads</span></a>
+    <a href="#rsa" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">10</span><span class="font-medium">Contoh Responsive Search Ads</span></a>
+    <a href="#optimasi" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">11</span><span class="font-medium">Strategi Optimasi</span></a>
+    <a href="#paket" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">12</span><span class="font-medium">Paket Harga</span></a>
+    <a href="#estimasi" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">13</span><span class="font-medium">Perhitungan Estimasi</span></a>
+    <a href="#timeline" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">14</span><span class="font-medium">Timeline Pekerjaan</span></a>
+    <a href="#laporan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">15</span><span class="font-medium">Laporan Bulanan</span></a>
+    <a href="#kesimpulan" class="toc-item flex items-center gap-3 p-3 rounded-lg"><span class="bg-sky-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">16</span><span class="font-medium">Kesimpulan</span></a>
+  </div>
+</section>
 
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3"> Kategori: Game & Entertainment</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">rockwool game</span><span class="keyword-tag negative-tag">rockwool
-              steam</span><span class="keyword-tag negative-tag">rockwool xbox</span><span
-              class="keyword-tag negative-tag">rockwool playstation</span><span
-              class="keyword-tag negative-tag">rockwool nintendo</span><span class="keyword-tag negative-tag">rockwool
-              mobile legend</span><span class="keyword-tag negative-tag">rockwool free fire</span>
-          </div>
-        </div>
+<!-- 3. PROFIL AKSISOFT -->
+<section id="profil" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Profil Singkat Aksisoft</h2>
+  <p class="text-slate-500 mb-8">Mitra digital marketing terpercaya untuk pertumbuhan bisnis Anda</p>
 
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3"> Kategori: Informasi Non-Komersial</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">rockwool wikipedia</span><span
-              class="keyword-tag negative-tag">rockwool pengertian</span><span class="keyword-tag negative-tag">rockwool
-              sejarah</span><span class="keyword-tag negative-tag">rockwool pdf</span><span
-              class="keyword-tag negative-tag">rockwool makalah</span><span class="keyword-tag negative-tag">rockwool
-              skripsi</span><span class="keyword-tag negative-tag">rockwool jurnal</span><span
-              class="keyword-tag negative-tag">rockwool penelitian</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3">️ Kategori: DIY & Tutorial Non-Pembelian</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">rockwool buatan sendiri</span><span
-              class="keyword-tag negative-tag">rockwool homemade</span><span class="keyword-tag negative-tag">rockwool
-              daur ulang</span><span class="keyword-tag negative-tag">rockwool bekas</span><span
-              class="keyword-tag negative-tag">rockwool second</span><span class="keyword-tag negative-tag">rockwool
-              gratis</span><span class="keyword-tag negative-tag">rockwool free</span><span
-              class="keyword-tag negative-tag">rockwool murah sekali</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3">🌍 Kategori: Lokasi Tidak Relevan</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">rockwool usa</span><span class="keyword-tag negative-tag">rockwool
-              europe</span><span class="keyword-tag negative-tag">rockwool china</span><span
-              class="keyword-tag negative-tag">rockwool australia</span><span class="keyword-tag negative-tag">rockwool
-              malaysia</span><span class="keyword-tag negative-tag">rockwool singapore</span><span
-              class="keyword-tag negative-tag">rockwool thailand</span><span class="keyword-tag negative-tag">rockwool
-              vietnam</span>
-          </div>
-        </div>
-
-        <div>
-          <h4 class="font-bold text-slate-800 mb-3"> Kategori: Produk Lain (bukan rockwool)</h4>
-          <div class="bg-white border border-slate-200 rounded-xl p-4">
-            <span class="keyword-tag negative-tag">glasswool</span><span
-              class="keyword-tag negative-tag">fiberglass</span><span class="keyword-tag negative-tag">busa
-              peredam</span><span class="keyword-tag negative-tag">foam acoustic</span><span
-              class="keyword-tag negative-tag">karet peredam</span><span class="keyword-tag negative-tag">rubber
-              insulation</span><span class="keyword-tag negative-tag">aerogel</span><span
-              class="keyword-tag negative-tag">polyurethane foam</span><span
-              class="keyword-tag negative-tag">styrofoam</span><span class="keyword-tag negative-tag">eps</span><span
-              class="keyword-tag negative-tag">xps</span>
-          </div>
-        </div>
+  <div class="bg-gradient-to-r from-slate-900 to-blue-900 rounded-2xl p-8 text-white mb-8">
+    <div class="flex items-start gap-4">
+      <img src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png" class="h-20 bg-white rounded-lg p-2">
+      <div>
+        <h3 class="text-2xl font-bold mb-2">Aksisoft</h3>
+        <p class="text-sky-100 text-sm leading-relaxed">
+          Aksisoft adalah agensi digital marketing yang berfokus pada solusi berbasis data untuk membantu bisnis berkembang di era digital. Dengan pengalaman menangani berbagai industri, kami siap membantu PT Indo Mandiri Isolasi mencapai target penjualan melalui strategi Google Ads yang terukur dan efektif.
+        </p>
       </div>
-    </section>
-
-    <!-- 11. STRUKTUR CAMPAIGN -->
-    <section id="struktur" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Struktur Campaign Google Ads</h2>
-      <p class="text-slate-500 mb-8">Arsitektur kampanye yang terorganisir untuk performa maksimal</p>
-
-      <div class="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-2xl p-8 mb-6">
-        <h3 class="text-2xl font-bold mb-2">🏗️ Campaign: Rockwool - Lead Generation</h3>
-        <p class="text-sky-200 text-sm">Tipe: Search Network Only | Bidding: Maximize Conversions dengan Target CPA</p>
-      </div>
-
-      <div class="space-y-4">
-        <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">1</div>
-            <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Produk</h4>
-            <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">20 Keywords</span>
-          </div>
-          <p class="text-sm text-slate-600 mb-3">Fokus pada kata kunci produk rockwool dengan intent pembelian tinggi.
-          </p>
-          <div class="grid md:grid-cols-3 gap-2 text-xs">
-            <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Jual Rockwool Berkualitas | Harga Terjangkau
-            </div>
-            <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Rockwool slab, blanket & pipe insulation. Stok
-              ready, pengiriman cepat.</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Minta Penawaran Sekarang</div>
-          </div>
-        </div>
-
-        <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">2</div>
-            <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Aplikasi</h4>
-            <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">22 Keywords</span>
-          </div>
-          <p class="text-sm text-slate-600 mb-3">Target pengguna yang mencari solusi aplikasi rockwool untuk kebutuhan
-            spesifik.</p>
-          <div class="grid md:grid-cols-3 gap-2 text-xs">
-            <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Rockwool untuk Dinding & Atap | Solusi
-              Isolasi</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Peredam suara & isolasi panas terbaik.
-              Konsultasi gratis dengan ahli kami.</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Konsultasi Gratis</div>
-          </div>
-        </div>
-
-        <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">3</div>
-            <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Lokasi</h4>
-            <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">22 Keywords</span>
-          </div>
-          <p class="text-sm text-slate-600 mb-3">Geo-targeted ads untuk menangkap pembeli di lokasi spesifik.</p>
-          <div class="grid md:grid-cols-3 gap-2 text-xs">
-            <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Distributor Rockwool Surabaya | Ready Stock
-            </div>
-            <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Supplier rockwool terpercaya. Harga grosir &
-              retail. Pengiriman seluruh Indonesia.</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Hubungi Kami</div>
-          </div>
-        </div>
-
-        <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">4</div>
-            <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Informasi</h4>
-            <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">21 Keywords</span>
-          </div>
-          <p class="text-sm text-slate-600 mb-3">Menangkap user dalam tahap riset dengan konten edukatif yang mengarah
-            ke konversi.</p>
-          <div class="grid md:grid-cols-3 gap-2 text-xs">
-            <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Panduan Lengkap Rockwool | Spesifikasi &
-              Harga</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Pelajari semua tentang rockwool. Dapatkan brosur
-              & price list terbaru.</div>
-            <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Download Brosur</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 12. RSA -->
-    <section id="rsa" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Contoh Responsive Search Ads</h2>
-      <p class="text-slate-500 mb-8">Contoh iklan yang akan ditampilkan di Google Search</p>
-
-      <div class="space-y-6">
-        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-          <div class="text-xs text-slate-500 mb-2">AD 1 - Produk Rockwool</div>
-          <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › rockwool</div>
-          <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Jual Rockwool Berkualitas |
-            Harga Terjangkau & Stok Ready</h4>
-          <p class="text-sm text-slate-600">Distributor resmi rockwool slab, blanket & pipe insulation. Pengiriman cepat
-            ke seluruh Indonesia. Minta penawaran sekarang!</p>
-          <div class="mt-3 flex gap-2 flex-wrap">
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Harga Grosir</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Stok Ready</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Konsultasi Gratis</span>
-          </div>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-          <div class="text-xs text-slate-500 mb-2">AD 2 - Solusi Peredam Suara</div>
-          <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › solusi-akustik</div>
-          <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Rockwool Peredam Suara |
-            Solusi Akustik Terbaik untuk Ruangan</h4>
-          <p class="text-sm text-slate-600">Butuh peredam suara untuk studio, home theater, atau ruang meeting? Rockwool
-            kami memberikan isolasi akustik maksimal. Konsultasi gratis!</p>
-          <div class="mt-3 flex gap-2 flex-wrap">
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Soundproofing</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Fire Resistant</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Thermal Insulation</span>
-          </div>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-          <div class="text-xs text-slate-500 mb-2">AD 3 - Lokasi Surabaya</div>
-          <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › surabaya</div>
-          <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Distributor Rockwool
-            Surabaya | Supplier Terpercaya Sejak 2010</h4>
-          <p class="text-sm text-slate-600">PT Indo Mandiri Isolasi - Supplier rockwool terlengkap di Surabaya. Harga
-            kompetitif, pengiriman cepat, garansi produk original.</p>
-          <div class="mt-3 flex gap-2 flex-wrap">
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">📍 Surabaya</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">🚚 Free Ongkir*</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">📞 24/7 Support</span>
-          </div>
-        </div>
-
-        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-          <div class="text-xs text-slate-500 mb-2">AD 4 - Bali & NTB</div>
-          <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › bali-ntb</div>
-          <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Rockwool Bali & NTB |
-            Pengiriman Cepat ke Denpasar, Mataram</h4>
-          <p class="text-sm text-slate-600">Butuh rockwool di Bali atau NTB? Kami siap kirim ke Denpasar, Badung,
-            Mataram, dan sekitarnya. Harga bersaing, kualitas terjamin.</p>
-          <div class="mt-3 flex gap-2 flex-wrap">
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">🏝️ Bali</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">🌋 NTB</span>
-            <span class="text-xs bg-slate-100 px-2 py-1 rounded">⚡ Fast Delivery</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 13. STRATEGI OPTIMASI -->
-    <section id="optimasi" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Strategi Optimasi</h2>
-      <p class="text-slate-500 mb-8">Pendekatan berkelanjutan untuk meningkatkan performa kampanye</p>
-
-      <div class="grid md:grid-cols-2 gap-5">
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">🔬</div>
-          <h4 class="font-bold text-slate-800 mb-2">A/B Testing Iklan</h4>
-          <p class="text-sm text-slate-600">Melakukan testing berkelanjutan pada headline, description, dan CTA untuk
-            menemukan kombinasi terbaik yang menghasilkan CTR dan konversi tertinggi.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Analisis Search Terms</h4>
-          <p class="text-sm text-slate-600">Review mingguan terhadap search terms report untuk menemukan keyword baru
-            yang berpotensi dan menambahkan negative keyword yang relevan.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">⚙️</div>
-          <h4 class="font-bold text-slate-800 mb-2">Bid Management</h4>
-          <p class="text-sm text-slate-600">Penyesuaian bid berdasarkan performa keyword, waktu, lokasi, dan device
-            untuk memaksimalkan ROI dengan budget yang tersedia.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">🎯</div>
-          <h4 class="font-bold text-slate-800 mb-2">Quality Score Optimization</h4>
-          <p class="text-sm text-slate-600">Meningkatkan relevansi iklan, landing page experience, dan expected CTR
-            untuk menurunkan CPC dan meningkatkan posisi iklan.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Geo & Device Optimization</h4>
-          <p class="text-sm text-slate-600">Analisis performa per lokasi dan device untuk mengalokasikan budget ke area
-            dan device yang menghasilkan konversi terbaik.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">🔄</div>
-          <h4 class="font-bold text-slate-800 mb-2">Conversion Tracking</h4>
-          <p class="text-sm text-slate-600">Setup dan monitoring conversion tracking yang akurat untuk mengukur ROI dan
-            mengoptimalkan kampanye berdasarkan data nyata.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Ad Schedule & Dayparting</h4>
-          <p class="text-sm text-slate-600">Penyesuaian jadwal tayang iklan berdasarkan jam dan hari dengan performa
-            terbaik untuk menghemat budget di waktu kurang efektif.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Landing Page Optimization</h4>
-          <p class="text-sm text-slate-600">Rekomendasi perbaikan landing page untuk meningkatkan conversion rate,
-            termasuk speed optimization, CTA placement, dan mobile experience.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 14. PAKET HARGA -->
-    <section id="paket" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Paket Harga</h2>
-      <p class="text-slate-500 mb-8">Pilihan paket yang dapat disesuaikan dengan kebutuhan dan budget Anda</p>
-
-      <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 mb-6 flex items-center gap-3">
-        <span class="text-2xl">💡</span>
-        <div>
-          <div class="font-bold text-sky-900">Struktur Harga Transparan</div>
-          <div class="text-sm text-sky-700">20% dari total invoice dialokasikan untuk jasa management (management fee),
-            80% untuk budget iklan Google Ads</div>
-        </div>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-6">
-        <!-- STARTER -->
-        <div class="package-card bg-white rounded-2xl p-6">
-          <div class="text-center mb-6">
-            <div class="text-sm text-slate-500 mb-2">PAKET</div>
-            <h3 class="text-3xl font-black text-slate-800">STARTER</h3>
-            <div class="text-xs text-slate-400 mt-1">Cocok untuk memulai</div>
-          </div>
-          <div class="space-y-3 mb-6">
-            <div class="bg-slate-50 p-3 rounded-lg">
-              <div class="text-xs text-slate-500">Budget Google Ads (80%)</div>
-              <div class="font-bold text-slate-800">Rp 4.000.000/bulan</div>
-              <div class="text-xs text-slate-500">≈ Rp 133.000/hari</div>
-            </div>
-            <div class="bg-slate-50 p-3 rounded-lg">
-              <div class="text-xs text-slate-500">Management Fee (20%)</div>
-              <div class="font-bold text-slate-800">Rp 1.000.000</div>
-            </div>
-          </div>
-          <div class="border-t border-slate-200 pt-4 mb-6">
-            <div class="text-xs text-slate-500">Total Invoice / Bulan</div>
-            <div class="text-3xl font-black text-slate-800">Rp 5.000.000</div>
-          </div>
-          <ul class="space-y-2 text-sm mb-6">
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 1 Campaign Search</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 4 Ad Groups</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 80+ Keywords</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Bulanan</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Mingguan</li>
-          </ul>
-          <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Starter%20harga%205%20juta%20untuk%20Google%20Ads"
-            target="_blank" class="wa-btn w-full py-3 rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white">
-              <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-            </svg>
-            Pesan via WhatsApp
-          </a>
-        </div>
-
-        <!-- BISNIS -->
-        <div class="package-card package-featured bg-white rounded-2xl p-6 relative">
-          <div
-            class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold">
-            ⭐ PALING POPULER</div>
-          <div class="text-center mb-6">
-            <div class="text-sm text-sky-600 mb-2 font-medium">PAKET</div>
-            <h3 class="text-3xl font-black text-slate-800">BISNIS</h3>
-            <div class="text-xs text-slate-400 mt-1">Untuk pertumbuhan optimal</div>
-          </div>
-          <div class="space-y-3 mb-6">
-            <div class="bg-sky-50 p-3 rounded-lg">
-              <div class="text-xs text-sky-600">Budget Google Ads (80%)</div>
-              <div class="font-bold text-slate-800">Rp 8.000.000/bulan</div>
-              <div class="text-xs text-sky-600">≈ Rp 267.000/hari</div>
-            </div>
-            <div class="bg-sky-50 p-3 rounded-lg">
-              <div class="text-xs text-sky-600">Management Fee (20%)</div>
-              <div class="font-bold text-slate-800">Rp 2.000.000</div>
-            </div>
-          </div>
-          <div class="border-t border-sky-200 pt-4 mb-6">
-            <div class="text-xs text-sky-600">Total Invoice / Bulan</div>
-            <div class="text-3xl font-black text-slate-800">Rp 10.000.000</div>
-          </div>
-          <ul class="space-y-2 text-sm mb-6">
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 2 Campaign Search</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 6 Ad Groups</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 100+ Keywords</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Mingguan</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Harian</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Landing Page Review</li>
-          </ul>
-          <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Bisnis%20harga%2010%20juta%20untuk%20Google%20Ads"
-            target="_blank" class="wa-btn w-full py-3 rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white">
-              <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-            </svg>
-            Pesan via WhatsApp
-          </a>
-        </div>
-
-        <!-- PREMIUM -->
-        <div class="package-card bg-white rounded-2xl p-6">
-          <div class="text-center mb-6">
-            <div class="text-sm text-slate-500 mb-2">PAKET</div>
-            <h3 class="text-3xl font-black text-slate-800">PREMIUM</h3>
-            <div class="text-xs text-slate-400 mt-1">Untuk dominasi pasar</div>
-          </div>
-          <div class="space-y-3 mb-6">
-            <div class="bg-slate-50 p-3 rounded-lg">
-              <div class="text-xs text-slate-500">Budget Google Ads (80%)</div>
-              <div class="font-bold text-slate-800">Rp 12.000.000/bulan</div>
-              <div class="text-xs text-slate-500">≈ Rp 400.000/hari</div>
-            </div>
-            <div class="bg-slate-50 p-3 rounded-lg">
-              <div class="text-xs text-slate-500">Management Fee (20%)</div>
-              <div class="font-bold text-slate-800">Rp 3.000.000</div>
-            </div>
-          </div>
-          <div class="border-t border-slate-200 pt-4 mb-6">
-            <div class="text-xs text-slate-500">Total Invoice / Bulan</div>
-            <div class="text-3xl font-black text-slate-800">Rp 15.000.000</div>
-          </div>
-          <ul class="space-y-2 text-sm mb-6">
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 3 Campaign Search</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 8 Ad Groups</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 150+ Keywords</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Harian</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Real-time</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Dedicated Account Manager</li>
-            <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Priority Support 24/7</li>
-          </ul>
-          <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Premium%20harga%2015%20juta%20untuk%20Google%20Ads"
-            target="_blank" class="wa-btn w-full py-3 rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white">
-              <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-            </svg>
-            Pesan via WhatsApp
-          </a>
-        </div>
-      </div>
-
-      <div class="mt-8 bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
-        <h4 class="font-bold text-amber-900 mb-2">📌 Catatan Penting</h4>
-        <ul class="text-sm text-amber-800 space-y-1">
-          <li>• Budget Google Ads (80%) dibayarkan langsung ke Google (via kartu kredit/debit)</li>
-          <li>• Management Fee (20%) dibayarkan ke Aksisoft di awal bulan</li>
-          <li>• Kontrak minimum 1 bulan namun kami sarankan 3 bulan untuk hasil optimal</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- 15. ESTIMASI -->
-    <section id="estimasi" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Perhitungan Estimasi</h2>
-      <p class="text-slate-500 mb-8">Estimasi performa kampanye berdasarkan data industri B2B material bangunan</p>
-
-      <div class="bg-white border border-slate-200 rounded-xl overflow-hidden">
-        <table class="w-full text-sm">
-          <thead class="bg-gradient-to-r from-slate-900 to-blue-900 text-white">
-            <tr>
-              <th class="p-4 text-left">Paket</th>
-              <th class="p-4 text-right">Budget Iklan/Bulan</th>
-              <th class="p-4 text-right">CPC Rata-rata</th>
-              <th class="p-4 text-right">Estimasi Klik</th>
-              <th class="p-4 text-right">CTR</th>
-              <th class="p-4 text-right">Conv. Rate</th>
-              <th class="p-4 text-right">Est. Leads</th>
-              <th class="p-4 text-right">Cost/Lead</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-100">
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-bold">Starter</td>
-              <td class="p-4 text-right">Rp 4.000.000</td>
-              <td class="p-4 text-right">Rp 8.500</td>
-              <td class="p-4 text-right">470</td>
-              <td class="p-4 text-right">6.5%</td>
-              <td class="p-4 text-right">4.5%</td>
-              <td class="p-4 text-right font-bold text-emerald-600">21</td>
-              <td class="p-4 text-right">Rp 190.000</td>
-            </tr>
-            <tr class="hover:bg-slate-50 bg-sky-50">
-              <td class="p-4 font-bold">Bisnis</td>
-              <td class="p-4 text-right">Rp 8.000.000</td>
-              <td class="p-4 text-right">Rp 7.800</td>
-              <td class="p-4 text-right">1.025</td>
-              <td class="p-4 text-right">7.2%</td>
-              <td class="p-4 text-right">5.2%</td>
-              <td class="p-4 text-right font-bold text-emerald-600">53</td>
-              <td class="p-4 text-right">Rp 150.000</td>
-            </tr>
-            <tr class="hover:bg-slate-50">
-              <td class="p-4 font-bold">Premium</td>
-              <td class="p-4 text-right">Rp 12.000.000</td>
-              <td class="p-4 text-right">Rp 7.200</td>
-              <td class="p-4 text-right">1.667</td>
-              <td class="p-4 text-right">7.8%</td>
-              <td class="p-4 text-right">5.8%</td>
-              <td class="p-4 text-right font-bold text-emerald-600">97</td>
-              <td class="p-4 text-right">Rp 124.000</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="mt-6 grid md:grid-cols-3 gap-4">
-        <div class="stat-card p-5 rounded-xl">
-          <div class="text-xs text-slate-500 mb-1">CPC Rata-rata Industri</div>
-          <div class="text-2xl font-bold text-slate-800">Rp 7.000 - 9.000</div>
-          <div class="text-xs text-slate-500 mt-1">Berdasarkan data Google Ads Q2 2026 untuk industri material bangunan
-            B2B</div>
-        </div>
-        <div class="stat-card p-5 rounded-xl">
-          <div class="text-xs text-slate-500 mb-1">Conversion Rate Rata-rata</div>
-          <div class="text-2xl font-bold text-slate-800">4.5% - 5.8%</div>
-          <div class="text-xs text-slate-500 mt-1">B2B construction materials industry benchmark</div>
-        </div>
-        <div class="stat-card p-5 rounded-xl">
-          <div class="text-xs text-slate-500 mb-1">Cost Per Lead</div>
-          <div class="text-2xl font-bold text-slate-800">Rp 124K - 190K</div>
-          <div class="text-xs text-slate-500 mt-1">Sangat kompetitif untuk industri B2B material bangunan</div>
-        </div>
-      </div>
-
-      <div class="mt-6 bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-xl">
-        <h4 class="font-bold text-blue-900 mb-2">💡 Catatan Estimasi</h4>
-        <p class="text-sm text-blue-800">Angka di atas adalah estimasi berdasarkan data industri dan dapat bervariasi
-          tergantung musim, kompetisi, dan kualitas landing page. Aksisoft akan terus mengoptimalkan kampanye untuk
-          mencapai hasil terbaik.</p>
-      </div>
-    </section>
-
-    <!-- 16. TIMELINE -->
-    <section id="timeline" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Timeline Pekerjaan</h2>
-      <p class="text-slate-500 mb-8">Jadwal pelaksanaan kampanye dari awal hingga berjalan</p>
-
-      <div class="bg-white border border-slate-200 rounded-xl p-8">
-        <div class="timeline-item">
-          <h4 class="font-bold text-slate-800 mb-1">Minggu 1: Persiapan & Setup</h4>
-          <p class="text-sm text-slate-600">Kick-off meeting, riset keyword mendalam, setup Google Ads account,
-            conversion tracking, dan Google Analytics.</p>
-        </div>
-        <div class="timeline-item">
-          <h4 class="font-bold text-slate-800 mb-1">Minggu 2: Pembuatan Kampanye</h4>
-          <p class="text-sm text-slate-600">Pembuatan campaign structure, ad groups, responsive search ads, extensions,
-            dan landing page review.</p>
-        </div>
-        <div class="timeline-item">
-          <h4 class="font-bold text-slate-800 mb-1">Minggu 3: Launch & Monitoring</h4>
-          <p class="text-sm text-slate-600">Kampanye live, monitoring intensif harian, penyesuaian bid awal, dan
-            pengumpulan data performa.</p>
-        </div>
-        <div class="timeline-item">
-          <h4 class="font-bold text-slate-800 mb-1">Minggu 4: Optimasi Awal</h4>
-          <p class="text-sm text-slate-600">Analisis data 2 minggu pertama, optimasi keyword, penyesuaian ad copy, dan
-            laporan performa bulan pertama.</p>
-        </div>
-        <div class="timeline-item" style="border-left-color: #10b981;">
-          <h4 class="font-bold text-slate-800 mb-1">Bulan 2-3: Scaling & Optimization</h4>
-          <p class="text-sm text-slate-600">Scaling campaign berdasarkan data, A/B testing lanjutan, dan peningkatan
-            conversion rate.</p>
-        </div>
-        <div class="timeline-item" style="border-left-color: transparent;">
-          <h4 class="font-bold text-slate-800 mb-1">Bulan 4+: Maintenance & Growth</h4>
-          <p class="text-sm text-slate-600">Kampanye berjalan optimal dengan optimasi berkelanjutan dan scaling sesuai
-            target bisnis.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 17. LAPORAN -->
-    <section id="laporan" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Laporan Bulanan</h2>
-      <p class="text-slate-500 mb-8">Laporan yang akan diterima klien setiap bulan</p>
-
-      <div class="grid md:grid-cols-2 gap-5">
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3"></div>
-          <h4 class="font-bold text-slate-800 mb-2">Performance Dashboard</h4>
-          <p class="text-sm text-slate-600">Dashboard interaktif dengan metrik utama: impressions, clicks, CTR, CPC,
-            conversions, dan cost per lead.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">🔍</div>
-          <h4 class="font-bold text-slate-800 mb-2">Search Terms Report</h4>
-          <p class="text-sm text-slate-600">Daftar lengkap search terms yang memicu iklan, termasuk keyword baru yang
-            ditemukan dan negative keyword yang ditambahkan.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">📍</div>
-          <h4 class="font-bold text-slate-800 mb-2">Geo & Device Analysis</h4>
-          <p class="text-sm text-slate-600">Analisis performa berdasarkan lokasi geografis dan jenis device untuk
-            optimasi targeting.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">📈</div>
-          <h4 class="font-bold text-slate-800 mb-2">Trend Analysis</h4>
-          <p class="text-sm text-slate-600">Grafik tren performa dari waktu ke waktu dengan insight dan rekomendasi
-            untuk bulan berikutnya.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">💰</div>
-          <h4 class="font-bold text-slate-800 mb-2">Budget Utilization</h4>
-          <p class="text-sm text-slate-600">Laporan penggunaan budget dengan breakdown per campaign dan ad group.</p>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl p-6">
-          <div class="text-3xl mb-3">🎯</div>
-          <h4 class="font-bold text-slate-800 mb-2">Recommendations</h4>
-          <p class="text-sm text-slate-600">Rekomendasi strategis untuk peningkatan performa berdasarkan data dan tren
-            industri.</p>
-        </div>
-      </div>
-
-      <div class="mt-6 bg-slate-50 border border-slate-200 rounded-xl p-6">
-        <h4 class="font-bold text-slate-800 mb-3">📅 Jadwal Laporan</h4>
-        <div class="grid md:grid-cols-3 gap-4 text-sm">
-          <div><strong class="text-sky-600">Paket Starter:</strong> Laporan bulanan via email</div>
-          <div><strong class="text-sky-600">Paket Bisnis:</strong> Laporan mingguan + bulanan + meeting bulanan</div>
-          <div><strong class="text-sky-600">Paket Premium:</strong> Laporan harian + weekly call + monthly review</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 18. KESIMPULAN -->
-    <section id="kesimpulan" class="proposal-page p-12">
-      <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Kesimpulan</h2>
-      <p class="text-slate-500 mb-8">Ringkasan proposal dan langkah selanjutnya</p>
-
-      <div class="bg-gradient-to-br from-slate-900 to-blue-900 text-white rounded-2xl p-8 mb-6">
-        <h3 class="text-2xl font-bold mb-4">Mengapa Memilih Aksisoft?</h3>
-        <div class="grid md:grid-cols-2 gap-4">
-          <div class="flex items-start gap-3">
-            <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
-            <div>
-              <h4 class="font-bold mb-1">Spesialis Google Ads</h4>
-              <p class="text-sm text-sky-100">Tim bersertifikat dengan pengalaman menangani berbagai industri</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
-            <div>
-              <h4 class="font-bold mb-1">Data-Driven Approach</h4>
-              <p class="text-sm text-sky-100">Keputusan berdasarkan data, bukan asumsi</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
-            <div>
-              <h4 class="font-bold mb-1">Transparan & Terukur</h4>
-              <p class="text-sm text-sky-100">Laporan detail dan dashboard real-time untuk monitoring</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-3">
-            <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
-            <div>
-              <h4 class="font-bold mb-1">ROI Focused</h4>
-              <p class="text-sm text-sky-100">Fokus pada hasil nyata dan pertumbuhan bisnis klien</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bg-white border-2 border-sky-200 rounded-xl p-8">
-        <h3 class="text-xl font-bold text-slate-800 mb-4">🚀 Langkah Selanjutnya</h3>
-        <ol class="space-y-3">
-          <li class="flex items-start gap-3">
-            <span
-              class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</span>
-            <div><strong class="text-slate-800">Diskusi & Konsultasi</strong>
-              <p class="text-sm text-slate-600">Meeting untuk membahas kebutuhan spesifik dan memilih paket yang sesuai
-              </p>
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <span
-              class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</span>
-            <div><strong class="text-slate-800">Penandatanganan Kontrak</strong>
-              <p class="text-sm text-slate-600">Kesepakatan kerja sama dengan kontrak minimum 3 bulan</p>
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <span
-              class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</span>
-            <div><strong class="text-slate-800">Kick-off & Setup</strong>
-              <p class="text-sm text-slate-600">Mulai proses setup campaign dalam 1-2 minggu setelah kontrak
-                ditandatangani</p>
-            </div>
-          </li>
-          <li class="flex items-start gap-3">
-            <span
-              class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">4</span>
-            <div><strong class="text-slate-800">Launch & Grow</strong>
-              <p class="text-sm text-slate-600">Kampanye live dan mulai menghasilkan leads berkualitas</p>
-            </div>
-          </li>
-        </ol>
-        <div class="mt-6 text-center">
-          <a href="https://wa.me/6281335206389?text=Halo%20saya%20tertarik%20dengan%20proposal%20Google%20Ads%20ini%2C%20saya%20mau%20konsultasi%20lebih%20lanjut"
-            target="_blank" class="wa-btn inline-flex px-8 py-3 rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white">
-              <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z" />
-            </svg>
-            Konsultasi Gratis via WhatsApp
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 19. PENUTUP -->
-    <section id="penutup" class="proposal-page overflow-hidden">
-      <div class="cover-gradient min-h-screen flex flex-col justify-center items-center p-12 text-white relative">
-        <div class="absolute top-0 right-0 w-96 h-96 bg-sky-400/20 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
-
-        <div class="relative z-10 max-w-3xl text-center">
-          <div class="text-6xl mb-6"></div>
-          <h2 class="text-4xl font-black mb-6">Terima Kasih</h2>
-          <div class="h-1 w-32 bg-sky-400 mx-auto my-8"></div>
-          <p class="text-lg text-sky-100 leading-relaxed mb-8">
-            Terima kasih atas kesempatan yang diberikan kepada <strong class="text-white">Aksisoft</strong> untuk
-            menyusun proposal ini. Kami berharap dapat menjadi mitra digital marketing <strong class="text-white">PT
-              Indo Mandiri Isolasi</strong> dalam meningkatkan penjualan melalui Google Ads.
-          </p>
-
-          <div class="mt-12">
-            <div class="text-sm text-sky-200 tracking-widest mb-4">HORMAT KAMI,</div>
-            <div class="text-3xl font-bold mb-2">Aksisoft</div>
-            <div class="text-sky-200">https://aksisoft.web.id</div>
-          </div>
-
-          <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads"
-            target="_blank" class="wa-btn inline-flex mt-10 px-8 py-3 rounded-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white">
-              <path
-                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z" />
-            </svg>
-            Hubungi Kami via WhatsApp
-          </a>
-
-          <div class="mt-16 pt-8 border-t border-sky-400/30">
-            <div class="text-xs text-sky-200 tracking-widest mb-2">PROPOSAL INI BERLAKU HINGGA</div>
-            <div class="text-xl font-bold">27 Agustus 2026</div>
-            <div class="text-sm text-sky-200 mt-2">30 hari sejak tanggal proposal</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="bg-slate-900 text-white py-8 no-print">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <div class="flex items-center justify-center gap-3 mb-4">
-        <img
-          src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png"
-          class="h-10 bg-white rounded-lg p-1">
-        <span class="font-bold text-xl">Aksisoft</span>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2">🎯</div>
+      <h4 class="font-bold text-slate-800 mb-1">Google Ads Specialist</h4>
+      <p class="text-sm text-slate-600">Sertifikasi Google Ads Partner dengan pengalaman mengelola budget iklan hingga miliaran rupiah.</p>
+    </div>
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2">💻</div>
+      <h4 class="font-bold text-slate-800 mb-1">Website Development</h4>
+      <p class="text-sm text-slate-600">Pembuatan website profesional, responsif, dan SEO-friendly untuk mendukung kampanye digital.</p>
+    </div>
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2">🔍</div>
+      <h4 class="font-bold text-slate-800 mb-1">SEO</h4>
+      <p class="text-sm text-slate-600">Optimasi mesin pencari untuk meningkatkan visibilitas organik dan traffic berkualitas.</p>
+    </div>
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2"></div>
+      <h4 class="font-bold text-slate-800 mb-1">Landing Page</h4>
+      <p class="text-sm text-slate-600">Desain landing page high-converting untuk memaksimalkan konversi dari iklan berbayar.</p>
+    </div>
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2">📊</div>
+      <h4 class="font-bold text-slate-800 mb-1">Jasa Digital Marketing</h4>
+      <p class="text-sm text-slate-600">Strategi pemasaran digital terintegrasi mencakup SEO, SEM, Social Media, dan Content Marketing.</p>
+    </div>
+    <div class="stat-card p-6 rounded-xl">
+      <div class="text-3xl mb-2">🛠️</div>
+      <h4 class="font-bold text-slate-800 mb-1">Maintenance Website</h4>
+      <p class="text-sm text-slate-600">Layanan pemeliharaan website rutin untuk menjaga performa, keamanan, dan update konten.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROFIL KLIEN -->
+<section id="profil-klien" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Profil Singkat PT Indo Mandiri Isolasi</h2>
+  <p class="text-slate-500 mb-8">Informasi mengenai perusahaan klien</p>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <h4 class="font-bold text-slate-800 mb-4 flex items-center gap-2">
+        <span class="bg-sky-100 text-sky-700 w-8 h-8 rounded-lg flex items-center justify-center"></span>
+        Informasi Perusahaan
+      </h4>
+      <table class="w-full text-sm">
+        <tr class="border-b border-slate-100"><td class="py-2 text-slate-500 w-32">Nama</td><td class="py-2 font-medium">PT Indo Mandiri Isolasi</td></tr>
+        <tr class="border-b border-slate-100"><td class="py-2 text-slate-500">Alamat</td><td class="py-2 font-medium">Simpang Darmo Timur No. 19Y, Surabaya</td></tr>
+        <tr class="border-b border-slate-100"><td class="py-2 text-slate-500">Industri</td><td class="py-2 font-medium">Material Bangunan / Isolasi</td></tr>
+        <tr class="border-b border-slate-100"><td class="py-2 text-slate-500">Produk</td><td class="py-2 font-medium">Rockwool Kedap Suara</td></tr>
+        <tr><td class="py-2 text-slate-500">Target</td><td class="py-2 font-medium">B2B & B2C</td></tr>
+      </table>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <h4 class="font-bold text-slate-800 mb-4 flex items-center gap-2">
+        <span class="bg-sky-100 text-sky-700 w-8 h-8 rounded-lg flex items-center justify-center">📦</span>
+        Produk Utama
+      </h4>
+      <ul class="space-y-2 text-sm">
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Slab / Board</li>
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Blanket / Roll</li>
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Pipe Insulation</li>
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool Acoustic Panel</li>
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool untuk Dinding & Atap</li>
+        <li class="flex items-start gap-2"><span class="text-sky-500 mt-1">✓</span> Rockwool untuk HVAC & Industrial</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+    <h4 class="font-bold text-amber-900 mb-2">💡 Peluang Pasar</h4>
+    <p class="text-sm text-amber-800">Dengan meningkatnya kesadaran akan efisiensi energi dan peredaman suara di Indonesia, permintaan rockwool sebagai material isolasi premium terus bertumbuh. Google Ads menjadi saluran paling tepat untuk menjangkau calon pembeli yang aktif mencari solusi isolasi.</p>
+  </div>
+</section>
+
+<!-- 5. ANALISA PASAR -->
+<section id="analisa" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Analisa Pasar Rockwool di Indonesia</h2>
+  <p class="text-slate-500 mb-8">Gambaran umum industri rockwool dan peluang pertumbuhan</p>
+
+  <div class="grid md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-gradient-to-br from-sky-500 to-blue-600 text-white p-6 rounded-xl">
+      <div class="text-3xl font-black">12%</div>
+      <div class="text-sm text-sky-100 mt-1">CAGR Pasar Isolasi 2024-2030</div>
+    </div>
+    <div class="bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 rounded-xl">
+      <div class="text-3xl font-black">Rp 8.5T</div>
+      <div class="text-sm text-slate-300 mt-1">Nilai Pasar Material Isolasi Indonesia</div>
+    </div>
+    <div class="bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-6 rounded-xl">
+      <div class="text-3xl font-black">+18%</div>
+      <div class="text-sm text-emerald-100 mt-1">Pertumbuhan Konstruksi Hijau</div>
+    </div>
+    <div class="bg-gradient-to-br from-orange-500 to-red-500 text-white p-6 rounded-xl">
+      <div class="text-3xl font-black">65%</div>
+      <div class="text-sm text-orange-100 mt-1">Pencarian via Mobile Device</div>
+    </div>
+  </div>
+
+  <div class="space-y-4">
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <h4 class="font-bold text-slate-800 mb-3">📈 Tren Industri</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">Industri konstruksi di Indonesia menunjukkan pertumbuhan yang stabil dengan fokus pada bangunan hijau dan efisiensi energi. Rockwool menjadi pilihan utama untuk isolasi termal dan akustik di gedung komersial, hotel, rumah sakit, dan perumahan premium. Regulasi pemerintah terkait efisiensi energi semakin mendorong adopsi material isolasi berkualitas.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <h4 class="font-bold text-slate-800 mb-3">🎯 Target Audience</h4>
+      <div class="grid md:grid-cols-2 gap-3 text-sm">
+        <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span><div><strong>Kontraktor & Developer</strong><br><span class="text-slate-500">Pembangunan gedung, hotel, apartemen</span></div></div>
+        <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span><div><strong>Arsitek & Konsultan</strong><br><span class="text-slate-500">Spesifikasi material untuk proyek</span></div></div>
+        <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span><div><strong>Industri Manufaktur</strong><br><span class="text-slate-500">Isolasi pabrik, HVAC, cold storage</span></div></div>
+        <div class="flex items-start gap-2"><span class="text-sky-500 font-bold">•</span><div><strong>Pemilik Rumah</strong><br><span class="text-slate-500">Renovasi, home studio, peredam suara</span></div></div>
       </div>
-      <p class="text-slate-400 text-sm">© 2026 Aksisoft. All rights reserved.</p>
-      <p class="text-slate-500 text-xs mt-2">https://aksisoft.web.id</p>
-      <a href="https://wa.me/6281335206389" target="_blank"
-        class="inline-flex items-center gap-2 text-emerald-400 text-sm mt-3 hover:text-emerald-300">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-          <path
-            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z" />
-        </svg>
-        +62 813-3520-6389
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <h4 class="font-bold text-slate-800 mb-3">🔍 Perilaku Pencarian</h4>
+      <p class="text-sm text-slate-600 leading-relaxed">Volume pencarian untuk kata kunci terkait rockwool di Indonesia menunjukkan tren naik, terutama di kota-kota besar seperti Jakarta, Surabaya, dan Denpasar. Pencarian terbanyak terjadi pada jam kerja (09:00-17:00) dari perangkat mobile, menunjukkan bahwa calon pembeli mencari informasi saat dalam perjalanan atau di lokasi proyek.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. ANALISA KOMPETITOR -->
+<section id="kompetitor" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Analisa Kompetitor Google Search</h2>
+  <p class="text-slate-500 mb-8">Peta persaingan iklan di Google untuk kata kunci rockwool</p>
+
+  <div class="bg-white border border-slate-200 rounded-xl overflow-hidden mb-6">
+    <table class="w-full text-sm">
+      <thead class="bg-slate-900 text-white">
+        <tr>
+          <th class="p-4 text-left">Kompetitor</th>
+          <th class="p-4 text-left">Estimasi Budget/Bulan</th>
+          <th class="p-4 text-left">Kekuatan</th>
+          <th class="p-4 text-left">Kelemahan</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+        <tr class="hover:bg-slate-50"><td class="p-4 font-medium">Kompetitor A (Nasional)</td><td class="p-4">Rp 50-80 juta</td><td class="p-4">Brand kuat, landing page lengkap</td><td class="p-4">Harga tinggi, respons lambat</td></tr>
+        <tr class="hover:bg-slate-50"><td class="p-4 font-medium">Kompetitor B (Regional Jawa)</td><td class="p-4">Rp 20-35 juta</td><td class="p-4">Harga kompetitif, stok ready</td><td class="p-4">SEO lemah, tidak mobile-friendly</td></tr>
+        <tr class="hover:bg-slate-50"><td class="p-4 font-medium">Kompetitor C (Distributor)</td><td class="p-4">Rp 10-20 juta</td><td class="p-4">Multi-brand, variasi produk</td><td class="p-4">Tidak ada spesialisasi rockwool</td></tr>
+        <tr class="hover:bg-slate-50"><td class="p-4 font-medium">Kompetitor D (Importir)</td><td class="p-4">Rp 30-50 juta</td><td class="p-4">Produk impor berkualitas</td><td class="p-4">Lead time panjang, harga premium</td></tr>
+        <tr class="hover:bg-slate-50"><td class="p-4 font-medium">Kompetitor E (Lokal Surabaya)</td><td class="p-4">Rp 5-15 juta</td><td class="p-4">Harga murah, pengiriman cepat</td><td class="p-4">Branding lemah, website sederhana</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-5">
+      <div class="text-emerald-700 font-bold mb-2">✅ Keunggulan Kami</div>
+      <p class="text-sm text-slate-700">Fokus spesialisasi rockwool, landing page konversi tinggi, dan tim respons cepat untuk follow-up leads.</p>
+    </div>
+    <div class="bg-sky-50 border border-sky-200 rounded-xl p-5">
+      <div class="text-sky-700 font-bold mb-2">🎯 Strategi Diferensiasi</div>
+      <p class="text-sm text-slate-700">Target keyword long-tail dengan intent tinggi, geo-targeting spesifik, dan ad copy yang menekankan keunggulan produk.</p>
+    </div>
+    <div class="bg-amber-50 border border-amber-200 rounded-xl p-5">
+      <div class="text-amber-700 font-bold mb-2">⚡ Peluang</div>
+      <p class="text-sm text-slate-700">Banyak kompetitor belum mengoptimalkan mobile experience dan conversion tracking, memberikan celah untuk unggul.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7. TUJUAN KAMPANYE -->
+<section id="tujuan" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Tujuan Kampanye</h2>
+  <p class="text-slate-500 mb-8">Target yang ingin dicapai melalui kampanye Google Ads</p>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
+      <div class="text-4xl mb-3">🎯</div>
+      <h4 class="font-bold text-slate-800 mb-2">Meningkatkan Leads Berkualitas</h4>
+      <p class="text-sm text-slate-600">Mendapatkan leads berkualitas per bulan dari calon pembeli rockwool yang benar-benar memiliki kebutuhan.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
+      <div class="text-4xl mb-3">📊</div>
+      <h4 class="font-bold text-slate-800 mb-2">Meningkatkan Brand Awareness</h4>
+      <p class="text-sm text-slate-600">Membangun kehadiran digital PT Indo Mandiri Isolasi sebagai penyedia rockwool terpercaya di wilayah target.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
+      <div class="text-4xl mb-3">💰</div>
+      <h4 class="font-bold text-slate-800 mb-2">ROI Positif</h4>
+      <p class="text-sm text-slate-600">Mencapai Cost Per Lead yang kompetitif dengan target ROAS minimal 5x dari total investasi iklan.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6 hover:shadow-lg transition">
+      <div class="text-4xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Pertumbuhan Berkelanjutan</h4>
+      <p class="text-sm text-slate-600">Membangun fondasi kampanye yang dapat di-scale up seiring pertumbuhan bisnis dan budget yang tersedia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8. TARGET WILAYAH -->
+<section id="wilayah" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Target Wilayah</h2>
+  <p class="text-slate-500 mb-8">Area geografis yang menjadi fokus kampanye Google Ads</p>
+
+  <div class="grid md:grid-cols-3 gap-4 mb-6">
+    <div class="bg-gradient-to-br from-sky-500 to-blue-600 text-white p-6 rounded-xl">
+      <div class="text-2xl mb-2">🏙️</div>
+      <h4 class="font-bold mb-1">Jawa</h4>
+      <p class="text-sm text-sky-100">Jakarta, Surabaya</p>
+    </div>
+    <div class="bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-6 rounded-xl">
+      <div class="text-2xl mb-2">🏝️</div>
+      <h4 class="font-bold mb-1">Bali</h4>
+      <p class="text-sm text-emerald-100">Denpasar, Badung, Gianyar</p>
+    </div>
+    <div class="bg-gradient-to-br from-orange-500 to-red-500 text-white p-6 rounded-xl">
+      <div class="text-2xl mb-2">🌋</div>
+      <h4 class="font-bold mb-1">NTB & NTT</h4>
+      <p class="text-sm text-orange-100">Mataram, Bima, Kupang, dan sekitarnya</p>
+    </div>
+  </div>
+
+  <div class="bg-white border border-slate-200 rounded-xl p-6">
+    <h4 class="font-bold text-slate-800 mb-4">📍 Daftar Kota Target</h4>
+    <div class="grid md:grid-cols-4 gap-2">
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Jakarta</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Surabaya</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Denpasar</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Badung</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Gianyar</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Singaraja</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Mataram</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Bima</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Sumbawa Besar</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kupang</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Labuan Bajo</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Maumere</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Ende</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar Bali lainnya</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar NTB lainnya</div>
+      <div class="flex items-center gap-2 p-2 bg-slate-50 rounded"><span class="text-sky-500">✓</span> Kota besar NTT lainnya</div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. KEYWORDS -->
+<section id="keyword" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Daftar Keyword</h2>
+  <p class="text-slate-500 mb-8">80+ keyword yang ditargetkan untuk kampanye Google Ads</p>
+
+  <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 mb-6 flex items-center gap-3">
+    <span class="text-2xl">📊</span>
+    <div>
+      <div class="font-bold text-sky-900">Total Keyword: 85</div>
+      <div class="text-sm text-sky-700">Dibagi dalam 4 grup iklan berdasarkan intent dan produk</div>
+    </div>
+  </div>
+
+  <div class="space-y-6">
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
+        <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 1</span>
+        Keyword Produk Rockwool (20 keyword)
+      </h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag">rockwool</span><span class="keyword-tag">jual rockwool</span><span class="keyword-tag">harga rockwool</span><span class="keyword-tag">rockwool slab</span><span class="keyword-tag">rockwool board</span><span class="keyword-tag">rockwool blanket</span><span class="keyword-tag">rockwool roll</span><span class="keyword-tag">rockwool pipe insulation</span><span class="keyword-tag">rockwool acoustic panel</span><span class="keyword-tag">rockwool density 80</span><span class="keyword-tag">rockwool density 100</span><span class="keyword-tag">rockwool density 120</span><span class="keyword-tag">rockwool tebal 50mm</span><span class="keyword-tag">rockwool tebal 100mm</span><span class="keyword-tag">rockwool fireproof</span><span class="keyword-tag">rockwool tahan api</span><span class="keyword-tag">rockwool peredam suara</span><span class="keyword-tag">rockwool isolasi panas</span><span class="keyword-tag">rockwool isolasi termal</span><span class="keyword-tag">rockwool isolasi akustik</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
+        <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 2</span>
+        Keyword Aplikasi & Solusi (22 keyword)
+      </h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag">rockwool untuk dinding</span><span class="keyword-tag">rockwool untuk atap</span><span class="keyword-tag">rockwool untuk partisi</span><span class="keyword-tag">rockwool untuk plafon</span><span class="keyword-tag">rockwool untuk studio musik</span><span class="keyword-tag">rockwool untuk home theater</span><span class="keyword-tag">rockwool untuk pabrik</span><span class="keyword-tag">rockwool untuk HVAC</span><span class="keyword-tag">rockwool untuk cold storage</span><span class="keyword-tag">rockwool untuk gedung</span><span class="keyword-tag">rockwool untuk hotel</span><span class="keyword-tag">rockwool untuk rumah sakit</span><span class="keyword-tag">rockwool untuk apartemen</span><span class="keyword-tag">rockwool untuk industri</span><span class="keyword-tag">rockwool untuk furnace</span><span class="keyword-tag">rockwool untuk boiler</span><span class="keyword-tag">rockwool untuk ducting</span><span class="keyword-tag">rockwool untuk sandwich panel</span><span class="keyword-tag">rockwool untuk ceiling</span><span class="keyword-tag">rockwool untuk acoustic treatment</span><span class="keyword-tag">rockwool untuk soundproofing</span><span class="keyword-tag">rockwool untuk thermal insulation</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
+        <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 3</span>
+        Keyword Pembelian & Lokasi (22 keyword)
+      </h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag">distributor rockwool</span><span class="keyword-tag">supplier rockwool</span><span class="keyword-tag">toko rockwool</span><span class="keyword-tag">agen rockwool</span><span class="keyword-tag">grosir rockwool</span><span class="keyword-tag">jual rockwool surabaya</span><span class="keyword-tag">jual rockwool jakarta</span><span class="keyword-tag">jual rockwool bali</span><span class="keyword-tag">jual rockwool denpasar</span><span class="keyword-tag">jual rockwool mataram</span><span class="keyword-tag">jual rockwool kupang</span><span class="keyword-tag">harga rockwool per meter</span><span class="keyword-tag">harga rockwool per lembar</span><span class="keyword-tag">harga rockwool per roll</span><span class="keyword-tag">rockwool murah</span><span class="keyword-tag">rockwool berkualitas</span><span class="keyword-tag">rockwool original</span><span class="keyword-tag">rockwool garuda</span><span class="keyword-tag">rockwool rockwool</span><span class="keyword-tag">rockwool paroc</span><span class="keyword-tag">rockwool owens corning</span><span class="keyword-tag">rockwool knauf</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3 flex items-center gap-2">
+        <span class="bg-sky-600 text-white px-3 py-1 rounded-full text-xs">GRUP 4</span>
+        Keyword Informasi & Long-tail (21 keyword)
+      </h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag">cara pasang rockwool</span><span class="keyword-tag">spesifikasi rockwool</span><span class="keyword-tag">keunggulan rockwool</span><span class="keyword-tag">rockwool vs glasswool</span><span class="keyword-tag">rockwool vs rockwool</span><span class="keyword-tag">rockwool tahan berapa derajat</span><span class="keyword-tag">rockwool aman untuk kesehatan</span><span class="keyword-tag">rockwool untuk peredam suara ruangan</span><span class="keyword-tag">rockwool untuk isolasi atap baja ringan</span><span class="keyword-tag">rockwool untuk dinding bata ringan</span><span class="keyword-tag">rockwool untuk peredam mesin</span><span class="keyword-tag">rockwool untuk peredam genset</span><span class="keyword-tag">rockwool untuk peredam AC</span><span class="keyword-tag">rockwool untuk peredam kompresor</span><span class="keyword-tag">rockwool untuk peredam ruang meeting</span><span class="keyword-tag">rockwool untuk peredam bioskop</span><span class="keyword-tag">rockwool untuk peredam studio recording</span><span class="keyword-tag">rockwool untuk isolasi pipa steam</span><span class="keyword-tag">rockwool untuk isolasi tangki</span><span class="keyword-tag">rockwool untuk fire stopping</span><span class="keyword-tag">rockwool untuk fire rating</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. NEGATIVE KEYWORDS -->
+<section id="negative" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Negative Keyword</h2>
+  <p class="text-slate-500 mb-8">50+ keyword yang akan dikecualikan untuk menghemat budget iklan</p>
+
+  <div class="bg-red-50 border border-red-200 rounded-xl p-4 mb-6 flex items-center gap-3">
+    <span class="text-2xl"></span>
+    <div>
+      <div class="font-bold text-red-900">Total Negative Keyword: 55</div>
+      <div class="text-sm text-red-700">Mencegah klik tidak relevan dan mengoptimalkan budget</div>
+    </div>
+  </div>
+
+  <div class="space-y-4">
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3">🎵 Kategori: Musik & Hiburan (bukan pembelian)</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">rockwool lirik lagu</span><span class="keyword-tag negative-tag">rockwool band</span><span class="keyword-tag negative-tag">rockwool musik</span><span class="keyword-tag negative-tag">rockwool spotify</span><span class="keyword-tag negative-tag">rockwool youtube</span><span class="keyword-tag negative-tag">rockwool album</span><span class="keyword-tag negative-tag">rockwool download mp3</span><span class="keyword-tag negative-tag">rockwool chord gitar</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3"> Kategori: Game & Entertainment</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">rockwool game</span><span class="keyword-tag negative-tag">rockwool steam</span><span class="keyword-tag negative-tag">rockwool xbox</span><span class="keyword-tag negative-tag">rockwool playstation</span><span class="keyword-tag negative-tag">rockwool nintendo</span><span class="keyword-tag negative-tag">rockwool mobile legend</span><span class="keyword-tag negative-tag">rockwool free fire</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3"> Kategori: Informasi Non-Komersial</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">rockwool wikipedia</span><span class="keyword-tag negative-tag">rockwool pengertian</span><span class="keyword-tag negative-tag">rockwool sejarah</span><span class="keyword-tag negative-tag">rockwool pdf</span><span class="keyword-tag negative-tag">rockwool makalah</span><span class="keyword-tag negative-tag">rockwool skripsi</span><span class="keyword-tag negative-tag">rockwool jurnal</span><span class="keyword-tag negative-tag">rockwool penelitian</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3">️ Kategori: DIY & Tutorial Non-Pembelian</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">rockwool buatan sendiri</span><span class="keyword-tag negative-tag">rockwool homemade</span><span class="keyword-tag negative-tag">rockwool daur ulang</span><span class="keyword-tag negative-tag">rockwool bekas</span><span class="keyword-tag negative-tag">rockwool second</span><span class="keyword-tag negative-tag">rockwool gratis</span><span class="keyword-tag negative-tag">rockwool free</span><span class="keyword-tag negative-tag">rockwool murah sekali</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3">🌍 Kategori: Lokasi Tidak Relevan</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">rockwool usa</span><span class="keyword-tag negative-tag">rockwool europe</span><span class="keyword-tag negative-tag">rockwool china</span><span class="keyword-tag negative-tag">rockwool australia</span><span class="keyword-tag negative-tag">rockwool malaysia</span><span class="keyword-tag negative-tag">rockwool singapore</span><span class="keyword-tag negative-tag">rockwool thailand</span><span class="keyword-tag negative-tag">rockwool vietnam</span>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-800 mb-3"> Kategori: Produk Lain (bukan rockwool)</h4>
+      <div class="bg-white border border-slate-200 rounded-xl p-4">
+        <span class="keyword-tag negative-tag">glasswool</span><span class="keyword-tag negative-tag">fiberglass</span><span class="keyword-tag negative-tag">busa peredam</span><span class="keyword-tag negative-tag">foam acoustic</span><span class="keyword-tag negative-tag">karet peredam</span><span class="keyword-tag negative-tag">rubber insulation</span><span class="keyword-tag negative-tag">aerogel</span><span class="keyword-tag negative-tag">polyurethane foam</span><span class="keyword-tag negative-tag">styrofoam</span><span class="keyword-tag negative-tag">eps</span><span class="keyword-tag negative-tag">xps</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11. STRUKTUR CAMPAIGN -->
+<section id="struktur" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Struktur Campaign Google Ads</h2>
+  <p class="text-slate-500 mb-8">Arsitektur kampanye yang terorganisir untuk performa maksimal</p>
+
+  <div class="bg-gradient-to-r from-slate-900 to-blue-900 text-white rounded-2xl p-8 mb-6">
+    <h3 class="text-2xl font-bold mb-2">🏗️ Campaign: Rockwool - Lead Generation</h3>
+    <p class="text-sky-200 text-sm">Tipe: Search Network Only | Bidding: Maximize Conversions dengan Target CPA</p>
+  </div>
+
+  <div class="space-y-4">
+    <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">1</div>
+        <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Produk</h4>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">20 Keywords</span>
+      </div>
+      <p class="text-sm text-slate-600 mb-3">Fokus pada kata kunci produk rockwool dengan intent pembelian tinggi.</p>
+      <div class="grid md:grid-cols-3 gap-2 text-xs">
+        <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Jual Rockwool Berkualitas | Harga Terjangkau</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Rockwool slab, blanket & pipe insulation. Stok ready, pengiriman cepat.</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Minta Penawaran Sekarang</div>
+      </div>
+    </div>
+
+    <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">2</div>
+        <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Aplikasi</h4>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">22 Keywords</span>
+      </div>
+      <p class="text-sm text-slate-600 mb-3">Target pengguna yang mencari solusi aplikasi rockwool untuk kebutuhan spesifik.</p>
+      <div class="grid md:grid-cols-3 gap-2 text-xs">
+        <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Rockwool untuk Dinding & Atap | Solusi Isolasi</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Peredam suara & isolasi panas terbaik. Konsultasi gratis dengan ahli kami.</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Konsultasi Gratis</div>
+      </div>
+    </div>
+
+    <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">3</div>
+        <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Lokasi</h4>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">22 Keywords</span>
+      </div>
+      <p class="text-sm text-slate-600 mb-3">Geo-targeted ads untuk menangkap pembeli di lokasi spesifik.</p>
+      <div class="grid md:grid-cols-3 gap-2 text-xs">
+        <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Distributor Rockwool Surabaya | Ready Stock</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Supplier rockwool terpercaya. Harga grosir & retail. Pengiriman seluruh Indonesia.</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Hubungi Kami</div>
+      </div>
+    </div>
+
+    <div class="bg-white border-2 border-sky-200 rounded-xl p-6">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="bg-sky-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold">4</div>
+        <h4 class="font-bold text-slate-800 text-lg">Ad Group: Rockwool Informasi</h4>
+        <span class="bg-sky-100 text-sky-700 px-3 py-1 rounded-full text-xs font-medium">21 Keywords</span>
+      </div>
+      <p class="text-sm text-slate-600 mb-3">Menangkap user dalam tahap riset dengan konten edukatif yang mengarah ke konversi.</p>
+      <div class="grid md:grid-cols-3 gap-2 text-xs">
+        <div class="bg-slate-50 p-3 rounded"><strong>Headline:</strong> Panduan Lengkap Rockwool | Spesifikasi & Harga</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>Desc:</strong> Pelajari semua tentang rockwool. Dapatkan brosur & price list terbaru.</div>
+        <div class="bg-slate-50 p-3 rounded"><strong>CTA:</strong> Download Brosur</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12. RSA -->
+<section id="rsa" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Contoh Responsive Search Ads</h2>
+  <p class="text-slate-500 mb-8">Contoh iklan yang akan ditampilkan di Google Search</p>
+
+  <div class="space-y-6">
+    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+      <div class="text-xs text-slate-500 mb-2">AD 1 - Produk Rockwool</div>
+      <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › rockwool</div>
+      <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Jual Rockwool Berkualitas | Harga Terjangkau & Stok Ready</h4>
+      <p class="text-sm text-slate-600">Distributor resmi rockwool slab, blanket & pipe insulation. Pengiriman cepat ke seluruh Indonesia. Minta penawaran sekarang!</p>
+      <div class="mt-3 flex gap-2 flex-wrap">
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Harga Grosir</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Stok Ready</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Konsultasi Gratis</span>
+      </div>
+    </div>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+      <div class="text-xs text-slate-500 mb-2">AD 2 - Solusi Peredam Suara</div>
+      <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › solusi-akustik</div>
+      <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Rockwool Peredam Suara | Solusi Akustik Terbaik untuk Ruangan</h4>
+      <p class="text-sm text-slate-600">Butuh peredam suara untuk studio, home theater, atau ruang meeting? Rockwool kami memberikan isolasi akustik maksimal. Konsultasi gratis!</p>
+      <div class="mt-3 flex gap-2 flex-wrap">
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Soundproofing</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Fire Resistant</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">✓ Thermal Insulation</span>
+      </div>
+    </div>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+      <div class="text-xs text-slate-500 mb-2">AD 3 - Lokasi Surabaya</div>
+      <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › surabaya</div>
+      <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Distributor Rockwool Surabaya | Supplier Terpercaya Sejak 2010</h4>
+      <p class="text-sm text-slate-600">PT Indo Mandiri Isolasi - Supplier rockwool terlengkap di Surabaya. Harga kompetitif, pengiriman cepat, garansi produk original.</p>
+      <div class="mt-3 flex gap-2 flex-wrap">
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">📍 Surabaya</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">🚚 Free Ongkir*</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">📞 24/7 Support</span>
+      </div>
+    </div>
+
+    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+      <div class="text-xs text-slate-500 mb-2">AD 4 - Bali & NTB</div>
+      <div class="text-sky-700 text-sm mb-1">www.indomandiriisolasi.co.id › bali-ntb</div>
+      <h4 class="text-blue-700 text-xl font-medium mb-2 hover:underline cursor-pointer">Rockwool Bali & NTB | Pengiriman Cepat ke Denpasar, Mataram</h4>
+      <p class="text-sm text-slate-600">Butuh rockwool di Bali atau NTB? Kami siap kirim ke Denpasar, Badung, Mataram, dan sekitarnya. Harga bersaing, kualitas terjamin.</p>
+      <div class="mt-3 flex gap-2 flex-wrap">
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">🏝️ Bali</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">🌋 NTB</span>
+        <span class="text-xs bg-slate-100 px-2 py-1 rounded">⚡ Fast Delivery</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13. STRATEGI OPTIMASI -->
+<section id="optimasi" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Strategi Optimasi</h2>
+  <p class="text-slate-500 mb-8">Pendekatan berkelanjutan untuk meningkatkan performa kampanye</p>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">🔬</div>
+      <h4 class="font-bold text-slate-800 mb-2">A/B Testing Iklan</h4>
+      <p class="text-sm text-slate-600">Melakukan testing berkelanjutan pada headline, description, dan CTA untuk menemukan kombinasi terbaik yang menghasilkan CTR dan konversi tertinggi.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Analisis Search Terms</h4>
+      <p class="text-sm text-slate-600">Review mingguan terhadap search terms report untuk menemukan keyword baru yang berpotensi dan menambahkan negative keyword yang relevan.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">⚙️</div>
+      <h4 class="font-bold text-slate-800 mb-2">Bid Management</h4>
+      <p class="text-sm text-slate-600">Penyesuaian bid berdasarkan performa keyword, waktu, lokasi, dan device untuk memaksimalkan ROI dengan budget yang tersedia.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">🎯</div>
+      <h4 class="font-bold text-slate-800 mb-2">Quality Score Optimization</h4>
+      <p class="text-sm text-slate-600">Meningkatkan relevansi iklan, landing page experience, dan expected CTR untuk menurunkan CPC dan meningkatkan posisi iklan.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Geo & Device Optimization</h4>
+      <p class="text-sm text-slate-600">Analisis performa per lokasi dan device untuk mengalokasikan budget ke area dan device yang menghasilkan konversi terbaik.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">🔄</div>
+      <h4 class="font-bold text-slate-800 mb-2">Conversion Tracking</h4>
+      <p class="text-sm text-slate-600">Setup dan monitoring conversion tracking yang akurat untuk mengukur ROI dan mengoptimalkan kampanye berdasarkan data nyata.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Ad Schedule & Dayparting</h4>
+      <p class="text-sm text-slate-600">Penyesuaian jadwal tayang iklan berdasarkan jam dan hari dengan performa terbaik untuk menghemat budget di waktu kurang efektif.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Landing Page Optimization</h4>
+      <p class="text-sm text-slate-600">Rekomendasi perbaikan landing page untuk meningkatkan conversion rate, termasuk speed optimization, CTA placement, dan mobile experience.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 14. PAKET HARGA -->
+<section id="paket" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Paket Harga</h2>
+  <p class="text-slate-500 mb-8">Pilihan paket yang dapat disesuaikan dengan kebutuhan dan budget Anda</p>
+
+  <div class="bg-sky-50 border border-sky-200 rounded-xl p-4 mb-6 flex items-center gap-3">
+    <span class="text-2xl">💡</span>
+    <div>
+      <div class="font-bold text-sky-900">Struktur Harga Transparan</div>
+      <div class="text-sm text-sky-700">30% dari total invoice dialokasikan untuk jasa management (management fee), 70% untuk budget iklan Google Ads</div>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <!-- STARTER -->
+    <div class="package-card bg-white rounded-2xl p-6">
+      <div class="text-center mb-6">
+        <div class="text-sm text-slate-500 mb-2">PAKET</div>
+        <h3 class="text-3xl font-black text-slate-800">STARTER</h3>
+        <div class="text-xs text-slate-400 mt-1">Cocok untuk memulai</div>
+      </div>
+      <div class="space-y-3 mb-6">
+        <div class="bg-slate-50 p-3 rounded-lg">
+          <div class="text-xs text-slate-500">Budget Google Ads (70%)</div>
+          <div class="font-bold text-slate-800">Rp 3.500.000/bulan</div>
+          <div class="text-xs text-slate-500">≈ Rp 117.000/hari</div>
+        </div>
+        <div class="bg-slate-50 p-3 rounded-lg">
+          <div class="text-xs text-slate-500">Management Fee (30%)</div>
+          <div class="font-bold text-slate-800">Rp 1.500.000</div>
+        </div>
+      </div>
+      <div class="border-t border-slate-200 pt-4 mb-6">
+        <div class="text-xs text-slate-500">Total Invoice / Bulan</div>
+        <div class="text-3xl font-black text-slate-800">Rp 5.000.000</div>
+      </div>
+      <ul class="space-y-2 text-sm mb-6">
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 1 Campaign Search</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 4 Ad Groups</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 80+ Keywords</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Bulanan</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Mingguan</li>
+      </ul>
+      <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Starter%20harga%205%20juta%20untuk%20Google%20Ads" target="_blank" class="wa-btn w-full py-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        Pesan via WhatsApp
       </a>
     </div>
-  </footer>
 
-  <script>
-    // Fade in animation on scroll
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1 });
+    <!-- BISNIS -->
+    <div class="package-card package-featured bg-white rounded-2xl p-6 relative">
+      <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-sky-500 to-blue-600 text-white px-4 py-1 rounded-full text-xs font-bold">⭐ PALING POPULER</div>
+      <div class="text-center mb-6">
+        <div class="text-sm text-sky-600 mb-2 font-medium">PAKET</div>
+        <h3 class="text-3xl font-black text-slate-800">BISNIS</h3>
+        <div class="text-xs text-slate-400 mt-1">Untuk pertumbuhan optimal</div>
+      </div>
+      <div class="space-y-3 mb-6">
+        <div class="bg-sky-50 p-3 rounded-lg">
+          <div class="text-xs text-sky-600">Budget Google Ads (70%)</div>
+          <div class="font-bold text-slate-800">Rp 7.000.000/bulan</div>
+          <div class="text-xs text-sky-600">≈ Rp 233.000/hari</div>
+        </div>
+        <div class="bg-sky-50 p-3 rounded-lg">
+          <div class="text-xs text-sky-600">Management Fee (30%)</div>
+          <div class="font-bold text-slate-800">Rp 3.000.000</div>
+        </div>
+      </div>
+      <div class="border-t border-sky-200 pt-4 mb-6">
+        <div class="text-xs text-sky-600">Total Invoice / Bulan</div>
+        <div class="text-3xl font-black text-slate-800">Rp 10.000.000</div>
+      </div>
+      <ul class="space-y-2 text-sm mb-6">
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 2 Campaign Search</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 6 Ad Groups</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 100+ Keywords</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Mingguan</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Harian</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Landing Page Review</li>
+      </ul>
+      <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Bisnis%20harga%2010%20juta%20untuk%20Google%20Ads" target="_blank" class="wa-btn w-full py-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        Pesan via WhatsApp
+      </a>
+    </div>
 
-    document.querySelectorAll('.proposal-page').forEach(el => {
-      el.classList.add('fade-in');
-      observer.observe(el);
-    });
+    <!-- PREMIUM -->
+    <div class="package-card bg-white rounded-2xl p-6">
+      <div class="text-center mb-6">
+        <div class="text-sm text-slate-500 mb-2">PAKET</div>
+        <h3 class="text-3xl font-black text-slate-800">PREMIUM</h3>
+        <div class="text-xs text-slate-400 mt-1">Untuk dominasi pasar</div>
+      </div>
+      <div class="space-y-3 mb-6">
+        <div class="bg-slate-50 p-3 rounded-lg">
+          <div class="text-xs text-slate-500">Budget Google Ads (70%)</div>
+          <div class="font-bold text-slate-800">Rp 10.500.000/bulan</div>
+          <div class="text-xs text-slate-500">≈ Rp 350.000/hari</div>
+        </div>
+        <div class="bg-slate-50 p-3 rounded-lg">
+          <div class="text-xs text-slate-500">Management Fee (30%)</div>
+          <div class="font-bold text-slate-800">Rp 4.500.000</div>
+        </div>
+      </div>
+      <div class="border-t border-slate-200 pt-4 mb-6">
+        <div class="text-xs text-slate-500">Total Invoice / Bulan</div>
+        <div class="text-3xl font-black text-slate-800">Rp 15.000.000</div>
+      </div>
+      <ul class="space-y-2 text-sm mb-6">
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 3 Campaign Search</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 8 Ad Groups</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> 150+ Keywords</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Conversion Tracking</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Laporan Harian</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Optimasi Real-time</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Dedicated Account Manager</li>
+        <li class="flex items-start gap-2"><span class="text-emerald-500">✓</span> Priority Support 24/7</li>
+      </ul>
+      <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20pesan%20paket%20Premium%20harga%2015%20juta%20untuk%20Google%20Ads" target="_blank" class="wa-btn w-full py-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        Pesan via WhatsApp
+      </a>
+    </div>
+  </div>
 
-    // Smooth scroll for navigation
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        const href = this.getAttribute('href');
-        if (href.length > 1) {
-          e.preventDefault();
-          const target = document.querySelector(href);
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        }
-      });
-    });
-  </script>
+  <div class="mt-8 bg-amber-50 border-l-4 border-amber-400 p-5 rounded-r-xl">
+    <h4 class="font-bold text-amber-900 mb-2">📌 Catatan Penting</h4>
+    <ul class="text-sm text-amber-800 space-y-1">
+      <li>• Budget Google Ads (70%) dibayarkan langsung ke Google (via kartu kredit/debit)</li>
+      <li>• Management Fee (30%) dibayarkan ke Aksisoft di awal bulan</li>
+      <li>• Kontrak minimum <strong>1 bulan</strong> (direkomendasikan <strong>3 bulan</strong> untuk hasil optimal dan performa maksimal)</li>
+      <li>• Harga sudah <strong>NET</strong> (tidak termasuk PPN)</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 15. ESTIMASI -->
+<section id="estimasi" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Perhitungan Estimasi</h2>
+  <p class="text-slate-500 mb-8">Estimasi performa kampanye berdasarkan data industri B2B material bangunan</p>
+
+  <div class="bg-white border border-slate-200 rounded-xl overflow-hidden">
+    <table class="w-full text-sm">
+      <thead class="bg-gradient-to-r from-slate-900 to-blue-900 text-white">
+        <tr>
+          <th class="p-4 text-left">Paket</th>
+          <th class="p-4 text-right">Budget Iklan/Bulan</th>
+          <th class="p-4 text-right">CPC Rata-rata</th>
+          <th class="p-4 text-right">Estimasi Klik</th>
+          <th class="p-4 text-right">CTR</th>
+          <th class="p-4 text-right">Conv. Rate</th>
+          <th class="p-4 text-right">Est. Leads</th>
+          <th class="p-4 text-right">Cost/Lead</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-100">
+        <tr class="hover:bg-slate-50">
+          <td class="p-4 font-bold">Starter</td>
+          <td class="p-4 text-right">Rp 3.500.000</td>
+          <td class="p-4 text-right">Rp 8.500</td>
+          <td class="p-4 text-right">412</td>
+          <td class="p-4 text-right">6.5%</td>
+          <td class="p-4 text-right">4.5%</td>
+          <td class="p-4 text-right font-bold text-emerald-600">19</td>
+          <td class="p-4 text-right">Rp 184.000</td>
+        </tr>
+        <tr class="hover:bg-slate-50 bg-sky-50">
+          <td class="p-4 font-bold">Bisnis</td>
+          <td class="p-4 text-right">Rp 7.000.000</td>
+          <td class="p-4 text-right">Rp 7.800</td>
+          <td class="p-4 text-right">897</td>
+          <td class="p-4 text-right">7.2%</td>
+          <td class="p-4 text-right">5.2%</td>
+          <td class="p-4 text-right font-bold text-emerald-600">47</td>
+          <td class="p-4 text-right">Rp 149.000</td>
+        </tr>
+        <tr class="hover:bg-slate-50">
+          <td class="p-4 font-bold">Premium</td>
+          <td class="p-4 text-right">Rp 10.500.000</td>
+          <td class="p-4 text-right">Rp 7.200</td>
+          <td class="p-4 text-right">1.458</td>
+          <td class="p-4 text-right">7.8%</td>
+          <td class="p-4 text-right">5.8%</td>
+          <td class="p-4 text-right font-bold text-emerald-600">85</td>
+          <td class="p-4 text-right">Rp 124.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-6 grid md:grid-cols-3 gap-4">
+    <div class="stat-card p-5 rounded-xl">
+      <div class="text-xs text-slate-500 mb-1">CPC Rata-rata Industri</div>
+      <div class="text-2xl font-bold text-slate-800">Rp 7.000 - 9.000</div>
+      <div class="text-xs text-slate-500 mt-1">Berdasarkan data Google Ads Q2 2026 untuk industri material bangunan B2B</div>
+    </div>
+    <div class="stat-card p-5 rounded-xl">
+      <div class="text-xs text-slate-500 mb-1">Conversion Rate Rata-rata</div>
+      <div class="text-2xl font-bold text-slate-800">4.5% - 5.8%</div>
+      <div class="text-xs text-slate-500 mt-1">B2B construction materials industry benchmark</div>
+    </div>
+    <div class="stat-card p-5 rounded-xl">
+      <div class="text-xs text-slate-500 mb-1">Cost Per Lead</div>
+      <div class="text-2xl font-bold text-slate-800">Rp 124K - 184K</div>
+      <div class="text-xs text-slate-500 mt-1">Sangat kompetitif untuk industri B2B material bangunan</div>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-xl">
+    <h4 class="font-bold text-blue-900 mb-2">💡 Catatan Estimasi</h4>
+    <p class="text-sm text-blue-800">Angka di atas adalah estimasi berdasarkan data industri dan dapat bervariasi tergantung musim, kompetisi, dan kualitas landing page. Aksisoft akan terus mengoptimalkan kampanye untuk mencapai hasil terbaik.</p>
+  </div>
+</section>
+
+<!-- 16. TIMELINE -->
+<section id="timeline" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Timeline Pekerjaan</h2>
+  <p class="text-slate-500 mb-8">Jadwal pelaksanaan kampanye dari awal hingga berjalan</p>
+
+  <div class="bg-white border border-slate-200 rounded-xl p-8">
+    <div class="timeline-item">
+      <h4 class="font-bold text-slate-800 mb-1">Minggu 1: Persiapan & Setup</h4>
+      <p class="text-sm text-slate-600">Kick-off meeting, riset keyword mendalam, setup Google Ads account, conversion tracking, dan Google Analytics.</p>
+    </div>
+    <div class="timeline-item">
+      <h4 class="font-bold text-slate-800 mb-1">Minggu 2: Pembuatan Kampanye</h4>
+      <p class="text-sm text-slate-600">Pembuatan campaign structure, ad groups, responsive search ads, extensions, dan landing page review.</p>
+    </div>
+    <div class="timeline-item">
+      <h4 class="font-bold text-slate-800 mb-1">Minggu 3: Launch & Monitoring</h4>
+      <p class="text-sm text-slate-600">Kampanye live, monitoring intensif harian, penyesuaian bid awal, dan pengumpulan data performa.</p>
+    </div>
+    <div class="timeline-item">
+      <h4 class="font-bold text-slate-800 mb-1">Minggu 4: Optimasi Awal</h4>
+      <p class="text-sm text-slate-600">Analisis data 2 minggu pertama, optimasi keyword, penyesuaian ad copy, dan laporan performa bulan pertama.</p>
+    </div>
+    <div class="timeline-item" style="border-left-color: #10b981;">
+      <h4 class="font-bold text-slate-800 mb-1">Bulan 2-3: Scaling & Optimization</h4>
+      <p class="text-sm text-slate-600">Scaling campaign berdasarkan data, A/B testing lanjutan, dan peningkatan conversion rate.</p>
+    </div>
+    <div class="timeline-item" style="border-left-color: transparent;">
+      <h4 class="font-bold text-slate-800 mb-1">Bulan 4+: Maintenance & Growth</h4>
+      <p class="text-sm text-slate-600">Kampanye berjalan optimal dengan optimasi berkelanjutan dan scaling sesuai target bisnis.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 17. LAPORAN -->
+<section id="laporan" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Laporan Bulanan</h2>
+  <p class="text-slate-500 mb-8">Laporan yang akan diterima klien setiap bulan</p>
+
+  <div class="grid md:grid-cols-2 gap-5">
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3"></div>
+      <h4 class="font-bold text-slate-800 mb-2">Performance Dashboard</h4>
+      <p class="text-sm text-slate-600">Dashboard interaktif dengan metrik utama: impressions, clicks, CTR, CPC, conversions, dan cost per lead.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">🔍</div>
+      <h4 class="font-bold text-slate-800 mb-2">Search Terms Report</h4>
+      <p class="text-sm text-slate-600">Daftar lengkap search terms yang memicu iklan, termasuk keyword baru yang ditemukan dan negative keyword yang ditambahkan.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">📍</div>
+      <h4 class="font-bold text-slate-800 mb-2">Geo & Device Analysis</h4>
+      <p class="text-sm text-slate-600">Analisis performa berdasarkan lokasi geografis dan jenis device untuk optimasi targeting.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">📈</div>
+      <h4 class="font-bold text-slate-800 mb-2">Trend Analysis</h4>
+      <p class="text-sm text-slate-600">Grafik tren performa dari waktu ke waktu dengan insight dan rekomendasi untuk bulan berikutnya.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">💰</div>
+      <h4 class="font-bold text-slate-800 mb-2">Budget Utilization</h4>
+      <p class="text-sm text-slate-600">Laporan penggunaan budget dengan breakdown per campaign dan ad group.</p>
+    </div>
+    <div class="bg-white border border-slate-200 rounded-xl p-6">
+      <div class="text-3xl mb-3">🎯</div>
+      <h4 class="font-bold text-slate-800 mb-2">Recommendations</h4>
+      <p class="text-sm text-slate-600">Rekomendasi strategis untuk peningkatan performa berdasarkan data dan tren industri.</p>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-slate-50 border border-slate-200 rounded-xl p-6">
+    <h4 class="font-bold text-slate-800 mb-3">📅 Jadwal Laporan</h4>
+    <div class="grid md:grid-cols-3 gap-4 text-sm">
+      <div><strong class="text-sky-600">Paket Starter:</strong> Laporan bulanan via email</div>
+      <div><strong class="text-sky-600">Paket Bisnis:</strong> Laporan mingguan + bulanan + meeting bulanan</div>
+      <div><strong class="text-sky-600">Paket Premium:</strong> Laporan harian + weekly call + monthly review</div>
+    </div>
+  </div>
+</section>
+
+<!-- 18. KESIMPULAN -->
+<section id="kesimpulan" class="proposal-page p-12">
+  <h2 class="text-3xl font-bold text-slate-800 mb-2 section-title">Kesimpulan</h2>
+  <p class="text-slate-500 mb-8">Ringkasan proposal dan langkah selanjutnya</p>
+
+  <div class="bg-gradient-to-br from-slate-900 to-blue-900 text-white rounded-2xl p-8 mb-6">
+    <h3 class="text-2xl font-bold mb-4">Mengapa Memilih Aksisoft?</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="flex items-start gap-3">
+        <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
+        <div>
+          <h4 class="font-bold mb-1">Spesialis Google Ads</h4>
+          <p class="text-sm text-sky-100">Tim bersertifikat dengan pengalaman menangani berbagai industri</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
+        <div>
+          <h4 class="font-bold mb-1">Data-Driven Approach</h4>
+          <p class="text-sm text-sky-100">Keputusan berdasarkan data, bukan asumsi</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
+        <div>
+          <h4 class="font-bold mb-1">Transparan & Terukur</h4>
+          <p class="text-sm text-sky-100">Laporan detail dan dashboard real-time untuk monitoring</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="bg-sky-500 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">✓</span>
+        <div>
+          <h4 class="font-bold mb-1">ROI Focused</h4>
+          <p class="text-sm text-sky-100">Fokus pada hasil nyata dan pertumbuhan bisnis klien</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white border-2 border-sky-200 rounded-xl p-8">
+    <h3 class="text-xl font-bold text-slate-800 mb-4">🚀 Langkah Selanjutnya</h3>
+    <ol class="space-y-3">
+      <li class="flex items-start gap-3">
+        <span class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</span>
+        <div><strong class="text-slate-800">Diskusi & Konsultasi</strong><p class="text-sm text-slate-600">Meeting untuk membahas kebutuhan spesifik dan memilih paket yang sesuai</p></div>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</span>
+        <div><strong class="text-slate-800">Penandatanganan Kontrak</strong><p class="text-sm text-slate-600">Kesepakatan kerja sama dengan kontrak minimum 1 bulan (direkomendasikan 3 bulan)</p></div>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</span>
+        <div><strong class="text-slate-800">Kick-off & Setup</strong><p class="text-sm text-slate-600">Mulai proses setup campaign dalam 1-2 minggu setelah kontrak ditandatangani</p></div>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="bg-sky-600 text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">4</span>
+        <div><strong class="text-slate-800">Launch & Grow</strong><p class="text-sm text-slate-600">Kampanye live dan mulai menghasilkan leads berkualitas</p></div>
+      </li>
+    </ol>
+    <div class="mt-6 text-center">
+      <a href="https://wa.me/6281335206389?text=Halo%20saya%20tertarik%20dengan%20proposal%20Google%20Ads%20ini%2C%20saya%20mau%20konsultasi%20lebih%20lanjut" target="_blank" class="wa-btn inline-flex px-8 py-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z"/></svg>
+        Konsultasi Gratis via WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 19. PENUTUP -->
+<section id="penutup" class="proposal-page overflow-hidden">
+  <div class="cover-gradient min-h-screen flex flex-col justify-center items-center p-12 text-white relative">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-sky-400/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
+    
+    <div class="relative z-10 max-w-3xl text-center">
+      <div class="text-6xl mb-6"></div>
+      <h2 class="text-4xl font-black mb-6">Terima Kasih</h2>
+      <div class="h-1 w-32 bg-sky-400 mx-auto my-8"></div>
+      <p class="text-lg text-sky-100 leading-relaxed mb-8">
+        Terima kasih atas kesempatan yang diberikan kepada <strong class="text-white">Aksisoft</strong> untuk menyusun proposal ini. Kami berharap dapat menjadi mitra digital marketing <strong class="text-white">PT Indo Mandiri Isolasi</strong> dalam meningkatkan penjualan melalui Google Ads.
+      </p>
+      
+      <div class="mt-12">
+        <div class="text-sm text-sky-200 tracking-widest mb-4">HORMAT KAMI,</div>
+        <div class="text-3xl font-bold mb-2">Aksisoft</div>
+        <div class="text-sky-200">https://aksisoft.web.id</div>
+      </div>
+
+      <a href="https://wa.me/6281335206389?text=Halo%20saya%20mau%20tanya%20tentang%20jasa%20Google%20Ads" target="_blank" class="wa-btn inline-flex mt-10 px-8 py-3 rounded-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z"/></svg>
+        Hubungi Kami via WhatsApp
+      </a>
+
+      <div class="mt-16 pt-8 border-t border-sky-400/30">
+        <div class="text-xs text-sky-200 tracking-widest mb-2">PROPOSAL INI BERLAKU HINGGA</div>
+        <div class="text-xl font-bold">27 Agustus 2026</div>
+        <div class="text-sm text-sky-200 mt-2">30 hari sejak tanggal proposal</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- Footer -->
+<footer class="bg-slate-900 text-white py-8 no-print">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <div class="flex items-center justify-center gap-3 mb-4">
+      <img src="https://image.qwenlm.ai/public_source/44d749ac-7961-4a51-bb96-51ed9c55333c/128a7c26d-9c8a-437e-95b2-9a4f06ddb6f4.png" class="h-10 bg-white rounded-lg p-1">
+      <span class="font-bold text-xl">Aksisoft</span>
+    </div>
+    <p class="text-slate-400 text-sm">© 2026 Aksisoft. All rights reserved.</p>
+    <p class="text-slate-500 text-xs mt-2">https://aksisoft.web.id</p>
+    <a href="https://wa.me/6281335206389" target="_blank" class="inline-flex items-center gap-2 text-emerald-400 text-sm mt-3 hover:text-emerald-300">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24z"/></svg>
+      +62 813-3520-6389
+    </a>
+  </div>
+</footer>
+
+<script>
+// Fade in animation on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.proposal-page').forEach(el => {
+  el.classList.add('fade-in');
+  observer.observe(el);
+});
+
+// Smooth scroll for navigation
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const href = this.getAttribute('href');
+    if (href.length > 1) {
+      e.preventDefault();
+      const target = document.querySelector(href);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  });
+});
+</script>
 
 </body>
-
 </html>
