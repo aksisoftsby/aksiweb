@@ -36,6 +36,15 @@ nav:
     url: /
   - title: Layanan
     url: /layanan/
+    children:
+      - title: Website Static
+        url: /layanan/website-static/
+      - title: Website News Dynamic
+        url: /layanan/website-news-dynamic/
+      - title: Google Ads
+        url: /layanan/google-ads/
+      - title: Social Media Ads
+        url: /layanan/social-media-ads/
   - title: Portfolio
     url: /portfolio/
   - title: Blog
