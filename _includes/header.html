@@ -1,23 +1,28 @@
 <header class="site-header">
-  <a class="brand" href="{{ '/' | relative_url }}" aria-label="Beranda">
-    <span class="brand-mark">A</span>
-    <span>Aksisoft Media</span>
-  </a>
-  <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-  <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
-    {% for item in site.nav %}
-      {% if item.children %}
-        <div class="nav-item dropdown">
-          <a href="{{ item.url | relative_url }}" class="dropdown-toggle">{{ item.title }} <span class="dropdown-arrow">▼</span></a>
-          <ul class="dropdown-menu">
-            {% for child in item.children %}
-              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% else %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      {% endif %}
-    {% endfor %}
-  </nav>
+  <div class="nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Aksisoft Media — Beranda">
+      <img src="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}" alt="" width="38" height="38">
+      <span class="brand-name"><strong>AKSISOFT</strong><small>MEDIA</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span>Menu</span><span class="nav-toggle-lines" aria-hidden="true"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Navigasi utama">
+      {% for item in site.nav %}
+        {% if item.children %}
+          <div class="nav-item dropdown">
+            <a href="{{ item.url | relative_url }}" class="dropdown-toggle{% if page.url == item.url %} is-active{% endif %}">{{ item.title }} <span class="dropdown-arrow" aria-hidden="true">↘</span></a>
+            <ul class="dropdown-menu">
+              {% for child in item.children %}
+                <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% else %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="is-active"{% endif %}>{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <a class="header-cta" href="{{ '/kontak/' | relative_url }}">Mulai percakapan <span aria-hidden="true">↗</span></a>
+  </div>
 </header>
