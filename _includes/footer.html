@@ -1,16 +1,19 @@
 <footer class="site-footer">
-  <div>
-    <strong>Aksisoft Media</strong>
-    <p>Website cepat, modern, dan SEO-ready untuk bisnis Anda.</p>
-    <a href="https://wa.me/6281335206389" class="btn btn-wa" style="margin-top: 10px;">
-      Chat WhatsApp
-    </a>
-  </div>
-  <div>
-    <p>© {{ site.time | date: '%Y' }} Aksisoft Media. Dibuat dengan GitHub Pages.</p>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}" alt="Monogram Aksisoft Media" width="38" height="38">
+      <div>
+        <strong>AKSISOFT MEDIA</strong>
+        <p>Website dan komunikasi digital yang lebih terarah.</p>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <a href="https://wa.me/6281335206389" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+      <span>© {{ site.time | date: '%Y' }} Aksisoft Media.</span>
+    </div>
   </div>
 </footer>
 
 <a href="https://wa.me/6281335206389" class="wa-floating" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp">
-  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-[...]
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.868-1.479-1.94-1.653-2.237-.173-.297-.018-.458.13-.606.135-.134.297-.347.446-.52.149-.174.198-.298.297-.496.099-.198.05-.372-.025-.52-.074-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.273.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.148.198 2.095 3.2 5.077 4.489.71.306 1.263.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.004 2.003c5.522 0 9.997 4.475 9.997 9.997s-4.475 9.997-9.997 9.997c-1.76 0-3.413-.457-4.848-1.256L2 22l1.302-5.045A9.95 9.95 0 0 1 2.007 12.0c0-5.522 4.475-9.997 9.997-9.997m0 1.8c-4.528 0-8.197 3.669-8.197 8.197 0 1.566.44 3.03 1.205 4.275l-.758 2.939 3.011-.79a8.17 8.17 0 0 0 4.739 1.51c4.528 0 8.197-3.669 8.197-8.197 0-4.528-3.669-8.197-8.197-8.197"/></svg>
 </a>

@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#741B35">
   {% seo %}
+  <link rel="icon" type="image/png" href="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
-<body>
+<body class="{% if page.url == '/' %}is-home{% else %}is-inner{% endif %}">
   {% include header.html %}
-  <main>
+  <main class="{% if page.url == '/' %}home-main{% else %}site-main{% endif %}">
     {{ content }}
   </main>
   {% include footer.html %}
