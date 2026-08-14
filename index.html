@@ -1,84 +1,20 @@
----
-layout: default
-title: Jasa Pembuatan Website Profesional
-description: Buat website bisnis yang cepat, responsif, dan SEO-ready. Cocok untuk company profile, landing page, portofolio, dan blog.
----
-<section class="hero">
-  <div class="hero-text">
-    <p class="eyebrow">Jasa Website GitHub Pages</p>
-    <h1>Website profesional untuk bisnis Anda, cepat online dan SEO-ready.</h1>
-    <p>Kami membantu membuat website company profile, landing page, blog, dan halaman layanan yang ringan, responsive, dan mudah dikelola.</p>
-    <div class="hero-actions">
-      <a class="btn primary" href="{{ '/kontak/' | relative_url }}">Konsultasi Gratis</a>
-      <a class="btn" href="{{ '/layanan/' | relative_url }}">Lihat Layanan</a>
-    </div>
-  </div>
-  <div class="hero-card">
-    <span>Mulai dari</span>
-    <strong>Rp 500rb</strong>
-    <p>Landing page cepat, mobile-friendly, siap dipasang ke domain sendiri.</p>
-  </div>
-</section>
-
-<section class="section">
-  <p class="eyebrow">Layanan utama</p>
-  <h2>Paket pembuatan website & digital marketing</h2>
-  <div class="grid cards">
-    <article><h3>Website Static</h3><p>Website static cocok untuk landing page, company profile, dan portofolio. Cepat, aman, dan SEO-friendly.</p></article>
-    <article><h3>Website News Dynamic</h3><p>Website berita dinamis dengan CMS untuk manajemen konten mudah. Cocok untuk portal berita, majalah online, dan blog korporat.</p></article>
-    <article><h3>Google Ads</h3><p>Tingkatkan visibilitas bisnis Anda di hasil pencarian Google dengan kampanye iklan yang teroptimasi.</p></article>
-    <article><h3>Social Media Ads</h3><p>Jangkau jutaan pengguna aktif di platform sosial media favorit mereka dengan iklan yang engaging.</p></article>
-  </div>
-</section>
-
-<section class="section split">
-  <div>
-    <p class="eyebrow">Kenapa pilih kami</p>
-    <h2>Ringan, aman, dan mudah dipublish ke GitHub Pages.</h2>
-  </div>
-  <ul class="checklist">
-    <li>Desain responsif untuk HP dan desktop</li>
-    <li>SEO meta tag memakai plugin jekyll-seo-tag</li>
-    <li>Sitemap otomatis dengan jekyll-sitemap</li>
-    <li>Feed blog otomatis dengan jekyll-feed</li>
-  </ul>
-</section>
-
-<section class="section">
-  <div class="section-head">
-    <div>
-      <p class="eyebrow">Portfolio terbaru</p>
-      <h2>Proyek yang telah kami selesaikan</h2>
-    </div>
-    <a href="{{ '/portfolio/' | relative_url }}">Lihat semua</a>
-  </div>
-  <div class="grid cards">
-    {% assign sorted_portfolio = site.portfolio | sort: 'order' | limit: 3 %}
-    {% for item in sorted_portfolio %}
-      <article>
-        <p class="post-date">{{ item.category }}</p>
-        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
-        <p>{{ item.description | truncate: 120 }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head">
-    <div>
-      <p class="eyebrow">Blog terbaru</p>
-      <h2>Tips website dan digital marketing</h2>
-    </div>
-    <a href="{{ '/blog/' | relative_url }}">Lihat semua</a>
-  </div>
-  <div class="grid cards">
-    {% for post in site.posts limit:3 %}
-      <article>
-        <p class="post-date">{{ post.date | date: "%d %b %Y" }}</p>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Aksisoft Media — Partner Digital yang Terarah</title>
+    <meta name="description" content="Aksisoft Media merancang website dan kampanye digital yang membantu bisnis hadir dengan rapi, relevan, dan siap bertumbuh." />
+    <meta name="theme-color" content="#741B35" />
+    <link rel="icon" type="image/png" href="/images/aksisoft-monogram.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-Dl2bZPuR.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Yj42nEZ_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script defer src="https://manus-analytics.com/umami" data-website-id="1eb7a902-6e6b-4c9f-bc20-504b4158ac64"></script>
+  </body>
+</html>
