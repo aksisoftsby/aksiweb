@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<!-- Editorial Burgundy product layout: proof-led software story, calm hierarchy, and clear consultation CTA. -->
+<article class="product-page product-{{ page.product_key }}">
+  <section class="product-hero reveal-section">
+    <div class="product-hero-copy">
+      <p class="eyebrow">{{ page.eyebrow }}</p>
+      <div class="product-wordmark">
+        {% if page.logo %}
+          <img src="{{ page.logo | relative_url }}" alt="{{ page.logo_alt | default: page.product_name }}" width="44" height="44">
+        {% else %}
+          <span class="product-initial">{{ page.product_initial }}</span>
+        {% endif %}
+        <strong>{{ page.product_name }}</strong>
+      </div>
+      <h1>{{ page.title }}</h1>
+      <p class="product-summary">{{ page.description }}</p>
+      <div class="product-hero-actions">
+        <a class="btn product-btn" href="{{ '/kontak/' | relative_url }}">Diskusikan kebutuhan <span aria-hidden="true">↗</span></a>
+        {% if page.product_url %}<a class="product-live-link" href="{{ page.product_url }}" target="_blank" rel="noopener noreferrer">Kunjungi {{ page.product_domain }} <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+    </div>
+    <figure class="product-hero-visual">
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt }}">
+      <figcaption>Antarmuka produk yang dapat diakses secara publik.</figcaption>
+    </figure>
+  </section>
+  <section class="product-intro reveal-section">
+    <div class="product-intro-label"><span>01</span><i></i><span>{{ page.product_label }}</span></div>
+    <p>{{ page.intro }}</p>
+  </section>
+  <div class="product-content">
+    {{ content }}
+  </div>
+</article>
