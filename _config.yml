@@ -45,6 +45,17 @@ nav:
         url: /layanan/google-ads/
       - title: Social Media Ads
         url: /layanan/social-media-ads/
+  - title: Produk
+    url: /produk/
+    children:
+      - title: RideSip
+        url: /produk/ridesip/
+      - title: Aksi CRM
+        url: /produk/aksi-crm/
+      - title: AksiSoft POS
+        url: /produk/aksisoft-pos/
+      - title: WebSekolah + PPDB
+        url: /produk/websekolah/
   - title: Portfolio
     url: /portfolio/
   - title: Blog
