@@ -13,7 +13,7 @@ layout: default
     <article class="catalog-card">
       <a class="catalog-thumb" href="{{ item.url | relative_url }}">
         {% if item.image %}
-        <img src="{{ item.image }}" alt="Screenshot {{ item.title }}" loading="lazy">
+        <img src="{{ item.image }}" alt="Screenshot {{ item.title }}" width="1280" height="800" loading="{% if forloop.index <= 6 %}eager{% else %}lazy{% endif %}" {% if forloop.index <= 6 %}fetchpriority="high"{% endif %} decoding="async" onload="this.classList.add('is-loaded')">
         {% endif %}
       </a>
       <div class="catalog-body">
