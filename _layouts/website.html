@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <p class="eyebrow">{{ page.category | default: 'Website Template' }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+</section>
+
+<section class="content-wrap website-detail">
+  <div class="detail-actions">
+    {% if page.demo_url %}<a class="btn primary" href="{{ page.demo_url }}" target="_blank" rel="noopener noreferrer">Lihat Demo Live <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if page.buy_url %}<a class="btn" href="{{ page.buy_url }}" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>{% endif %}
+  </div>
+
+  {% if page.gallery.desktop and page.gallery.desktop.size > 0 %}
+  <h2>Screenshot Desktop</h2>
+  <div class="gallery-grid">
+    {% for img in page.gallery.desktop %}
+    <figure><img src="{{ img }}" alt="Screenshot desktop {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.gallery.mobile and page.gallery.mobile.size > 0 %}
+  <h2>Tampilan Mobile</h2>
+  <div class="gallery-grid gallery-mobile">
+    {% for img in page.gallery.mobile %}
+    <figure><img src="{{ img }}" alt="Screenshot mobile {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.gallery.code and page.gallery.code.size > 0 %}
+  <h2>Kode &amp; Struktur</h2>
+  <div class="gallery-grid">
+    {% for img in page.gallery.code %}
+    <figure><img src="{{ img }}" alt="Kode {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="detail-info">
+    <h2>Informasi Template</h2>
+    <ul>
+      {% if page.version %}<li><strong>Versi:</strong> {{ page.version }}</li>{% endif %}
+      {% if page.price %}<li><strong>Harga:</strong> Rp {{ page.price | number_with_delimiter }}</li>{% endif %}
+      {% if page.updated_at %}<li><strong>Terakhir diperbarui:</strong> {{ page.updated_at }}</li>{% endif %}
+      <li><strong>Kategori:</strong> {{ page.category }}</li>
+      {% if page.slug %}<li><strong>Slug:</strong> {{ page.slug }}</li>{% endif %}
+    </ul>
+  </div>
+
+  {{ content }}
+</section>
