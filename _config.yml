@@ -69,6 +69,8 @@ nav:
     url: /tentang/
   - title: Kontak
     url: /kontak/
+  - title: Lynk
+    url: https://lynk.id/aksisoft
 
 exclude:
   - README.md
