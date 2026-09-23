@@ -59,6 +59,10 @@ nav:
         url: /produk/aksisoft-pos/
       - title: WebSekolah + PPDB
         url: /produk/websekolah/
+      - title: MuslimHub
+        url: /produk/muslimhub/
+  - title: MuslimHub
+    url: /produk/muslimhub/
   - title: Portfolio
     url: /portfolio/
   - title: Template
@@ -81,3 +85,4 @@ exclude:
   - generate.js
   - generate.bat
   - GENERATOR-README.md
+  - convert-muslimhub-poster.ps1

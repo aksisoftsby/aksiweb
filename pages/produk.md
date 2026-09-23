@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Produk Aksisoft
-description: Rangkaian produk digital Aksisoft untuk mobilitas, operasi pelanggan, retail, dan pendidikan.
+description: Rangkaian produk digital Aksisoft untuk mobilitas, operasi pelanggan, retail, pendidikan, dan pendampingan ibadah harian.
 permalink: /produk/
 ---
 
@@ -9,7 +9,7 @@ permalink: /produk/
 <section class="product-index-hero reveal-section">
   <p class="eyebrow">Produk Aksisoft</p>
   <h1>Produk digital yang menyatukan <em>operasi</em> dan pengalaman.</h1>
-  <p>Setiap produk disusun untuk konteks kerja yang berbeda: layanan lokal, hubungan pelanggan, retail, sampai komunikasi sekolah. Pilih fondasi yang paling dekat dengan cara organisasi Anda bergerak.</p>
+  <p>Setiap produk disusun untuk konteks kerja yang berbeda: layanan lokal, hubungan pelanggan, retail, komunikasi sekolah, sampai pendampingan ibadah harian. Pilih fondasi yang paling dekat dengan cara organisasi Anda bergerak.</p>
 </section>
 
 <section class="product-index-grid reveal-section" aria-label="Katalog Produk Aksisoft">
@@ -40,6 +40,13 @@ permalink: /produk/
     <h2>WebSekolah + PPDB</h2>
     <p>Website sekolah dan alur PPDB online untuk informasi publik, konten sekolah, pendaftaran, serta cek status.</p>
     <a href="{{ '/produk/websekolah/' | relative_url }}">Pelajari WebSekolah <span aria-hidden="true">↗</span></a>
+  </article>
+  <article class="product-index-card product-index-muslimhub">
+    <span class="product-card-no">05</span>
+    <span class="product-card-initial">M</span>
+    <h2>MuslimHub</h2>
+    <p>Portal Islam gratis untuk Al-Qur'an, mushaf digital, jadwal sholat, hadits, doa, dan asisten AI — tersedia di web serta APK Android.</p>
+    <a href="{{ '/produk/muslimhub/' | relative_url }}">Pelajari MuslimHub <span aria-hidden="true">↗</span></a>
   </article>
 </section>
 
