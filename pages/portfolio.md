@@ -18,11 +18,11 @@ permalink: /portfolio/
   {% endfor %}
 </div>
 
-<div class="section" style="text-align: center; margin-top: 40px;">
+<div class="content-wrap" style="text-align: center; margin-top: 28px;">
   <h2>Siap Memulai Proyek Anda?</h2>
   <p>Kami siap membantu mewujudkan ide digital Anda menjadi kenyataan.</p>
   <div class="hero-actions" style="justify-content: center;">
-    <a href="/kontak/" class="btn primary">Hubungi Kami Sekarang</a>
-    <a href="/layanan/" class="btn">Lihat Layanan</a>
+    <a href="{{ '/kontak/' | relative_url }}" class="btn btn-primary">Hubungi Kami Sekarang</a>
+    <a href="{{ '/layanan/' | relative_url }}" class="btn btn-outline">Lihat Layanan</a>
   </div>
 </div>

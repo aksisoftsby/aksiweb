@@ -1,0 +1,30 @@
+/* Bagian 3a: mengapa, produk, artikel, CTA */
+.rd-split{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(26px,4vw,60px);align-items:center}
+.rd-split-media{overflow:hidden;border-radius:var(--radius-xl);border:1px solid var(--color-border);box-shadow:var(--shadow-md)}
+.rd-split-media img{display:block;width:100%;aspect-ratio:4/3.4;object-fit:cover}
+.rd-why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 22px;margin-top:26px}
+.rd-why{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--color-border);
+  border-radius:var(--radius-md);padding:16px;box-shadow:var(--shadow-sm)}
+.rd-why i{width:38px;height:38px;flex:none;display:grid;place-items:center;border-radius:11px;
+  background:var(--color-primary-light);color:var(--color-primary);font-style:normal;font-size:1.1rem}
+.rd-why b{display:block;font-size:.92rem}
+.rd-why small{color:var(--color-text-muted);font-size:.8rem}
+.rd-blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rd-blog-card{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
+  padding:26px 24px;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;gap:10px}
+.rd-blog-card time{font-size:.76rem;font-weight:700;letter-spacing:.08em;color:var(--color-primary)}
+.rd-blog-card h3{margin:0;font-size:1.04rem;line-height:1.4}
+.rd-blog-card h3 a{text-decoration:none}
+.rd-blog-card h3 a:hover{color:var(--color-primary)}
+.rd-blog-card p{margin:0;font-size:.88rem;color:var(--color-text-muted);flex:1}
+.rd-cta{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 65%,#b0132b);color:#fff}
+.rd-cta-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding-block:clamp(48px,6vw,76px)}
+.rd-cta h2{margin:8px 0 10px;font-size:clamp(1.7rem,3vw,2.5rem);letter-spacing:-.02em}
+.rd-cta p{margin:0;opacity:.92}
+.rd-cta-kicker{margin:0;font-size:.72rem;font-weight:800;letter-spacing:.24em;opacity:.85}
+.rd-cta-list{margin:0;padding:0;list-style:none;display:grid;gap:12px;font-size:.92rem;font-weight:600}
+.rd-cta-list li{display:flex;gap:10px;align-items:center}
+.rd-cta-list b{width:24px;height:24px;flex:none;display:grid;place-items:center;border-radius:50%;background:#fff;color:var(--color-primary);font-size:.8rem}
+.rd-cta-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn-white{background:#fff;color:var(--color-primary);padding:13px 28px}
+.btn-ghostlight{background:transparent;color:#fff;padding:13px 26px;border:1px solid rgba(255,255,255,.6)}

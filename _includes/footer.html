@@ -1,16 +1,26 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}" alt="Monogram Aksisoft Media" width="38" height="38">
+      <img src="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}" alt="Logo Aksisoft Media" width="40" height="40">
       <div>
-        <strong>AKSISOFT MEDIA</strong>
-        <p>Website dan komunikasi digital yang lebih terarah.</p>
+        <strong>AKSISOFT</strong>
+        <p>Solusi digital untuk masa depan: website, aplikasi, dan sistem yang cepat, modern, dan terpercaya.</p>
       </div>
     </div>
+    <nav class="footer-nav" aria-label="Navigasi footer">
+      {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"{% if item.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
     <div class="footer-meta">
       <a href="https://wa.me/6281335206389" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
-      <span>© {{ site.time | date: '%Y' }} Aksisoft Media.</span>
+      <a href="https://aksisoft.web.id" target="_blank" rel="noopener noreferrer">aksisoft.web.id</a>
+      <span>© {{ site.time | date: '%Y' }} Aksisoft. Seluruh hak cipta dilindungi.</span>
     </div>
+  </div>
+  <div class="footer-bottom">
+    <span>Teknologi untuk kehidupan yang lebih baik.</span>
+    <span>IDEA · BUILD · SOLUTION</span>
   </div>
 </footer>
 

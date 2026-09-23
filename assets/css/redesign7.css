@@ -1,0 +1,99 @@
+/* Bagian 4: kompatibilitas markup lama + override warna keras halaman layanan */
+.container{max-width:var(--container-width);margin:0 auto;padding-inline:clamp(18px,4vw,32px)}
+.service-detail-page{max-width:var(--container-width);margin:0 auto}
+.service-hero,.service-overview,.service-features,.pricing-section,.campaign-types,.platform-section{
+  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,38px);margin-bottom:22px}
+.service-hero h1{letter-spacing:-.025em}
+.service-hero .lead{color:var(--color-text-muted)}
+.benefits-grid,.features-grid,.campaign-grid,.platform-grid,.tech-grid{margin-top:18px}
+.benefit-card,.campaign-card,.platform-card,.tech-item,.feature-category,.metric-item{background:#fff!important;
+  border:1px solid var(--color-border)!important;border-radius:var(--radius-md)!important;
+  box-shadow:var(--shadow-sm);padding:20px}
+.benefit-card h3,.campaign-card h3,.platform-card h3{color:var(--color-primary-dark)!important}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+.pricing-card{background:#fff!important;border:1px solid var(--color-border)!important;
+  border-radius:var(--radius-lg)!important;box-shadow:var(--shadow-sm)}
+.pricing-card.featured{border:2px solid var(--color-primary)!important;box-shadow:var(--shadow-md)!important}
+.pricing-card .badge,.timeline-number{background:var(--color-primary)!important;color:#fff!important}
+.price{color:var(--color-primary)!important}
+.cta-section,.stats-section{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%)!important;
+  color:#fff!important;border-radius:var(--radius-lg)!important}
+.cta-section h2{color:#fff!important}
+.btn-large{background:#fff!important;color:var(--color-primary)!important}
+.faq-item{background:#fff!important;border:1px solid var(--color-border);border-radius:var(--radius-md)!important}
+.faq-item h4{color:var(--color-primary)!important}
+.feature-item{background:var(--color-primary-light)!important;border-radius:10px!important}
+/* Bagian 4b: samakan produk + katalog ke design system baru */
+.product-page{padding-bottom:4rem}
+.product-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);align-items:center;
+  padding:clamp(24px,4vw,48px) 0;background:#fff;border:1px solid var(--color-border);
+  border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding-inline:clamp(22px,4vw,44px);margin-bottom:24px}
+.product-hero h1{letter-spacing:-.025em;line-height:1.08;font-size:clamp(1.9rem,3.6vw,2.9rem)}
+.product-hero-visual{margin:0;overflow:hidden;border-radius:var(--radius-md);border:1px solid var(--color-border)}
+.product-hero-visual img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.product-intro,.product-section,.product-flow,.product-proof{background:#fff;border:1px solid var(--color-border);
+  border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,40px);margin-bottom:22px}
+.product-feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+.product-feature-grid article{background:var(--color-background);border:1px solid var(--color-border);
+  border-radius:var(--radius-md);padding:20px}
+.feature-grid-six{grid-template-columns:repeat(3,1fr)}
+.product-package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.product-package-grid article{background:var(--color-background);border:1px solid var(--color-border);
+  border-radius:var(--radius-md);padding:22px}
+.product-contact-band{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+  background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary));color:#fff;
+  border-radius:var(--radius-lg);padding:26px clamp(22px,4vw,36px)}
+.product-contact-band a{background:#fff;color:var(--color-primary);font-weight:800;text-decoration:none;
+  padding:12px 24px;border-radius:999px}
+.product-index-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:24px 0}
+.product-index-card{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);padding:26px 24px;display:flex;flex-direction:column;gap:10px}
+.product-index-hero{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);padding:clamp(24px,4vw,44px);margin-bottom:6px}
+.product-index-note{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px;margin:22px 0 10px}
+.catalog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin:24px 0}
+.catalog-card{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);
+  overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
+.catalog-thumb{display:block;aspect-ratio:16/10;overflow:hidden;background:#f6e8ea}
+.catalog-thumb img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.catalog-body{padding:18px 20px;display:flex;flex-direction:column;gap:8px;flex:1}
+.catalog-price{color:var(--color-primary);font-weight:800}
+.website-detail .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:16px}
+.website-detail figure{margin:0;border:1px solid var(--color-border);border-radius:12px;overflow:hidden;background:#fff}
+.website-detail img{display:block;width:100%}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn-wa{background:#1faa55!important;border-color:#1faa55!important;color:#fff!important}
+.primary{background:var(--color-primary)!important;border:1px solid var(--color-primary)!important;color:#fff!important;padding:12px 24px!important}
+.btn:not(.btn-primary):not(.btn-outline):not(.btn-white):not(.btn-ghostlight):not(.btn-light){
+  display:inline-flex;align-items:center;gap:8px;border:1px solid var(--color-border);background:#fff;
+  color:var(--color-primary-dark);font-weight:700;text-decoration:none;padding:12px 24px;border-radius:999px}
+@media(max-width:900px){.product-hero,.product-feature-grid,.product-package-grid,.product-index-grid{grid-template-columns:1fr}
+  .feature-grid-six{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.feature-grid-six{grid-template-columns:1fr}.product-hero{padding:22px 18px}}
+.container{max-width:var(--container-width);margin:0 auto;padding-inline:clamp(18px,4vw,32px)}
+.service-detail-page{max-width:var(--container-width);margin:0 auto}
+.service-hero,.service-overview,.service-features,.pricing-section,.campaign-types,.platform-section{
+  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,38px);margin-bottom:22px}
+.service-hero h1{letter-spacing:-.025em}
+.service-hero .lead{color:var(--color-text-muted)}
+.benefits-grid,.features-grid,.campaign-grid,.platform-grid,.tech-grid{margin-top:18px}
+.benefit-card,.campaign-card,.platform-card,.tech-item,.feature-category,.metric-item{background:#fff!important;
+  border:1px solid var(--color-border)!important;border-radius:var(--radius-md)!important;
+  box-shadow:var(--shadow-sm);padding:20px}
+.benefit-card h3,.campaign-card h3,.platform-card h3{color:var(--color-primary-dark)!important}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+.pricing-card{background:#fff!important;border:1px solid var(--color-border)!important;
+  border-radius:var(--radius-lg)!important;box-shadow:var(--shadow-sm)}
+.pricing-card.featured{border:2px solid var(--color-primary)!important;box-shadow:var(--shadow-md)!important}
+.pricing-card .badge,.timeline-number{background:var(--color-primary)!important;color:#fff!important}
+.price{color:var(--color-primary)!important}
+.cta-section,.stats-section{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%)!important;
+  color:#fff!important;border-radius:var(--radius-lg)!important}
+.cta-section h2{color:#fff!important}
+.btn-large{background:#fff!important;color:var(--color-primary)!important}
+.faq-item{background:#fff!important;border:1px solid var(--color-border);border-radius:var(--radius-md)!important}
+.faq-item h4{color:var(--color-primary)!important}
+.feature-item{background:var(--color-primary-light)!important;border-radius:10px!important}
