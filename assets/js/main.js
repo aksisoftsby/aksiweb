@@ -1,4 +1,4 @@
-/* Editorial Burgundy: navigation remains direct; motion only supports reading. */
+/* Aksisoft redesign: navigasi tetap langsung; animasi hanya mendukung keterbacaan. */
 const toggle = document.querySelector('.nav-toggle');
 const nav = document.querySelector('.site-nav');
 
@@ -7,14 +7,22 @@ if (toggle && nav) {
     const open = nav.classList.toggle('open');
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
 }
 
-document.querySelectorAll('.dropdown-toggle').forEach((dropdownToggle) => {
-  dropdownToggle.addEventListener('click', (event) => {
+document.querySelectorAll('.nav-item.dropdown').forEach((dropdown) => {
+  const btn = dropdown.querySelector('.dropdown-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', (event) => {
     if (window.innerWidth <= 760) {
       event.preventDefault();
-      const dropdown = dropdownToggle.closest('.nav-item.dropdown');
-      if (dropdown) dropdown.classList.toggle('active');
+      dropdown.classList.toggle('active');
+      btn.setAttribute('aria-expanded', dropdown.classList.contains('active') ? 'true' : 'false');
     }
   });
 });
