@@ -44,6 +44,14 @@ nav:
         url: /layanan/website-static/
       - title: Website News Dynamic
         url: /layanan/website-news-dynamic/
+      - title: Edit Video
+        url: /layanan/video-editing/
+      - title: Aplikasi Custom
+        url: /layanan/aplikasi-custom-android/
+      - title: Aplikasi Android
+        url: /layanan/aplikasi-custom-android/
+      - title: Email Marketing
+        url: /layanan/email-marketing/
       - title: Google Ads
         url: /layanan/google-ads/
       - title: Social Media Ads
@@ -75,6 +83,20 @@ nav:
     url: /kontak/
   - title: Lynk
     url: https://lynk.id/aksisoft
+
+service_prices:
+  # Harga Layanan Edit Video (dapat diedit sewaktu-waktu di config)
+  video_short: "Rp 350.000 / video"
+  video_promo: "Rp 1.250.000 / video"
+  video_company: "Rp 3.500.000 / video"
+  # Harga Layanan Aplikasi Custom & Android
+  custom_app: "Mulai Rp 12.000.000"
+  android_app: "Mulai Rp 15.000.000"
+  app_advanced: "Sesuai Lingkup & Fitur"
+  # Harga Layanan Email Marketing
+  email_starter: "Rp 1.500.000 (Setup & Broadcast Pertama)"
+  email_growth: "Rp 3.000.000 / bulan"
+  email_enterprise: "Rp 6.500.000 / bulan"
 
 exclude:
   - README.md

@@ -30,6 +30,9 @@ permalink: /layanan/
 <div class="service-tabs">
   <button class="service-tab active" onclick="showService('static')">Website Static</button>
   <button class="service-tab" onclick="showService('dynamic')">Website News Dynamic</button>
+  <button class="service-tab" onclick="showService('video')">Edit Video</button>
+  <button class="service-tab" onclick="showService('app')">Aplikasi Custom & Android</button>
+  <button class="service-tab" onclick="showService('email')">Email Marketing</button>
   <button class="service-tab" onclick="showService('google-ads')">Google Ads</button>
   <button class="service-tab" onclick="showService('social-ads')">Social Media Ads</button>
 </div>
@@ -142,6 +145,203 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
   </div>
+</div>
+
+<!-- Edit Video -->
+<div id="video" class="service-content">
+  <h2>Jasa Edit Video Profesional</h2>
+  <p>Ubah footage menjadi video yang menarik untuk Reels, TikTok, iklan, hingga company profile. Cocok untuk bisnis yang aktif membuat konten.</p>
+
+  <div class="package-card">
+    <h4>Paket Reels / Shorts</h4>
+    <div class="price">{{ site.service_prices.video_short }}</div>
+    <ul>
+      <li>1 Video hingga 60 Detik</li>
+      <li>Format Vertikal 9:16</li>
+      <li>Editing Footage Maksimal 5 Menit</li>
+      <li>Subtitle dan Teks Sederhana</li>
+      <li>Musik Latar Berlisensi</li>
+      <li>1x Revisi Minor</li>
+      <li>Estimasi 3 Hari Kerja</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Edit%20Video%20Reels" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Paket Promosi</h4>
+    <div class="price">{{ site.service_prices.video_promo }}</div>
+    <ul>
+      <li>1 Video Promosi hingga 3 Menit</li>
+      <li>Format Landscape / Portrait</li>
+      <li>Editing Footage Maksimal 20 Menit</li>
+      <li>Color Correction, Subtitle, Grafis Sederhana</li>
+      <li>Intro/Outro dengan Logo</li>
+      <li>2x Revisi Minor</li>
+      <li>Estimasi 5–7 Hari Kerja</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Edit%20Video%20Promosi" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Paket Company Profile</h4>
+    <div class="price">{{ site.service_prices.video_company }}</div>
+    <ul>
+      <li>1 Video hingga 5 Menit</li>
+      <li>Penyusunan Alur dari Brief dan Footage Klien</li>
+      <li>Editing Footage Maksimal 45 Menit</li>
+      <li>Color Grading, Subtitle, Grafis Brand</li>
+      <li>2 Versi Rasio (16:9 dan 9:16)</li>
+      <li>3x Revisi Minor</li>
+      <li>Estimasi 7–10 Hari Kerja</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Edit%20Video%20Company%20Profile" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>🎬 Siap Sosial Media</strong>
+      <p>Format vertikal, persegi, atau horizontal sesuai kanal</p>
+    </div>
+    <div class="feature-item">
+      <strong>✨ Tampilan Profesional</strong>
+      <p>Editing konsisten dengan identitas visual brand Anda</p>
+    </div>
+    <div class="feature-item">
+      <strong>💬 Pesan Lebih Jelas</strong>
+      <p>Subtitle dan motion text membantu audiens memahami video</p>
+    </div>
+    <div class="feature-item">
+      <strong>🔁 Revisi Terarah</strong>
+      <p>Kesempatan revisi sesuai paket agar hasil sesuai brief</p>
+    </div>
+  </div>
+  <p><em>Footage, naskah, dan aset brand disediakan klien. Pengambilan gambar, voice-over, dan animasi kompleks dikenakan biaya terpisah.</em></p>
+  <p><a href="/layanan/video-editing/" class="btn primary">Lihat Detail Layanan</a></p>
+</div>
+
+<!-- Aplikasi Custom & Android -->
+<div id="app" class="service-content">
+  <h2>Jasa Pembuatan Aplikasi Custom & Android</h2>
+  <p>Bangun aplikasi yang mengikuti cara bisnis Anda bekerja. Tersedia pengembangan aplikasi custom (web/dashboard) maupun aplikasi Android.</p>
+
+  <div class="package-card">
+    <h4>Custom App MVP</h4>
+    <div class="price">{{ site.service_prices.custom_app }}</div>
+    <ul>
+      <li>Discovery dan Penyusunan Kebutuhan Fitur</li>
+      <li>Aplikasi Web Responsif (maks. 5 modul/halaman inti)</li>
+      <li>UI Standar dan Dashboard Dasar</li>
+      <li>Login dan Role Pengguna Dasar</li>
+      <li>Database dan API Sederhana</li>
+      <li>Uji Fungsi dan 2x Putaran Revisi</li>
+      <li>Estimasi 4–8 Minggu</li>
+    </ul>
+    <a href="/kontak/?subject=Konsultasi%20Aplikasi%20Custom" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Android App MVP</h4>
+    <div class="price">{{ site.service_prices.android_app }}</div>
+    <ul>
+      <li>Discovery dan Rancangan Alur Aplikasi</li>
+      <li>Hingga 8 Layar Utama</li>
+      <li>Login dan Profil Pengguna Dasar</li>
+      <li>Integrasi Satu API/Backend Sederhana</li>
+      <li>Pengujian pada Perangkat Android</li>
+      <li>Persiapan Build Rilis dan Panduan Publikasi</li>
+      <li>2x Putaran Revisi UI Minor</li>
+      <li>Estimasi 6–10 Minggu</li>
+    </ul>
+    <a href="/kontak/?subject=Konsultasi%20Aplikasi%20Android" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Pengembangan Lanjutan</h4>
+    <div class="price">{{ site.service_prices.app_advanced }}</div>
+    <ul>
+      <li>Audit Kebutuhan dan Estimasi per Modul</li>
+      <li>Penambahan Fitur Sesuai Prioritas</li>
+      <li>Integrasi Payment, Notifikasi, atau Layanan Eksternal</li>
+      <li>Penguatan Hak Akses dan Alur Operasional</li>
+      <li>Pengujian dan Dokumentasi Perubahan</li>
+      <li>Disepakati per Lingkup Pekerjaan</li>
+    </ul>
+    <a href="/kontak/?subject=Konsultasi%20Pengembangan%20Aplikasi" class="btn primary">Minta Estimasi</a>
+  </div>
+  <p><em>Belum termasuk biaya server/cloud, domain, akun Google Play, layanan API berbayar, lisensi, dan pemeliharaan. Fitur di luar ruang lingkup akan diestimasi sebelum dikerjakan.</em></p>
+  <p><a href="/layanan/aplikasi-custom-android/" class="btn primary">Lihat Detail Layanan</a></p>
+</div>
+
+<!-- Email Marketing -->
+<div id="email" class="service-content">
+  <h2>Jasa Email Marketing Profesional</h2>
+  <p>Ubah daftar kontak menjadi pelanggan setia dengan newsletter, penawaran khusus, dan rangkaian email otomatis yang tepat sasaran.</p>
+
+  <div class="package-card">
+    <h4>Paket Setup &amp; Starter</h4>
+    <div class="price">{{ site.service_prices.email_starter }}</div>
+    <ul>
+      <li>Setup Akun dan Konfigurasi SPF, DKIM, DMARC</li>
+      <li>Pembersihan dan Impor Kontak Awal</li>
+      <li>1 Template Email Responsif</li>
+      <li>Setup 1 Alur Otomatis: Welcome Series (1 email)</li>
+      <li>1 Broadcast Email Pertama (copywriting &amp; desain)</li>
+      <li>Panduan Pengiriman Mandiri</li>
+      <li>1x Revisi Minor Template</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Email%20Marketing%20Starter" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Paket Pertumbuhan Bulanan</h4>
+    <div class="price">{{ site.service_prices.email_growth }}</div>
+    <ul>
+      <li>4 Broadcast Email per Bulan</li>
+      <li>Copywriting dan Penataan Layout Tiap Edisi</li>
+      <li>Penyesuaian Segmen dan Tag Audiens</li>
+      <li>Pengujian Link dan Tampilan Sebelum Kirim</li>
+      <li>1 Alur Otomatis Baru per Bulan</li>
+      <li>Laporan Bulanan (open, click, unsubscribe)</li>
+      <li>Rekomendasi Optimasi Berkala</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Email%20Marketing%20Growth" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Paket Enterprise / Custom</h4>
+    <div class="price">{{ site.service_prices.email_enterprise }}</div>
+    <ul>
+      <li>Audit Saluran Email dan Deliverability</li>
+      <li>Strategi Konten Multi-Segmen</li>
+      <li>Hingga 8 Broadcast Email per Bulan</li>
+      <li>Desain Template Khusus dan A/B Testing</li>
+      <li>Otomatisasi Lanjutan (cart, re-engagement, onboarding)</li>
+      <li>Integrasi ke CRM atau E-commerce</li>
+      <li>Rapat Evaluasi Strategi Bulanan</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Email%20Marketing%20Enterprise" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>🎯 Akses Langsung</strong>
+      <p>Komunikasi langsung ke pelanggan tanpa bergantung algoritma</p>
+    </div>
+    <div class="feature-item">
+      <strong>📈 Penjualan Berulang</strong>
+      <p>Kirim penawaran khusus dan promo secara teratur</p>
+    </div>
+    <div class="feature-item">
+      <strong>⚙️ Otomatisasi</strong>
+      <p>Email sambutan dan follow-up berjalan otomatis</p>
+    </div>
+    <div class="feature-item">
+      <strong>📊 Terukur</strong>
+      <p>Pantau open rate, click rate, dan pertumbuhan audiens</p>
+    </div>
+  </div>
+  <p><em>Basis data kontak disediakan klien dan harus diperoleh dengan izin. Biaya langganan platform email (ESP) dan domain dibayarkan langsung oleh klien.</em></p>
+  <p><a href="/layanan/email-marketing/" class="btn primary">Lihat Detail Layanan</a></p>
 </div>
 
 <!-- Google Ads -->
