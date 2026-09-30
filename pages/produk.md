@@ -48,6 +48,13 @@ permalink: /produk/
     <p>Portal Islam gratis untuk Al-Qur'an, mushaf digital, jadwal sholat, hadits, doa, dan asisten AI — tersedia di web serta APK Android.</p>
     <a href="{{ '/produk/muslimhub/' | relative_url }}">Pelajari MuslimHub <span aria-hidden="true">↗</span></a>
   </article>
+  <article class="product-index-card product-index-aichat">
+    <span class="product-card-no">06</span>
+    <span class="product-card-initial">AI</span>
+    <h2>Aksisoft AI Chat</h2>
+    <p>Chat AI gratis tanpa login dan tanpa limit untuk tanya jawab, pembuatan konten, penulisan kode, serta produktivitas harian di ai.aksisoft.web.id.</p>
+    <a href="{{ '/produk/ai-chat/' | relative_url }}">Pelajari AI Chat <span aria-hidden="true">↗</span></a>
+  </article>
 </section>
 
 <section class="product-index-note reveal-section">
