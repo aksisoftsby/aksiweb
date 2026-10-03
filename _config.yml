@@ -53,7 +53,7 @@ nav:
         url: /layanan/website-static/
       - title: Website News Dynamic
         url: /layanan/website-news-dynamic/
-      - title: Edit Video
+      - title: Content Creator Video
         url: /layanan/video-editing/
       - title: Aplikasi Custom
         url: /layanan/aplikasi-custom-android/
@@ -96,7 +96,7 @@ nav:
     url: https://lynk.id/aksisoft
 
 service_prices:
-  # Harga Layanan Edit Video (dapat diedit sewaktu-waktu di config)
+  # Harga Layanan Content Creator Video (dapat diedit sewaktu-waktu di config)
   video_short: "Rp 350.000 / video"
   video_promo: "Rp 1.250.000 / video"
   video_company: "Rp 3.500.000 / video"
