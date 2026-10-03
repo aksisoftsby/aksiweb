@@ -3,10 +3,10 @@ layout: website
 slug: "velora"
 title: "Velora – Studio Kreatif & Agensi Digital HTML Template"
 description: "Velora membantu Anda membangun website studio kreatif, agensi digital, dan praktik branding yang berkelas: beranda editorial, layanan, portofolio yang dapat difilter, studi kasus, profil tim, paket harga, jurnal/blog, halaman kontak, serta halaman utilitas 404, segera hadir, dan pemeliharaan. Desain elegan ala editorial Swiss dengan animasi halus dan dukungan penuh untuk mobile."
-category: "HTML Template"
+category: "website"
 image: "https://template.aksisoft.web.id/demo/velora/screenshot-desktop/screenshot-index.jpg"
 demo_url: "https://template.aksisoft.web.id/demo/velora/"
-buy_url: "https://lynk.id/"
+buy_url: "https://lynk.id/aksisoft/293215d563mk"
 price: 55000
 version: "1.0.0"
 status: "published"

@@ -33,6 +33,9 @@ collections:
   websites:
     output: true
     permalink: /website/:name/
+  ebooks:
+    output: true
+    permalink: /ebook/:name/
   articles:
     output: true
     permalink: /artikel/:name/
@@ -79,6 +82,8 @@ nav:
         url: /produk/ai-chat/
       - title: Template Website
         url: /website/
+      - title: eBook & Worksheet
+        url: /ebook/
   - title: Portfolio
     url: /portfolio/
   - title: Blog
@@ -114,6 +119,7 @@ exclude:
   - generate.bat
   - generate-seo-articles.js
   - generate-products-data.js
+  - generate-ebooks-data.js
   - package.json
   - package-lock.json
   - GENERATOR-README.md
