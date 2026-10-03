@@ -8,8 +8,7 @@ permalink: /layanan/website-static/
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero">
-      <div class="service-icon">🌐</div>
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-static-hero.jpg' | relative_url }}')">
       <h1>Jasa Pembuatan Website Static</h1>
       <p class="lead">Website cepat, aman, dan optimal untuk bisnis Anda</p>
     </div>
