@@ -7,6 +7,7 @@ product_key: school
 product_name: WebSekolah + PPDB
 product_initial: S
 product_label: Website sekolah & penerimaan siswa
+product_order: 4
 eyebrow: Produk / WebSekolah
 product_domain: websekolah.aksisoft.web.id
 product_url: https://websekolah.aksisoft.web.id

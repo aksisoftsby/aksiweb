@@ -1,3 +1,6 @@
-```markdown
-_posts/
-```
+node_modules/
+_site/
+_site_preview/
+preview-src/
+*.log
+.DS_Store

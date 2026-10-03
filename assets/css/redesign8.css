@@ -1,0 +1,324 @@
+/* ============================================================================
+   BAGIAN 8 — Normalisasi global (HARUS dimuat terakhir, setelah redesign7.css)
+   Tujuan: satu container, satu ritme margin, satu pasangan font, grid kartu
+   yang selalu mendatar di desktop dan tetap bertumpuk rapi di mobile.
+   ========================================================================== */
+
+/* ---------- 1. Token font: satu sans + satu display, tanpa fallback liar --- */
+:root{
+  --font-sans:"Plus Jakarta Sans","Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-display:"DM Serif Display",Georgia,"Times New Roman",serif;
+}
+body,input,textarea,select,button,.btn{
+  font-family:var(--font-sans);
+}
+/* Semua judul serif memakai token yang sama, bukan string font berulang. */
+.product-hero h1,.product-intro>p,.product-section-heading h2,.product-proof-copy h2,
+.product-flow h2,.product-package-grid h3,.product-contact-band p,
+.product-index-hero h1,.product-index-card h2,
+.post h1,.post-content h2,.post-content h3{
+  font-family:var(--font-display);
+}
+/* Halaman dalam (layanan/produk/artikel) tidak boleh mencampur serif & sans
+   pada level heading yang sama — tetap sans agar konsisten dengan beranda. */
+.service-hero h1,.service-hero h2,.service-overview h2,.service-features h2,
+.pricing-section h2,.process-section h2,.cta-section h2,
+.page-hero h1,.content-wrap h2,.content-wrap h3{
+  font-family:var(--font-sans);
+  font-weight:800;
+  letter-spacing:-.025em;
+  line-height:1.18;
+}
+
+/* ---------- 2. Satu container untuk semua halaman dalam ------------------- */
+/* .site-main sudah menjadi container (max-width + padding). Halaman layanan
+   tidak boleh membuat container kedua di dalamnya. */
+.site-main{padding-block:clamp(34px,5vw,64px)}
+.service-detail-page{max-width:none;margin:0;padding:0}
+.service-detail-page>.container{max-width:none;margin:0;padding:0}
+.service-detail-page>.container>*{max-width:none}
+
+/* ---------- 3. Ritme margin seragam antar halaman ----------------------- */
+.service-overview,.service-features,.pricing-section,.process-section,
+.service-detail-page .cta-section{
+  margin:0 0 var(--spacing-md);
+  padding:clamp(24px,3.2vw,40px);
+}
+.service-detail-page .cta-section{margin-bottom:0}
+.service-hero{
+  margin:0 0 var(--spacing-md);
+  padding:clamp(34px,5vw,56px) clamp(22px,3.4vw,44px);
+  text-align:center;
+}
+.service-overview h2,.service-features h2,.pricing-section h2,.process-section h2{
+  margin:0 0 14px;
+  font-size:clamp(1.35rem,2.2vw,1.8rem);
+}
+.service-overview>p,.pricing-section>.section-note,.service-features>p{
+  margin:0;
+}
+.service-overview>p+p{margin-top:12px}
+.section-note{margin:16px 0 0!important;font-size:.88rem}
+
+/* ---------- 4. Hero gelap: teks terang, kontras aman -------------------- */
+.service-hero{
+  background:linear-gradient(135deg,var(--color-primary-dark) 0%,var(--color-primary) 62%,var(--color-accent) 100%)!important;
+  background-image:linear-gradient(135deg,var(--color-primary-dark) 0%,var(--color-primary) 62%,var(--color-accent) 100%)!important;
+  color:#fff!important;
+  border-color:transparent;
+}
+/* Paksa semua teks di dalam hero terang, termasuk paragraf, lead, list, dan
+   elemen yang di-wrap <a>/<strong>. */
+.service-hero,.service-hero *:not(.btn):not(.btn-large){
+  color:#fff!important;
+  border-color:rgba(255,255,255,.28);
+}
+.service-hero .lead,.service-hero .service-icon{opacity:.94}
+.service-hero .btn-large{color:var(--color-primary)!important;background:#fff!important}
+
+/* ---------- 5. Grid kartu: mendatar di desktop, bertumpuk di mobile ------ */
+.benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:22px 0 0}
+.benefit-card{display:flex;flex-direction:column;gap:6px;padding:22px 20px;text-align:center;align-items:center}
+.benefit-icon{font-size:2.1rem;line-height:1}
+.benefit-card h3{margin:6px 0 0;font-size:1rem}
+.benefit-card p{margin:0;font-size:.88rem}
+
+.features-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px 0 0}
+.feature-item{
+  display:flex;align-items:center;
+  padding:14px 18px;font-size:.92rem;line-height:1.5;
+  background:var(--color-background)!important;
+  border:1px solid var(--color-border);
+}
+
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:20px 0 0;align-items:stretch}
+.pricing-card{display:flex;flex-direction:column;margin:0;padding:24px 22px}
+.pricing-card .pricing-features{flex:1}
+.pricing-card .btn,.pricing-card .btn-large{margin-top:18px}
+.pricing-card.featured{display:flex;flex-direction:column}
+.pricing-card.featured .badge{
+  position:absolute;top:14px;right:14px;
+  padding:5px 12px;border-radius:999px;font-size:.66rem;font-weight:800;
+  letter-spacing:.08em;text-transform:uppercase;
+}
+.pricing-card.featured{padding-top:34px}
+
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:20px 0 0}
+.timeline-item{padding:20px 14px;background:var(--color-background);border:1px solid var(--color-border);
+  border-radius:var(--radius-md);text-align:center}
+.timeline-item h4{margin:12px 0 6px;font-size:.98rem;color:var(--color-primary-dark)}
+.timeline-item p{margin:0;font-size:.85rem;color:var(--color-text-muted)}
+.timeline-number{width:42px;height:42px;font-size:.95rem}
+
+/* Halaman /layanan/ (tab paket): 1 baris di desktop. */
+.price-table-row{display:grid;gap:18px;margin:22px 0 0}
+.price-table-row.row-3{grid-template-columns:repeat(3,1fr)}
+.price-table-row.row-4{grid-template-columns:repeat(4,1fr)}
+.price-table-row .package-card{display:flex;flex-direction:column;margin-bottom:0}
+.price-table-row .package-card ul{flex:1}
+.price-table-row .package-card .btn,.price-table-row .package-card .primary{margin-top:auto}
+.service-tabs{gap:10px;margin-bottom:26px}
+.service-tab{padding:12px 20px;font-size:.9rem}
+.feature-grid{grid-template-columns:repeat(4,1fr);margin-top:22px}
+
+/* ---------- 5b. Blok tambahan halaman layanan (stats/metrics/tech/dll) --- */
+.stats-section,.metrics-section,.tech-section,.campaign-types,
+.platform-section,.faq-section{
+  margin:0 0 var(--spacing-md);
+  padding:clamp(24px,3.2vw,40px);
+  background:#fff;
+  border:1px solid var(--color-border);
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow-sm);
+}
+.stats-section h2,.metrics-section h2,.tech-section h2,.campaign-types h2,
+.platform-section h2,.faq-section h2{margin:0 0 16px;font-size:clamp(1.35rem,2.2vw,1.8rem)}
+.stats-section{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%);
+  border-color:transparent}
+.stats-section h2{color:#fff}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:18px}
+.stat-item{text-align:center;color:#fff}
+.stat-number{font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:800;letter-spacing:-.02em;color:#fff}
+.stat-label{margin-top:4px;font-size:.86rem;opacity:.92}
+
+.metrics-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.metric-item{display:flex;flex-direction:column;gap:6px;padding:20px;background:var(--color-background);
+  border:1px solid var(--color-border);border-radius:var(--radius-md)}
+.metric-icon{font-size:1.5rem}
+.metric-item strong{font-size:.98rem;color:var(--color-primary-dark)}
+.metric-item p{margin:0;font-size:.86rem;color:var(--color-text-muted)}
+
+.tech-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:18px}
+.tech-item{display:flex;flex-direction:column;gap:6px;align-items:center;text-align:center;
+  padding:20px 16px;background:var(--color-background);border:1px solid var(--color-border);
+  border-radius:var(--radius-md)}
+.tech-icon{font-size:1.7rem}
+.tech-item strong,.tech-item h3{margin:0;font-size:.95rem;color:var(--color-primary-dark)}
+.tech-item p{margin:0;font-size:.84rem;color:var(--color-text-muted)}
+
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0 0}
+.feature-category{display:flex;flex-direction:column;padding:22px 20px;background:#fff;
+  border:1px solid var(--color-border);border-radius:var(--radius-md);box-shadow:var(--shadow-sm)}
+.feature-category h3{margin:0 0 10px;font-size:1.02rem;color:var(--color-primary)}
+.feature-category ul{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.feature-category li{padding-left:18px;font-size:.9rem;color:var(--color-text-muted);position:relative}
+.feature-category li:before{position:absolute;left:0;content:"✓";color:var(--color-primary);font-weight:800}
+
+.campaign-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0 0}
+.campaign-card{display:flex;flex-direction:column;padding:22px 20px;background:#fff;
+  border:1px solid var(--color-border);border-radius:var(--radius-md);box-shadow:var(--shadow-sm);
+  transition:transform .2s,box-shadow .2s}
+.campaign-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.campaign-icon{font-size:1.7rem}
+.campaign-card h3{margin:10px 0 6px;font-size:1.05rem;color:var(--color-primary-dark)}
+.campaign-card p{margin:0 0 10px;font-size:.89rem;color:var(--color-text-muted)}
+.campaign-card ul{display:grid;gap:7px;margin:0;padding:0;list-style:none}
+.campaign-card li{padding-left:18px;font-size:.87rem;color:var(--color-text-muted);position:relative}
+.campaign-card li:before{position:absolute;left:0;content:"✓";color:var(--color-primary);font-weight:800}
+
+.campaign-objectives{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0 0}
+.objective-card{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;
+  padding:24px 18px;color:#fff;background:linear-gradient(140deg,var(--color-primary-dark),var(--color-primary));
+  border-radius:var(--radius-md)}
+.objective-icon{font-size:1.7rem}
+.objective-card h3{margin:0;font-size:1rem;color:#fff}
+.objective-card p{margin:0;font-size:.84rem;color:rgba(255,255,255,.9)}
+
+.platform-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0 0}
+.platform-card{display:flex;flex-direction:column;padding:22px 20px;background:#fff;
+  border:1px solid var(--color-border);border-top:4px solid var(--color-primary);
+  border-radius:var(--radius-md);box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s}
+.platform-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.platform-card h3{margin:0 0 8px;font-size:1.05rem;color:var(--color-primary-dark)}
+.platform-card p{margin:0 0 10px;font-size:.89rem;color:var(--color-text-muted)}
+.platform-card ul{display:grid;gap:7px;margin:0;padding:0;list-style:none}
+.platform-card li{padding-left:18px;font-size:.87rem;color:var(--color-text-muted);position:relative}
+.platform-card li:before{position:absolute;left:0;content:"✓";color:var(--color-primary);font-weight:800}
+.platform-icon{font-size:1.9rem;margin-bottom:8px}
+
+.faq-section .faq-item{background:var(--color-background)}
+.faq-item{padding:20px 22px;margin-bottom:12px}
+.faq-item:last-child{margin-bottom:0}
+.faq-item h4{margin:0 0 6px;font-size:1rem;color:var(--color-primary-dark)}
+.faq-item p{margin:0;font-size:.92rem;color:var(--color-text-muted)}
+
+.service-detail-page .btn-large{margin-top:18px}
+.service-detail-page .cta-section p{max-width:720px;margin:0 auto}
+
+/* ---------- 6. Halaman produk: margin dalam seragam ---------------------- */
+.product-page{padding-bottom:clamp(40px,6vw,80px)}
+.product-page .product-hero{margin-bottom:var(--spacing-md)}
+.product-page .product-intro,
+.product-page .product-section,
+.product-page .product-flow,
+.product-page .product-proof{margin-bottom:var(--spacing-md)}
+.product-page .product-proof{padding:clamp(28px,4.6vw,54px)}
+.product-index-hero{padding-bottom:clamp(28px,4vw,44px)}
+.product-index-card h2{font-size:clamp(1.9rem,2.6vw,2.2rem)}
+
+/* ---------- 7. Halaman portfolio & artikel: jarak antar blok ----------- */
+.portfolio-grid-2{margin-bottom:var(--spacing-md)}
+.content-wrap+.content-wrap{margin-top:0}
+.page-hero{margin-bottom:clamp(26px,3.4vw,38px)}
+
+/* ---------- 8. Halaman artikel SEO (/jasa/*) dan hub /artikel/ ----------- */
+.seo-article{max-width:900px;margin:0 auto}
+.crumbs{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 22px;
+  font-size:.8rem;color:var(--color-text-muted)}
+.crumbs a{color:var(--color-primary);font-weight:700;text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+
+.seo-head{padding:0 0 clamp(22px,3vw,32px);border-bottom:1px solid var(--color-border);margin-bottom:clamp(24px,3.4vw,34px)}
+.seo-badges{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.seo-badge{display:inline-flex;align-items:center;padding:6px 13px;border-radius:999px;
+  background:var(--color-primary-light);color:var(--color-primary-dark);
+  font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
+.seo-badge-city{background:var(--color-primary);color:#fff}
+.seo-head h1{margin:0;font-size:clamp(1.95rem,3.8vw,3rem);line-height:1.1;
+  letter-spacing:-.03em;font-weight:800}
+.seo-lead{margin:16px 0 0;max-width:44rem;color:var(--color-text-muted);font-size:1.02rem;line-height:1.7}
+.seo-head-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.seo-meta{margin:18px 0 0;font-size:.78rem;color:var(--color-text-muted)}
+
+.seo-body{line-height:1.8}
+.seo-body h2{margin:clamp(32px,4vw,46px) 0 14px;font-size:clamp(1.35rem,2.3vw,1.8rem);
+  font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.seo-body h3{margin:26px 0 10px;font-size:1.1rem;font-weight:800;color:var(--color-primary-dark)}
+.seo-body p{margin:0 0 16px;color:#463539}
+.seo-body ul,.seo-body ol{margin:0 0 18px;padding-left:22px}
+.seo-body li{margin-bottom:8px;color:#463539}
+.seo-body a{color:var(--color-primary);font-weight:700}
+.seo-body blockquote{margin:24px 0;padding:18px 22px;border-left:4px solid var(--color-primary);
+  background:var(--color-background);border-radius:0 var(--radius-md) var(--radius-md) 0}
+.seo-body blockquote p{margin:0;color:var(--color-text-muted);font-size:.92rem}
+.seo-body strong{color:var(--color-text)}
+
+.seo-cta{margin:clamp(34px,4vw,48px) 0 0;padding:clamp(24px,3.6vw,38px);
+  color:#fff;border-radius:var(--radius-lg);
+  background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%)}
+.seo-cta h2{margin:0 0 10px;color:#fff;font-size:clamp(1.3rem,2.2vw,1.7rem);font-weight:800}
+.seo-cta p{margin:0 0 20px;color:rgba(255,255,255,.92);font-size:.95rem}
+.seo-cta .btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}
+
+.seo-related,.seo-siblings{margin:clamp(30px,4vw,44px) 0 0}
+.seo-related h2,.seo-siblings h2{margin:0 0 14px;font-size:1.15rem;font-weight:800;letter-spacing:-.02em}
+.seo-related ul,.seo-siblings ul{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.seo-related a,.seo-siblings a{display:block;padding:13px 18px;background:#fff;
+  border:1px solid var(--color-border);border-radius:var(--radius-md);
+  color:var(--color-primary-dark);font-weight:700;font-size:.92rem;text-decoration:none;
+  transition:border-color .2s,transform .2s}
+.seo-related a:hover,.seo-siblings a:hover{border-color:var(--color-primary);transform:translateX(3px)}
+.seo-siblings ul{grid-template-columns:repeat(2,1fr)}
+.seo-hub-list{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.seo-hub-list li{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+  padding:13px 18px;background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md)}
+.seo-hub-list a{color:var(--color-primary-dark);font-weight:700;font-size:.92rem;text-decoration:none}
+.seo-hub-list a:hover{color:var(--color-primary)}
+.seo-hub-city{font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--color-text-muted)}
+.seo-hub-group{margin-bottom:clamp(30px,4vw,44px)}
+.seo-hub-group h2{margin:0 0 6px;font-size:1.25rem;letter-spacing:-.02em}
+.seo-hub-note{margin:0 0 16px;color:var(--color-text-muted);font-size:.88rem}
+.seo-hub-cta{margin-top:36px;padding:clamp(24px,3.6vw,38px);text-align:center;
+  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
+.seo-hub-cta h2{margin:0 0 10px}
+.seo-hub-cta p{max-width:640px;margin:0 auto 20px;color:var(--color-text-muted)}
+.seo-hub-cta .hero-actions{justify-content:center}
+.page-intro{margin:0 0 clamp(28px,4vw,40px);color:var(--color-text-muted)}
+
+/* ---------- 8b. Kartukota di beranda ------------------------------------- */
+.kota-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.kota-card{position:relative;display:flex;flex-direction:column;gap:6px;padding:20px 18px;
+  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-md);
+  box-shadow:var(--shadow-sm);text-decoration:none;transition:transform .2s,box-shadow .2s,border-color .2s}
+.kota-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);border-color:var(--color-primary)}
+.kota-card small{font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--color-primary)}
+.kota-card strong{font-size:.94rem;line-height:1.35;color:var(--color-primary-dark)}
+.kota-arrow{margin-top:auto;padding-top:10px;color:var(--color-primary);font-weight:800}
+.kota-tail{margin-top:30px;text-align:center}
+.kota-tail p{max-width:760px;margin:0 auto 20px;color:var(--color-text-muted)}
+
+/* ---------- 9. Breakpoints: kartu turun berurutan, satu per baris -------- */
+@media(max-width:1080px){
+  .kota-grid{grid-template-columns:repeat(3,1fr)}
+  .benefits-grid,.timeline,.feature-grid{grid-template-columns:repeat(2,1fr)}
+  .tech-grid,.campaign-objectives,.platform-grid,.stats-grid{grid-template-columns:repeat(2,1fr)}
+  .metrics-grid,.features-grid,.campaign-grid{grid-template-columns:repeat(2,1fr)}
+  .price-table-row.row-4{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .pricing-grid,.price-table-row.row-3{grid-template-columns:1fr}
+  .price-table-row.row-4{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .benefits-grid,.features-list,.timeline,.feature-grid,.tech-grid,
+  .campaign-objectives,.platform-grid,.stats-grid,.metrics-grid,
+  .features-grid,.campaign-grid,.price-table-row.row-3,.price-table-row.row-4{grid-template-columns:1fr}
+  .kota-grid{grid-template-columns:repeat(2,1fr)}
+  .seo-siblings ul{grid-template-columns:1fr}
+  .service-hero{padding:30px 18px}
+  .site-main{padding-inline:16px}
+  .pricing-card.featured{padding-top:32px}
+  .objective-card{padding:20px 16px}
+}

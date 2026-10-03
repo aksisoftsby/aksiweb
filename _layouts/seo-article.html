@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<article class="seo-article">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Beranda</a>
+    <span aria-hidden="true">›</span>
+    <a href="{{ '/artikel/' | relative_url }}">Artikel</a>
+    <span aria-hidden="true">›</span>
+    <span>{{ page.city }}</span>
+  </nav>
+
+  <header class="seo-head">
+    <p class="seo-badges">
+      <span class="seo-badge seo-badge-city">{{ page.city }}{% if page.province %}, {{ page.province }}{% endif %}</span>
+      <span class="seo-badge">{{ page.service_label }}</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="seo-lead">{{ page.description }}</p>
+    <div class="seo-head-actions">
+      <a class="btn btn-primary" href="{{ page.cta_url | relative_url }}">{{ page.cta_text }} <span aria-hidden="true">→</span></a>
+      <a class="btn btn-outline" href="{{ '/kontak/' | relative_url }}">Konsultasi Gratis</a>
+    </div>
+    <p class="seo-meta">Diperbarui berkala · Dipublikasikan oleh tim Aksisoft Media</p>
+  </header>
+
+  <div class="seo-body">
+    {{ content }}
+  </div>
+
+  <aside class="seo-cta">
+    <h2>Butuh {{ page.service_short }} di {{ page.city }}?</h2>
+    <p>Konsultasikan kebutuhan Anda. Kami preparescop, timeline, dan estimasi biaya yang transparan sebelum pekerjaan dimulai.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/kontak/' | relative_url }}">Hubungi Kami</a>
+      <a class="btn btn-outline" href="{{ '/layanan/' | relative_url }}">Lihat Semua Layanan</a>
+    </div>
+  </aside>
+
+  <section class="seo-related">
+    <h2>Layanan terkait</h2>
+    <ul>
+      {% for l in page.related_services %}
+      <li><a href="{{ l.url | relative_url }}">{{ l.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <nav class="seo-siblings" aria-label="Artikel kota lain">
+    <h2>Artikel serupa di kota lain</h2>
+    <ul>
+      {% for s in page.siblings limit: 12 %}
+      <li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "serviceType": {{ page.service_label | jsonify }},
+  "areaServed": { "@type": "City", "name": {{ page.city | jsonify }} },
+  "provider": {
+    "@type": "Organization",
+    "name": "Aksisoft Media",
+    "url": {{ site.url | append: '/' | jsonify }},
+    "telephone": "+62-813-3520-6389",
+    "address": { "@type": "PostalAddress", "addressLocality": "Surabaya", "addressCountry": "ID" }
+  }
+}
+</script>
+{% if page.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for q in page.faq %}
+    {
+      "@type": "Question",
+      "name": {{ q.q | jsonify }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ q.a | jsonify }} }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

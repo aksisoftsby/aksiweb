@@ -5,7 +5,12 @@
   background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
   box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,38px);margin-bottom:22px}
 .service-hero h1{letter-spacing:-.025em}
-.service-hero .lead{color:var(--color-text-muted)}
+/* Hero layanan memakai gradient gelap dari inline style tiap halaman,
+   jadi seluruh teksnya harus terang agar tetap terbaca. */
+.service-hero,.service-hero h1,.service-hero h2,.service-hero h3,
+.service-hero .lead,.service-hero p,.service-hero .service-icon{color:#fff!important}
+.service-hero .lead{color:rgba(255,255,255,.92)!important}
+.service-overview h2,.service-features h2,.pricing-section h2,.process-section h2{color:var(--color-primary-dark)}
 .benefits-grid,.features-grid,.campaign-grid,.platform-grid,.tech-grid{margin-top:18px}
 .benefit-card,.campaign-card,.platform-card,.tech-item,.feature-category,.metric-item{background:#fff!important;
   border:1px solid var(--color-border)!important;border-radius:var(--radius-md)!important;
@@ -19,18 +24,27 @@
 .price{color:var(--color-primary)!important}
 .cta-section,.stats-section{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%)!important;
   color:#fff!important;border-radius:var(--radius-lg)!important}
-.cta-section h2{color:#fff!important}
+.cta-section h2,.cta-section p{color:#fff!important}
 .btn-large{background:#fff!important;color:var(--color-primary)!important}
 .faq-item{background:#fff!important;border:1px solid var(--color-border);border-radius:var(--radius-md)!important}
 .faq-item h4{color:var(--color-primary)!important}
 .feature-item{background:var(--color-primary-light)!important;border-radius:10px!important}
+
 /* Bagian 4b: samakan produk + katalog ke design system baru */
 .product-page{padding-bottom:4rem}
-.product-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);align-items:center;
-  padding:clamp(24px,4vw,48px) 0;background:#fff;border:1px solid var(--color-border);
+.product-page .product-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,64px);align-items:center;
+  padding:clamp(24px,4vw,48px) 0;background:#fff!important;background-color:#fff!important;background-image:none!important;color:#171114!important;border:1px solid var(--color-border);
   border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding-inline:clamp(22px,4vw,44px);margin-bottom:24px}
-.product-hero h1{letter-spacing:-.025em;line-height:1.08;font-size:clamp(1.9rem,3.6vw,2.9rem)}
-.product-hero-visual{margin:0;overflow:hidden;border-radius:var(--radius-md);border:1px solid var(--color-border)}
+.product-page .product-hero *{color:inherit}
+.product-page .product-hero .eyebrow{color:var(--color-primary)!important}
+.product-page .product-hero h1,.product-page .product-hero .product-wordmark strong{color:#171114!important}
+.product-page .product-hero .product-summary{color:#6f5d62!important}
+.product-page .product-hero .product-initial{color:#fff!important}
+.product-page .product-hero .product-live-link{color:var(--color-primary)!important}
+.product-page .product-hero .product-live-link *{color:inherit}
+.product-page .product-hero .product-btn{color:#fff!important;background:var(--color-primary)!important;border-color:var(--color-primary)!important}
+.product-page .product-hero .product-btn *{color:#fff!important}
+.product-hero-visual{margin:0;overflow:hidden;border-radius:var(--radius-md);border:1px solid var(--color-border);background:#fff!important}
 .product-hero-visual img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
 .product-intro,.product-section,.product-flow,.product-proof{background:#fff;border:1px solid var(--color-border);
   border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,40px);margin-bottom:22px}
@@ -69,31 +83,43 @@
 .btn:not(.btn-primary):not(.btn-outline):not(.btn-white):not(.btn-ghostlight):not(.btn-light){
   display:inline-flex;align-items:center;gap:8px;border:1px solid var(--color-border);background:#fff;
   color:var(--color-primary-dark);font-weight:700;text-decoration:none;padding:12px 24px;border-radius:999px}
-@media(max-width:900px){.product-hero,.product-feature-grid,.product-package-grid,.product-index-grid{grid-template-columns:1fr}
+
+@media(max-width:900px){.product-page .product-hero,.product-feature-grid,.product-package-grid,.product-index-grid{grid-template-columns:1fr}
   .feature-grid-six{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.feature-grid-six{grid-template-columns:1fr}.product-hero{padding:22px 18px}}
-.container{max-width:var(--container-width);margin:0 auto;padding-inline:clamp(18px,4vw,32px)}
-.service-detail-page{max-width:var(--container-width);margin:0 auto}
-.service-hero,.service-overview,.service-features,.pricing-section,.campaign-types,.platform-section{
-  background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-lg);
-  box-shadow:var(--shadow-sm);padding:clamp(22px,4vw,38px);margin-bottom:22px}
-.service-hero h1{letter-spacing:-.025em}
-.service-hero .lead{color:var(--color-text-muted)}
-.benefits-grid,.features-grid,.campaign-grid,.platform-grid,.tech-grid{margin-top:18px}
-.benefit-card,.campaign-card,.platform-card,.tech-item,.feature-category,.metric-item{background:#fff!important;
-  border:1px solid var(--color-border)!important;border-radius:var(--radius-md)!important;
-  box-shadow:var(--shadow-sm);padding:20px}
-.benefit-card h3,.campaign-card h3,.platform-card h3{color:var(--color-primary-dark)!important}
-.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
-.pricing-card{background:#fff!important;border:1px solid var(--color-border)!important;
-  border-radius:var(--radius-lg)!important;box-shadow:var(--shadow-sm)}
-.pricing-card.featured{border:2px solid var(--color-primary)!important;box-shadow:var(--shadow-md)!important}
-.pricing-card .badge,.timeline-number{background:var(--color-primary)!important;color:#fff!important}
-.price{color:var(--color-primary)!important}
-.cta-section,.stats-section{background:linear-gradient(120deg,var(--color-primary-dark),var(--color-primary) 70%)!important;
-  color:#fff!important;border-radius:var(--radius-lg)!important}
-.cta-section h2{color:#fff!important}
-.btn-large{background:#fff!important;color:var(--color-primary)!important}
-.faq-item{background:#fff!important;border:1px solid var(--color-border);border-radius:var(--radius-md)!important}
-.faq-item h4{color:var(--color-primary)!important}
-.feature-item{background:var(--color-primary-light)!important;border-radius:10px!important}
+@media(max-width:620px){.feature-grid-six{grid-template-columns:1fr}.product-page .product-hero{padding:22px 18px}}
+
+/* ===================== Portfolio (halaman + index) ===================== */
+/* Kartu screenshot: 1 kolom di mobile, 2 kolom di layar lebar. */
+.portfolio-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin:0 0 8px}
+.portfolio-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.portfolio-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--color-border);
+  border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);transition:transform .24s,box-shadow .24s}
+.portfolio-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md)}
+.portfolio-card .eyebrow{font-size:.68rem;margin:0}
+.portfolio-shot{display:block;aspect-ratio:16/10;overflow:hidden;background:#f6e8ea;border-bottom:1px solid var(--color-border)}
+.portfolio-shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;transition:transform .35s ease}
+.portfolio-card:hover .portfolio-shot img{transform:scale(1.03)}
+.portfolio-shot-fallback{display:grid;place-items:center;height:100%;min-height:170px;padding:22px;text-align:center;
+  background:linear-gradient(135deg,#fbdfe4,#f7f0f0);color:var(--color-primary-dark);font-weight:800;font-size:.9rem}
+.portfolio-card-body{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.portfolio-card-body h3{margin:0;font-size:1.15rem;letter-spacing:-.01em}
+.portfolio-card-body h3 a{text-decoration:none}
+.portfolio-card-body h3 a:hover{color:var(--color-primary)}
+.portfolio-card-body p{margin:0;color:var(--color-text-muted);font-size:.9rem;flex:1}
+.portfolio-card-actions{display:flex;gap:18px;flex-wrap:wrap;margin-top:6px}
+
+/* ===================== Layanan: pricing table 1 baris ===================== */
+/* Di desktop, kartu paket ditampilkan sejajar (1 baris). Di mobile tetap ke bawah. */
+.price-table-row{display:grid;gap:18px;margin-top:18px}
+.price-table-row.row-3{grid-template-columns:repeat(3,1fr)}
+.price-table-row.row-4{grid-template-columns:repeat(4,1fr)}
+.price-table-row .package-card{margin-bottom:0;display:flex;flex-direction:column}
+.price-table-row .package-card .btn{margin-top:auto}
+.price-table-row .package-card ul{flex:1}
+@media(max-width:900px){
+  .price-table-row.row-3,.price-table-row.row-4{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:620px){
+  .price-table-row.row-3,.price-table-row.row-4{grid-template-columns:1fr}
+  .portfolio-grid-2,.portfolio-product-grid{grid-template-columns:1fr}
+}

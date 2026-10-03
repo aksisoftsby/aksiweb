@@ -42,6 +42,7 @@ permalink: /layanan/
   <h2>Jasa Pembuatan Website Static</h2>
   <p>Website static cocok untuk landing page, company profile, dan portofolio. Cepat, aman, dan SEO-friendly.</p>
   
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket Basic</h4>
     <div class="price">Rp 1.500.000</div>
@@ -87,6 +88,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
   </div>
+  </div>
 </div>
 
 <!-- Website News Dynamic -->
@@ -94,6 +96,7 @@ permalink: /layanan/
   <h2>Jasa Pembuatan Website News Dynamic</h2>
   <p>Website berita dinamis dengan CMS untuk manajemen konten mudah. Cocok untuk portal berita, majalah online, dan blog korporat.</p>
   
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket News Basic</h4>
     <div class="price">Rp 4.500.000</div>
@@ -145,6 +148,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
   </div>
+  </div>
 </div>
 
 <!-- Edit Video -->
@@ -152,6 +156,7 @@ permalink: /layanan/
   <h2>Jasa Edit Video Profesional</h2>
   <p>Ubah footage menjadi video yang menarik untuk Reels, TikTok, iklan, hingga company profile. Cocok untuk bisnis yang aktif membuat konten.</p>
 
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket Reels / Shorts</h4>
     <div class="price">{{ site.service_prices.video_short }}</div>
@@ -196,6 +201,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/?subject=Paket%20Edit%20Video%20Company%20Profile" class="btn primary">Pilih Paket</a>
   </div>
+  </div>
 
   <div class="feature-grid">
     <div class="feature-item">
@@ -224,6 +230,7 @@ permalink: /layanan/
   <h2>Jasa Pembuatan Aplikasi Custom & Android</h2>
   <p>Bangun aplikasi yang mengikuti cara bisnis Anda bekerja. Tersedia pengembangan aplikasi custom (web/dashboard) maupun aplikasi Android.</p>
 
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Custom App MVP</h4>
     <div class="price">{{ site.service_prices.custom_app }}</div>
@@ -268,6 +275,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/?subject=Konsultasi%20Pengembangan%20Aplikasi" class="btn primary">Minta Estimasi</a>
   </div>
+  </div>
   <p><em>Belum termasuk biaya server/cloud, domain, akun Google Play, layanan API berbayar, lisensi, dan pemeliharaan. Fitur di luar ruang lingkup akan diestimasi sebelum dikerjakan.</em></p>
   <p><a href="/layanan/aplikasi-custom-android/" class="btn primary">Lihat Detail Layanan</a></p>
 </div>
@@ -277,6 +285,7 @@ permalink: /layanan/
   <h2>Jasa Email Marketing Profesional</h2>
   <p>Ubah daftar kontak menjadi pelanggan setia dengan newsletter, penawaran khusus, dan rangkaian email otomatis yang tepat sasaran.</p>
 
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket Setup &amp; Starter</h4>
     <div class="price">{{ site.service_prices.email_starter }}</div>
@@ -321,6 +330,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/?subject=Paket%20Email%20Marketing%20Enterprise" class="btn primary">Pilih Paket</a>
   </div>
+  </div>
 
   <div class="feature-grid">
     <div class="feature-item">
@@ -349,6 +359,7 @@ permalink: /layanan/
   <h2>Jasa Google Ads</h2>
   <p>Tingkatkan visibilitas bisnis Anda di hasil pencarian Google dengan kampanye iklan yang teroptimasi.</p>
   
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket Starter</h4>
     <div class="price">Rp 2.000.000 / bulan</div>
@@ -398,6 +409,7 @@ permalink: /layanan/
     </ul>
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
   </div>
+  </div>
   
   <div class="feature-grid">
     <div class="feature-item">
@@ -424,6 +436,7 @@ permalink: /layanan/
   <h2>Jasa Social Media Ads</h2>
   <p>Jangkau jutaan pengguna aktif di platform sosial media favorit mereka dengan iklan yang engaging.</p>
   
+  <div class="price-table-row row-3">
   <div class="package-card">
     <h4>Paket Facebook & Instagram</h4>
     <div class="price">Rp 2.500.000 / bulan</div>
@@ -473,6 +486,7 @@ permalink: /layanan/
       <li>*Belum termasuk budget iklan</li>
     </ul>
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
+  </div>
   </div>
   
   <div class="feature-grid">

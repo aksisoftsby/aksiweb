@@ -7,6 +7,7 @@ product_key: pos
 product_name: AksiSoft POS
 product_initial: P
 product_label: Retail operations platform
+product_order: 3
 eyebrow: Produk / AksiSoft POS
 product_domain: pos.aksisoft.web.id
 product_url: https://pos.aksisoft.web.id

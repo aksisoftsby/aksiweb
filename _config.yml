@@ -33,6 +33,12 @@ collections:
   websites:
     output: true
     permalink: /website/:name/
+  articles:
+    output: true
+    permalink: /artikel/:name/
+  seo_articles:
+    output: true
+    permalink: /jasa/:name/
 
 nav:
   - title: Beranda
@@ -71,10 +77,10 @@ nav:
         url: /produk/muslimhub/
       - title: Aksisoft AI Chat
         url: /produk/ai-chat/
-  - title: MuslimHub
-    url: /produk/muslimhub/
   - title: Portfolio
     url: /portfolio/
+  - title: Layanan per Kota
+    url: /artikel/
   - title: Template
     url: /website/
   - title: Blog
@@ -108,5 +114,11 @@ exclude:
   - vendor
   - generate.js
   - generate.bat
+  - generate-seo-articles.js
   - GENERATOR-README.md
+  - website-redesign.md
   - convert-muslimhub-poster.ps1
+  - prompt.txt
+  - template-reference.png
+  - _qc_page1.png
+  - .marker.txt

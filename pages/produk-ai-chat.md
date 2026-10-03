@@ -7,6 +7,7 @@ product_key: aichat
 product_name: Aksisoft AI Chat
 product_initial: AI
 product_label: Platform Percakapan AI Gratis
+product_order: 6
 eyebrow: Produk / Aksisoft AI Chat
 product_domain: ai.aksisoft.web.id
 product_url: https://ai.aksisoft.web.id

@@ -90,7 +90,7 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
   <div class="rd-container rd-datastrip-inner">
     <div class="rd-data"><strong>{{ site.portfolio.size }}+</strong><span>Proyek Portfolio</span></div>
     <div class="rd-data"><strong>{{ site.websites.size }}+</strong><span>Template Website</span></div>
-    <div class="rd-data"><strong>{{ site.posts.size }}+</strong><span>Artikel Blog</span></div>
+    <div class="rd-data"><strong>{{ site.seo_articles.size }}+</strong><span>Halaman Kota</span></div>
     <div class="rd-data"><strong>7</strong><span>Layanan Unggulan</span></div>
   </div>
 </section>
@@ -110,11 +110,34 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
       {% assign sorted_portfolio = site.portfolio | sort: 'order' %}
       {% for item in sorted_portfolio limit: 4 %}
       <article class="rd-pf-card">
-        <div class="rd-pf-thumb" aria-hidden="true"><span class="rd-pf-empty">{{ item.title }}</span></div>
+        <a class="rd-pf-thumb" href="{{ item.url | relative_url }}">
+          {% if item.image %}
+          <img src="{{ item.image | relative_url }}" alt="Screenshot {{ item.title }}" loading="lazy" decoding="async">
+          {% else %}
+          <span class="rd-pf-empty">{{ item.title }}</span>
+          {% endif %}
+        </a>
         <div class="rd-pf-body">
           <small>{{ item.category }}</small>
           <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
           <p>{{ item.description | truncate: 90 }}</p>
+        </div>
+      </article>
+      {% endfor %}
+      {% assign featured_products = site.pages | where: 'layout', 'product' | sort: 'product_order' %}
+      {% for product in featured_products limit: 2 %}
+      <article class="rd-pf-card">
+        <a class="rd-pf-thumb" href="{{ product.url | relative_url }}">
+          {% if product.hero_image %}
+          <img src="{{ product.hero_image | relative_url }}" alt="Screenshot {{ product.product_name }}" loading="lazy" decoding="async">
+          {% else %}
+          <span class="rd-pf-empty">{{ product.product_name }}</span>
+          {% endif %}
+        </a>
+        <div class="rd-pf-body">
+          <small>Produk</small>
+          <h3><a href="{{ product.url | relative_url }}">{{ product.product_name }}</a></h3>
+          <p>{{ product.description | truncate: 90 }}</p>
         </div>
       </article>
       {% endfor %}
@@ -164,6 +187,73 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
     </div>
     <div class="rd-center">
       <a class="btn btn-outline" href="{{ '/blog/' | relative_url }}">Lihat Semua Artikel →</a>
+    </div>
+  </div>
+</section>
+
+<section class="rd-section reveal-section" id="kota">
+  <div class="rd-container">
+    <div class="rd-heading">
+      <p class="rd-label">LAYANAN PER KOTA</p>
+      <h2>Jasa Digital di <span class="hl">Kota-Kota Besar Jawa &amp; Bali</span></h2>
+      <p>Setiap kota punya konteks bisnis sendiri. Kami sajikan layanan per wilayah agar mudah dibaca dan langsung ditindaklanjuti.</p>
+    </div>
+
+    {% assign kota_surat = site.seo_articles | where: "city", "Surabaya" %}
+    {% assign kota_jakarta = site.seo_articles | where: "city", "Jakarta" %}
+    {% assign kota_bandung = site.seo_articles | where: "city", "Bandung" %}
+    {% assign kota_semarang = site.seo_articles | where: "city", "Semarang" %}
+    {% assign kota_denpasar = site.seo_articles | where: "city", "Denpasar" %}
+    {% assign semua_kota = site.seo_articles | map: "city" | uniq %}
+
+    <div class="kota-grid">
+      {% for kota in kota_surat limit: 5 %}
+      <a class="kota-card" href="{{ kota.url | relative_url }}">
+        <small>Surabaya, Jawa Timur</small>
+        <strong>{{ kota.service_label }}</strong>
+        <span class="kota-arrow" aria-hidden="true">→</span>
+      </a>
+      {% endfor %}
+      {% for kota in kota_jakarta limit: 5 %}
+      <a class="kota-card" href="{{ kota.url | relative_url }}">
+        <small>Jakarta, DKI Jakarta</small>
+        <strong>{{ kota.service_label }}</strong>
+        <span class="kota-arrow" aria-hidden="true">→</span>
+      </a>
+      {% endfor %}
+      {% for kota in kota_bandung limit: 5 %}
+      <a class="kota-card" href="{{ kota.url | relative_url }}">
+        <small>Bandung, Jawa Barat</small>
+        <strong>{{ kota.service_label }}</strong>
+        <span class="kota-arrow" aria-hidden="true">→</span>
+      </a>
+      {% endfor %}
+      {% for kota in kota_semarang limit: 5 %}
+      <a class="kota-card" href="{{ kota.url | relative_url }}">
+        <small>Semarang, Jawa Tengah</small>
+        <strong>{{ kota.service_label }}</strong>
+        <span class="kota-arrow" aria-hidden="true">→</span>
+      </a>
+      {% endfor %}
+      {% for kota in kota_denpasar limit: 5 %}
+      <a class="kota-card" href="{{ kota.url | relative_url }}">
+        <small>Denpasar, Bali</small>
+        <strong>{{ kota.service_label }}</strong>
+        <span class="kota-arrow" aria-hidden="true">→</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="kota-tail">
+      <p>
+        Tersedia {{ site.seo_articles.size }} halaman layanan untuk
+        {% assign jumlah_kota = semua_kota | size %}
+        {{ jumlah_kota }} kota di Jawa dan Bali, termasuk
+        {{ semua_kota | join: ', ' }}.
+      </p>
+      <div class="hero-actions" style="justify-content:center">
+        <a class="btn btn-primary" href="{{ '/artikel/' | relative_url }}">Lihat Semua Halaman Kota →</a>
+      </div>
     </div>
   </div>
 </section>

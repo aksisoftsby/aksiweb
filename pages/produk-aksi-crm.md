@@ -7,6 +7,7 @@ product_key: crm
 product_name: Aksi CRM
 product_initial: A
 product_label: CRM & operasi pelanggan
+product_order: 2
 eyebrow: Produk / Aksi CRM
 product_domain: crm.aksisoft.web.id
 product_url: https://crm.aksisoft.web.id
