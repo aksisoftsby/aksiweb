@@ -8,8 +8,7 @@ permalink: /layanan/website-news-dynamic/
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero">
-      <div class="service-icon">📰</div>
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-news-dynamic-hero.jpg' | relative_url }}')">
       <h1>Jasa Pembuatan Website News Dynamic</h1>
       <p class="lead">Platform berita profesional dengan CMS canggih untuk manajemen konten mudah</p>
     </div>

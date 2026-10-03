@@ -8,8 +8,7 @@ permalink: /layanan/social-media-ads/
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero">
-      <div class="service-icon">📱</div>
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/social-media-ads-hero.jpg' | relative_url }}')">
       <h1>Jasa Social Media Ads</h1>
       <p class="lead">Maximize reach dan engagement dengan kampanye iklan media sosial yang kreatif dan terukur</p>
     </div>
