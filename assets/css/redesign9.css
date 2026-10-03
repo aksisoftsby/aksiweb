@@ -166,3 +166,43 @@
   .ebook-cover { max-width: 260px; }
 }
 
+/* ---------- 5. Hero berfoto: gambar asli di belakang teks ------------- */
+/* Dipakai halaman layanan yang punya foto hero sendiri (mis. Content Creator
+   Video). Gradien burgundy lama (redesign8.css) tetap jadi warna brand, tapi
+   dibuat dua lapis supaya fotonya benar-benar terlihat:
+     1. tint burgundy rata-rata yang ringan (.52/.42/.34) — mewarnai seluruh foto
+     2. radial-gradient gelap yang memusat di area teks — menjaga kontras
+   Hasil pengukuran pada foto hero + scrim ini: kontras teks putih minimum
+   9.5:1 (jauh di atas WCAG AA 4.5:1), sementara bagian luar foto tetap jelas.
+   Scrim rata (tanpa radial) sudah dicoba: agar teks lulus AA, opacity harus
+   .76+ dan fotonya nyaris hilang — itu masalah yang mau dihindari di sini.
+   Foto: Nubelson Fernandes (@nublson) — Unsplash, "Person editing video in dark
+   workspace" (unsplash.com/photos/person-editing-video-in-dark-workspace-ZdOsQiwp0Ss),
+   disimpan lokal di assets/img/video-creator-hero.jpg.
+   redesign8.css memakai !important, jadi override ini juga perlu !important. */
+.service-hero--photo {
+  background-image:
+    radial-gradient(120% 78% at 50% 62%,
+      rgba(58, 12, 25, .86) 0%,
+      rgba(58, 12, 25, .55) 52%,
+      rgba(58, 12, 25, 0) 100%),
+    linear-gradient(135deg,
+      rgba(58, 12, 25, .52) 0%,
+      rgba(116, 27, 53, .42) 55%,
+      rgba(143, 15, 34, .34) 100%),
+    var(--hero-photo) !important;
+  background-size: cover, cover, cover !important;
+  background-position: center, center, center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Bayangan teks: lapis pertama lebar & lembut untuk kontras massa, lapis
+   kedua rapat & pekat agar tepi huruf tetap tegas di atas area foto yang
+   terang. */
+.service-hero--photo h1,
+.service-hero--photo .lead {
+  text-shadow:
+    0 2px 10px rgba(0, 0, 0, .55),
+    0 1px 2px rgba(0, 0, 0, .75);
+}
+
