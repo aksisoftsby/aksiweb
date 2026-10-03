@@ -77,10 +77,10 @@ nav:
         url: /produk/muslimhub/
       - title: Aksisoft AI Chat
         url: /produk/ai-chat/
+      - title: Template Website
+        url: /website/
   - title: Portfolio
     url: /portfolio/
-  - title: Template
-    url: /website/
   - title: Blog
     url: /blog/
   - title: Tentang
