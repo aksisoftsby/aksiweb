@@ -30,7 +30,7 @@ permalink: /layanan/
 <div class="service-tabs">
   <button class="service-tab active" onclick="showService('static')">Website Static</button>
   <button class="service-tab" onclick="showService('dynamic')">Website News Dynamic</button>
-  <button class="service-tab" onclick="showService('video')">Edit Video</button>
+  <button class="service-tab" onclick="showService('video')">Content Creator Video</button>
   <button class="service-tab" onclick="showService('app')">Aplikasi Custom & Android</button>
   <button class="service-tab" onclick="showService('email')">Email Marketing</button>
   <button class="service-tab" onclick="showService('google-ads')">Google Ads</button>
@@ -151,9 +151,9 @@ permalink: /layanan/
   </div>
 </div>
 
-<!-- Edit Video -->
+<!-- Content Creator Video -->
 <div id="video" class="service-content">
-  <h2>Jasa Edit Video Profesional</h2>
+  <h2>Content Creator Video</h2>
   <p>Ubah footage menjadi video yang menarik untuk Reels, TikTok, iklan, hingga company profile. Cocok untuk bisnis yang aktif membuat konten.</p>
 
   <div class="price-table-row row-3">
