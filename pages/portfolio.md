@@ -34,7 +34,7 @@ permalink: /portfolio/
   <h2>Produk Aksisoft</h2>
   <p>Selain proyek klien, kami membangun produk digital sendiri yang digunakan publik. Berikut rangkaiannya.</p>
   <div class="portfolio-product-grid">
-    {% assign products = site.pages | where: 'layout', 'product' | sort: 'product_order' %}
+    {% assign products = site.collections.pages.docs | where: 'layout', 'product' | sort: 'product_order' %}
     {% for product in products %}
     <article class="portfolio-card">
       <a class="portfolio-shot" href="{{ product.url | relative_url }}">

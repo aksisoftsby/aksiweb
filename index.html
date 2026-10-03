@@ -124,7 +124,7 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
         </div>
       </article>
       {% endfor %}
-      {% assign featured_products = site.pages | where: 'layout', 'product' | sort: 'product_order' %}
+      {% assign featured_products = site.collections.pages.docs | where: 'layout', 'product' | sort: 'product_order' %}
       {% for product in featured_products limit: 2 %}
       <article class="rd-pf-card">
         <a class="rd-pf-thumb" href="{{ product.url | relative_url }}">
