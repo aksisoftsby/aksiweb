@@ -7,6 +7,7 @@ product_key: ridesip
 product_name: RideSip
 product_initial: R
 product_label: Superapp & layanan lokal
+product_order: 1
 eyebrow: Produk / RideSip
 product_domain: ridesip.my.id
 product_url: https://ridesip.my.id

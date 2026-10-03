@@ -14,6 +14,16 @@ Siap membuat website untuk bisnis Anda? Kami siap membantu mewujudkan ide Anda m
   </a>
 </div>
 
+### Company Profile
+
+Ingin mengenal Aksisoft lebih lanjut? Unduh company profile kami dalam format PDF.
+
+<div class="hero-actions" style="margin: 18px 0 30px;">
+  <a href="{{ '/assets/downloads/Aksisoft-Company-Profile.pdf' | relative_url }}" class="btn btn-outline" download>
+    Unduh Company Profile (PDF · 2,9 MB) ↓
+  </a>
+</div>
+
 ### Informasi Kontak Lainnya
 
 **Email:** aksisoftmedia@gmail.com  

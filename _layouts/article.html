@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <p class="eyebrow">Artikel</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="post-meta">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div class="article-cta">
+    <p><strong>Butuh bantuan mewujudkannya?</strong> Konsultasikan kebutuhan website, aplikasi, atau sistem digital Anda bersama Aksisoft.</p>
+    <div class="hero-actions">
+      <a href="{{ '/kontak/' | relative_url }}" class="btn btn-primary">Konsultasi Gratis</a>
+      <a href="{{ '/layanan/' | relative_url }}" class="btn btn-outline">Lihat Layanan</a>
+    </div>
+  </div>
+</article>

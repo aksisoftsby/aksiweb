@@ -7,6 +7,7 @@ product_key: muslimhub
 product_name: MuslimHub
 product_initial: M
 product_label: Portal ibadah & Al-Qur'an digital
+product_order: 5
 eyebrow: Produk / MuslimHub
 product_domain: muslimhub.aksisoftsby.workers.dev
 product_url: https://muslimhub.aksisoftsby.workers.dev
