@@ -9,15 +9,18 @@ permalink: /artikel/
 <p class="page-intro">
   Halaman di bawah adalah landing page per kata kunci dan per kota, bukan berita.
   Semua halaman menjelaskan layanan yang kami kerjakan di wilayah Jawa dan Bali,
-  lengkap dengan estimasi cara kerja, dan cara memesannya.
+  lengkap dengan estimasi biaya, cara kerja, dan cara memesannya.
 </p>
 
-{% assign by_keyword = site.seo_articles | group_exp: "item", "item.service_label" %}
+{% assign layanan_list = "Jasa Pembuatan Website|Jasa Aplikasi Android|Jasa Aplikasi Custom|Jasa Website Murah|Jasa Website Company Profile|Jasa Landing Page|Jasa Toko Online|Jasa SEO Lokal|Jasa Redesign Website|Jasa Sistem Custom dan Integrasi" | split: "|" %}
+{% assign total_halaman = site.seo_articles.size %}
 
-{% for group in by_keyword %}
-  {% assign sorted = group.items | sort: "city" %}
+{% for label in layanan_list %}
+  {% assign items = site.seo_articles | where: "service_label", label %}
+  {% if items.size > 0 %}
+    {% assign sorted = items | sort: "city" %}
   <section class="seo-hub-group">
-    <h2>{{ group.name }}</h2>
+    <h2>{{ label }}</h2>
     <p class="seo-hub-note">{{ sorted.size }} halaman tersedia untuk wilayah berikut.</p>
     <ul class="seo-hub-list">
       {% for item in sorted %}
@@ -28,12 +31,20 @@ permalink: /artikel/
       {% endfor %}
     </ul>
   </section>
+  {% endif %}
 {% endfor %}
 
+{% assign jumlah_kota = site.seo_articles | map: "city" | uniq %}
+
 <section class="seo-hub-cta">
-  <h2>Belum menemukan kota Anda?</h2>
+  <h2>Ringkasan dan kota berikutnya</h2>
   <p>
-    Kami tetap menerima proyek di luar daftar di atas, termasuk wilayah Bali lainnya
+    Total <strong>{{ total_halaman }}</strong> halaman layanan untuk
+    <strong>{{ jumlah_kota.size }}</strong> kota di Jawa dan Bali. Daftar kota saat ini:
+    {{ jumlah_kota | join: ', ' }}.
+  </p>
+  <p>
+    Kami tetap menerima proyek di luar daftar tersebut, termasuk wilayah Bali lainnya
     seperti Badung, Gianyar, Tabanan, Jembrana, Buleleng, Karangasem, Bangli, dan Klungkung.
     Sampaikan saja kebutuhan Anda.
   </p>
