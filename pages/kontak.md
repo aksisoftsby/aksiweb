@@ -24,6 +24,16 @@ Ingin mengenal Aksisoft lebih lanjut? Unduh company profile kami dalam format PD
   </a>
 </div>
 
+### Portofolio
+
+Lihat contoh hasil kerja kami — video, konten sosial media, dan storytelling visual — dalam portofolio berikut.
+
+<div class="hero-actions" style="margin: 18px 0 30px;">
+  <a href="{{ '/assets/downloads/PORTOFOLIO-ANISIA-TRILENIA.pdf' | relative_url }}" class="btn btn-outline" download>
+    Unduh Portofolio (PDF · 3,1 MB) ↓
+  </a>
+</div>
+
 ### Informasi Kontak Lainnya
 
 **Email:** aksisoftmedia@gmail.com  
