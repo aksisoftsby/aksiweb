@@ -115,6 +115,9 @@ exclude:
   - generate.js
   - generate.bat
   - generate-seo-articles.js
+  - generate-products-data.js
+  - package.json
+  - package-lock.json
   - GENERATOR-README.md
   - website-redesign.md
   - convert-muslimhub-poster.ps1
