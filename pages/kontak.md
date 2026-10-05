@@ -20,7 +20,7 @@ Ingin mengenal Aksisoft lebih lanjut? Unduh company profile kami dalam format PD
 
 <div class="hero-actions" style="margin: 18px 0 30px;">
   <a href="{{ '/assets/downloads/Aksisoft-Company-Profile.pdf' | relative_url }}" class="btn btn-outline" download>
-    Unduh Company Profile (PDF · 2,9 MB) ↓
+    Unduh Company Profile (PDF · 2,8 MB) ↓
   </a>
 </div>
 
