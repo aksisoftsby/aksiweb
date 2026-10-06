@@ -36,8 +36,8 @@ Lihat contoh hasil kerja kami — video, konten sosial media, dan storytelling v
 
 ### Informasi Kontak Lainnya
 
-**Email:** aksisoftmedia@gmail.com  
-**Lokasi:** Sidoarjo, Jawa Timur, Indonesia
+**Email:** aksisoftsby@gmail.com  
+**Lokasi:** Surabaya, Jawa Timur, Indonesia
 
 ---
 
