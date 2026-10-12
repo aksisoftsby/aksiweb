@@ -19,7 +19,7 @@ Siap membuat website untuk bisnis Anda? Kami siap membantu mewujudkan ide Anda m
 Ingin mengenal Aksisoft lebih lanjut? Unduh company profile kami dalam format PDF.
 
 <div class="hero-actions" style="margin: 18px 0 30px;">
-  <a href="{{ '/assets/downloads/Aksisoft-Company-Profile.pdf' | relative_url }}" class="btn btn-outline" download>
+  <a href="{{ '/assets/downloads/compro-aksisoft.pdf' | relative_url }}" class="btn btn-outline" download>
     Unduh Company Profile (PDF · 2,8 MB) ↓
   </a>
 </div>
