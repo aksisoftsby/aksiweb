@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Kebijakan Privasi
-description: Kebijakan privasi aplikasi dan layanan Aksisoft Media, termasuk aplikasi Crumb Trail.
+description: Kebijakan privasi aplikasi dan layanan Aksisoft Media, termasuk Crumb Trail dan Kasir Stok.
 eyebrow: Privasi
 permalink: /privacy-policy/
 ---
 
-Berlaku sejak: 13 Oktober 2026
+Berlaku sejak: 13 Oktober 2026 — diperbarui 19 Oktober 2026
 
-Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana aplikasi dan layanan kami menangani data. Secara umum, aplikasi kami **tidak mengumpulkan data pribadi**, **tidak menampilkan iklan**, dan menyimpan data **hanya di perangkat Anda** kecuali dinyatakan lain di bawah ini.
+Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana aplikasi dan layanan kami menangani data. Secara umum, aplikasi kami **tidak mengumpulkan data pribadi** dan menyimpan data **hanya di perangkat Anda**. Sebagian aplikasi kami sepenuhnya offline tanpa iklan; aplikasi yang menampilkan iklan dijelaskan pada bagian masing-masing di bawah ini.
+
+Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, transaksi, laporan) tersimpan lokal di perangkat dan tidak dikirim ke server kami; kami tidak memiliki server penyimpanan data pengguna.
 
 ## Ringkasan
 
@@ -33,6 +35,20 @@ Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana a
 
 ---
 
+## Kasir Stok (id.aksisoft.kasirstok)
+
+**Ringkasan.** Kasir Stok menyimpan **seluruh data usaha hanya di perangkat Anda** — produk, transaksi, dan laporan tersimpan dalam database lokal aplikasi (SQLite/Room). Aplikasi tidak memiliki akun pengguna, tidak mengirim data usaha ke server kami, dan tidak melakukan analitik.
+
+**Iklan AdMob.** Aplikasi menampilkan iklan dari **Google AdMob** (banner dan interstisial). Google sebagai penyedia iklan dapat menggunakan data tertentu (misalnya pengenal perangkat/anonim) untuk menayangkan iklan, sesuai [Kebijakan Privasi Google](https://policies.google.com/technologies/ads) dan [kebijakan iklan AdMob](https://support.google.com/admob/answer/6128543). Data transaksi dan inventori Anda tidak digunakan untuk targeting iklan.
+
+**Izin.** Aplikasi meminta izin **kamera** hanya untuk fitur pemindai barcode; hasil pemindaian hanya dipakai untuk mengisi keranjang penjualan dan tidak disimpan sebagai data lain. Izin member status/SDK Google hanya untuk penayangan iklan.
+
+**Ekspor & cadangan.** Fitur ekspor membuat berkas (CSV/cadangan) di perangkat Anda atau berbagi melalui aplikasi lain yang Anda pilih; berkas tersebut dalam kendali Anda sepenuhnya.
+
+**Anak-anak.** Aplikasi tidak dirancang khusus untuk anak-anak dan tidak menampilkan iklan format konten anak.
+
+---
+
 ## Kebijakan Umum
 
 **Data yang kami kumpulkan.** Aplikasi Aksisoft Media pada umumnya tidak mengumpulkan data pribadi. Jika suatu aplikasi memerlukan data tertentu, hal itu akan dijelaskan pada halaman aplikasi di Google Play dan/atau di dalam aplikasi itu sendiri.
@@ -49,10 +65,11 @@ Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana a
 
 ## English Summary
 
-Aksisoft Media respects your privacy. Our apps generally **do not collect personal data**, **do not show ads**, and store data **only on your device**.
+Aksisoft Media respects your privacy. Our apps generally **do not collect personal data** and store data **only on your device**; some apps are fully offline with no ads, while apps that show ads are explained in their own sections below.
 
 **Crumb Trail** stores all data (starters, feeding logs, timers, loaf journal, photos, and settings) **locally on your device**. There is no account, no server, no analytics, and no ads. Data never leaves your device unless you export it yourself. The app requests camera/file access only when you add a photo to a loaf entry. No location, contacts, or internet permissions are used to collect data. The app is suitable for general audiences and collects no personal data, including from children.
 
+**Kasir Stok** stores all business data (products, transactions, reports) **locally on your device**. There is no user account, no server, and no analytics. The app shows ads served by **Google AdMob** (banner and interstitial); Google acts as a third-party ad service — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Camera permission is used only for barcode scanning (scan results are used for the sale only). You can export your data as CSV/backup files that stay under your control.
 ---
 
 ## Kontak
