@@ -78,3 +78,4 @@ Pertanyaan tentang kebijakan ini dapat dikirim ke:
 
 - Situs: [aksisoft.web.id](https://aksisoft.web.id)
 - Kontak: [halaman kontak](/kontak/)
+- Kebijakan khusus aplikasi: [PDF Manager Tools](/privacy-policy/pdf-manager-tools/)
