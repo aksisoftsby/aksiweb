@@ -49,6 +49,14 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 
 ---
 
+## DeviceScope (id.aksisoft.devicescope)
+
+**Ringkasan.** DeviceScope bekerja sepenuhnya di perangkat — spesifikasi perangkat (model, chipset, RAM, baterai, sensor, jaringan) dibaca langsung dari sistem Android dan ditampilkan untuk Anda; tidak ada yang dikirim ke server kami. Kami tidak memiliki akun pengguna dan tidak mengumpulkan data pribadi.
+
+**Iklan AdMob.** Aplikasi menampilkan iklan dari **Google AdMob** (format native advanced) — meminta izin INTERNET / ACCESS_NETWORK_STATE / AD_ID (Advertising ID) untuk penayangan. Detail lengkap: [Kebijakan privasi DeviceScope](/privacy-policy-devicescope/).
+
+---
+
 ## Kebijakan Umum
 
 **Data yang kami kumpulkan.** Aplikasi Aksisoft Media pada umumnya tidak mengumpulkan data pribadi. Jika suatu aplikasi memerlukan data tertentu, hal itu akan dijelaskan pada halaman aplikasi di Google Play dan/atau di dalam aplikasi itu sendiri.
