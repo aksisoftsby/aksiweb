@@ -1,58 +1,58 @@
 ---
 layout: page
-title: Kebijakan Privasi DeviceScope
-description: Kebijakan privasi aplikasi DeviceScope (id.aksisoft.devicescope) — penyimpanan data lokal, iklan AdMob, dan izin aplikasi.
-eyebrow: Privasi
+title: DeviceScope Privacy Policy
+description: Privacy policy for the DeviceScope app (id.aksisoft.devicescope) — local-only device data, AdMob advertising, and app permissions.
+eyebrow: Privacy
 permalink: /privacy-policy-devicescope/
 ---
 
-Berlaku sejak: 20 Oktober 2026
+Effective date: October 20, 2026
 
-Aksisoft Media menghormati privasi pengguna aplikasi **DeviceScope**. Halaman ini menjelaskan bagaimana aplikasi menangani data Anda secara ringkas dan lengkap. Kebijakan privasi umum untuk seluruh aplikasi kami tersedia di [aksisoft.web.id/privacy-policy](/privacy-policy/).
+Aksisoft Media respects the privacy of users of the **DeviceScope** app. This page explains, briefly and completely, how the app handles your data. Our general privacy policy for all of our apps is available at [aksisoft.web.id/privacy-policy](/privacy-policy/).
 
-## Ringkasan
+## Summary
 
-- DeviceScope bekerja **sepenuhnya di perangkat Anda**. Semua informasi perangkat yang ditampilkan dibaca langsung dari sistem Android dan **tidak pernah dikirim ke server kami**.
-- Kami **tidak memiliki akun pengguna** di aplikasi ini dan **tidak mengumpulkan, menyimpan, atau menjual** data pribadi Anda.
-- Aplikasi memerlukan izin **internet** hanya untuk menayangkan iklan dari Google AdMob.
-- Informasi perangkat ditampilkan **hanya untuk Anda**; aplikasi tidak menyimpannya, tidak mengekspornya, dan tidak membagikannya.
+- DeviceScope works **entirely on your device**. All device information shown in the app is read directly from the Android system and is **never sent to our servers**.
+- We **have no user accounts** in this app and we **do not collect, store, or sell** your personal data.
+- The app requires the **Internet permission** only to display ads from Google AdMob.
+- Device information is displayed **only to you**; the app does not store it, export it, or share it.
 
-## Informasi yang dikumpulkan aplikasi
+## Information the app accesses
 
-Aplikasi membaca spesifikasi perangkat (model, chipset, RAM/penyimpanan, baterai, sensor, jaringan) **secara real-time** untuk menampilkannya di layar. Data tersebut:
+The app reads device specifications (model, chipset, RAM/storage, battery, sensors, network) **in real time** to display them on screen. That data:
 
-- **disimpan hanya dalam memori sementara** aplikasi dan tidak ditulis ke penyimpanan yang terekspor;
-- **tidak dikirim ke server kami** — kami tidak memiliki server pengumpulan data;
-- **tidak berisi data pribadi** seperti nama, kontak, lokasi, atau foto.
+- is **kept only in temporary memory** and is never written to exported storage;
+- is **never sent to our servers** — we do not operate any data-collection server;
+- contains **no personal data** such as names, contacts, location, or photos.
 
-## Iklan (Google AdMob)
+## Advertising (Google AdMob)
 
-Aplikasi menampilkan iklan dari **Google AdMob** (termasuk iklan format *native advanced*). Untuk menayangkan iklan:
+The app displays ads from **Google AdMob** (including native advanced format ads). To serve ads:
 
-- aplikasi meminta izin **INTERNET** dan **ACCESS_NETWORK_STATE**;
-- Google dapat menggunakan **Advertising ID Android** dan data teknis terbatas untuk menayangkan iklan yang relevan, sesuai [Kebijakan Privasi Google](https://policies.google.com/technologies/ads) dan [pengaturan iklan Google](https://adssettings.google.com);
-- data perangkat yang dibaca aplikasi **tidak digunakan** untuk memilih iklan;
-- Anda dapat menonaktifkan personalisasi iklan melalui pengaturan sistem Android.
+- the app requests the **INTERNET** and **ACCESS_NETWORK_STATE** permissions;
+- Google may use the **Android Advertising ID** and limited technical data to serve relevant ads, in accordance with the [Google Privacy Policy](https://policies.google.com/technologies/ads) and [Google Ads settings](https://adssettings.google.com);
+- device data read by the app is **not used** to select ads;
+- you can opt out of ad personalization through your Android system settings.
 
-Kami tidak menayangkan iklan format konten dewasa dan tidak meminta data sensitif pengguna.
+We do not serve adult-content ads and we do not request sensitive user data.
 
-## Izin yang diminta
+## Permissions requested
 
-| Izin | Alasan |
+| Permission | Purpose |
 |---|---|
-| `INTERNET` | Menayangkan iklan AdMob |
-| `ACCESS_NETWORK_STATE` | Menampilkan status koneksi (Wi-Fi/seluler) di layar Network |
-| `com.google.android.gms.permission.AD_ID` | Mengizinkan penyedia iklan membaca Advertising ID untuk penayangan iklan |
+| `INTERNET` | Displaying AdMob ads |
+| `ACCESS_NETWORK_STATE` | Displaying connection status (Wi-Fi/cellular) on the Network screen |
+| `com.google.android.gms.permission.AD_ID` | Allowing the ad provider to read the Advertising ID for ad serving |
 
-Aplikasi **tidak** meminta izin lokasi, kontak, kamera, mikrofon, SMS, atau penyimpanan untuk pengumpulan data.
+The app does **not** request location, contacts, camera, microphone, SMS, or storage permissions for data collection.
 
-## Anak-anak
+## Children
 
-Aplikasi ditujukan untuk **pengguna umum** (berguna untuk mengecek spesifikasi perangkat), tidak dirancang khusus untuk anak-anak, dan tidak mengumpulkan data pribadi dari siapa pun.
+The app is intended for **general users** (it is useful for checking device specifications), it is not designed specifically for children, and it does not collect personal data from anyone.
 
-## Kontak
+## Contact
 
-Pertanyaan mengenai kebijakan ini dapat dikirim ke:
+Questions about this policy can be sent to:
 
 - **Email:** aksisoftsby@gmail.com
 - **WhatsApp:** +62 813-3520-6389
