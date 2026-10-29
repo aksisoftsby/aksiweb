@@ -57,6 +57,14 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 
 ---
 
+## Aksi Office (id.aksisoft.office)
+
+**Ringkasan.** Aksi Office adalah aplikasi dokumen kantor lokal (pembaca/editor/pembuat Word, Excel, PowerPoint, dan PDF). Seluruh pemrosesan dokumen — tampil, edit, buat, konversi, merge, split, kompres, e-sign, OCR — berjalan **sepenuhnya di perangkat Anda**; dokumen tidak pernah diunggah ke server kami. Kami tidak memiliki akun pengguna dan tidak mengumpulkan data pribadi.
+
+**Iklan AdMob.** Aplikasi menampilkan iklan dari **Google AdMob** (format banner dan native advanced) — meminta izin INTERNET untuk penayangan. Isi dokumen Anda tidak digunakan untuk iklan. Detail lengkap: [Kebijakan privasi Aksi Office](/privacy-policy-aksioffice/).
+
+---
+
 ## Kebijakan Umum
 
 **Data yang kami kumpulkan.** Aplikasi Aksisoft Media pada umumnya tidak mengumpulkan data pribadi. Jika suatu aplikasi memerlukan data tertentu, hal itu akan dijelaskan pada halaman aplikasi di Google Play dan/atau di dalam aplikasi itu sendiri.
