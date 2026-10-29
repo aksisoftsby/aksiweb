@@ -1,7 +1,7 @@
 ---
 layout: product
 title: Portal ibadah harian yang lengkap, ringan, dan gratis.
-description: MuslimHub menyatukan Al-Qur'an, mushaf digital, jadwal sholat, kiblat, hadits, doa, kalender hijriah, dan asisten AI dalam satu portal gratis di web maupun APK Android.
+description: MuslimHub menyatukan Al-Qur'an, mushaf digital, jadwal sholat, kiblat, hadits, doa, kalender hijriah, dan asisten AI dalam satu portal gratis — di web maupun aplikasi Android yang resmi tersedia di Google Play.
 permalink: /produk/muslimhub/
 product_key: muslimhub
 product_name: MuslimHub
@@ -44,7 +44,7 @@ intro: MuslimHub adalah portal Islam yang dapat dipakai tanpa akun dan tanpa bia
   <div class="product-section-heading"><p class="eyebrow">Cara mengakses</p><h2>Gratis untuk semua, tanpa syarat akun.</h2></div>
   <div class="product-package-grid">
     <article><p>01 / Web</p><h3>Langsung dari browser</h3><span>Gratis</span><ul><li>muslimhub.aksisoftsby.workers.dev</li><li>Selalu memakai versi terbaru otomatis</li><li>Tema 26+ warna dan mode gelap</li></ul></article>
-    <article><p>02 / Android</p><h3>APK siap pasang</h3><span>Gratis</span><ul><li>Unduh langsung dari beranda website</li><li>Widget jadwal sholat & notifikasi native</li><li>Konten inti tetap jalan saat offline</li></ul></article>
+    <article><p>02 / Android</p><h3>Aplikasi di Google Play</h3><span>Gratis</span><ul><li>Rilis resmi di Google Play (<a href="https://play.google.com/store/apps/details?id=id.muslimhub.app" target="_blank" rel="noopener noreferrer">id.muslimhub.app</a>)</li><li>Widget jadwal sholat & notifikasi native</li><li>Konten inti tetap jalan saat offline</li></ul></article>
     <article><p>03 / Lembaga</p><h3>Pendampingan & penyesuaian</h3><span>Harga on call</span><ul><li>Kustomisasi tampilan untuk masjid & lembaga</li><li>Sesi pengenalan untuk pengurus</li><li>Rencana pengembangan lanjutan</li></ul></article>
   </div>
 </section>
