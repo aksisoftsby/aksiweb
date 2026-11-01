@@ -137,6 +137,7 @@ service_prices:
 
 exclude:
   - README.md
+  - AGENTS.md
   - DEPLOY-PAGES.md
   - GENERATOR-README.md
   - website-redesign.md

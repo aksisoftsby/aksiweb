@@ -16,12 +16,15 @@
 set -euo pipefail
 
 RUBY_DIR="$(cd "$(dirname "$0")/.." && pwd)/.rubyportable/rubyinstaller-3.3.12-1-x64"
-export PATH="$RUBY_DIR/bin:$PATH"
-export GEM_HOME="$RUBY_DIR/lib/ruby/gems/3.3.0"
+if [ -d "$RUBY_DIR/bin" ]; then
+  export PATH="$RUBY_DIR/bin:$PATH"
+  export GEM_HOME="$RUBY_DIR/lib/ruby/gems/3.3.0"
+fi
 export JEKYLL_NO_BUNDLER_REQUIRE=true
 
 cd "$(dirname "$0")"
 echo "== 1/4 build Jekyll =="
+command -v jekyll >/dev/null 2>&1 || { echo "ERROR: jekyll tidak ada di PATH (pasang gem jekyll atau siapkan $RUBY_DIR)"; exit 1; }
 jekyll build
 
 echo "== 2/4 bersihkan _site =="
@@ -30,6 +33,10 @@ rm -f _site/prompt.txt
 touch _site/.nojekyll                  # agar GitHub Pages tidak build Jekyll
 
 echo "== 3/4 commit output ke gh-pages (worktree tetap di source) =="
+if [ -f scripts/audit-site.py ] && command -v python3 >/dev/null 2>&1; then
+  echo "   audit hasil build:"
+  python3 scripts/audit-site.py 2>&1 | sed -n '1,12p;/HASIL/p' | sed 's/^/     /' || true
+fi
 IDX="$(pwd)/.git/deploy-index"
 rm -f "$IDX"
 GIT_INDEX_FILE="$IDX" git --work-tree="$(pwd)/_site" add -A
