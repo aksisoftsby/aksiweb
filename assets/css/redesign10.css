@@ -49,3 +49,27 @@
   .pf-gallery-grid{grid-template-columns:1fr}
   .pf-hero-actions .btn{flex:1 1 auto;justify-content:center}
 }
+
+/* ============================================================
+   Halaman Kontak — tombol unduh Company Profile (ID | EN)
+   ============================================================ */
+.compro-downloads{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0 30px}
+.compro-btn{flex:1 1 260px;align-items:center;gap:14px;display:inline-flex;
+  padding:14px 18px;border:1px solid var(--color-border);border-radius:var(--radius-md);
+  background:#fff;text-decoration:none;color:var(--color-text);text-transform:none;letter-spacing:0;
+  font-size:1rem;font-weight:400;box-shadow:var(--shadow-sm);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.compro-btn:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.compro-btn--id:hover{border-color:#ce1126}
+.compro-btn--us:hover{border-color:#3c3b6e}
+.compro-flag{flex:none;width:34px;height:26px;border-radius:6px;overflow:hidden;
+  display:grid;place-items:center;background:#eee;box-shadow:0 0 0 1px rgba(0,0,0,.08)}
+.compro-flag svg{display:block;width:100%;height:100%}
+.compro-txt{display:flex;flex-direction:column;gap:2px;text-align:left;line-height:1.25}
+.compro-txt strong{font-size:.98rem;font-weight:800;color:var(--color-text)}
+.compro-txt small{font-size:.76rem;font-weight:600;color:var(--color-text-muted)}
+.compro-dl{margin-left:auto;font-size:1.2rem;font-weight:800;color:var(--color-primary)}
+@media (max-width:560px){
+  .compro-downloads{flex-direction:column}
+  .compro-btn{flex:1 1 100%}
+}
