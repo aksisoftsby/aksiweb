@@ -149,3 +149,34 @@
 .website-detail .tpl-hero figcaption{padding:10px 16px;font-size:.8rem;color:var(--color-text-muted);
   border-top:1px solid var(--color-border);background:#fbf7f8}
 .website-detail .gallery-grid+.section-note{color:var(--color-text-muted);font-size:.85rem}
+
+/* ============================================================
+   Navigasi atas — rapat di layar menengah supaya tetap 1 baris
+   ============================================================ */
+@media (min-width:841px) and (max-width:1200px){
+  .nav-wrap{gap:1rem}
+  .site-nav{gap:14px}
+  .site-nav>a,.dropdown-toggle{font-size:.8rem;white-space:nowrap}
+  .brand-name{white-space:nowrap}
+  .brand-name small{letter-spacing:.16em}
+  .header-cta{padding:.72rem .95rem;font-size:.78rem;white-space:nowrap}
+}
+
+@media (min-width:841px) and (max-width:980px){
+  .brand-name small{display:none}
+  .site-nav{gap:11px}
+  .site-nav>a,.dropdown-toggle{font-size:.76rem}
+  .header-cta{padding:.62rem .8rem;font-size:.72rem}
+}
+
+/* Navigasi — paling sempit (841-920px): perkecil merek & item agar tidak menempel */
+@media (min-width:841px) and (max-width:920px){
+  .nav-wrap{gap:.8rem}
+  .brand{flex:0 0 auto}
+  .brand img{width:34px;height:34px}
+  .brand-name strong{font-size:.72rem;letter-spacing:.05em}
+  .site-nav{gap:8px;margin-left:auto}
+  .site-nav>a,.dropdown-toggle{font-size:.7rem}
+  .dropdown-arrow{font-size:.6rem}
+  .header-cta{padding:.55rem .7rem;font-size:.68rem;flex:0 0 auto}
+}
