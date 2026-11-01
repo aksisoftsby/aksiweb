@@ -59,6 +59,8 @@ cd /root/aksiweb && bash deploy-pages.sh
 
 Skrip itu melakukan: `jekyll build` → bersihkan `_site` (hapus `assets/videos/*.mp4` dan `prompt.txt`, tambahkan `.nojekyll`) → `git commit-tree` dari *index sementara* (`.git/deploy-index`) dengan parent `gh-pages` → `git update-ref refs/heads/gh-pages` → `git push origin gh-pages`. Kerja di branch `source` tidak pernah ter-pindah.
 
+Skrip mencetak ringkasan `scripts/audit-site.py` sebelum push — **dia tidak memblokir**, jadi tetap wajib membaca baris `HASIL:` (harus `BERSIH`, atau temuan yang Anda terima harus masuk §12).
+
 Setelah push, Pages butuh **±40–60 detik**. Verifikasi (jangan pakai browser, cukup HTTP):
 
 ```bash
