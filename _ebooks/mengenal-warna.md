@@ -4,7 +4,7 @@ slug: "mengenal-warna"
 title: "Mengenal Warna"
 description: "Lembar kerja mengenal dan menelusuri nama-nama warna dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-warna.jpg"
+image: "/assets/img/ebook/cover-mengenal-warna.webp"
 buy_url: "https://lynk.id/aksisoft/rmq4p585ezzn"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mengenal-Warna/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-warna-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-warna-2.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-mengenal-warna-1.webp","/assets/img/ebook/screenshot-mengenal-warna-2.webp"]
+og_image: '/assets/img/og/ebook-mengenal-warna.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mengenal Warna
+## 📚 Ebook Worksheet Edukasi Anak: Mengenal Warna
 
 > **Eksplorasi Dunia Penuh Warna, Ceria, dan Penuh Imajinasi!**
 

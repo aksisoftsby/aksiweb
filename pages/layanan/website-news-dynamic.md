@@ -3,12 +3,13 @@ layout: default
 title: Jasa Pembuatan Website News Dynamic
 description: Layanan pembuatan website berita dinamis dengan CMS lengkap, update konten real-time, dan fitur manajemen artikel profesional.
 permalink: /layanan/website-news-dynamic/
+og_image: '/assets/img/og/layanan-website-news-dynamic.jpg'
 ---
 
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-news-dynamic-hero.jpg' | relative_url }}')">
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-news-dynamic-hero.webp' | relative_url }}')">
       <h1>Jasa Pembuatan Website News Dynamic</h1>
       <p class="lead">Platform berita profesional dengan CMS canggih untuk manajemen konten mudah</p>
     </div>

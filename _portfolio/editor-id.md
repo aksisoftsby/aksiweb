@@ -3,10 +3,11 @@ layout: portfolio
 title: Editor.id
 description: Portal berita dan referensi Indonesia dengan struktur kategori, halaman artikel, dan tata letak editorial yang ringan dibuka di semua perangkat.
 category: Website Berita
-image: /assets/img/portfolio/editor-id.png
+image: /assets/img/portfolio/editor-id.webp
 site_url: https://editor.id/
 site_label: editor.id
 order: 1
+og_image: '/assets/img/og/portfolio-editor-id.jpg'
 ---
 
 ## Tentang Proyek

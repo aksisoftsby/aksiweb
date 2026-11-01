@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+{%- comment -%}
+  Halaman detail template.
+  Galeri memakai _data/templatedims.json ( hasil scripts/localize-template-shots.py ):
+  WebP lokal seukuran render + dimensi untuk mencegah CLS. Kalau indeks belum ada,
+  layout jatuh kembali ke URL remote dari front matter.
+{%- endcomment -%}
+{%- assign td = site.data.templatedims[page.slug] -%}
+{%- assign imd = site.data.imgdims -%}
 <section class="page-hero">
   <p class="eyebrow">{{ page.category | default: 'Website Template' }}</p>
   <h1>{{ page.title }}</h1>
@@ -13,38 +21,76 @@ layout: default
     {% if page.buy_url %}<a class="btn" href="{{ page.buy_url }}" target="_blank" rel="noopener noreferrer">Beli Sekarang</a>{% endif %}
   </div>
 
-  {% if page.gallery.desktop and page.gallery.desktop.size > 0 %}
+  {%- assign thumb = page.thumbnail | default: td.shots.thumb[0] -%}
+  {%- if thumb -%}
+  {%- assign tdim = imd[thumb] -%}
+  <figure class="tpl-hero">
+    <img src="{{ thumb }}" alt="Pratinjau halaman utama template {{ page.title }}"
+      {%- if tdim %} width="{{ tdim.w }}" height="{{ tdim.h }}"{% endif %}
+      loading="eager" fetchpriority="high" decoding="async">
+    <figcaption>Halaman utama demo {{ page.title }}.</figcaption>
+  </figure>
+  {%- endif -%}
+
+  {%- comment -%} Screenshot halaman lain (selain halaman utama) {%- endcomment -%}
+  {%- if td.shots.desktop and td.shots.desktop.size > 1 -%}
+  {%- assign dsk = td.shots.desktop -%}
+  {%- else -%}
+  {%- assign dsk = page.gallery.desktop -%}
+  {%- endif -%}
+  {%- if dsk and dsk.size > 0 -%}
   <h2>Screenshot Desktop</h2>
   <div class="gallery-grid">
-    {% for img in page.gallery.desktop %}
-    <figure><img src="{{ img }}" alt="Screenshot desktop {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% for img in dsk %}{% if img == thumb %}{% continue %}{% endif %}
+    {%- assign d = imd[img] -%}
+    <figure><img src="{{ img }}" alt="Screenshot desktop template {{ page.title }} — halaman {{ forloop.index }}"
+      {%- if d %} width="{{ d.w }}" height="{{ d.h }}"{% endif %}
+      loading="{% if forloop.index <= 2 %}eager{% else %}lazy{% endif %}" decoding="async"></figure>
     {% endfor %}
   </div>
-  {% endif %}
+  {%- endif -%}
 
-  {% if page.gallery.mobile and page.gallery.mobile.size > 0 %}
+  {%- if td.shots.mobile and td.shots.mobile.size > 0 -%}
+  {%- assign mob = td.shots.mobile -%}
+  {%- else -%}
+  {%- assign mob = page.gallery.mobile -%}
+  {%- endif -%}
+  {%- if mob and mob.size > 0 -%}
   <h2>Tampilan Mobile</h2>
   <div class="gallery-grid gallery-mobile">
-    {% for img in page.gallery.mobile %}
-    <figure><img src="{{ img }}" alt="Screenshot mobile {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% for img in mob %}
+    {%- assign d = imd[img] -%}
+    <figure><img src="{{ img }}" alt="Tampilan mobile template {{ page.title }} — halaman {{ forloop.index }}"
+      {%- if d %} width="{{ d.w }}" height="{{ d.h }}"{% endif %}
+      loading="lazy" decoding="async"></figure>
     {% endfor %}
   </div>
-  {% endif %}
+  {%- endif -%}
 
-  {% if page.gallery.code and page.gallery.code.size > 0 %}
+  {%- if td.shots.code and td.shots.code.size > 0 -%}
+  {%- assign cod = td.shots.code -%}
+  {%- else -%}
+  {%- assign cod = page.gallery.code -%}
+  {%- endif -%}
+  {%- if cod and cod.size > 0 -%}
   <h2>Kode &amp; Struktur</h2>
   <div class="gallery-grid">
-    {% for img in page.gallery.code %}
-    <figure><img src="{{ img }}" alt="Kode {{ page.title }} {{ forloop.index }}" loading="lazy"></figure>
+    {% for img in cod %}
+    {%- assign d = imd[img] -%}
+    <figure><img src="{{ img }}" alt="Cuplikan struktur kode template {{ page.title }} — bagian {{ forloop.index }}"
+      {%- if d %} width="{{ d.w }}" height="{{ d.h }}"{% endif %}
+      loading="lazy" decoding="async"></figure>
     {% endfor %}
   </div>
-  {% endif %}
+  <p class="section-note">Cuplikan struktur file template. Struktur lengkap bisa dicek pada
+    <a href="{{ page.demo_url }}" target="_blank" rel="noopener noreferrer">demo live</a>.</p>
+  {%- endif -%}
 
   <div class="detail-info">
     <h2>Informasi Template</h2>
     <ul>
       {% if page.version %}<li><strong>Versi:</strong> {{ page.version }}</li>{% endif %}
-      {% if page.price %}<li><strong>Harga:</strong> Rp {{ page.price | number_with_delimiter }}</li>{% endif %}
+      {% if page.price %}<li><strong>Harga:</strong> Rp {{ page.price | rupiah }}</li>{% endif %}
       {% if page.updated_at %}<li><strong>Terakhir diperbarui:</strong> {{ page.updated_at }}</li>{% endif %}
       <li><strong>Kategori:</strong> {{ page.category }}</li>
       {% if page.slug %}<li><strong>Slug:</strong> {{ page.slug }}</li>{% endif %}

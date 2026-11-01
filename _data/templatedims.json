@@ -1,0 +1,4748 @@
+{
+"academiaprime-school": {
+"dims": {
+"/assets/img/templates/academiaprime-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/academiaprime-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/academiaprime-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/academiaprime-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/academiaprime-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/academiaprime-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/academiaprime-school/code-coding_index_bottom.webp",
+"/assets/img/templates/academiaprime-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/academiaprime-school/desktop-about.webp",
+"/assets/img/templates/academiaprime-school/desktop-achievements.webp",
+"/assets/img/templates/academiaprime-school/desktop-admission.webp",
+"/assets/img/templates/academiaprime-school/desktop-contact.webp",
+"/assets/img/templates/academiaprime-school/desktop-facilities.webp",
+"/assets/img/templates/academiaprime-school/desktop-faq.webp",
+"/assets/img/templates/academiaprime-school/desktop-gallery.webp",
+"/assets/img/templates/academiaprime-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/academiaprime-school/mobile-about.webp",
+"/assets/img/templates/academiaprime-school/mobile-achievements.webp",
+"/assets/img/templates/academiaprime-school/mobile-admission.webp",
+"/assets/img/templates/academiaprime-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/academiaprime-school.webp"
+]
+}
+},
+"aethergardarchitect-compro": {
+"dims": {
+"/assets/img/templates/aethergardarchitect-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/aethergardarchitect-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-careers.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-insights.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/desktop-news_circular_cities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethergardarchitect-compro/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethergardarchitect-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethergardarchitect-compro/mobile-careers.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethergardarchitect-compro/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/aethergardarchitect-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/aethergardarchitect-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/aethergardarchitect-compro/desktop-404.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-about.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-careers.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-contact.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-index_footer.webp",
+"/assets/img/templates/aethergardarchitect-compro.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-insights.webp",
+"/assets/img/templates/aethergardarchitect-compro/desktop-news_circular_cities.webp"
+],
+"mobile": [
+"/assets/img/templates/aethergardarchitect-compro/mobile-404.webp",
+"/assets/img/templates/aethergardarchitect-compro/mobile-about.webp",
+"/assets/img/templates/aethergardarchitect-compro/mobile-careers.webp",
+"/assets/img/templates/aethergardarchitect-compro/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/aethergardarchitect-compro.webp"
+]
+}
+},
+"aethraskin-compro": {
+"dims": {
+"/assets/img/templates/aethraskin-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/aethraskin-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-account.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-article.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-collections.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aethraskin-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethraskin-compro/mobile-account.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethraskin-compro/mobile-article.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aethraskin-compro/mobile-cart.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/aethraskin-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/aethraskin-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/aethraskin-compro/desktop-about.webp",
+"/assets/img/templates/aethraskin-compro/desktop-account.webp",
+"/assets/img/templates/aethraskin-compro/desktop-article.webp",
+"/assets/img/templates/aethraskin-compro/desktop-cart.webp",
+"/assets/img/templates/aethraskin-compro/desktop-collections.webp",
+"/assets/img/templates/aethraskin-compro/desktop-contact.webp",
+"/assets/img/templates/aethraskin-compro/desktop-index_footer.webp",
+"/assets/img/templates/aethraskin-compro.webp"
+],
+"mobile": [
+"/assets/img/templates/aethraskin-compro/mobile-about.webp",
+"/assets/img/templates/aethraskin-compro/mobile-account.webp",
+"/assets/img/templates/aethraskin-compro/mobile-article.webp",
+"/assets/img/templates/aethraskin-compro/mobile-cart.webp"
+],
+"thumb": [
+"/assets/img/templates/aethraskin-compro.webp"
+]
+}
+},
+"arunika-kopisangrai": {
+"dims": {
+"/assets/img/templates/arunika-kopisangrai.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/arunika-kopisangrai/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_1.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_2.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_3.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/desktop-kontak.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/arunika-kopisangrai/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_1.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_2.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_3.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/arunika-kopisangrai/code-coding_index_bottom.webp",
+"/assets/img/templates/arunika-kopisangrai/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/arunika-kopisangrai/desktop-about.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_1.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_2.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-berita_3.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-blog.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-index_footer.webp",
+"/assets/img/templates/arunika-kopisangrai.webp",
+"/assets/img/templates/arunika-kopisangrai/desktop-kontak.webp"
+],
+"mobile": [
+"/assets/img/templates/arunika-kopisangrai/mobile-about.webp",
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_1.webp",
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_2.webp",
+"/assets/img/templates/arunika-kopisangrai/mobile-berita_3.webp"
+],
+"thumb": [
+"/assets/img/templates/arunika-kopisangrai.webp"
+]
+}
+},
+"aureliagrand": {
+"dims": {
+"/assets/img/templates/aureliagrand.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/aureliagrand/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-booking.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-careers.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/desktop-destination_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aureliagrand/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aureliagrand/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aureliagrand/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aureliagrand/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/aureliagrand/code-coding_index_bottom.webp",
+"/assets/img/templates/aureliagrand/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/aureliagrand/desktop-404.webp",
+"/assets/img/templates/aureliagrand/desktop-about.webp",
+"/assets/img/templates/aureliagrand/desktop-blog_details.webp",
+"/assets/img/templates/aureliagrand/desktop-blog.webp",
+"/assets/img/templates/aureliagrand/desktop-booking.webp",
+"/assets/img/templates/aureliagrand/desktop-careers.webp",
+"/assets/img/templates/aureliagrand/desktop-contact.webp",
+"/assets/img/templates/aureliagrand/desktop-destination_details.webp"
+],
+"mobile": [
+"/assets/img/templates/aureliagrand/mobile-404.webp",
+"/assets/img/templates/aureliagrand/mobile-about.webp",
+"/assets/img/templates/aureliagrand/mobile-blog_details.webp",
+"/assets/img/templates/aureliagrand/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/aureliagrand.webp"
+]
+}
+},
+"aurevantagrand": {
+"dims": {
+"/assets/img/templates/aurevantagrand.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/aurevantagrand/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-blog_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-blog_grid.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-booking.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/desktop-destinations.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurevantagrand/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurevantagrand/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurevantagrand/mobile-blog_detail.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurevantagrand/mobile-blog_grid.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/aurevantagrand/code-coding_index_bottom.webp",
+"/assets/img/templates/aurevantagrand/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/aurevantagrand/desktop-404.webp",
+"/assets/img/templates/aurevantagrand/desktop-about.webp",
+"/assets/img/templates/aurevantagrand/desktop-blog_detail.webp",
+"/assets/img/templates/aurevantagrand/desktop-blog_grid.webp",
+"/assets/img/templates/aurevantagrand/desktop-blog.webp",
+"/assets/img/templates/aurevantagrand/desktop-booking.webp",
+"/assets/img/templates/aurevantagrand/desktop-contact.webp",
+"/assets/img/templates/aurevantagrand/desktop-destinations.webp"
+],
+"mobile": [
+"/assets/img/templates/aurevantagrand/mobile-404.webp",
+"/assets/img/templates/aurevantagrand/mobile-about.webp",
+"/assets/img/templates/aurevantagrand/mobile-blog_detail.webp",
+"/assets/img/templates/aurevantagrand/mobile-blog_grid.webp"
+],
+"thumb": [
+"/assets/img/templates/aurevantagrand.webp"
+]
+}
+},
+"aurumledger-compro": {
+"dims": {
+"/assets/img/templates/aurumledger-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/aurumledger-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-insights.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-news.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-news_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/desktop-portfolio.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/aurumledger-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurumledger-compro/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurumledger-compro/mobile-index.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/aurumledger-compro/mobile-index_footer.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/aurumledger-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/aurumledger-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/aurumledger-compro/desktop-about.webp",
+"/assets/img/templates/aurumledger-compro/desktop-contact.webp",
+"/assets/img/templates/aurumledger-compro/desktop-index_footer.webp",
+"/assets/img/templates/aurumledger-compro.webp",
+"/assets/img/templates/aurumledger-compro/desktop-insights.webp",
+"/assets/img/templates/aurumledger-compro/desktop-news_detail.webp",
+"/assets/img/templates/aurumledger-compro/desktop-news.webp",
+"/assets/img/templates/aurumledger-compro/desktop-portfolio.webp"
+],
+"mobile": [
+"/assets/img/templates/aurumledger-compro/mobile-index.webp",
+"/assets/img/templates/aurumledger-compro/mobile-about.webp",
+"/assets/img/templates/aurumledger-compro/mobile-contact.webp",
+"/assets/img/templates/aurumledger-compro/mobile-index_footer.webp"
+],
+"thumb": [
+"/assets/img/templates/aurumledger-compro.webp"
+]
+}
+},
+"drivelux": {
+"dims": {
+"/assets/img/templates/drivelux.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/drivelux/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-book_test_drive.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-compare.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/drivelux/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/drivelux/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/drivelux/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/drivelux/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/drivelux/code-coding_index_bottom.webp",
+"/assets/img/templates/drivelux/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/drivelux/desktop-404.webp",
+"/assets/img/templates/drivelux/desktop-about.webp",
+"/assets/img/templates/drivelux/desktop-blog_details.webp",
+"/assets/img/templates/drivelux/desktop-blog.webp",
+"/assets/img/templates/drivelux/desktop-book_test_drive.webp",
+"/assets/img/templates/drivelux/desktop-coming_soon.webp",
+"/assets/img/templates/drivelux/desktop-compare.webp",
+"/assets/img/templates/drivelux/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/drivelux/mobile-404.webp",
+"/assets/img/templates/drivelux/mobile-about.webp",
+"/assets/img/templates/drivelux/mobile-blog_details.webp",
+"/assets/img/templates/drivelux/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/drivelux.webp"
+]
+}
+},
+"ecoverde-school": {
+"dims": {
+"/assets/img/templates/ecoverde-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/ecoverde-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ecoverde-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ecoverde-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ecoverde-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ecoverde-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/ecoverde-school/code-coding_index_bottom.webp",
+"/assets/img/templates/ecoverde-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/ecoverde-school/desktop-about.webp",
+"/assets/img/templates/ecoverde-school/desktop-achievements.webp",
+"/assets/img/templates/ecoverde-school/desktop-admission.webp",
+"/assets/img/templates/ecoverde-school/desktop-contact.webp",
+"/assets/img/templates/ecoverde-school/desktop-facilities.webp",
+"/assets/img/templates/ecoverde-school/desktop-faq.webp",
+"/assets/img/templates/ecoverde-school/desktop-gallery.webp",
+"/assets/img/templates/ecoverde-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/ecoverde-school/mobile-about.webp",
+"/assets/img/templates/ecoverde-school/mobile-achievements.webp",
+"/assets/img/templates/ecoverde-school/mobile-admission.webp",
+"/assets/img/templates/ecoverde-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/ecoverde-school.webp"
+]
+}
+},
+"eduvanguard-school": {
+"dims": {
+"/assets/img/templates/eduvanguard-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/eduvanguard-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eduvanguard-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eduvanguard-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eduvanguard-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eduvanguard-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/eduvanguard-school/code-coding_index_bottom.webp",
+"/assets/img/templates/eduvanguard-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/eduvanguard-school/desktop-about.webp",
+"/assets/img/templates/eduvanguard-school/desktop-achievements.webp",
+"/assets/img/templates/eduvanguard-school/desktop-admission.webp",
+"/assets/img/templates/eduvanguard-school/desktop-contact.webp",
+"/assets/img/templates/eduvanguard-school/desktop-facilities.webp",
+"/assets/img/templates/eduvanguard-school/desktop-faq.webp",
+"/assets/img/templates/eduvanguard-school/desktop-gallery.webp",
+"/assets/img/templates/eduvanguard-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/eduvanguard-school/mobile-about.webp",
+"/assets/img/templates/eduvanguard-school/mobile-achievements.webp",
+"/assets/img/templates/eduvanguard-school/mobile-admission.webp",
+"/assets/img/templates/eduvanguard-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/eduvanguard-school.webp"
+]
+}
+},
+"eonmotors-compro": {
+"dims": {
+"/assets/img/templates/eonmotors-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/eonmotors-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-interior.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-models.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-news.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/desktop-news_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/eonmotors-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eonmotors-compro/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eonmotors-compro/mobile-index.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/eonmotors-compro/mobile-index_footer.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/eonmotors-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/eonmotors-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/eonmotors-compro/desktop-about.webp",
+"/assets/img/templates/eonmotors-compro/desktop-contact.webp",
+"/assets/img/templates/eonmotors-compro/desktop-index_footer.webp",
+"/assets/img/templates/eonmotors-compro.webp",
+"/assets/img/templates/eonmotors-compro/desktop-interior.webp",
+"/assets/img/templates/eonmotors-compro/desktop-models.webp",
+"/assets/img/templates/eonmotors-compro/desktop-news_detail.webp",
+"/assets/img/templates/eonmotors-compro/desktop-news.webp"
+],
+"mobile": [
+"/assets/img/templates/eonmotors-compro/mobile-index.webp",
+"/assets/img/templates/eonmotors-compro/mobile-about.webp",
+"/assets/img/templates/eonmotors-compro/mobile-contact.webp",
+"/assets/img/templates/eonmotors-compro/mobile-index_footer.webp"
+],
+"thumb": [
+"/assets/img/templates/eonmotors-compro.webp"
+]
+}
+},
+"furaverapetshop": {
+"dims": {
+"/assets/img/templates/furaverapetshop.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/furaverapetshop/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-appointment.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-booking.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/furaverapetshop/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/furaverapetshop/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/furaverapetshop/mobile-appointment.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/furaverapetshop/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/furaverapetshop/code-coding_index_bottom.webp",
+"/assets/img/templates/furaverapetshop/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/furaverapetshop/desktop-404.webp",
+"/assets/img/templates/furaverapetshop/desktop-about.webp",
+"/assets/img/templates/furaverapetshop/desktop-appointment.webp",
+"/assets/img/templates/furaverapetshop/desktop-blog_details.webp",
+"/assets/img/templates/furaverapetshop/desktop-blog.webp",
+"/assets/img/templates/furaverapetshop/desktop-booking.webp",
+"/assets/img/templates/furaverapetshop/desktop-cart.webp",
+"/assets/img/templates/furaverapetshop/desktop-checkout.webp"
+],
+"mobile": [
+"/assets/img/templates/furaverapetshop/mobile-404.webp",
+"/assets/img/templates/furaverapetshop/mobile-about.webp",
+"/assets/img/templates/furaverapetshop/mobile-appointment.webp",
+"/assets/img/templates/furaverapetshop/mobile-blog_details.webp"
+],
+"thumb": [
+"/assets/img/templates/furaverapetshop.webp"
+]
+}
+},
+"gandhul": {
+"dims": {
+"/assets/img/templates/gandhul.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/gandhul/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/gandhul/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/gandhul/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/gandhul/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/gandhul/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/gandhul/code-coding_index_bottom.webp",
+"/assets/img/templates/gandhul/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/gandhul/desktop-404.webp",
+"/assets/img/templates/gandhul/desktop-about.webp",
+"/assets/img/templates/gandhul/desktop-blog_details.webp",
+"/assets/img/templates/gandhul/desktop-blog.webp",
+"/assets/img/templates/gandhul/desktop-cart.webp",
+"/assets/img/templates/gandhul/desktop-checkout.webp",
+"/assets/img/templates/gandhul/desktop-coming_soon.webp",
+"/assets/img/templates/gandhul/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/gandhul/mobile-404.webp",
+"/assets/img/templates/gandhul/mobile-about.webp",
+"/assets/img/templates/gandhul/mobile-blog_details.webp",
+"/assets/img/templates/gandhul/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/gandhul.webp"
+]
+}
+},
+"glisten-glaze": {
+"dims": {
+"/assets/img/templates/glisten-glaze.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/glisten-glaze/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-bulk_orders.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-careers.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-custom_orders.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/glisten-glaze/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/glisten-glaze/mobile-bulk_orders.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/glisten-glaze/mobile-careers.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/glisten-glaze/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/glisten-glaze/code-coding_index_bottom.webp",
+"/assets/img/templates/glisten-glaze/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/glisten-glaze/desktop-about.webp",
+"/assets/img/templates/glisten-glaze/desktop-bulk_orders.webp",
+"/assets/img/templates/glisten-glaze/desktop-careers.webp",
+"/assets/img/templates/glisten-glaze/desktop-contact.webp",
+"/assets/img/templates/glisten-glaze/desktop-custom_orders.webp",
+"/assets/img/templates/glisten-glaze/desktop-faq.webp",
+"/assets/img/templates/glisten-glaze/desktop-gallery.webp",
+"/assets/img/templates/glisten-glaze/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/glisten-glaze/mobile-about.webp",
+"/assets/img/templates/glisten-glaze/mobile-bulk_orders.webp",
+"/assets/img/templates/glisten-glaze/mobile-careers.webp",
+"/assets/img/templates/glisten-glaze/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/glisten-glaze.webp"
+]
+}
+},
+"harmonischola-school": {
+"dims": {
+"/assets/img/templates/harmonischola-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/harmonischola-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/harmonischola-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/harmonischola-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/harmonischola-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/harmonischola-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/harmonischola-school/code-coding_index_bottom.webp",
+"/assets/img/templates/harmonischola-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/harmonischola-school/desktop-about.webp",
+"/assets/img/templates/harmonischola-school/desktop-achievements.webp",
+"/assets/img/templates/harmonischola-school/desktop-admission.webp",
+"/assets/img/templates/harmonischola-school/desktop-contact.webp",
+"/assets/img/templates/harmonischola-school/desktop-facilities.webp",
+"/assets/img/templates/harmonischola-school/desktop-faq.webp",
+"/assets/img/templates/harmonischola-school/desktop-gallery.webp",
+"/assets/img/templates/harmonischola-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/harmonischola-school/mobile-about.webp",
+"/assets/img/templates/harmonischola-school/mobile-achievements.webp",
+"/assets/img/templates/harmonischola-school/mobile-admission.webp",
+"/assets/img/templates/harmonischola-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/harmonischola-school.webp"
+]
+}
+},
+"heritagecollegiate-school": {
+"dims": {
+"/assets/img/templates/heritagecollegiate-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/heritagecollegiate-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/heritagecollegiate-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/heritagecollegiate-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/heritagecollegiate-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/heritagecollegiate-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/heritagecollegiate-school/code-coding_index_bottom.webp",
+"/assets/img/templates/heritagecollegiate-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/heritagecollegiate-school/desktop-about.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-achievements.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-admission.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-contact.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-facilities.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-faq.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-gallery.webp",
+"/assets/img/templates/heritagecollegiate-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/heritagecollegiate-school/mobile-about.webp",
+"/assets/img/templates/heritagecollegiate-school/mobile-achievements.webp",
+"/assets/img/templates/heritagecollegiate-school/mobile-admission.webp",
+"/assets/img/templates/heritagecollegiate-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/heritagecollegiate-school.webp"
+]
+}
+},
+"jadewok": {
+"dims": {
+"/assets/img/templates/jadewok.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/jadewok/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-chef_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-chefs.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/jadewok/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/jadewok/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/jadewok/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/jadewok/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/jadewok/code-coding_index_bottom.webp",
+"/assets/img/templates/jadewok/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/jadewok/desktop-404.webp",
+"/assets/img/templates/jadewok/desktop-about.webp",
+"/assets/img/templates/jadewok/desktop-blog_details.webp",
+"/assets/img/templates/jadewok/desktop-blog.webp",
+"/assets/img/templates/jadewok/desktop-chef_details.webp",
+"/assets/img/templates/jadewok/desktop-chefs.webp",
+"/assets/img/templates/jadewok/desktop-contact.webp",
+"/assets/img/templates/jadewok/desktop-faq.webp"
+],
+"mobile": [
+"/assets/img/templates/jadewok/mobile-404.webp",
+"/assets/img/templates/jadewok/mobile-about.webp",
+"/assets/img/templates/jadewok/mobile-blog_details.webp",
+"/assets/img/templates/jadewok/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/jadewok.webp"
+]
+}
+},
+"joglara": {
+"dims": {
+"/assets/img/templates/joglara.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/joglara/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/joglara/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/joglara/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/joglara/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/joglara/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/joglara/code-coding_index_bottom.webp",
+"/assets/img/templates/joglara/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/joglara/desktop-404.webp",
+"/assets/img/templates/joglara/desktop-about.webp",
+"/assets/img/templates/joglara/desktop-blog_details.webp",
+"/assets/img/templates/joglara/desktop-blog.webp",
+"/assets/img/templates/joglara/desktop-cart.webp",
+"/assets/img/templates/joglara/desktop-checkout.webp",
+"/assets/img/templates/joglara/desktop-coming_soon.webp",
+"/assets/img/templates/joglara/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/joglara/mobile-404.webp",
+"/assets/img/templates/joglara/mobile-about.webp",
+"/assets/img/templates/joglara/mobile-blog_details.webp",
+"/assets/img/templates/joglara/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/joglara.webp"
+]
+}
+},
+"kabarruang-news": {
+"dims": {
+"/assets/img/templates/kabarruang-news.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/kabarruang-news/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-article.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-author.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-category.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-category_ekonomi.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-category_teknologi.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kabarruang-news/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kabarruang-news/mobile-article.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kabarruang-news/mobile-author.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kabarruang-news/mobile-category_ekonomi.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/kabarruang-news/code-coding_index_bottom.webp",
+"/assets/img/templates/kabarruang-news/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/kabarruang-news/desktop-about.webp",
+"/assets/img/templates/kabarruang-news/desktop-article.webp",
+"/assets/img/templates/kabarruang-news/desktop-author.webp",
+"/assets/img/templates/kabarruang-news/desktop-category_ekonomi.webp",
+"/assets/img/templates/kabarruang-news/desktop-category_teknologi.webp",
+"/assets/img/templates/kabarruang-news/desktop-category.webp",
+"/assets/img/templates/kabarruang-news/desktop-index_footer.webp",
+"/assets/img/templates/kabarruang-news.webp"
+],
+"mobile": [
+"/assets/img/templates/kabarruang-news/mobile-about.webp",
+"/assets/img/templates/kabarruang-news/mobile-article.webp",
+"/assets/img/templates/kabarruang-news/mobile-author.webp",
+"/assets/img/templates/kabarruang-news/mobile-category_ekonomi.webp"
+],
+"thumb": [
+"/assets/img/templates/kabarruang-news.webp"
+]
+}
+},
+"kreativafuture-school": {
+"dims": {
+"/assets/img/templates/kreativafuture-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/kreativafuture-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/kreativafuture-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kreativafuture-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kreativafuture-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/kreativafuture-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/kreativafuture-school/code-coding_index_bottom.webp",
+"/assets/img/templates/kreativafuture-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/kreativafuture-school/desktop-about.webp",
+"/assets/img/templates/kreativafuture-school/desktop-achievements.webp",
+"/assets/img/templates/kreativafuture-school/desktop-admission.webp",
+"/assets/img/templates/kreativafuture-school/desktop-contact.webp",
+"/assets/img/templates/kreativafuture-school/desktop-facilities.webp",
+"/assets/img/templates/kreativafuture-school/desktop-faq.webp",
+"/assets/img/templates/kreativafuture-school/desktop-gallery.webp",
+"/assets/img/templates/kreativafuture-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/kreativafuture-school/mobile-about.webp",
+"/assets/img/templates/kreativafuture-school/mobile-achievements.webp",
+"/assets/img/templates/kreativafuture-school/mobile-admission.webp",
+"/assets/img/templates/kreativafuture-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/kreativafuture-school.webp"
+]
+}
+},
+"larasaji": {
+"dims": {
+"/assets/img/templates/larasaji.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/larasaji/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/larasaji/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/larasaji/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/larasaji/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/larasaji/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/larasaji/code-coding_index_bottom.webp",
+"/assets/img/templates/larasaji/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/larasaji/desktop-404.webp",
+"/assets/img/templates/larasaji/desktop-about.webp",
+"/assets/img/templates/larasaji/desktop-blog_details.webp",
+"/assets/img/templates/larasaji/desktop-blog.webp",
+"/assets/img/templates/larasaji/desktop-cart.webp",
+"/assets/img/templates/larasaji/desktop-checkout.webp",
+"/assets/img/templates/larasaji/desktop-coming_soon.webp",
+"/assets/img/templates/larasaji/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/larasaji/mobile-404.webp",
+"/assets/img/templates/larasaji/mobile-about.webp",
+"/assets/img/templates/larasaji/mobile-blog_details.webp",
+"/assets/img/templates/larasaji/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/larasaji.webp"
+]
+}
+},
+"lexoralegal": {
+"dims": {
+"/assets/img/templates/lexoralegal.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/lexoralegal/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-appointment.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-attorney_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-attorneys.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-author.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lexoralegal/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lexoralegal/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lexoralegal/mobile-appointment.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lexoralegal/mobile-attorney_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/lexoralegal/code-coding_index_bottom.webp",
+"/assets/img/templates/lexoralegal/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/lexoralegal/desktop-404.webp",
+"/assets/img/templates/lexoralegal/desktop-about.webp",
+"/assets/img/templates/lexoralegal/desktop-appointment.webp",
+"/assets/img/templates/lexoralegal/desktop-attorney_details.webp",
+"/assets/img/templates/lexoralegal/desktop-attorneys.webp",
+"/assets/img/templates/lexoralegal/desktop-author.webp",
+"/assets/img/templates/lexoralegal/desktop-blog_details.webp",
+"/assets/img/templates/lexoralegal/desktop-blog.webp"
+],
+"mobile": [
+"/assets/img/templates/lexoralegal/mobile-404.webp",
+"/assets/img/templates/lexoralegal/mobile-about.webp",
+"/assets/img/templates/lexoralegal/mobile-appointment.webp",
+"/assets/img/templates/lexoralegal/mobile-attorney_details.webp"
+],
+"thumb": [
+"/assets/img/templates/lexoralegal.webp"
+]
+}
+},
+"luminaacademy-school": {
+"dims": {
+"/assets/img/templates/luminaacademy-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/luminaacademy-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/luminaacademy-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/luminaacademy-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/luminaacademy-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/luminaacademy-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/luminaacademy-school/code-coding_index_bottom.webp",
+"/assets/img/templates/luminaacademy-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/luminaacademy-school/desktop-about.webp",
+"/assets/img/templates/luminaacademy-school/desktop-achievements.webp",
+"/assets/img/templates/luminaacademy-school/desktop-admission.webp",
+"/assets/img/templates/luminaacademy-school/desktop-contact.webp",
+"/assets/img/templates/luminaacademy-school/desktop-facilities.webp",
+"/assets/img/templates/luminaacademy-school/desktop-faq.webp",
+"/assets/img/templates/luminaacademy-school/desktop-gallery.webp",
+"/assets/img/templates/luminaacademy-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/luminaacademy-school/mobile-about.webp",
+"/assets/img/templates/luminaacademy-school/mobile-achievements.webp",
+"/assets/img/templates/luminaacademy-school/mobile-admission.webp",
+"/assets/img/templates/luminaacademy-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/luminaacademy-school.webp"
+]
+}
+},
+"lumoraspa": {
+"dims": {
+"/assets/img/templates/lumoraspa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/lumoraspa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-appointment.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/lumoraspa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lumoraspa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lumoraspa/mobile-appointment.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/lumoraspa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/lumoraspa/code-coding_index_bottom.webp",
+"/assets/img/templates/lumoraspa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/lumoraspa/desktop-404.webp",
+"/assets/img/templates/lumoraspa/desktop-about.webp",
+"/assets/img/templates/lumoraspa/desktop-appointment.webp",
+"/assets/img/templates/lumoraspa/desktop-blog_details.webp",
+"/assets/img/templates/lumoraspa/desktop-blog.webp",
+"/assets/img/templates/lumoraspa/desktop-coming_soon.webp",
+"/assets/img/templates/lumoraspa/desktop-contact.webp",
+"/assets/img/templates/lumoraspa/desktop-faq.webp"
+],
+"mobile": [
+"/assets/img/templates/lumoraspa/mobile-404.webp",
+"/assets/img/templates/lumoraspa/mobile-about.webp",
+"/assets/img/templates/lumoraspa/mobile-appointment.webp",
+"/assets/img/templates/lumoraspa/mobile-blog_details.webp"
+],
+"thumb": [
+"/assets/img/templates/lumoraspa.webp"
+]
+}
+},
+"mellowcrumbcafe": {
+"dims": {
+"/assets/img/templates/mellowcrumbcafe.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/mellowcrumbcafe/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-blog_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-careers.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/desktop-event_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/mellowcrumbcafe/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/mellowcrumbcafe/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/mellowcrumbcafe/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/mellowcrumbcafe/mobile-blog_detail.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/mellowcrumbcafe/code-coding_index_bottom.webp",
+"/assets/img/templates/mellowcrumbcafe/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/mellowcrumbcafe/desktop-404.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-about.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-blog_detail.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-blog.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-careers.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-coming_soon.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-contact.webp",
+"/assets/img/templates/mellowcrumbcafe/desktop-event_detail.webp"
+],
+"mobile": [
+"/assets/img/templates/mellowcrumbcafe/mobile-404.webp",
+"/assets/img/templates/mellowcrumbcafe/mobile-about.webp",
+"/assets/img/templates/mellowcrumbcafe/mobile-blog_detail.webp",
+"/assets/img/templates/mellowcrumbcafe/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/mellowcrumbcafe.webp"
+]
+}
+},
+"morvanacafe": {
+"dims": {
+"/assets/img/templates/morvanacafe.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/morvanacafe/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-cake_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-cakes.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/morvanacafe/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/morvanacafe/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/morvanacafe/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/morvanacafe/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/morvanacafe/code-coding_index_bottom.webp",
+"/assets/img/templates/morvanacafe/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/morvanacafe/desktop-404.webp",
+"/assets/img/templates/morvanacafe/desktop-about.webp",
+"/assets/img/templates/morvanacafe/desktop-blog_details.webp",
+"/assets/img/templates/morvanacafe/desktop-blog.webp",
+"/assets/img/templates/morvanacafe/desktop-cake_details.webp",
+"/assets/img/templates/morvanacafe/desktop-cakes.webp",
+"/assets/img/templates/morvanacafe/desktop-cart.webp",
+"/assets/img/templates/morvanacafe/desktop-checkout.webp"
+],
+"mobile": [
+"/assets/img/templates/morvanacafe/mobile-404.webp",
+"/assets/img/templates/morvanacafe/mobile-about.webp",
+"/assets/img/templates/morvanacafe/mobile-blog_details.webp",
+"/assets/img/templates/morvanacafe/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/morvanacafe.webp"
+]
+}
+},
+"motivaxautocare": {
+"dims": {
+"/assets/img/templates/motivaxautocare.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/motivaxautocare/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_1.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_2.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_3.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_4.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_5.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_6.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/motivaxautocare/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/motivaxautocare/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/motivaxautocare/mobile-blog_detail_1.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/motivaxautocare/mobile-blog_detail_2.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/motivaxautocare/code-coding_index_bottom.webp",
+"/assets/img/templates/motivaxautocare/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/motivaxautocare/desktop-404.webp",
+"/assets/img/templates/motivaxautocare/desktop-about.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_1.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_2.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_3.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_4.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_5.webp",
+"/assets/img/templates/motivaxautocare/desktop-blog_detail_6.webp"
+],
+"mobile": [
+"/assets/img/templates/motivaxautocare/mobile-404.webp",
+"/assets/img/templates/motivaxautocare/mobile-about.webp",
+"/assets/img/templates/motivaxautocare/mobile-blog_detail_1.webp",
+"/assets/img/templates/motivaxautocare/mobile-blog_detail_2.webp"
+],
+"thumb": [
+"/assets/img/templates/motivaxautocare.webp"
+]
+}
+},
+"ndalemasa": {
+"dims": {
+"/assets/img/templates/ndalemasa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/ndalemasa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ndalemasa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ndalemasa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ndalemasa/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ndalemasa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/ndalemasa/code-coding_index_bottom.webp",
+"/assets/img/templates/ndalemasa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/ndalemasa/desktop-404.webp",
+"/assets/img/templates/ndalemasa/desktop-about.webp",
+"/assets/img/templates/ndalemasa/desktop-blog_details.webp",
+"/assets/img/templates/ndalemasa/desktop-blog.webp",
+"/assets/img/templates/ndalemasa/desktop-cart.webp",
+"/assets/img/templates/ndalemasa/desktop-checkout.webp",
+"/assets/img/templates/ndalemasa/desktop-coming_soon.webp",
+"/assets/img/templates/ndalemasa/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/ndalemasa/mobile-404.webp",
+"/assets/img/templates/ndalemasa/mobile-about.webp",
+"/assets/img/templates/ndalemasa/mobile-blog_details.webp",
+"/assets/img/templates/ndalemasa/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/ndalemasa.webp"
+]
+}
+},
+"nexora": {
+"dims": {
+"/assets/img/templates/nexora.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/nexora/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nexora/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nexora/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nexora/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nexora/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/nexora/code-coding_index_bottom.webp",
+"/assets/img/templates/nexora/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/nexora/desktop-404.webp",
+"/assets/img/templates/nexora/desktop-about.webp",
+"/assets/img/templates/nexora/desktop-blog_details.webp",
+"/assets/img/templates/nexora/desktop-blog.webp",
+"/assets/img/templates/nexora/desktop-contact.webp",
+"/assets/img/templates/nexora/desktop-faq.webp",
+"/assets/img/templates/nexora/desktop-index_footer.webp",
+"/assets/img/templates/nexora.webp"
+],
+"mobile": [
+"/assets/img/templates/nexora/mobile-404.webp",
+"/assets/img/templates/nexora/mobile-about.webp",
+"/assets/img/templates/nexora/mobile-blog_details.webp",
+"/assets/img/templates/nexora/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/nexora.webp"
+]
+}
+},
+"novavanta-band": {
+"dims": {
+"/assets/img/templates/novavanta-band.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/novavanta-band/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-article.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-artist.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-artists.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-dashboard.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-discography.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/desktop-event.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/novavanta-band/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/novavanta-band/mobile-article.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/novavanta-band/mobile-artist.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/novavanta-band/mobile-artists.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/novavanta-band/code-coding_index_bottom.webp",
+"/assets/img/templates/novavanta-band/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/novavanta-band/desktop-about.webp",
+"/assets/img/templates/novavanta-band/desktop-article.webp",
+"/assets/img/templates/novavanta-band/desktop-artist.webp",
+"/assets/img/templates/novavanta-band/desktop-artists.webp",
+"/assets/img/templates/novavanta-band/desktop-contact.webp",
+"/assets/img/templates/novavanta-band/desktop-dashboard.webp",
+"/assets/img/templates/novavanta-band/desktop-discography.webp",
+"/assets/img/templates/novavanta-band/desktop-event.webp"
+],
+"mobile": [
+"/assets/img/templates/novavanta-band/mobile-about.webp",
+"/assets/img/templates/novavanta-band/mobile-article.webp",
+"/assets/img/templates/novavanta-band/mobile-artist.webp",
+"/assets/img/templates/novavanta-band/mobile-artists.webp"
+],
+"thumb": [
+"/assets/img/templates/novavanta-band.webp"
+]
+}
+},
+"nusakirana-travel": {
+"dims": {
+"/assets/img/templates/nusakirana-travel.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/nusakirana-travel/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-destinasi.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-galeri.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-kontak.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-paket.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/desktop-tentang.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusakirana-travel/mobile-destinasi.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusakirana-travel/mobile-galeri.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusakirana-travel/mobile-index.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusakirana-travel/mobile-index_footer.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/nusakirana-travel/code-coding_index_bottom.webp",
+"/assets/img/templates/nusakirana-travel/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/nusakirana-travel/desktop-destinasi.webp",
+"/assets/img/templates/nusakirana-travel/desktop-galeri.webp",
+"/assets/img/templates/nusakirana-travel/desktop-index_footer.webp",
+"/assets/img/templates/nusakirana-travel.webp",
+"/assets/img/templates/nusakirana-travel/desktop-kontak.webp",
+"/assets/img/templates/nusakirana-travel/desktop-paket.webp",
+"/assets/img/templates/nusakirana-travel/desktop-tentang.webp"
+],
+"mobile": [
+"/assets/img/templates/nusakirana-travel/mobile-index.webp",
+"/assets/img/templates/nusakirana-travel/mobile-destinasi.webp",
+"/assets/img/templates/nusakirana-travel/mobile-galeri.webp",
+"/assets/img/templates/nusakirana-travel/mobile-index_footer.webp"
+],
+"thumb": [
+"/assets/img/templates/nusakirana-travel.webp"
+]
+}
+},
+"nusantarapress": {
+"dims": {
+"/assets/img/templates/nusantarapress.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/nusantarapress/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-author.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-search.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/desktop-sitemap.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusantarapress/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusantarapress/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusantarapress/mobile-author.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusantarapress/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/nusantarapress/code-coding_index_bottom.webp",
+"/assets/img/templates/nusantarapress/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/nusantarapress/desktop-404.webp",
+"/assets/img/templates/nusantarapress/desktop-about.webp",
+"/assets/img/templates/nusantarapress/desktop-author.webp",
+"/assets/img/templates/nusantarapress/desktop-contact.webp",
+"/assets/img/templates/nusantarapress/desktop-index_footer.webp",
+"/assets/img/templates/nusantarapress.webp",
+"/assets/img/templates/nusantarapress/desktop-search.webp",
+"/assets/img/templates/nusantarapress/desktop-sitemap.webp"
+],
+"mobile": [
+"/assets/img/templates/nusantarapress/mobile-404.webp",
+"/assets/img/templates/nusantarapress/mobile-about.webp",
+"/assets/img/templates/nusantarapress/mobile-author.webp",
+"/assets/img/templates/nusantarapress/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/nusantarapress.webp"
+]
+}
+},
+"nusawiji": {
+"dims": {
+"/assets/img/templates/nusawiji.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/nusawiji/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nusawiji/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusawiji/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusawiji/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nusawiji/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/nusawiji/code-coding_index_bottom.webp",
+"/assets/img/templates/nusawiji/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/nusawiji/desktop-404.webp",
+"/assets/img/templates/nusawiji/desktop-about.webp",
+"/assets/img/templates/nusawiji/desktop-blog_details.webp",
+"/assets/img/templates/nusawiji/desktop-blog.webp",
+"/assets/img/templates/nusawiji/desktop-cart.webp",
+"/assets/img/templates/nusawiji/desktop-checkout.webp",
+"/assets/img/templates/nusawiji/desktop-coming_soon.webp",
+"/assets/img/templates/nusawiji/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/nusawiji/mobile-404.webp",
+"/assets/img/templates/nusawiji/mobile-about.webp",
+"/assets/img/templates/nusawiji/mobile-blog_details.webp",
+"/assets/img/templates/nusawiji/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/nusawiji.webp"
+]
+}
+},
+"nuvana-olshop": {
+"dims": {
+"/assets/img/templates/nuvana-olshop.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/nuvana-olshop/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-blog_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-category.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/nuvana-olshop/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nuvana-olshop/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nuvana-olshop/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/nuvana-olshop/mobile-blog_detail.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/nuvana-olshop/code-coding_index_bottom.webp",
+"/assets/img/templates/nuvana-olshop/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/nuvana-olshop/desktop-404.webp",
+"/assets/img/templates/nuvana-olshop/desktop-about.webp",
+"/assets/img/templates/nuvana-olshop/desktop-blog_detail.webp",
+"/assets/img/templates/nuvana-olshop/desktop-blog.webp",
+"/assets/img/templates/nuvana-olshop/desktop-cart.webp",
+"/assets/img/templates/nuvana-olshop/desktop-category.webp",
+"/assets/img/templates/nuvana-olshop/desktop-checkout.webp",
+"/assets/img/templates/nuvana-olshop/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/nuvana-olshop/mobile-404.webp",
+"/assets/img/templates/nuvana-olshop/mobile-about.webp",
+"/assets/img/templates/nuvana-olshop/mobile-blog_detail.webp",
+"/assets/img/templates/nuvana-olshop/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/nuvana-olshop.webp"
+]
+}
+},
+"pawcarehub": {
+"dims": {
+"/assets/img/templates/pawcarehub.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/pawcarehub/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawcarehub/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawcarehub/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawcarehub/mobile-index.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawcarehub/mobile-index_footer.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/pawcarehub/code-coding_index_bottom.webp",
+"/assets/img/templates/pawcarehub/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/pawcarehub/desktop-index_footer.webp",
+"/assets/img/templates/pawcarehub.webp"
+],
+"mobile": [
+"/assets/img/templates/pawcarehub/mobile-index.webp",
+"/assets/img/templates/pawcarehub/mobile-index_footer.webp"
+],
+"thumb": [
+"/assets/img/templates/pawcarehub.webp"
+]
+}
+},
+"pawonara": {
+"dims": {
+"/assets/img/templates/pawonara.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/pawonara/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawonara/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawonara/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawonara/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawonara/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/pawonara/code-coding_index_bottom.webp",
+"/assets/img/templates/pawonara/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/pawonara/desktop-404.webp",
+"/assets/img/templates/pawonara/desktop-about.webp",
+"/assets/img/templates/pawonara/desktop-blog_details.webp",
+"/assets/img/templates/pawonara/desktop-blog.webp",
+"/assets/img/templates/pawonara/desktop-cart.webp",
+"/assets/img/templates/pawonara/desktop-checkout.webp",
+"/assets/img/templates/pawonara/desktop-coming_soon.webp",
+"/assets/img/templates/pawonara/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/pawonara/mobile-404.webp",
+"/assets/img/templates/pawonara/mobile-about.webp",
+"/assets/img/templates/pawonara/mobile-blog_details.webp",
+"/assets/img/templates/pawonara/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/pawonara.webp"
+]
+}
+},
+"pawvora": {
+"dims": {
+"/assets/img/templates/pawvora.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/pawvora/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-appointment.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-blog_grid.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-blog_sidebar.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/desktop-booking_success.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pawvora/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawvora/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawvora/mobile-appointment.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pawvora/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/pawvora/code-coding_index_bottom.webp",
+"/assets/img/templates/pawvora/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/pawvora/desktop-404.webp",
+"/assets/img/templates/pawvora/desktop-about.webp",
+"/assets/img/templates/pawvora/desktop-appointment.webp",
+"/assets/img/templates/pawvora/desktop-blog_details.webp",
+"/assets/img/templates/pawvora/desktop-blog_grid.webp",
+"/assets/img/templates/pawvora/desktop-blog_sidebar.webp",
+"/assets/img/templates/pawvora/desktop-blog.webp",
+"/assets/img/templates/pawvora/desktop-booking_success.webp"
+],
+"mobile": [
+"/assets/img/templates/pawvora/mobile-404.webp",
+"/assets/img/templates/pawvora/mobile-about.webp",
+"/assets/img/templates/pawvora/mobile-appointment.webp",
+"/assets/img/templates/pawvora/mobile-blog_details.webp"
+],
+"thumb": [
+"/assets/img/templates/pawvora.webp"
+]
+}
+},
+"peakforge-gym": {
+"dims": {
+"/assets/img/templates/peakforge-gym.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/peakforge-gym/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-classes.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-pricing.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/desktop-programs.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/peakforge-gym/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/peakforge-gym/mobile-classes.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/peakforge-gym/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/peakforge-gym/mobile-facilities.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/peakforge-gym/code-coding_index_bottom.webp",
+"/assets/img/templates/peakforge-gym/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/peakforge-gym/desktop-about.webp",
+"/assets/img/templates/peakforge-gym/desktop-classes.webp",
+"/assets/img/templates/peakforge-gym/desktop-contact.webp",
+"/assets/img/templates/peakforge-gym/desktop-facilities.webp",
+"/assets/img/templates/peakforge-gym/desktop-index_footer.webp",
+"/assets/img/templates/peakforge-gym.webp",
+"/assets/img/templates/peakforge-gym/desktop-pricing.webp",
+"/assets/img/templates/peakforge-gym/desktop-programs.webp"
+],
+"mobile": [
+"/assets/img/templates/peakforge-gym/mobile-about.webp",
+"/assets/img/templates/peakforge-gym/mobile-classes.webp",
+"/assets/img/templates/peakforge-gym/mobile-contact.webp",
+"/assets/img/templates/peakforge-gym/mobile-facilities.webp"
+],
+"thumb": [
+"/assets/img/templates/peakforge-gym.webp"
+]
+}
+},
+"pendhaparasa": {
+"dims": {
+"/assets/img/templates/pendhaparasa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/pendhaparasa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-chef.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-event_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/desktop-events.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pendhaparasa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pendhaparasa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pendhaparasa/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pendhaparasa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/pendhaparasa/code-coding_index_bottom.webp",
+"/assets/img/templates/pendhaparasa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/pendhaparasa/desktop-404.webp",
+"/assets/img/templates/pendhaparasa/desktop-about.webp",
+"/assets/img/templates/pendhaparasa/desktop-blog_details.webp",
+"/assets/img/templates/pendhaparasa/desktop-blog.webp",
+"/assets/img/templates/pendhaparasa/desktop-chef.webp",
+"/assets/img/templates/pendhaparasa/desktop-contact.webp",
+"/assets/img/templates/pendhaparasa/desktop-event_details.webp",
+"/assets/img/templates/pendhaparasa/desktop-events.webp"
+],
+"mobile": [
+"/assets/img/templates/pendhaparasa/mobile-404.webp",
+"/assets/img/templates/pendhaparasa/mobile-about.webp",
+"/assets/img/templates/pendhaparasa/mobile-blog_details.webp",
+"/assets/img/templates/pendhaparasa/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/pendhaparasa.webp"
+]
+}
+},
+"pixelra-studio": {
+"dims": {
+"/assets/img/templates/pixelra-studio.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/pixelra-studio/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-community.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-curriculum.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-dashboard.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-events.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/pixelra-studio/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pixelra-studio/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pixelra-studio/mobile-community.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/pixelra-studio/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/pixelra-studio/code-coding_index_bottom.webp",
+"/assets/img/templates/pixelra-studio/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/pixelra-studio/desktop-about.webp",
+"/assets/img/templates/pixelra-studio/desktop-blog.webp",
+"/assets/img/templates/pixelra-studio/desktop-community.webp",
+"/assets/img/templates/pixelra-studio/desktop-contact.webp",
+"/assets/img/templates/pixelra-studio/desktop-curriculum.webp",
+"/assets/img/templates/pixelra-studio/desktop-dashboard.webp",
+"/assets/img/templates/pixelra-studio/desktop-events.webp",
+"/assets/img/templates/pixelra-studio/desktop-gallery.webp"
+],
+"mobile": [
+"/assets/img/templates/pixelra-studio/mobile-about.webp",
+"/assets/img/templates/pixelra-studio/mobile-blog.webp",
+"/assets/img/templates/pixelra-studio/mobile-community.webp",
+"/assets/img/templates/pixelra-studio/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/pixelra-studio.webp"
+]
+}
+},
+"rasanusa": {
+"dims": {
+"/assets/img/templates/rasanusa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/rasanusa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rasanusa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rasanusa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rasanusa/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rasanusa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/rasanusa/code-coding_index_bottom.webp",
+"/assets/img/templates/rasanusa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/rasanusa/desktop-404.webp",
+"/assets/img/templates/rasanusa/desktop-about.webp",
+"/assets/img/templates/rasanusa/desktop-blog_details.webp",
+"/assets/img/templates/rasanusa/desktop-blog.webp",
+"/assets/img/templates/rasanusa/desktop-contact.webp",
+"/assets/img/templates/rasanusa/desktop-faq.webp",
+"/assets/img/templates/rasanusa/desktop-gallery.webp",
+"/assets/img/templates/rasanusa/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/rasanusa/mobile-404.webp",
+"/assets/img/templates/rasanusa/mobile-about.webp",
+"/assets/img/templates/rasanusa/mobile-blog_details.webp",
+"/assets/img/templates/rasanusa/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/rasanusa.webp"
+]
+}
+},
+"ronakayu-compro": {
+"dims": {
+"/assets/img/templates/ronakayu-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/ronakayu-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-care_guide.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/desktop-materials.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/ronakayu-compro/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ronakayu-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ronakayu-compro/mobile-care_guide.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/ronakayu-compro/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/ronakayu-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/ronakayu-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/ronakayu-compro/desktop-404.webp",
+"/assets/img/templates/ronakayu-compro/desktop-about.webp",
+"/assets/img/templates/ronakayu-compro/desktop-care_guide.webp",
+"/assets/img/templates/ronakayu-compro/desktop-contact.webp",
+"/assets/img/templates/ronakayu-compro/desktop-gallery.webp",
+"/assets/img/templates/ronakayu-compro/desktop-index_footer.webp",
+"/assets/img/templates/ronakayu-compro.webp",
+"/assets/img/templates/ronakayu-compro/desktop-materials.webp"
+],
+"mobile": [
+"/assets/img/templates/ronakayu-compro/mobile-404.webp",
+"/assets/img/templates/ronakayu-compro/mobile-about.webp",
+"/assets/img/templates/ronakayu-compro/mobile-care_guide.webp",
+"/assets/img/templates/ronakayu-compro/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/ronakayu-compro.webp"
+]
+}
+},
+"rosojowo": {
+"dims": {
+"/assets/img/templates/rosojowo.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/rosojowo/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/rosojowo/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rosojowo/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rosojowo/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/rosojowo/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/rosojowo/code-coding_index_bottom.webp",
+"/assets/img/templates/rosojowo/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/rosojowo/desktop-404.webp",
+"/assets/img/templates/rosojowo/desktop-about.webp",
+"/assets/img/templates/rosojowo/desktop-blog_details.webp",
+"/assets/img/templates/rosojowo/desktop-blog.webp",
+"/assets/img/templates/rosojowo/desktop-cart.webp",
+"/assets/img/templates/rosojowo/desktop-checkout.webp",
+"/assets/img/templates/rosojowo/desktop-coming_soon.webp",
+"/assets/img/templates/rosojowo/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/rosojowo/mobile-404.webp",
+"/assets/img/templates/rosojowo/mobile-about.webp",
+"/assets/img/templates/rosojowo/mobile-blog_details.webp",
+"/assets/img/templates/rosojowo/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/rosojowo.webp"
+]
+}
+},
+"sajiwara": {
+"dims": {
+"/assets/img/templates/sajiwara.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/sajiwara/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sajiwara/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sajiwara/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sajiwara/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sajiwara/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/sajiwara/code-coding_index_bottom.webp",
+"/assets/img/templates/sajiwara/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/sajiwara/desktop-404.webp",
+"/assets/img/templates/sajiwara/desktop-about.webp",
+"/assets/img/templates/sajiwara/desktop-blog_details.webp",
+"/assets/img/templates/sajiwara/desktop-blog.webp",
+"/assets/img/templates/sajiwara/desktop-cart.webp",
+"/assets/img/templates/sajiwara/desktop-checkout.webp",
+"/assets/img/templates/sajiwara/desktop-coming_soon.webp",
+"/assets/img/templates/sajiwara/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/sajiwara/mobile-404.webp",
+"/assets/img/templates/sajiwara/mobile-about.webp",
+"/assets/img/templates/sajiwara/mobile-blog_details.webp",
+"/assets/img/templates/sajiwara/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/sajiwara.webp"
+]
+}
+},
+"sekarasa": {
+"dims": {
+"/assets/img/templates/sekarasa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/sekarasa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/sekarasa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sekarasa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sekarasa/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/sekarasa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/sekarasa/code-coding_index_bottom.webp",
+"/assets/img/templates/sekarasa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/sekarasa/desktop-404.webp",
+"/assets/img/templates/sekarasa/desktop-about.webp",
+"/assets/img/templates/sekarasa/desktop-blog_details.webp",
+"/assets/img/templates/sekarasa/desktop-blog.webp",
+"/assets/img/templates/sekarasa/desktop-cart.webp",
+"/assets/img/templates/sekarasa/desktop-checkout.webp",
+"/assets/img/templates/sekarasa/desktop-coming_soon.webp",
+"/assets/img/templates/sekarasa/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/sekarasa/mobile-404.webp",
+"/assets/img/templates/sekarasa/mobile-about.webp",
+"/assets/img/templates/sekarasa/mobile-blog_details.webp",
+"/assets/img/templates/sekarasa/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/sekarasa.webp"
+]
+}
+},
+"terraflux-compro": {
+"dims": {
+"/assets/img/templates/terraflux-compro.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/terraflux-compro/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-careers.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-clients.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-earthmoving.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-equipment.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/terraflux-compro/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/terraflux-compro/mobile-careers.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/terraflux-compro/mobile-clients.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/terraflux-compro/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/terraflux-compro/code-coding_index_bottom.webp",
+"/assets/img/templates/terraflux-compro/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/terraflux-compro/desktop-about.webp",
+"/assets/img/templates/terraflux-compro/desktop-careers.webp",
+"/assets/img/templates/terraflux-compro/desktop-clients.webp",
+"/assets/img/templates/terraflux-compro/desktop-contact.webp",
+"/assets/img/templates/terraflux-compro/desktop-earthmoving.webp",
+"/assets/img/templates/terraflux-compro/desktop-equipment.webp",
+"/assets/img/templates/terraflux-compro/desktop-gallery.webp",
+"/assets/img/templates/terraflux-compro/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/terraflux-compro/mobile-about.webp",
+"/assets/img/templates/terraflux-compro/mobile-careers.webp",
+"/assets/img/templates/terraflux-compro/mobile-clients.webp",
+"/assets/img/templates/terraflux-compro/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/terraflux-compro.webp"
+]
+}
+},
+"vellumnoir-shop": {
+"dims": {
+"/assets/img/templates/vellumnoir-shop.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/vellumnoir-shop/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-article.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-collection.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-craftsmanship.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/desktop-journal.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vellumnoir-shop/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vellumnoir-shop/mobile-article.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vellumnoir-shop/mobile-collection.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vellumnoir-shop/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/vellumnoir-shop/code-coding_index_bottom.webp",
+"/assets/img/templates/vellumnoir-shop/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/vellumnoir-shop/desktop-about.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-article.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-collection.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-contact.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-craftsmanship.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-index_footer.webp",
+"/assets/img/templates/vellumnoir-shop.webp",
+"/assets/img/templates/vellumnoir-shop/desktop-journal.webp"
+],
+"mobile": [
+"/assets/img/templates/vellumnoir-shop/mobile-about.webp",
+"/assets/img/templates/vellumnoir-shop/mobile-article.webp",
+"/assets/img/templates/vellumnoir-shop/mobile-collection.webp",
+"/assets/img/templates/vellumnoir-shop/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/vellumnoir-shop.webp"
+]
+}
+},
+"velora": {
+"dims": {
+"/assets/img/templates/velora.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/velora/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-blog_single.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/velora/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/velora/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/velora/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/velora/mobile-blog_single.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/velora/code-coding_index_bottom.webp",
+"/assets/img/templates/velora/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/velora/desktop-404.webp",
+"/assets/img/templates/velora/desktop-about.webp",
+"/assets/img/templates/velora/desktop-blog_single.webp",
+"/assets/img/templates/velora/desktop-blog.webp",
+"/assets/img/templates/velora/desktop-coming_soon.webp",
+"/assets/img/templates/velora/desktop-contact.webp",
+"/assets/img/templates/velora/desktop-faq.webp",
+"/assets/img/templates/velora/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/velora/mobile-404.webp",
+"/assets/img/templates/velora/mobile-about.webp",
+"/assets/img/templates/velora/mobile-blog_single.webp",
+"/assets/img/templates/velora/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/velora.webp"
+]
+}
+},
+"veltronamotors": {
+"dims": {
+"/assets/img/templates/veltronamotors.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/veltronamotors/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-blog_detail.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-compare.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-cookie_policy.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/veltronamotors/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/veltronamotors/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/veltronamotors/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/veltronamotors/mobile-blog_detail.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/veltronamotors/code-coding_index_bottom.webp",
+"/assets/img/templates/veltronamotors/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/veltronamotors/desktop-404.webp",
+"/assets/img/templates/veltronamotors/desktop-about.webp",
+"/assets/img/templates/veltronamotors/desktop-blog_detail.webp",
+"/assets/img/templates/veltronamotors/desktop-blog.webp",
+"/assets/img/templates/veltronamotors/desktop-compare.webp",
+"/assets/img/templates/veltronamotors/desktop-contact.webp",
+"/assets/img/templates/veltronamotors/desktop-cookie_policy.webp",
+"/assets/img/templates/veltronamotors/desktop-faq.webp"
+],
+"mobile": [
+"/assets/img/templates/veltronamotors/mobile-404.webp",
+"/assets/img/templates/veltronamotors/mobile-about.webp",
+"/assets/img/templates/veltronamotors/mobile-blog_detail.webp",
+"/assets/img/templates/veltronamotors/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/veltronamotors.webp"
+]
+}
+},
+"vibranted-school": {
+"dims": {
+"/assets/img/templates/vibranted-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/vibranted-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vibranted-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vibranted-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vibranted-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vibranted-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/vibranted-school/code-coding_index_bottom.webp",
+"/assets/img/templates/vibranted-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/vibranted-school/desktop-about.webp",
+"/assets/img/templates/vibranted-school/desktop-achievements.webp",
+"/assets/img/templates/vibranted-school/desktop-admission.webp",
+"/assets/img/templates/vibranted-school/desktop-contact.webp",
+"/assets/img/templates/vibranted-school/desktop-facilities.webp",
+"/assets/img/templates/vibranted-school/desktop-faq.webp",
+"/assets/img/templates/vibranted-school/desktop-gallery.webp",
+"/assets/img/templates/vibranted-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/vibranted-school/mobile-about.webp",
+"/assets/img/templates/vibranted-school/mobile-achievements.webp",
+"/assets/img/templates/vibranted-school/mobile-admission.webp",
+"/assets/img/templates/vibranted-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/vibranted-school.webp"
+]
+}
+},
+"vocapro-school": {
+"dims": {
+"/assets/img/templates/vocapro-school.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/vocapro-school/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-achievements.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-admission.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-facilities.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/vocapro-school/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vocapro-school/mobile-achievements.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vocapro-school/mobile-admission.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/vocapro-school/mobile-contact.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/vocapro-school/code-coding_index_bottom.webp",
+"/assets/img/templates/vocapro-school/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/vocapro-school/desktop-about.webp",
+"/assets/img/templates/vocapro-school/desktop-achievements.webp",
+"/assets/img/templates/vocapro-school/desktop-admission.webp",
+"/assets/img/templates/vocapro-school/desktop-contact.webp",
+"/assets/img/templates/vocapro-school/desktop-facilities.webp",
+"/assets/img/templates/vocapro-school/desktop-faq.webp",
+"/assets/img/templates/vocapro-school/desktop-gallery.webp",
+"/assets/img/templates/vocapro-school/desktop-index_footer.webp"
+],
+"mobile": [
+"/assets/img/templates/vocapro-school/mobile-about.webp",
+"/assets/img/templates/vocapro-school/mobile-achievements.webp",
+"/assets/img/templates/vocapro-school/mobile-admission.webp",
+"/assets/img/templates/vocapro-school/mobile-contact.webp"
+],
+"thumb": [
+"/assets/img/templates/vocapro-school.webp"
+]
+}
+},
+"wedangsa": {
+"dims": {
+"/assets/img/templates/wedangsa.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/wedangsa/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-about.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-blog.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-blog_details.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-cart.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-checkout.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-coming_soon.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/desktop-contact.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/wedangsa/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/wedangsa/mobile-about.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/wedangsa/mobile-blog.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/wedangsa/mobile-blog_details.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/wedangsa/code-coding_index_bottom.webp",
+"/assets/img/templates/wedangsa/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/wedangsa/desktop-404.webp",
+"/assets/img/templates/wedangsa/desktop-about.webp",
+"/assets/img/templates/wedangsa/desktop-blog_details.webp",
+"/assets/img/templates/wedangsa/desktop-blog.webp",
+"/assets/img/templates/wedangsa/desktop-cart.webp",
+"/assets/img/templates/wedangsa/desktop-checkout.webp",
+"/assets/img/templates/wedangsa/desktop-coming_soon.webp",
+"/assets/img/templates/wedangsa/desktop-contact.webp"
+],
+"mobile": [
+"/assets/img/templates/wedangsa/mobile-404.webp",
+"/assets/img/templates/wedangsa/mobile-about.webp",
+"/assets/img/templates/wedangsa/mobile-blog_details.webp",
+"/assets/img/templates/wedangsa/mobile-blog.webp"
+],
+"thumb": [
+"/assets/img/templates/wedangsa.webp"
+]
+}
+},
+"weddinglarasarunika": {
+"dims": {
+"/assets/img/templates/weddinglarasarunika.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/weddinglarasarunika/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-gifts.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-guestbook.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/desktop-invitation.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddinglarasarunika/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddinglarasarunika/mobile-faq.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddinglarasarunika/mobile-gallery.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddinglarasarunika/mobile-gifts.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/weddinglarasarunika/code-coding_index_bottom.webp",
+"/assets/img/templates/weddinglarasarunika/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/weddinglarasarunika/desktop-404.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-faq.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-gallery.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-gifts.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-guestbook.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-index_footer.webp",
+"/assets/img/templates/weddinglarasarunika.webp",
+"/assets/img/templates/weddinglarasarunika/desktop-invitation.webp"
+],
+"mobile": [
+"/assets/img/templates/weddinglarasarunika/mobile-404.webp",
+"/assets/img/templates/weddinglarasarunika/mobile-faq.webp",
+"/assets/img/templates/weddinglarasarunika/mobile-gallery.webp",
+"/assets/img/templates/weddinglarasarunika/mobile-gifts.webp"
+],
+"thumb": [
+"/assets/img/templates/weddinglarasarunika.webp"
+]
+}
+},
+"weddingsekarratri": {
+"dims": {
+"/assets/img/templates/weddingsekarratri.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/weddingsekarratri/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-404.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-faq.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-gallery.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-gifts.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-guestbook.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/desktop-invitation.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingsekarratri/mobile-404.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddingsekarratri/mobile-faq.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddingsekarratri/mobile-gallery.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddingsekarratri/mobile-gifts.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/weddingsekarratri/code-coding_index_bottom.webp",
+"/assets/img/templates/weddingsekarratri/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/weddingsekarratri/desktop-404.webp",
+"/assets/img/templates/weddingsekarratri/desktop-faq.webp",
+"/assets/img/templates/weddingsekarratri/desktop-gallery.webp",
+"/assets/img/templates/weddingsekarratri/desktop-gifts.webp",
+"/assets/img/templates/weddingsekarratri/desktop-guestbook.webp",
+"/assets/img/templates/weddingsekarratri/desktop-index_footer.webp",
+"/assets/img/templates/weddingsekarratri.webp",
+"/assets/img/templates/weddingsekarratri/desktop-invitation.webp"
+],
+"mobile": [
+"/assets/img/templates/weddingsekarratri/mobile-404.webp",
+"/assets/img/templates/weddingsekarratri/mobile-faq.webp",
+"/assets/img/templates/weddingsekarratri/mobile-gallery.webp",
+"/assets/img/templates/weddingsekarratri/mobile-gifts.webp"
+],
+"thumb": [
+"/assets/img/templates/weddingsekarratri.webp"
+]
+}
+},
+"weddingvellune": {
+"dims": {
+"/assets/img/templates/weddingvellune.webp": {
+"h": 428,
+"w": 760
+},
+"/assets/img/templates/weddingvellune/code-coding_index_bottom.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingvellune/code-coding_index_middle.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingvellune/desktop-index_footer.webp": {
+"h": 608,
+"w": 1080
+},
+"/assets/img/templates/weddingvellune/mobile-index.webp": {
+"h": 1138,
+"w": 640
+},
+"/assets/img/templates/weddingvellune/mobile-index_footer.webp": {
+"h": 1138,
+"w": 640
+}
+},
+"shots": {
+"code": [
+"/assets/img/templates/weddingvellune/code-coding_index_bottom.webp",
+"/assets/img/templates/weddingvellune/code-coding_index_middle.webp"
+],
+"desktop": [
+"/assets/img/templates/weddingvellune/desktop-index_footer.webp",
+"/assets/img/templates/weddingvellune.webp"
+],
+"mobile": [
+"/assets/img/templates/weddingvellune/mobile-index.webp",
+"/assets/img/templates/weddingvellune/mobile-index_footer.webp"
+],
+"thumb": [
+"/assets/img/templates/weddingvellune.webp"
+]
+}
+}
+}

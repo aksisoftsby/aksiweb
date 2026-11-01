@@ -1,20 +1,38 @@
-title: "Aksisoft Media - Jasa Pembuatan Website Profesional"
+title: "Aksisoft Media"
+tagline: "Jasa Pembuatan Website Profesional"
 description: "Jasa pembuatan website company profile, landing page, toko online sederhana, dan blog untuk bisnis UMKM. Cepat, responsif, dan SEO-ready."
 url: "https://aksisoft.web.id"
 baseurl: "/"
 lang: id-ID
+locale: id_ID
 timezone: Asia/Jakarta
-logo: /assets/img/logo.png
+logo: /assets/img/og/aksisoft-og.jpg
+og_image: /assets/img/og/aksisoft-og.jpg
+favicon: /assets/img/favicon.png
 
 author:
   name: "Aksisoft Media"
-  url: "https://aksisoftsby.github.io/aksiweb/"
+  url: "https://aksisoft.web.id"
   twitter: ""
 
 social:
   name: "Aksisoft Media"
   links:
     - "https://github.com/aksisoftsby"
+    - "https://lynk.id/aksisoft"
+
+# Data bisnis untuk JSON-LD (dipakai _includes/seo.html)
+business:
+  name: "Aksisoft Media"
+  legal_name: "Aksisoft Media"
+  city: "Surabaya"
+  region: "Jawa Timur"
+  country: "ID"
+  phone: "+6281335206389"
+  whatsapp: "6281335206389"
+  email: ""
+  price_range: "Rp 1.500.000 - Rp 15.000.000"
+  founded: "2023"
 
 plugins:
   - jekyll-seo-tag
@@ -111,10 +129,17 @@ service_prices:
 
 exclude:
   - README.md
+  - DEPLOY-PAGES.md
+  - GENERATOR-README.md
+  - website-redesign.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - scripts
+  - "*.sh"
+  - "*.py"
+  - "*.ps1"
   - generate.js
   - generate.bat
   - generate-seo-articles.js
@@ -122,10 +147,10 @@ exclude:
   - generate-ebooks-data.js
   - package.json
   - package-lock.json
-  - GENERATOR-README.md
-  - website-redesign.md
-  - convert-muslimhub-poster.ps1
   - prompt.txt
   - template-reference.png
   - _qc_page1.png
   - .marker.txt
+  # PDF company profile disimpan sekali saja (assets/downloads)
+  - compro-aksisoft.pdf
+  - compro-aksisoft-en.pdf

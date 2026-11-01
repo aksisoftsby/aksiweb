@@ -4,7 +4,7 @@ slug: "menelusuri-huruf-bahasa-inggris"
 title: "Menelusuri Huruf (Bahasa Inggris)"
 description: "Lembar kerja menelusuri (tracing) huruf alfabet dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-worksheet-huruf-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/qmn24k11xdro"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menelusuri-Huruf-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-bahasa-inggris-1.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-worksheet-huruf-bahasa-inggris-1.webp"]
+og_image: '/assets/img/og/ebook-menelusuri-huruf-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menelusuri Huruf (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Menelusuri Huruf (Bahasa Inggris)
 
 > **Langkah Awal Menguasai Alfabet A-Z dengan Menyenangkan & Percaya Diri!**
 

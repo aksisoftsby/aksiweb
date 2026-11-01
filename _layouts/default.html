@@ -4,32 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#8f0f22">
-  {% seo %}
-  <link rel="icon" type="image/png" href="{{ '/assets/img/aksisoft-monogram.png' | relative_url }}">
+  <meta name="format-detection" content="telephone=no">
+  {% include seo.html %}
+
+  {%- comment -%} Ikon: SVG untuk browser modern, PNG fallback, Apple touch. {%- endcomment -%}
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon-16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+
   <script>document.documentElement.classList.add('js-ready');</script>
+
+  {%- comment -%} Font dimuat asinkron supaya tidak menahan render (FCP). {%- endcomment -%}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/products.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/catalog.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign2.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign3.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign4.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign5.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign6.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign7.css' | relative_url }}">
-  <!-- Normalisasi global: container, ritme margin, font, grid kartu. WAJIB terakhir. -->
-  <link rel="stylesheet" href="{{ '/assets/css/redesign8.css' | relative_url }}">
-  <!-- Katalog & detail ebook: WAJIB paling akhir agar menimpa aturan sebelumnya. -->
-  <link rel="stylesheet" href="{{ '/assets/css/redesign9.css' | relative_url }}">
-  <!-- Detail portfolio: hero image, galeri, CTA jasa. -->
-  <link rel="stylesheet" href="{{ '/assets/css/redesign10.css' | relative_url }}">
+  {%- assign gfonts = 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap' -%}
+  <link rel="preload" as="style" href="{{ gfonts }}">
+  <link rel="stylesheet" href="{{ gfonts }}" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="{{ gfonts }}"></noscript>
+
+  {%- comment -%} 12 stylesheet digabung jadi satu (lihat scripts/build-css.py). {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+  {%- comment -%} Preload gambar LCP hanya di halaman yang memakainya di atas lipatan. {%- endcomment -%}
+  {%- if page.url == '/' -%}
+  <link rel="preload" as="image" href="{{ '/assets/img/aksisoft-hero-burgundy.webp' | relative_url }}" fetchpriority="high">
+  {%- elsif page.hero_image -%}
+  <link rel="preload" as="image" href="{{ page.hero_image | relative_url }}" fetchpriority="high">
+  {%- endif -%}
+
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body class="{% if page.url == '/' %}is-home{% else %}is-inner{% endif %}">
   {% include header.html %}
   <main class="{% if page.url == '/' %}home-main{% else %}site-main{% endif %}">
+    {% if page.url != '/' and page.hide_breadcrumb != true %}{% include breadcrumb.html %}{% endif %}
     {{ content }}
   </main>
   {% include footer.html %}

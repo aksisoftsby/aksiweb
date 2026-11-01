@@ -4,6 +4,7 @@ title: Kebijakan Privasi
 description: Kebijakan privasi aplikasi dan layanan Aksisoft Media, termasuk Crumb Trail dan Kasir Stok.
 eyebrow: Privasi
 permalink: /privacy-policy/
+og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
 Berlaku sejak: 13 Oktober 2026 — diperbarui 19 Oktober 2026

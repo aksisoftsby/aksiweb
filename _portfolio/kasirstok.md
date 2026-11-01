@@ -3,10 +3,11 @@ layout: portfolio
 title: Kasir Stok — Aplikasi Android Kasir & Stok UMKM
 description: Aplikasi Android untuk kasir dan manajemen stok toko UMKM — penjualan cepat via barcode, desain invoice PDF, pemberian QRIS, sinkronisasi data awan, berjalan offline, dan rilis di Google Play.
 category: Aplikasi Android
-image: /assets/img/portfolio/kasirstok.png
+image: /assets/img/portfolio/kasirstok.webp
 site_url: https://play.google.com/store/apps/details?id=id.aksisoft.kasirstok
 site_label: Google Play
 order: 5
+og_image: '/assets/img/og/portfolio-kasirstok.jpg'
 ---
 
 ## Tentang Proyek

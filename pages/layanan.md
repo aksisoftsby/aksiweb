@@ -4,6 +4,7 @@ title: Layanan Kami
 description: Solusi digital marketing dan pembuatan website profesional untuk bisnis Anda
 eyebrow: Layanan
 permalink: /layanan/
+og_image: '/assets/img/og/layanan-og.jpg'
 ---
 
 <style>

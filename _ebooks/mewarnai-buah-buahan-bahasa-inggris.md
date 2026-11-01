@@ -4,7 +4,7 @@ slug: "mewarnai-buah-buahan-bahasa-inggris"
 title: "Mewarnai Buah-buahan (Bahasa Inggris)"
 description: "Lembar kerja mewarnai gambar buah-buahan dengan keterangan dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-mewarnai-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/wx4dwol885m7"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mewarnai-Buah-buahan-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-2.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-1.webp","/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-2.webp"]
+og_image: '/assets/img/og/ebook-mewarnai-buah-buahan-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mewarnai Buah-buahan (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Mewarnai Buah-buahan (Bahasa Inggris)
 
 > **Mengenal Aneka Buah Segar Bernutrisi Lewat Aktivitas Kreatif Menyenangkan!**
 

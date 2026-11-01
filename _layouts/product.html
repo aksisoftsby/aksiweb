@@ -22,7 +22,8 @@ layout: default
       </div>
     </div>
     <figure class="product-hero-visual">
-      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt }}">
+      {% assign dhero = site.data.imgdims[page.hero_image] %}
+      <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | default: page.product_name }}" {% if dhero %}width="{{ dhero.w }}" height="{{ dhero.h }}"{% endif %} loading="eager" fetchpriority="high" decoding="async">
       <figcaption>Antarmuka produk yang dapat diakses secara publik.</figcaption>
     </figure>
   </section>

@@ -4,6 +4,7 @@ title: Aksi Office Privacy Policy
 description: Privacy policy for the Aksi Office Android app (id.aksisoft.office) — local office document reader/editor/creator, PDF tools, and Google AdMob advertising.
 eyebrow: Privacy
 permalink: /privacy-policy-aksioffice/
+og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
 Effective date: October 29, 2026

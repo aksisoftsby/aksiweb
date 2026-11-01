@@ -4,7 +4,7 @@ slug: "mewarnai-perkenalan-barang-bahasa-inggris"
 title: "Mewarnai Perkenalan Barang (Bahasa Inggris)"
 description: "Lembar kerja mewarnai gambar benda sehari-hari dengan keterangan dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/kxe1r5v0oeom"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mewarnai-Perkenalan-Barang-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-4.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-1.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-2.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-3.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-4.webp"]
+og_image: '/assets/img/og/ebook-mewarnai-perkenalan-barang-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mewarnai Perkenalan Barang (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Mewarnai Perkenalan Barang (Bahasa Inggris)
 
 > **Mengenal Benda Sehari-hari di Sekitar Kita dengan Metode Praktis & Ceria!**
 

@@ -3,12 +3,13 @@ layout: default
 title: Jasa Pembuatan Website Static
 description: Layanan pembuatan website static profesional dengan performa tinggi, aman, dan SEO friendly. Cocok untuk company profile, landing page, dan portofolio.
 permalink: /layanan/website-static/
+og_image: '/assets/img/og/layanan-website-static.jpg'
 ---
 
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-static-hero.jpg' | relative_url }}')">
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/website-static-hero.webp' | relative_url }}')">
       <h1>Jasa Pembuatan Website Static</h1>
       <p class="lead">Website cepat, aman, dan optimal untuk bisnis Anda</p>
     </div>

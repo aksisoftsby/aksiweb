@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Operasi pelanggan yang lebih rapi dari prospek sampai dukungan.
+seo_title: "Aksi CRM — Sistem Manajemen Pelanggan"
 description: Aksi CRM menyatukan pelanggan, lead, proposal, invoice, proyek, dan tiket layanan agar tim dapat melihat konteks yang sama pada setiap tahap.
 permalink: /produk/aksi-crm/
 product_key: crm
@@ -14,6 +15,7 @@ product_url: https://crm.aksisoft.web.id
 hero_image: /assets/img/products/aksi-crm-login.webp
 hero_alt: Layar akses Aksi CRM
 intro: Aksi CRM memberi organisasi satu ruang kerja untuk menggerakkan peluang, dokumen penjualan, pekerjaan delivery, dan dukungan pelanggan. Semua modul ditempatkan pada alur yang sama agar perpindahan antar-tim tidak menghilangkan konteks.
+og_image: '/assets/img/og/produk-aksi-crm.jpg'
 ---
 
 <!-- Editorial Burgundy product page: Aksi CRM turns fragmented customer operations into a clear workspace. -->

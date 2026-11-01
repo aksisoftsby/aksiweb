@@ -4,6 +4,7 @@ title: Kontak
 description: Hubungi kami untuk konsultasi pembuatan website bisnis, landing page, atau blog.
 eyebrow: Hubungi Kami
 permalink: /kontak/
+og_image: '/assets/img/og/kontak-og.jpg'
 ---
 
 Siap membuat website untuk bisnis Anda? Kami siap membantu mewujudkan ide Anda menjadi kenyataan dengan solusi digital yang tepat.

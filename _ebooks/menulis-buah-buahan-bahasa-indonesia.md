@@ -4,7 +4,7 @@ slug: "menulis-buah-buahan-bahasa-indonesia"
 title: "Menulis Buah-buahan (Bahasa Indonesia)"
 description: "Lembar kerja menulis dan menelusuri nama-nama buah-buahan dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-buah-buahan-menulis-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-buah-buahan-menulis-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/j46qzn1kp0w3"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Buah-buahan-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-3.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-2.webp","/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-3.webp"]
+og_image: '/assets/img/og/ebook-menulis-buah-buahan-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Buah-buahan (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Buah-buahan (Bahasa Indonesia)
 
 > **Mengenal Aneka Buah Segar Bernutrisi Lewat Aktivitas Kreatif Menyenangkan!**
 

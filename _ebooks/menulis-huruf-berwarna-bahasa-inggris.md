@@ -4,7 +4,7 @@ slug: "menulis-huruf-berwarna-bahasa-inggris"
 title: "Menulis Huruf Berwarna (Bahasa Inggris)"
 description: "Lembar kerja berwarna menulis dan menelusuri huruf alfabet dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/xzgmlpnppk75"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Huruf-Berwarna-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-berwarna-bahasa-inggris-1.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-worksheet-huruf-berwarna-bahasa-inggris-1.webp"]
+og_image: '/assets/img/og/ebook-menulis-huruf-berwarna-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Huruf Berwarna (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Huruf Berwarna (Bahasa Inggris)
 
 > **Langkah Awal Menguasai Alfabet A-Z dengan Menyenangkan & Percaya Diri!**
 

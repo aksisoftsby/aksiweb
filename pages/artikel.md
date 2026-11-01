@@ -4,6 +4,7 @@ title: Artikel SEO Jasa Digital per Kota
 description: "Kumpulan halaman layanan Aksisoft untuk kota-kota besar di Jawa dan Bali, mulai dari jasa buat website, aplikasi Android, aplikasi custom, sampai website murah."
 eyebrow: Artikel & Kata Kunci
 permalink: /artikel/
+og_image: '/assets/img/og/portfolio-og.jpg'
 ---
 
 <p class="page-intro">

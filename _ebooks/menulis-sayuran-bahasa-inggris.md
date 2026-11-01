@@ -4,7 +4,7 @@ slug: "menulis-sayuran-bahasa-inggris"
 title: "Menulis Sayuran (Bahasa Inggris)"
 description: "Lembar kerja menulis dan menelusuri nama-nama sayuran dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-menulis-bahasainggris.jpg"
+image: "/assets/img/ebook/cover-sayuran-menulis-bahasainggris.webp"
 buy_url: "https://lynk.id/aksisoft/nly3m01ly23x"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Sayuran-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-4.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-1.webp","/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-2.webp","/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-3.webp","/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-4.webp"]
+og_image: '/assets/img/og/ebook-menulis-sayuran-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Sayuran (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Sayuran (Bahasa Inggris)
 
 > **Belajar & Kuis Seru Mengenal Ragam Sayuran Hijau Kaya Gizi!**
 

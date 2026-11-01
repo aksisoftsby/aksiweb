@@ -1,0 +1,213 @@
+{%- comment -%}
+  _includes/seo.html — SEO terpadu pengganti {% seo %}.
+
+  Diproses manual supaya:
+    * <title> tetap <= 60 karakter (tidak ada embel-embel nama situs panjang),
+    * deskripsi tidak pernah kosong dan tidak terpotong di tengah kata,
+    * og:image & twitter:image selalu ada (preview WhatsApp/Telegram/FB/X),
+    * JSON-LD: Organization + WebSite + WebPage + BreadcrumbList,
+      ditambah BlogPosting / Service / SoftwareApplication sesuai halaman.
+
+  Front matter yang dibaca:
+    title, description, image, og_image, hero_image, noindex, robots,
+    date, last_modified_at, category, product_url, site_url
+{%- endcomment -%}
+
+{%- assign sep = ' — ' -%}
+{%- assign brand = 'Aksisoft' -%}
+
+{%- comment -%} ---------- JUDUL ---------- {%- endcomment -%}
+{%- if page.seo_title -%}
+  {%- assign seo_title = page.seo_title -%}
+{%- elsif page.title -%}
+  {%- assign seo_title = page.title -%}
+{%- else -%}
+  {%- assign seo_title = site.tagline | default: site.title -%}
+{%- endif -%}
+{%- unless seo_title contains brand -%}
+  {%- if page.url == site.baseurl or page.url == '/' -%}
+    {%- assign seo_title = seo_title | append: sep | append: site.title -%}
+  {%- else -%}
+    {%- assign seo_title = seo_title | append: sep | append: brand -%}
+  {%- endif -%}
+{%- endunless -%}
+{%- comment -%} Potong di batas kata, maksimal 58 karakter. {%- endcomment -%}
+{%- if seo_title.size > 58 -%}
+  {%- assign twords = seo_title | split: ' ' -%}
+  {%- assign tout = '' -%}
+  {%- for w in twords -%}
+    {%- assign cand = tout | append: ' ' | append: w -%}
+    {%- if cand.size <= 56 -%}
+      {%- assign tout = cand -%}
+    {%- else -%}
+      {%- assign tout = tout | append: '…' -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign seo_title = tout | strip -%}
+{%- endif -%}
+
+{%- comment -%} ---------- DESKRIPSI ---------- {%- endcomment -%}
+{%- if page.description -%}
+  {%- assign seo_desc = page.description -%}
+{%- elsif page.excerpt -%}
+  {%- assign seo_desc = page.excerpt -%}
+{%- elsif content -%}
+  {%- assign seo_desc = content | strip_html -%}
+{%- else -%}
+  {%- assign seo_desc = site.description -%}
+{%- endif -%}
+{%- assign seo_desc = seo_desc | strip_html | normalize_whitespace | remove: '"' -%}
+{%- if seo_desc.size < 40 -%}
+  {%- assign seo_desc = site.description -%}
+{%- endif -%}
+{%- comment -%} Potong di batas kata, maksimal 154 karakter. {%- endcomment -%}
+{%- if seo_desc.size > 154 -%}
+  {%- assign dwords = seo_desc | split: ' ' -%}
+  {%- assign dout = '' -%}
+  {%- for w in dwords -%}
+    {%- assign cand = dout | append: ' ' | append: w -%}
+    {%- if cand.size <= 152 -%}
+      {%- assign dout = cand -%}
+    {%- else -%}
+      {%- assign dout = dout | append: '…' -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign seo_desc = dout | strip -%}
+{%- endif -%}
+
+{%- comment -%} ---------- GAMBAR ---------- {%- endcomment -%}
+{%- if page.og_image -%}
+  {%- assign seo_img = page.og_image -%}
+{%- elsif page.image -%}
+  {%- assign seo_img = page.image -%}
+{%- elsif page.hero_image -%}
+  {%- assign seo_img = page.hero_image -%}
+{%- else -%}
+  {%- assign seo_img = site.og_image -%}
+{%- endif -%}
+{%- assign seo_img_url = seo_img | absolute_url -%}
+
+{%- comment -%} ---------- URL & JENIS ---------- {%- endcomment -%}
+{%- assign seo_url = page.url | absolute_url -%}
+{%- if page.collection == 'posts' -%}
+  {%- assign seo_type = 'article' -%}
+{%- else -%}
+  {%- assign seo_type = 'website' -%}
+{%- endif -%}
+
+{%- comment -%} ---------- ROBOT ---------- {%- endcomment -%}
+{%- if page.noindex or page.robots contains 'noindex' -%}
+  {%- assign seo_robots = 'noindex, follow' -%}
+{%- else -%}
+  {%- assign seo_robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' -%}
+{%- endif -%}
+
+<title>{{ seo_title | escape }}</title>
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+<meta name="author" content="{{ site.author.name }}" />
+<meta name="description" content="{{ seo_desc | escape }}" />
+<meta name="robots" content="{{ seo_robots }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="canonical" href="{{ seo_url }}" />
+
+<meta property="og:type" content="{{ seo_type }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:locale" content="{{ site.locale | default: 'id_ID' }}" />
+<meta property="og:url" content="{{ seo_url }}" />
+<meta property="og:title" content="{{ seo_title | escape }}" />
+<meta property="og:description" content="{{ seo_desc | escape }}" />
+<meta property="og:image" content="{{ seo_img_url }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ seo_title | escape }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ seo_title | escape }}" />
+<meta name="twitter:description" content="{{ seo_desc | escape }}" />
+<meta name="twitter:image" content="{{ seo_img_url }}" />
+{%- if site.author.twitter != '' -%}
+<meta name="twitter:site" content="@{{ site.author.twitter }}" />
+{%- endif -%}
+
+{%- comment -%} ============ JSON-LD ============ {%- endcomment -%}
+{%- assign org_id = site.url | append: '/#organization' -%}
+{%- assign site_id = site.url | append: '/#website' -%}
+
+{%- comment -%} Nama bagian untuk breadcrumb {%- endcomment -%}
+{%- assign segs = page.url | split: '/' -%}
+{%- assign seg1 = segs[1] -%}
+{%- case seg1 -%}
+  {%- when 'layanan' %}{%- assign crumb_name = 'Layanan' -%}
+  {%- when 'produk' %}{%- assign crumb_name = 'Produk' -%}
+  {%- when 'portfolio' %}{%- assign crumb_name = 'Portfolio' -%}
+  {%- when 'blog' %}{%- assign crumb_name = 'Blog' -%}
+  {%- when 'website' %}{%- assign crumb_name = 'Template Website' -%}
+  {%- when 'ebook' %}{%- assign crumb_name = 'eBook & Worksheet' -%}
+  {%- when 'jasa' %}{%- assign crumb_name = 'Layanan Digital' -%}
+  {%- when 'artikel' %}{%- assign crumb_name = 'Artikel' -%}
+  {%- when 'tentang' %}{%- assign crumb_name = 'Tentang Kami' -%}
+  {%- when 'kontak' %}{%- assign crumb_name = 'Kontak' -%}
+  {%- when 'payment' %}{%- assign crumb_name = 'Pembayaran QRIS' -%}
+  {%- when 'privacy-policy' %}{%- assign crumb_name = 'Kebijakan Privasi' -%}
+  {%- when 'proposal' %}{%- assign crumb_name = 'Proposal' -%}
+  {%- when nil %}{%- assign crumb_name = '' -%}
+  {%- when '' %}{%- assign crumb_name = '' -%}
+  {%- else %}{%- assign crumb_name = seg1 | capitalize -%}
+{%- endcase -%}
+{%- assign crumb_url = site.url | append: '/' | append: seg1 | append: '/' -%}
+{%- assign is_index = false -%}
+{%- if segs.size <= 2 -%}{%- assign is_index = true -%}{%- endif -%}
+
+{%- comment -%} Susun breadcrumb {%- endcomment -%}
+{%- assign crumbs = '' -%}
+{%- capture crumb_home -%}
+{"@type":"ListItem","position":1,"name":"Beranda","item":"{{ site.url }}/"}
+{%- endcapture -%}
+{%- assign crumbs = crumb_home -%}
+{%- if crumb_name != '' -%}
+  {%- capture crumb_sec -%}
+,{"@type":"ListItem","position":2,"name":"{{ crumb_name | escape }}","item":"{{ crumb_url }}"}
+  {%- endcapture -%}
+  {%- assign crumbs = crumbs | append: crumb_sec -%}
+  {%- unless is_index -%}
+    {%- capture crumb_here -%}
+,{"@type":"ListItem","position":3,"name":"{{ page.title | escape }}","item":"{{ seo_url }}"}
+    {%- endcapture -%}
+    {%- assign crumbs = crumbs | append: crumb_here -%}
+  {%- endunless -%}
+{%- endif -%}
+
+{%- comment -%} Node khusus halaman {%- endcomment -%}
+{%- assign extra = '' -%}
+{%- if page.collection == 'posts' -%}
+  {%- capture extra -%}
+,{"@type":"BlogPosting","@id":"{{ seo_url }}#article","mainEntityOfPage":{"@id":"{{ seo_url }}"},"headline":"{{ page.title | escape }}","description":"{{ seo_desc | escape }}","image":"{{ seo_img_url }}","datePublished":"{{ page.date | date_to_xmlschema }}","dateModified":"{{ page.last_modified_at | default: page.date | date_to_xmlschema }}","author":{"@type":"Organization","name":"{{ site.author.name }}","url":"{{ site.url }}"},"publisher":{"@id":"{{ org_id }}"},"inLanguage":"{{ site.lang }}"}
+  {%- endcapture -%}
+{%- elsif seg1 == 'layanan' and page.title -%}
+  {%- capture extra -%}
+,{"@type":"Service","@id":"{{ seo_url }}#service","name":"{{ page.title | escape }}","description":"{{ seo_desc | escape }}","url":"{{ seo_url }}","serviceType":"{{ page.title | escape }}","provider":{"@id":"{{ org_id }}"},"areaServed":{"@type":"Country","name":"Indonesia"},"availableLanguage":[{"@type":"Language","name":"Indonesian"}]}
+  {%- endcapture -%}
+{%- elsif seg1 == 'produk' and page.title -%}
+  {%- capture extra -%}
+,{"@type":"SoftwareApplication","@id":"{{ seo_url }}#app","name":"{{ page.product_name | default: page.title | escape }}","description":"{{ seo_desc | escape }}","url":"{{ seo_url }}","applicationCategory":"BusinessApplication","operatingSystem":"Web, Android","offers":{"@type":"Offer","priceCurrency":"IDR","availability":"https://schema.org/LimitedAvailability"},"provider":{"@id":"{{ org_id }}"}}
+  {%- endcapture -%}
+{%- elsif seg1 == 'website' and page.price -%}
+  {%- capture extra -%}
+,{"@type":"Product","@id":"{{ seo_url }}#product","name":"{{ page.title | escape }}","image":"{{ seo_img_url }}","description":"{{ seo_desc | escape }}","brand":{"@id":"{{ org_id }}"},"category":"Template Website","url":"{{ seo_url }}","offers":{"@type":"Offer","price":"{{ page.price }}","priceCurrency":"IDR","url":"{{ page.buy_url | default: seo_url }}","itemCondition":"https://schema.org/NewCondition","availability":"https://schema.org/InStock"}}
+  {%- endcapture -%}
+{%- elsif seg1 == 'ebook' and page.price -%}
+  {%- capture extra -%}
+,{"@type":"Product","@id":"{{ seo_url }}#product","name":"{{ page.title | escape }}","image":"{{ seo_img_url }}","description":"{{ seo_desc | escape }}","brand":{"@id":"{{ org_id }}"},"category":"eBook &amp; Worksheet","url":"{{ seo_url }}","offers":{"@type":"Offer","price":"{{ page.price }}","priceCurrency":"IDR","url":"{{ page.buy_url | default: seo_url }}","itemCondition":"https://schema.org/NewCondition","availability":"https://schema.org/InStock"}}
+  {%- endcapture -%}
+{%- endif -%}
+
+{%- capture ld -%}
+{"@context":"https://schema.org","@graph":[
+{"@type":"Organization","@id":"{{ org_id }}","name":"{{ site.business.name }}","alternateName":"Aksisoft","url":"{{ site.url }}/","logo":{"@type":"ImageObject","url":"{{ '/assets/img/og/aksisoft-og.jpg' | absolute_url }}","width":1200,"height":630},"description":"{{ site.description | escape }}","foundingDate":"{{ site.business.founded }}","address":{"@type":"PostalAddress","addressLocality":"{{ site.business.city }}","addressRegion":"{{ site.business.region }}","addressCountry":"{{ site.business.country }}"},"areaServed":{"@type":"Country","name":"Indonesia"},"sameAs":[{%- for l in site.social.links -%}{%- unless forloop.first -%},{%- endunless -%}"{{ l }}"{%- endfor -%}],"contactPoint":[{"@type":"ContactPoint","contactType":"sales","telephone":"{{ site.business.phone }}","availableLanguage":["id","en"],"areaServed":"ID"}]},
+{"@type":"WebSite","@id":"{{ site_id }}","url":"{{ site.url }}/","name":"{{ site.title }}","alternateName":"Aksisoft","description":"{{ site.description | escape }}","inLanguage":"{{ site.lang }}","publisher":{"@id":"{{ org_id }}"}},
+{"@type":"BreadcrumbList","@id":"{{ seo_url }}#breadcrumb","itemListElement":[{{ crumbs }}]},
+{"@type":"WebPage","@id":"{{ seo_url }}","url":"{{ seo_url }}","name":"{{ seo_title | escape }}","description":"{{ seo_desc | escape }}","inLanguage":"{{ site.lang }}","isPartOf":{"@id":"{{ site_id }}"},"primaryImageOfPage":{"@type":"ImageObject","url":"{{ seo_img_url }}"},"about":{"@id":"{{ org_id }}"}}{{ extra }}
+]}
+{%- endcapture -%}
+<script type="application/ld+json">{{ ld | strip_newlines }}</script>

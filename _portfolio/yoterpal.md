@@ -3,13 +3,14 @@ layout: portfolio
 title: YO Tarpaulin — CV. Yo Terpal Nusantara Raya
 description: Website company profile produsen & pemasok terpal nasional, lengkap dengan katalog produk, aplikasi penggunaan, alur pemesanan, dan sistem pemesanan WhatsApp.
 category: Website Perusahaan
-image: /assets/img/portfolio/yoterpal.png
+image: /assets/img/portfolio/yoterpal.webp
 site_url: https://yoterpal.com/
 site_label: yoterpal.com
 gallery:
-  - /assets/img/portfolio/yoterpal.png
-  - /assets/img/portfolio/yoterpal-mobile.png
+  - /assets/img/portfolio/yoterpal.webp
+  - /assets/img/portfolio/yoterpal-mobile.webp
 order: 3
+og_image: '/assets/img/og/portfolio-yoterpal.jpg'
 ---
 
 ## Tentang Proyek

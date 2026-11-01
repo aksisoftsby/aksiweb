@@ -4,7 +4,7 @@ slug: "mewarnai-perkenalan-barang-bahasa-indonesia"
 title: "Mewarnai Perkenalan Barang (Bahasa Indonesia)"
 description: "Lembar kerja mewarnai gambar benda sehari-hari dengan keterangan dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/0vpm86k2vq8g"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mewarnai-Perkenalan-Barang-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-4.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-2.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-3.webp","/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-4.webp"]
+og_image: '/assets/img/og/ebook-mewarnai-perkenalan-barang-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mewarnai Perkenalan Barang (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Mewarnai Perkenalan Barang (Bahasa Indonesia)
 
 > **Mengenal Benda Sehari-hari di Sekitar Kita dengan Metode Praktis & Ceria!**
 

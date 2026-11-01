@@ -4,7 +4,7 @@ slug: "mewarnai-binatang-bahasa-indonesia"
 title: "Mewarnai Binatang (Bahasa Indonesia)"
 description: "Lembar kerja mewarnai gambar binatang dengan keterangan dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/33lp54w95719"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mewarnai-Binatang-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-2.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-2.webp"]
+og_image: '/assets/img/og/ebook-mewarnai-binatang-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mewarnai Binatang (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Mewarnai Binatang (Bahasa Indonesia)
 
 > **Jelajahi Dunia Satwa Lucu Sambil Asah Kemampuan Menulis & Mewarnai!**
 

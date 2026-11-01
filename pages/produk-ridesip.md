@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Superapp lokal untuk pesanan, merchant, dan kurir yang terhubung.
+seo_title: "RideSip — Superapp Layanan Lokal"
 description: RideSip adalah fondasi superapp untuk menyatukan pengalaman pemesanan, belanja harian, partner merchant, promo, dan layanan pengantaran lokal.
 permalink: /produk/ridesip/
 product_key: ridesip
@@ -11,11 +12,12 @@ product_order: 1
 eyebrow: Produk / RideSip
 product_domain: ridesip.my.id
 product_url: https://ridesip.my.id
-logo: /assets/img/products/ridesip-logo.png
+logo: /assets/img/products/ridesip-logo.webp
 logo_alt: Logo RideSip
 hero_image: /assets/img/products/ridesip-home.webp
 hero_alt: Tampilan beranda RideSip Superapp
 intro: RideSip membantu membangun titik temu antara pengguna, merchant, promosi, dan layanan pengantaran. Antarmuka publiknya memperlihatkan pencarian layanan, katalog partner, voucher, dan jalur akses admin dalam satu ekosistem.
+og_image: '/assets/img/og/produk-ridesip.jpg'
 ---
 
 <!-- Editorial Burgundy product page: RideSip is shown as a connected local-services operating system. -->
@@ -31,7 +33,7 @@ intro: RideSip membantu membangun titik temu antara pengguna, merchant, promosi,
 
 <section class="product-proof reveal-section">
   <div class="product-proof-copy"><p class="eyebrow">Visual produk</p><h2>Dari etalase layanan sampai titik kontrol operasional.</h2><p>Halaman publik RideSip memperlihatkan area pencarian, promo, dan daftar merchant. Layar akses admin memperlihatkan pemisahan jelas antara pengalaman pengguna dan area pengelolaan.</p></div>
-  <figure><img src="{{ '/assets/img/products/ridesip-admin.webp' | relative_url }}" alt="Layar masuk admin RideSip"><figcaption>Contoh layar akses admin yang tersedia secara publik.</figcaption></figure>
+  <figure><img width="760" height="654"  src="{{ '/assets/img/products/ridesip-admin.webp' | relative_url }}" alt="Layar masuk admin RideSip"><figcaption>Contoh layar akses admin yang tersedia secara publik.</figcaption></figure>
 </section>
 
 <section class="product-section product-packages reveal-section">

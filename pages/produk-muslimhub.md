@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Portal ibadah harian yang lengkap, ringan, dan gratis.
+seo_title: "MuslimHub — Portal Ibadah Harian Web & Android"
 description: MuslimHub menyatukan Al-Qur'an, mushaf digital, jadwal sholat, kiblat, hadits, doa, kalender hijriah, dan asisten AI dalam satu portal gratis — di web maupun aplikasi Android yang resmi tersedia di Google Play.
 permalink: /produk/muslimhub/
 product_key: muslimhub
@@ -11,10 +12,11 @@ product_order: 5
 eyebrow: Produk / MuslimHub
 product_domain: muslimhub.aksisoftsby.workers.dev
 product_url: https://muslimhub.aksisoftsby.workers.dev
-hero_image: /assets/img/products/muslimhub-poster.jpg
+hero_image: /assets/img/products/muslimhub-poster.webp
 hero_alt: Poster MuslimHub dengan tampilan aplikasi di web dan Android
-image: /assets/img/products/muslimhub-og.jpg
+image: /assets/img/products/muslimhub-og.webp
 intro: MuslimHub adalah portal Islam yang dapat dipakai tanpa akun dan tanpa biaya. Al-Qur'an 114 surah, mushaf digital 604 halaman, jadwal sholat 518 kota/kabupaten, kiblat, hadits, doa, adzkar, Iqro, kalender hijriah, sampai MuslimHub AI berada dalam satu alur yang ringan dipakai harian — di browser maupun sebagai aplikasi Android.
+og_image: '/assets/img/og/produk-muslimhub.jpg'
 ---
 
 <!-- Editorial Burgundy product page: MuslimHub is presented as a free, complete worship portal for web and Android. -->
@@ -37,7 +39,7 @@ intro: MuslimHub adalah portal Islam yang dapat dipakai tanpa akun dan tanpa bia
 
 <section class="product-proof reveal-section">
   <div class="product-proof-copy"><p class="eyebrow">Web & Android</p><h2>Satu pengalaman yang sama, di dua perangkat.</h2><p>Seluruh fitur inti identik di browser dan APK Android. Versi Android menambahkan hal yang menempel pada perangkat: widget Jadwal Sholat 4x2 dengan hitung mundur, notifikasi native, getar tasbih, serta konten inti yang tetap berjalan tanpa internet.</p></div>
-  <figure><img src="{{ '/assets/img/products/muslimhub-poster.jpg' | relative_url }}" alt="Poster MuslimHub dengan tampilan aplikasi di web dan Android"><figcaption>Poster MuslimHub — web dan Android dalam satu pengalaman.</figcaption></figure>
+  <figure><img width="800" height="1067"  src="{{ '/assets/img/products/muslimhub-poster.webp' | relative_url }}" alt="Poster MuslimHub dengan tampilan aplikasi di web dan Android"><figcaption>Poster MuslimHub — web dan Android dalam satu pengalaman.</figcaption></figure>
 </section>
 
 <section class="product-section product-packages reveal-section">

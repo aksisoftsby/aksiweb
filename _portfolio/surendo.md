@@ -3,10 +3,11 @@ layout: portfolio
 title: Surendo — CV. Surya Energy Indonesia
 description: Website profil perusahaan pabrikasi tiang PJU dan energi terbarukan, lengkap dengan katalog paket produk, daftar klien, dan informasi kontak.
 category: Website Perusahaan
-image: /assets/img/portfolio/surendo.png
+image: /assets/img/portfolio/surendo.webp
 site_url: https://surendo.co.id/
 site_label: surendo.co.id
 order: 2
+og_image: '/assets/img/og/portfolio-surendo.jpg'
 ---
 
 ## Tentang Proyek

@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Operasi retail yang lebih jelas, cepat, dan dapat ditelusuri.
+seo_title: "AksiSoft POS — Kasir & Operasional Ritel"
 description: AksiSoft POS menyatukan proses kasir, pergerakan stok, pembelian, dan pelaporan manajemen dalam satu workspace operasional yang terkontrol.
 permalink: /produk/aksisoft-pos/
 product_key: pos
@@ -14,6 +15,7 @@ product_url: https://pos.aksisoft.web.id
 hero_image: /assets/img/products/aksisoft-pos-login.webp
 hero_alt: Layar masuk AksiSoft POS Platform
 intro: AksiSoft POS ditujukan untuk operasi retail yang membutuhkan kejelasan transaksi dan akuntabilitas pergerakan stok. Pengguna masuk ke workspace sesuai peran agar proses kasir, inventori, pembelian, dan pelaporan dapat berjalan lebih terarah.
+og_image: '/assets/img/og/produk-aksisoft-pos.jpg'
 ---
 
 <!-- Editorial Burgundy product page: AksiSoft POS presents retail control through a concise, auditable workspace. -->

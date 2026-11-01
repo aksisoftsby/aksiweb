@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /proposal/
+Disallow: /company-profile.html
+Disallow: /company-profile-en.html
+
+# Aksisoft — https://aksisoft.web.id
+Sitemap: https://aksisoft.web.id/sitemap.xml

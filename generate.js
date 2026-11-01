@@ -15,7 +15,7 @@ const CONFIG = {
   concurrency: 5,
   buildAfterGenerate: false,              // ubah true untuk jekyll build otomatis
   defaultCategory: 'HTML Template',
-  fallbackImage: '/assets/img/aksisoft-monogram.png'
+  fallbackImage: '/assets/img/aksisoft-monogram.webp'
 };
 // ============================================================
 

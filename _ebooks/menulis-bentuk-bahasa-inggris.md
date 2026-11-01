@@ -4,7 +4,7 @@ slug: "menulis-bentuk-bahasa-inggris"
 title: "Menulis Bentuk (Bahasa Inggris)"
 description: "Lembar kerja menulis dan menelusuri nama-nama bentuk geometri dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-bentuk-menulis-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/1plq790oyqdw"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Bentuk-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-3.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-1.webp","/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-2.webp","/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-3.webp"]
+og_image: '/assets/img/og/ebook-menulis-bentuk-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Bentuk (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Bentuk (Bahasa Inggris)
 
 > **Petualangan Seru Mengenal & Menulis Aneka Bentuk Geometri!**
 

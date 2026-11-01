@@ -1,12 +1,14 @@
 ---
 layout: portfolio
 title: MuslimHub — Aplikasi Android Portal Ibadah Lengkap
+seo_title: "MuslimHub — Aplikasi Android Portal Ibadah"
 description: Aplikasi Android portal Muslim modern dan lengkap — Al-Qur'an & mushaf digital, jadwal sholat, hadits, doa, adzkar, tasbih, kalender hijriah, serta asisten AI dalam satu aplikasi gratis. Rilis di Google Play.
 category: Aplikasi Android
-image: /assets/img/portfolio/muslimhub-app.png
+image: /assets/img/portfolio/muslimhub-app.webp
 site_url: https://play.google.com/store/apps/details?id=id.muslimhub.app
 site_label: Google Play
 order: 7
+og_image: '/assets/img/og/portfolio-muslimhub-app.jpg'
 ---
 
 ## Tentang Proyek

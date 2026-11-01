@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Kenapa GitHub Pages Cocok untuk Website Bisnis Sederhana
+seo_title: "GitHub Pages untuk Website Bisnis"
 description: GitHub Pages bisa menjadi hosting gratis untuk website statis, landing page, dan blog bisnis sederhana.
 author: Aksisoft Media
+og_image: '/assets/img/og/blog-kenapa-github-pages-cocok-untuk-website-bisnis.jpg'
 ---
 
 GitHub Pages cocok untuk website statis seperti landing page, company profile sederhana, dokumentasi, dan blog berbasis Jekyll.

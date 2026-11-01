@@ -7,7 +7,7 @@
     "product_order": 1,
     "product_domain": "ridesip.my.id",
     "product_url": "https://ridesip.my.id",
-    "logo": "/assets/img/products/ridesip-logo.png",
+    "logo": "/assets/img/products/ridesip-logo.webp",
     "url": "/produk/ridesip/",
     "hero_image": "/assets/img/products/ridesip-home.webp",
     "hero_alt": "Tampilan beranda RideSip Superapp",
@@ -65,7 +65,7 @@
     "product_url": "https://muslimhub.aksisoftsby.workers.dev",
     "logo": "",
     "url": "/produk/muslimhub/",
-    "hero_image": "/assets/img/products/muslimhub-poster.jpg",
+    "hero_image": "/assets/img/products/muslimhub-poster.webp",
     "hero_alt": "Poster MuslimHub dengan tampilan aplikasi di web dan Android",
     "description": "MuslimHub menyatukan Al-Qur'an, mushaf digital, jadwal sholat, kiblat, hadits, doa, kalender hijriah, dan asisten AI dalam satu portal gratis — di web maupun aplikasi Android resmi di Google Play."
   },
@@ -79,7 +79,7 @@
     "product_url": "https://ai.aksisoft.web.id",
     "logo": "",
     "url": "/produk/ai-chat/",
-    "hero_image": "/assets/img/aksisoft-hero-burgundy.jpg",
+    "hero_image": "/assets/img/aksisoft-hero-burgundy.webp",
     "hero_alt": "Antarmuka percakapan kecerdasan buatan dari Aksisoft",
     "description": "Akses chat AI langsung dari browser tanpa perlu daftar akun, tanpa batasan percakapan, dan 100% gratis untuk produktivitas Anda."
   }

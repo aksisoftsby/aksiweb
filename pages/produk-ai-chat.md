@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Chat AI Cerdas, Gratis Tanpa Login & Tanpa Batas
+seo_title: "Aksisoft AI Chat — Cerdas, Gratis, Tanpa Batas"
 description: Akses chat AI langsung dari browser tanpa perlu daftar akun, tanpa batasan percakapan, dan 100% gratis untuk produktivitas Anda.
 permalink: /produk/ai-chat/
 product_key: aichat
@@ -11,9 +12,10 @@ product_order: 6
 eyebrow: Produk / Aksisoft AI Chat
 product_domain: ai.aksisoft.web.id
 product_url: https://ai.aksisoft.web.id
-hero_image: /assets/img/aksisoft-hero-burgundy.jpg
+hero_image: /assets/img/aksisoft-hero-burgundy.webp
 hero_alt: Antarmuka percakapan kecerdasan buatan dari Aksisoft
 intro: Aksisoft AI Chat adalah asisten percakapan cerdas yang dirancang untuk langsung siap pakai tanpa hambatan pendaftaran. Mulai dari penulisan konten, riset ide, penerjemahan bahasa, hingga bantuan penulisan kode—semuanya dapat diakses secara instan tanpa limit pesan dan tanpa kewajiban login akun.
+og_image: '/assets/img/og/produk-ai-chat.jpg'
 ---
 
 <section class="product-section reveal-section">

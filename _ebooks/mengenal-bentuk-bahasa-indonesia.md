@@ -4,7 +4,7 @@ slug: "mengenal-bentuk-bahasa-indonesia"
 title: "Mengenal Bentuk (Bahasa Indonesia)"
 description: "Lembar kerja mengenal, mencocokkan, menyortir, dan menghitung bentuk geometri dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-bentuk-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-mengenal-bentuk-bahasa-indonesia.webp"
 buy_url: "https://aksisoftmedia.myr.id/catalog/Mengenal-Bentuk-(Bahasa-Indonesia)/"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mengenal-Bentuk-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-4.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-5.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-6.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-7.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-8.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-9.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-10.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-11.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-12.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-13.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-2.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-3.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-4.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-5.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-6.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-7.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-8.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-9.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-10.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-11.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-12.webp","/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-13.webp"]
+og_image: '/assets/img/og/ebook-mengenal-bentuk-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mengenal Bentuk (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Mengenal Bentuk (Bahasa Indonesia)
 
 > **Petualangan Seru Mengenal & Menulis Aneka Bentuk Geometri!**
 

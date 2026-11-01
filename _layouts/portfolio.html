@@ -36,10 +36,10 @@ layout: default
   </div>
 </section>
 
-{% if page.image %}
+{% if page.image %}{% assign dmain = site.data.imgdims[page.image] %}
 <figure class="pf-feature">
   <div class="pf-feature-bar"><span></span><span></span><span></span><em>{{ page.site_label | default: page.title }}</em></div>
-  <img src="{{ page.image | relative_url }}" alt="Tampilan {{ page.title }}" loading="lazy">
+  <img src="{{ page.image | relative_url }}" alt="Tampilan {{ page.title }}" {% if dmain %}width="{{ dmain.w }}" height="{{ dmain.h }}"{% endif %} loading="eager" fetchpriority="high" decoding="async">
 </figure>
 {% endif %}
 
@@ -51,8 +51,8 @@ layout: default
 <section class="pf-gallery">
   <h2>Galeri proyek</h2>
   <div class="pf-gallery-grid">
-    {% for g in page.gallery %}
-    <img src="{{ g | relative_url }}" alt="Screenshot {{ page.title }}" loading="lazy">
+    {% for g in page.gallery %}{% assign dg = site.data.imgdims[g] %}
+    <img src="{{ g | relative_url }}" alt="Screenshot {{ page.title }} — foto {{ forloop.index }}" {% if dg %}width="{{ dg.w }}" height="{{ dg.h }}"{% endif %} loading="lazy" decoding="async">
     {% endfor %}
   </div>
 </section>

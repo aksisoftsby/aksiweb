@@ -4,7 +4,7 @@ slug: "menulis-binatang-bahasa-indonesia"
 title: "Menulis Binatang (Bahasa Indonesia)"
 description: "Lembar kerja menulis dan menelusuri nama-nama binatang dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsindonesia.jpg"
+image: "/assets/img/ebook/cover-binatang-menulis-bhsindonesia.webp"
 buy_url: "https://lynk.id/aksisoft/lyw3x7xqz65x"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Binatang-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-3.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-1.webp","/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-2.webp","/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-3.webp"]
+og_image: '/assets/img/og/ebook-menulis-binatang-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Binatang (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Binatang (Bahasa Indonesia)
 
 > **Jelajahi Dunia Satwa Lucu Sambil Asah Kemampuan Menulis & Mewarnai!**
 

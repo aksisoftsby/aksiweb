@@ -83,6 +83,7 @@ faq:
     a: "Untuk website statis, seluruh konten dapat Anda ubah sendiri. Untuk sistem dinamis, dashboard dan panduan operasional disertakan saat serah terima."
   - q: "Bagaimana cara memulai proyek jasa toko online di Kediri?"
     a: "Kirim kebutuhan Anda melalui halaman kontak. Tim kami akan menghubungi Anda untuk konsultasi awal, lalu menyusun estimasi dan ruang lingkup kerja."
+seo_title: "Jasa Toko Online Kediri"
 ---
 
 ## Kenapa jasa toko online di Kediri dibutuhkan

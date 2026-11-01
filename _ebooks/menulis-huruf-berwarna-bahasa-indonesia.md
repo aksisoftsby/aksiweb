@@ -4,7 +4,7 @@ slug: "menulis-huruf-berwarna-bahasa-indonesia"
 title: "Menulis Huruf Berwarna (Bahasa Indonesia)"
 description: "Lembar kerja berwarna menulis dan menelusuri huruf alfabet dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/7xlngw41905d"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Huruf-Berwarna-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-berwarna-bahasa-indonesia-1.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-worksheet-huruf-berwarna-bahasa-indonesia-1.webp"]
+og_image: '/assets/img/og/ebook-menulis-huruf-berwarna-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Huruf Berwarna (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Huruf Berwarna (Bahasa Indonesia)
 
 > **Langkah Awal Menguasai Alfabet A-Z dengan Menyenangkan & Percaya Diri!**
 

@@ -3,12 +3,13 @@ layout: default
 title: Jasa Social Media Ads
 description: Layanan manajemen iklan media sosial profesional di Facebook, Instagram, TikTok, dan LinkedIn untuk meningkatkan brand awareness dan konversi.
 permalink: /layanan/social-media-ads/
+og_image: '/assets/img/og/layanan-social-media-ads.jpg'
 ---
 
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/social-media-ads-hero.jpg' | relative_url }}')">
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/social-media-ads-hero.webp' | relative_url }}')">
       <h1>Jasa Social Media Ads</h1>
       <p class="lead">Maximize reach dan engagement dengan kampanye iklan media sosial yang kreatif dan terukur</p>
     </div>

@@ -1,0 +1,38 @@
+{%- comment -%}
+  _includes/breadcrumb.html — remah roti yang terlihat, selaras dengan
+  BreadcrumbList di _includes/seo.html. Peta nama bagian sengaja diduplikasi
+  karena Liquid tidak punya fungsi pengembalian nilai.
+{%- endcomment -%}
+{%- assign segs = page.url | split: '/' -%}
+{%- assign seg1 = segs[1] -%}
+{%- case seg1 -%}
+  {%- when 'layanan' %}{%- assign crumb_name = 'Layanan' -%}
+  {%- when 'produk' %}{%- assign crumb_name = 'Produk' -%}
+  {%- when 'portfolio' %}{%- assign crumb_name = 'Portfolio' -%}
+  {%- when 'blog' %}{%- assign crumb_name = 'Blog' -%}
+  {%- when 'website' %}{%- assign crumb_name = 'Template Website' -%}
+  {%- when 'ebook' %}{%- assign crumb_name = 'eBook & Worksheet' -%}
+  {%- when 'jasa' %}{%- assign crumb_name = 'Layanan Digital' -%}
+  {%- when 'artikel' %}{%- assign crumb_name = 'Artikel' -%}
+  {%- when 'tentang' %}{%- assign crumb_name = 'Tentang Kami' -%}
+  {%- when 'kontak' %}{%- assign crumb_name = 'Kontak' -%}
+  {%- when 'payment' %}{%- assign crumb_name = 'Pembayaran QRIS' -%}
+  {%- when 'privacy-policy' %}{%- assign crumb_name = 'Kebijakan Privasi' -%}
+  {%- when 'proposal' %}{%- assign crumb_name = 'Proposal' -%}
+  {%- when nil %}{%- assign crumb_name = '' -%}
+  {%- when '' %}{%- assign crumb_name = '' -%}
+  {%- else %}{%- assign crumb_name = seg1 | capitalize -%}
+{%- endcase -%}
+{%- if seg1 -%}
+<nav class="crumbs" aria-label="Tautan remah roti">
+  <a href="{{ '/' | relative_url }}">Beranda</a>
+  <span aria-hidden="true">›</span>
+  {%- if segs.size <= 2 -%}
+    <span aria-current="page">{{ crumb_name }}</span>
+   {%- else -%}
+    <a href="{{ '/' | relative_url }}{{ seg1 }}/">{{ crumb_name }}</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{{ page.title | default: segs[2] }}</span>
+  {%- endif -%}
+</nav>
+{%- endif -%}

@@ -11,13 +11,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-kuis-mencocokkan-warna.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-kuis-mencocokkan-warna.jpg",
+    "cover": "/assets/img/ebook/cover-kuis-mencocokkan-warna.webp",
+    "thumbnail": "/assets/img/ebook/cover-kuis-mencocokkan-warna.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-4.jpg"
+      "/assets/img/ebook/screenshot-kuis-mencocokkan-warna-1.webp",
+      "/assets/img/ebook/screenshot-kuis-mencocokkan-warna-2.webp",
+      "/assets/img/ebook/screenshot-kuis-mencocokkan-warna-3.webp",
+      "/assets/img/ebook/screenshot-kuis-mencocokkan-warna-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/7z69lgo2w01x",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Kuis-Mencocokkan-Warna/",
@@ -40,11 +40,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-allquiz-bahasaindonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-allquiz-bahasaindonesia.jpg",
+    "cover": "/assets/img/ebook/cover-sayuran-allquiz-bahasaindonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-sayuran-allquiz-bahasaindonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasaindonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasaindonesia-2.jpg"
+      "/assets/img/ebook/screenshot-sayuran-allquiz-bahasaindonesia-1.webp",
+      "/assets/img/ebook/screenshot-sayuran-allquiz-bahasaindonesia-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/4m479zdgqer0",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Kuis-Sayuran-(Bahasa-Indonesia)/",
@@ -67,12 +67,12 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-allquiz-bahasainggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-allquiz-bahasainggris.jpg",
+    "cover": "/assets/img/ebook/cover-sayuran-allquiz-bahasainggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-sayuran-allquiz-bahasainggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-3.jpg"
+      "/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-1.webp",
+      "/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-2.webp",
+      "/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-3.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/p4jrk3n12yyd",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Kuis-Sayuran-(Bahasa-Inggris)/",
@@ -95,12 +95,12 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-warna-allkuis-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-warna-allkuis-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-warna-allkuis-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-warna-allkuis-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-3.jpg"
+      "/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-2.webp",
+      "/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-3.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/voj8rmomvyxj",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Kuis-Warna-(Bahasa-Indonesia)/",
@@ -123,17 +123,17 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-quiz-color-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-quiz-color-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-quiz-color-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-quiz-color-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-4.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-5.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-6.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-7.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-8.jpg"
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-2.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-3.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-4.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-5.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-6.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-7.webp",
+      "/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-8.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/voj8rmomvyxj",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Kuis-Warna-(Bahasa-Inggris)/",
@@ -156,10 +156,10 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-worksheet-huruf-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-worksheet-huruf-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-bahasa-inggris-1.jpg"
+      "/assets/img/ebook/screenshot-worksheet-huruf-bahasa-inggris-1.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/qmn24k11xdro",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menelusuri-Huruf-(Bahasa-Inggris)/",
@@ -182,22 +182,22 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-bentuk-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-bentuk-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-mengenal-bentuk-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-mengenal-bentuk-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-4.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-5.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-6.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-7.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-8.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-9.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-10.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-11.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-12.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-bentuk-bahasa-indonesia-13.jpg"
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-2.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-3.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-4.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-5.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-6.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-7.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-8.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-9.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-10.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-11.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-12.webp",
+      "/assets/img/ebook/screenshot-mengenal-bentuk-bahasa-indonesia-13.webp"
     ],
     "buy_url": "https://aksisoftmedia.myr.id/catalog/Mengenal-Bentuk-(Bahasa-Indonesia)/",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mengenal-Bentuk-(Bahasa-Indonesia)/",
@@ -220,11 +220,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-warna.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mengenal-warna.jpg",
+    "cover": "/assets/img/ebook/cover-mengenal-warna.webp",
+    "thumbnail": "/assets/img/ebook/cover-mengenal-warna.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-warna-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mengenal-warna-2.jpg"
+      "/assets/img/ebook/screenshot-mengenal-warna-1.webp",
+      "/assets/img/ebook/screenshot-mengenal-warna-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/rmq4p585ezzn",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mengenal-Warna/",
@@ -247,11 +247,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-bentuk-menulis-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-bentuk-menulis-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-indonesia-2.jpg"
+      "/assets/img/ebook/screenshot-bentuk-menulis-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-bentuk-menulis-bahasa-indonesia-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/96qy924grkny",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Bentuk-(Bahasa-Indonesia)/",
@@ -274,12 +274,12 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-bentuk-menulis-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-bentuk-menulis-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-inggris-3.jpg"
+      "/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-2.webp",
+      "/assets/img/ebook/screenshot-bentuk-menulis-bahasa-inggris-3.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/1plq790oyqdw",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Bentuk-(Bahasa-Inggris)/",
@@ -302,12 +302,12 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsindonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsindonesia.jpg",
+    "cover": "/assets/img/ebook/cover-binatang-menulis-bhsindonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-binatang-menulis-bhsindonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsindonesia-3.jpg"
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-1.webp",
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-2.webp",
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsindonesia-3.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/lyw3x7xqz65x",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Binatang-(Bahasa-Indonesia)/",
@@ -330,13 +330,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsinggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsinggris.jpg",
+    "cover": "/assets/img/ebook/cover-binatang-menulis-bhsinggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-binatang-menulis-bhsinggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-4.jpg"
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-1.webp",
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-2.webp",
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-3.webp",
+      "/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/o8kg0njve8eg",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Binatang-(Bahasa-Inggris)/",
@@ -359,12 +359,12 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-buah-buahan-menulis-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-buah-buahan-menulis-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-buah-buahan-menulis-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-buah-buahan-menulis-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-buah-buahan-menulis-bahasa-indonesia-3.jpg"
+      "/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-2.webp",
+      "/assets/img/ebook/screenshot-buah-buahan-menulis-bahasa-indonesia-3.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/j46qzn1kp0w3",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Buah-buahan-(Bahasa-Indonesia)/",
@@ -387,10 +387,10 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-berwarna-bahasa-indonesia-1.jpg"
+      "/assets/img/ebook/screenshot-worksheet-huruf-berwarna-bahasa-indonesia-1.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/7xlngw41905d",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Huruf-Berwarna-(Bahasa-Indonesia)/",
@@ -413,10 +413,10 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-worksheet-huruf-berwarna-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-worksheet-huruf-berwarna-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-worksheet-huruf-berwarna-bahasa-inggris-1.jpg"
+      "/assets/img/ebook/screenshot-worksheet-huruf-berwarna-bahasa-inggris-1.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/xzgmlpnppk75",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Huruf-Berwarna-(Bahasa-Inggris)/",
@@ -439,13 +439,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-menulis-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-menulis-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-perkenalan-barang-menulis-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-perkenalan-barang-menulis-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-indonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-indonesia-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-indonesia-4.jpg"
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-indonesia-2.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-indonesia-3.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-indonesia-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/yve58xzem5vg",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Perkenalan-Barang-(Bahasa-Indonesia)/",
@@ -468,13 +468,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-menulis-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-menulis-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-perkenalan-barang-menulis-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-perkenalan-barang-menulis-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-inggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-inggris-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-menulis-bahasa-inggris-4.jpg"
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-inggris-2.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-inggris-3.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-menulis-bahasa-inggris-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/qgvq82qg6365",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Perkenalan-Barang-(Bahasa-Inggris)/",
@@ -497,13 +497,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-menulis-bahasainggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-menulis-bahasainggris.jpg",
+    "cover": "/assets/img/ebook/cover-sayuran-menulis-bahasainggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-sayuran-menulis-bahasainggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-menulis-bahasainggris-4.jpg"
+      "/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-1.webp",
+      "/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-2.webp",
+      "/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-3.webp",
+      "/assets/img/ebook/screenshot-sayuran-menulis-bahasainggris-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/nly3m01ly23x",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Menulis-Sayuran-(Bahasa-Inggris)/",
@@ -526,11 +526,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-2.jpg"
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/33lp54w95719",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Binatang-(Bahasa-Indonesia)/",
@@ -553,11 +553,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-mewarnai-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-mewarnai-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-2.jpg"
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/1lv61dvdk4jn",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Binatang-(Bahasa-Inggris)/",
@@ -580,10 +580,10 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-1.jpg"
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-1.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/grwky7wkvm7z",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Buah-buahan-(Bahasa-Indonesia)/",
@@ -606,11 +606,11 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-mewarnai-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-mewarnai-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-inggris-2.jpg"
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-mewarnai-bahasa-inggris-2.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/wx4dwol885m7",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Buah-buahan-(Bahasa-Inggris)/",
@@ -633,13 +633,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-indonesia.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-indonesia.jpg",
+    "cover": "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-indonesia.webp",
+    "thumbnail": "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-indonesia.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-4.jpg"
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-1.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-2.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-3.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-indonesia-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/0vpm86k2vq8g",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Perkenalan-Barang-(Bahasa-Indonesia)/",
@@ -662,13 +662,13 @@
     "compare_price": 0,
     "rating": 5,
     "rating_count": 0,
-    "cover": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-inggris.jpg",
-    "thumbnail": "https://template.aksisoft.web.id/ebook/cover/cover-perkenalan-barang-mewarnai-bahasa-inggris.jpg",
+    "cover": "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-inggris.webp",
+    "thumbnail": "/assets/img/ebook/cover-perkenalan-barang-mewarnai-bahasa-inggris.webp",
     "screenshots": [
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-1.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-2.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-3.jpg",
-      "https://template.aksisoft.web.id/ebook/screenshot/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-4.jpg"
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-1.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-2.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-3.webp",
+      "/assets/img/ebook/screenshot-perkenalan-barang-mewarnai-bahasa-inggris-4.webp"
     ],
     "buy_url": "https://lynk.id/aksisoft/kxe1r5v0oeom",
     "mayar_url": "https://aksisoftmedia.myr.id/catalog/Mewarnai-Perkenalan-Barang-(Bahasa-Inggris)/",

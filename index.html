@@ -2,6 +2,7 @@
 layout: default
 title: Jasa Pembuatan Website Profesional
 description: Aksisoft membantu bisnis, komunitas, dan individu membangun website, aplikasi, dan solusi digital yang cepat, modern, dan terpercaya.
+og_image: '/assets/img/og/aksisoft-og.jpg'
 ---
 
 <section class="rd-hero reveal-section" id="beranda">
@@ -23,10 +24,10 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
     <div class="rd-hero-media">
       <div class="rd-browser">
         <div class="rd-browser-bar" aria-hidden="true"><b></b><b></b><b></b></div>
-        <img src="{{ '/assets/img/aksisoft-hero-burgundy.jpg' | relative_url }}" alt="Contoh hasil website modern buatan Aksisoft" loading="eager" fetchpriority="high">
+        <img src="{{ '/assets/img/aksisoft-hero-burgundy.webp' | relative_url }}" alt="Contoh hasil website modern buatan Aksisoft" width="1240" height="698" loading="eager" fetchpriority="high" decoding="async">
       </div>
       <div class="rd-phone">
-        <img src="{{ '/assets/img/products/ridesip-home.webp' | relative_url }}" alt="Contoh tampilan aplikasi mobile buatan Aksisoft" loading="lazy">
+        <img src="{{ '/assets/img/products/ridesip-home.webp' | relative_url }}" alt="Contoh tampilan aplikasi mobile buatan Aksisoft" width="760" height="654" loading="lazy" decoding="async">
       </div>
       <div class="rd-floating-chip"><b>✓</b> Teknologi untuk kehidupan lebih baik</div>
     </div>
@@ -111,8 +112,8 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
       {% for item in sorted_portfolio limit: 4 %}
       <article class="rd-pf-card">
         <a class="rd-pf-thumb" href="{{ item.url | relative_url }}">
-          {% if item.image %}
-          <img src="{{ item.image | relative_url }}" alt="Screenshot {{ item.title }}" loading="lazy" decoding="async">
+          {% if item.image %}{% assign dpf = site.data.imgdims[item.image] %}
+          <img src="{{ item.image | relative_url }}" alt="Screenshot {{ item.title }}" {% if dpf %}width="{{ dpf.w }}" height="{{ dpf.h }}"{% endif %} loading="lazy" decoding="async">
           {% else %}
           <span class="rd-pf-empty">{{ item.title }}</span>
           {% endif %}
@@ -128,8 +129,8 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
       {% for product in featured_products limit: 2 %}
       <article class="rd-pf-card">
         <a class="rd-pf-thumb" href="{{ product.url | relative_url }}">
-          {% if product.hero_image %}
-          <img src="{{ product.hero_image | relative_url }}" alt="Screenshot {{ product.product_name }}" loading="lazy" decoding="async">
+          {% if product.hero_image %}{% assign dpr = site.data.imgdims[product.hero_image] %}
+          <img src="{{ product.hero_image | relative_url }}" alt="Screenshot {{ product.product_name }}" {% if dpr %}width="{{ dpr.w }}" height="{{ dpr.h }}"{% endif %} loading="lazy" decoding="async">
           {% else %}
           <span class="rd-pf-empty">{{ product.product_name }}</span>
           {% endif %}
@@ -151,7 +152,7 @@ description: Aksisoft membantu bisnis, komunitas, dan individu membangun website
 <section class="rd-section reveal-section" id="tentang" style="padding-top:0">
   <div class="rd-container rd-split">
     <div class="rd-split-media">
-      <img src="{{ '/assets/img/aksisoft-strategy-window.jpg' | relative_url }}" alt="Suasana kerja tim Aksisoft" loading="lazy">
+      <img src="{{ '/assets/img/aksisoft-strategy-window.webp' | relative_url }}" alt="Suasana kerja tim Aksisoft" width="1200" height="1500" loading="lazy" decoding="async">
     </div>
     <div>
       <p class="rd-label" style="justify-content:flex-start">MENGAPA MEMILIH AKSISOFT?</p>

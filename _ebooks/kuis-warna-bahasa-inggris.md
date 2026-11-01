@@ -4,7 +4,7 @@ slug: "kuis-warna-bahasa-inggris"
 title: "Kuis Warna (Bahasa Inggris)"
 description: "Kumpulan kuis warna dalam bahasa Inggris untuk anak, meliputi mencocokkan, menyortir, dan menghitung objek berwarna."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-quiz-color-bahasa-inggris.jpg"
+image: "/assets/img/ebook/cover-quiz-color-bahasa-inggris.webp"
 buy_url: "https://lynk.id/aksisoft/voj8rmomvyxj"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Kuis-Warna-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-4.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-5.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-6.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-7.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-quiz-color-bahasa-inggris-8.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-1.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-2.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-3.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-4.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-5.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-6.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-7.webp","/assets/img/ebook/screenshot-quiz-color-bahasa-inggris-8.webp"]
+og_image: '/assets/img/og/ebook-kuis-warna-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Kuis Warna (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Kuis Warna (Bahasa Inggris)
 
 > **Eksplorasi Dunia Penuh Warna, Ceria, dan Penuh Imajinasi!**
 

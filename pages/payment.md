@@ -4,6 +4,7 @@ title: Pembayaran QRIS
 description: Bayar tagihan layanan Aksisoft menggunakan QRIS — satu QRIS untuk semua aplikasi pembayaran.
 eyebrow: Pembayaran
 permalink: /payment/
+og_image: '/assets/img/og/payment-og.jpg'
 ---
 
 <div class="qris-page">
@@ -15,10 +16,10 @@ permalink: /payment/
     <h2>Scan untuk Bayar</h2>
     <p class="qris-lead">Pembayaran layanan Aksisoft dapat dilakukan dengan <b>QRIS</b>. Buka aplikasi pembayaran apa pun yang berlogo QRIS (GoPay, OVO, DANA, ShopeePay, LinkAja, m-banking, dll.), pilih <b>Scan / Bayar</b>, lalu arahkan ke kode QR di bawah ini.</p>
     <figure class="qris-figure">
-      <img src="{{ '/assets/img/qris-aksisoft.jpg' | relative_url }}" alt="Kode QRIS Aksisoft — NMID ID1026602594420" loading="lazy">
+      <img src="{{ '/assets/img/qris-aksisoft.webp' | relative_url }}" alt="Kode QRIS Aksisoft — Merchant Aksisoft NMID ID1026602594420" width="820" height="1155" loading="eager" decoding="async">
       <figcaption>Merchant: <b>Aksisoft</b> · NMID: ID1026602594420</figcaption>
     </figure>
-    <a class="btn btn-primary qris-open" href="{{ '/assets/img/qris-aksisoft.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">Buka QRIS ukuran penuh <span aria-hidden="true">↗</span></a>
+    <a class="btn btn-primary qris-open" href="{{ '/assets/img/qris-aksisoft.webp' | relative_url }}" target="_blank" rel="noopener noreferrer">Buka QRIS ukuran penuh <span aria-hidden="true">↗</span></a>
   </div>
 
   <div class="qris-side">

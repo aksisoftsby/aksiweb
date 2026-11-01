@@ -1,6 +1,7 @@
 ---
 layout: product
 title: Profil sekolah dan PPDB yang mudah diakses oleh calon keluarga.
+seo_title: "WebSekolah — Profil Sekolah & PPDB Online"
 description: WebSekolah menggabungkan informasi sekolah, akademik, berita, galeri, kontak, pendaftaran PPDB online, dan cek status dalam satu pengalaman publik yang rapi.
 permalink: /produk/websekolah/
 product_key: school
@@ -14,6 +15,7 @@ product_url: https://websekolah.aksisoft.web.id
 hero_image: /assets/img/products/websekolah-home.webp
 hero_alt: Contoh beranda website sekolah dengan informasi PPDB online
 intro: WebSekolah menjadi rumah informasi digital bagi sekolah sekaligus jalur awal bagi calon peserta didik. Profil, program, berita, galeri, kontak, formulir PPDB, dan cek status disusun untuk membantu orang tua mendapatkan konteks tanpa harus berpindah-pindah kanal.
+og_image: '/assets/img/og/produk-websekolah.jpg'
 ---
 
 <!-- Editorial Burgundy product page: WebSekolah presents a trustworthy public information hub and PPDB journey. -->

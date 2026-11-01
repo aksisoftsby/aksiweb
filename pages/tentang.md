@@ -4,6 +4,7 @@ title: Tentang Kami
 description: Tim pembuat website yang fokus pada website ringan, modern, dan mudah digunakan.
 eyebrow: Tentang
 permalink: /tentang/
+og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
 Kami membantu bisnis kecil, UMKM, freelancer, dan brand lokal untuk memiliki website profesional tanpa biaya server mahal.

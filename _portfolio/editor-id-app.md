@@ -3,10 +3,11 @@ layout: portfolio
 title: Editor.id News — Aplikasi Android Berita
 description: Aplikasi Android berita Indonesia untuk portal Editor.id — menampilkan berita terkini, pencarian artikel cepat, bookmark bacaan, dan kategori berita terstruktur, rilis di Google Play.
 category: Aplikasi Android
-image: /assets/img/portfolio/editor-id-app.png
+image: /assets/img/portfolio/editor-id-app.webp
 site_url: https://play.google.com/store/apps/details?id=id.editor.news
 site_label: Google Play
 order: 4
+og_image: '/assets/img/og/portfolio-editor-id-app.jpg'
 ---
 
 ## Tentang Proyek

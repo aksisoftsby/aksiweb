@@ -4,7 +4,7 @@ slug: "mewarnai-buah-buahan-bahasa-indonesia"
 title: "Mewarnai Buah-buahan (Bahasa Indonesia)"
 description: "Lembar kerja mewarnai gambar buah-buahan dengan keterangan dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-mewarnai-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-mewarnai-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/grwky7wkvm7z"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Mewarnai-Buah-buahan-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-mewarnai-bahasa-indonesia-1.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-mewarnai-bahasa-indonesia-1.webp"]
+og_image: '/assets/img/og/ebook-mewarnai-buah-buahan-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Mewarnai Buah-buahan (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Mewarnai Buah-buahan (Bahasa Indonesia)
 
 > **Mengenal Aneka Buah Segar Bernutrisi Lewat Aktivitas Kreatif Menyenangkan!**
 

@@ -4,6 +4,7 @@ title: Portfolio Kami
 description: Koleksi proyek dan produk digital yang telah kami selesaikan untuk klien dan pengguna kami.
 eyebrow: Hasil Karya
 permalink: /portfolio/
+og_image: '/assets/img/og/portfolio-og.jpg'
 ---
 
 {% assign sorted_portfolio = site.portfolio | sort: 'order' %}
@@ -11,8 +12,8 @@ permalink: /portfolio/
   {% for item in sorted_portfolio %}
   <article class="portfolio-card">
     <a class="portfolio-shot" href="{{ item.url | relative_url }}">
-      {% if item.image %}
-      <img src="{{ item.image | relative_url }}" alt="Screenshot {{ item.title }}" loading="{% if forloop.index <= 2 %}eager{% else %}lazy{% endif %}" decoding="async">
+      {% if item.image %}{% assign dpi = site.data.imgdims[item.image] %}
+      <img src="{{ item.image | relative_url }}" alt="Screenshot {{ item.title }}" {% if dpi %}width="{{ dpi.w }}" height="{{ dpi.h }}"{% endif %} loading="{% if forloop.index <= 2 %}eager{% else %}lazy{% endif %}" decoding="async">
       {% else %}
       <span class="portfolio-shot-fallback">{{ item.title }}</span>
       {% endif %}
@@ -38,8 +39,8 @@ permalink: /portfolio/
     {% for product in products %}
     <article class="portfolio-card">
       <a class="portfolio-shot" href="{{ product.url | relative_url }}">
-        {% if product.hero_image %}
-        <img src="{{ product.hero_image | relative_url }}" alt="Screenshot {{ product.product_name }}" loading="lazy" decoding="async">
+        {% if product.hero_image %}{% assign dph = site.data.imgdims[product.hero_image] %}
+        <img src="{{ product.hero_image | relative_url }}" alt="Screenshot {{ product.product_name }}" {% if dph %}width="{{ dph.w }}" height="{{ dph.h }}"{% endif %} loading="lazy" decoding="async">
         {% else %}
         <span class="portfolio-shot-fallback">{{ product.product_name }}</span>
         {% endif %}

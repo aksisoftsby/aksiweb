@@ -4,7 +4,7 @@ slug: "menulis-bentuk-bahasa-indonesia"
 title: "Menulis Bentuk (Bahasa Indonesia)"
 description: "Lembar kerja menulis dan menelusuri nama-nama bentuk geometri dalam bahasa Indonesia untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-bentuk-menulis-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-bentuk-menulis-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/96qy924grkny"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Bentuk-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-bentuk-menulis-bahasa-indonesia-2.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-bentuk-menulis-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-bentuk-menulis-bahasa-indonesia-2.webp"]
+og_image: '/assets/img/og/ebook-menulis-bentuk-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Bentuk (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Bentuk (Bahasa Indonesia)
 
 > **Petualangan Seru Mengenal & Menulis Aneka Bentuk Geometri!**
 

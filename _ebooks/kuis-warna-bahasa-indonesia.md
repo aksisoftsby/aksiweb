@@ -4,7 +4,7 @@ slug: "kuis-warna-bahasa-indonesia"
 title: "Kuis Warna (Bahasa Indonesia)"
 description: "Kumpulan kuis warna dalam bahasa Indonesia untuk anak, meliputi mencocokkan, menyortir, dan menghitung objek berwarna."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-warna-allkuis-bahasa-indonesia.jpg"
+image: "/assets/img/ebook/cover-warna-allkuis-bahasa-indonesia.webp"
 buy_url: "https://lynk.id/aksisoft/voj8rmomvyxj"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Kuis-Warna-(Bahasa-Indonesia)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-warna-allkuis-bahasa-indonesia-3.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-1.webp","/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-2.webp","/assets/img/ebook/screenshot-warna-allkuis-bahasa-indonesia-3.webp"]
+og_image: '/assets/img/og/ebook-kuis-warna-bahasa-indonesia.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Kuis Warna (Bahasa Indonesia)
+## 📚 Ebook Worksheet Edukasi Anak: Kuis Warna (Bahasa Indonesia)
 
 > **Eksplorasi Dunia Penuh Warna, Ceria, dan Penuh Imajinasi!**
 

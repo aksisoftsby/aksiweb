@@ -4,7 +4,7 @@ slug: "kuis-sayuran-bahasa-inggris"
 title: "Kuis Sayuran (Bahasa Inggris)"
 description: "Kumpulan kuis visual tentang sayuran dalam bahasa Inggris untuk anak, meliputi mencocokkan, menghitung, dan mengenali sayuran."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-sayuran-allquiz-bahasainggris.jpg"
+image: "/assets/img/ebook/cover-sayuran-allquiz-bahasainggris.webp"
 buy_url: "https://lynk.id/aksisoft/p4jrk3n12yyd"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Kuis-Sayuran-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-sayuran-allquiz-bahasainggris-3.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-1.webp","/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-2.webp","/assets/img/ebook/screenshot-sayuran-allquiz-bahasainggris-3.webp"]
+og_image: '/assets/img/og/ebook-kuis-sayuran-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Kuis Sayuran (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Kuis Sayuran (Bahasa Inggris)
 
 > **Belajar & Kuis Seru Mengenal Ragam Sayuran Hijau Kaya Gizi!**
 

@@ -4,7 +4,7 @@ slug: "menulis-binatang-bahasa-inggris"
 title: "Menulis Binatang (Bahasa Inggris)"
 description: "Lembar kerja menulis dan menelusuri nama-nama binatang dalam bahasa Inggris untuk anak."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-binatang-menulis-bhsinggris.jpg"
+image: "/assets/img/ebook/cover-binatang-menulis-bhsinggris.webp"
 buy_url: "https://lynk.id/aksisoft/o8kg0njve8eg"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Menulis-Binatang-(Bahasa-Inggris)/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-binatang-menulis-bhsinggris-4.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-1.webp","/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-2.webp","/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-3.webp","/assets/img/ebook/screenshot-binatang-menulis-bhsinggris-4.webp"]
+og_image: '/assets/img/og/ebook-menulis-binatang-bahasa-inggris.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Menulis Binatang (Bahasa Inggris)
+## 📚 Ebook Worksheet Edukasi Anak: Menulis Binatang (Bahasa Inggris)
 
 > **Jelajahi Dunia Satwa Lucu Sambil Asah Kemampuan Menulis & Mewarnai!**
 

@@ -3,11 +3,12 @@ layout: default
 title: Content Creator Video
 description: Layanan Content Creator Video untuk konten media sosial, promosi produk, company profile, dan kebutuhan bisnis dengan hasil profesional.
 permalink: /layanan/video-editing/
+og_image: '/assets/img/og/layanan-video-editing.jpg'
 ---
 
 <div class="service-detail-page">
   <div class="container">
-    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/video-creator-hero.jpg' | relative_url }}')"><h1>Content Creator Video</h1><p class="lead">Saya bantu mengubah footage menjadi video yang menarik perhatian, menyampaikan pesan, dan siap dipublikasikan.</p></div>
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/video-creator-hero.webp' | relative_url }}')"><h1>Content Creator Video</h1><p class="lead">Saya bantu mengubah footage menjadi video yang menarik perhatian, menyampaikan pesan, dan siap dipublikasikan.</p></div>
     <div class="service-overview">
       <h2>Content Creator Video untuk Bisnis dan Konten</h2>
       <p>Saya mengolah footage mentah menjadi video yang rapi dan sesuai platform—mulai dari Reels, TikTok, dan Shorts hingga video promosi dan company profile. Layanan mencakup pemotongan, penyusunan alur, transisi, color correction, audio, teks, subtitle, dan musik berlisensi/yang disediakan klien.</p>

@@ -4,6 +4,7 @@ title: Aksi File Manager Privacy Policy
 description: Privacy policy for the Aksi File Manager Android app (id.aksisoft.aksifile) — local-only file operations, FTP/SFTP, QR scanner, AdMob advertising, and app permissions.
 eyebrow: Privacy
 permalink: /privacy-policy-aksifile/
+og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
 Effective date: October 27, 2026

@@ -3,10 +3,11 @@ layout: portfolio
 title: DeviceScope — Aplikasi Android Info Perangkat
 description: Aplikasi Android untuk melihat detail perangkat dalam satu tampilan bersih — CPU/SoC, RAM & storage, baterai, display, sensor, dan pengaturan, dengan UI terminal gelap bergaya dev-tool.
 category: Aplikasi Android
-image: /assets/img/portfolio/devicescope.png
+image: /assets/img/portfolio/devicescope.webp
 site_url: https://play.google.com/store/apps/details?id=id.aksisoft.devicescope
 site_label: Google Play
 order: 6
+og_image: '/assets/img/og/portfolio-devicescope.jpg'
 ---
 
 ## Tentang Proyek

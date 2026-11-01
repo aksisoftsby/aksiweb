@@ -4,6 +4,7 @@ title: DeviceScope Privacy Policy
 description: Privacy policy for the DeviceScope app (id.aksisoft.devicescope) — local-only device data, AdMob advertising, and app permissions.
 eyebrow: Privacy
 permalink: /privacy-policy-devicescope/
+og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
 Effective date: October 20, 2026

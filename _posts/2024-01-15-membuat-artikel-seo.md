@@ -1,15 +1,17 @@
 ---
 layout: post
 title: "Panduan Lengkap Membuat Artikel SEO: Strategi, Teknik, dan Best Practices 2024"
+seo_title: "Cara Menulis Artikel SEO yang Naik di Google"
 date: 2024-01-15 10:30:00 +0700
 categories: [SEO, Content Marketing, Digital Marketing]
 tags: [SEO, artikel SEO, content writing, optimasi konten, search engine optimization]
 author: Admin
 excerpt: "Pelajari cara membuat artikel SEO yang efektif dengan panduan komprehensif ini. Dari riset keyword hingga optimasi on-page, semua teknik terbaru untuk meningkatkan ranking di Google."
 image: /assets/images/blog/membuat-artikel-seo.jpg
+og_image: '/assets/img/og/blog-membuat-artikel-seo.jpg'
 ---
 
-# Panduan Lengkap Membuat Artikel SEO: Strategi, Teknik, dan Best Practices 2024
+## Panduan Lengkap Membuat Artikel SEO: Strategi, Teknik, dan Best Practices 2024
 
 ## Daftar Isi
 1. [Pengertian Artikel SEO](#pengertian-artikel-seo)
@@ -212,7 +214,7 @@ H1: Judul Utama (hanya 1 per halaman)
 ### Template Struktur Artikel SEO
 
 ```markdown
-# H1: Judul Artikel (Primary Keyword)
+## H1: Judul Artikel (Primary Keyword)
 
 ## Pendahuluan (150-200 kata)
 - Hook yang menarik

@@ -4,7 +4,7 @@ slug: "kuis-mencocokkan-warna"
 title: "Kuis Mencocokkan Warna"
 description: "Kumpulan kuis mencocokkan warna untuk anak, mengenalkan warna melalui kegiatan menjodohkan objek berwarna."
 category: "Ebook"
-image: "https://template.aksisoft.web.id/ebook/cover/cover-kuis-mencocokkan-warna.jpg"
+image: "/assets/img/ebook/cover-kuis-mencocokkan-warna.webp"
 buy_url: "https://lynk.id/aksisoft/7z69lgo2w01x"
 mayar_url: "https://aksisoftmedia.myr.id/catalog/Kuis-Mencocokkan-Warna/"
 price: 10000
@@ -13,10 +13,11 @@ rating: 5
 rating_count: 0
 created_at: "2026-09-12"
 updated_at: "2026-09-12"
-screenshots: ["https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-1.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-2.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-3.jpg","https://template.aksisoft.web.id/ebook/screenshot/screenshot-kuis-mencocokkan-warna-4.jpg"]
+screenshots: ["/assets/img/ebook/screenshot-kuis-mencocokkan-warna-1.webp","/assets/img/ebook/screenshot-kuis-mencocokkan-warna-2.webp","/assets/img/ebook/screenshot-kuis-mencocokkan-warna-3.webp","/assets/img/ebook/screenshot-kuis-mencocokkan-warna-4.webp"]
+og_image: '/assets/img/og/ebook-kuis-mencocokkan-warna.jpg'
 ---
 
-# 📚 Ebook Worksheet Edukasi Anak: Kuis Mencocokkan Warna
+## 📚 Ebook Worksheet Edukasi Anak: Kuis Mencocokkan Warna
 
 > **Eksplorasi Dunia Penuh Warna, Ceria, dan Penuh Imajinasi!**
 

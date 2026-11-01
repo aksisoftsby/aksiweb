@@ -3,12 +3,13 @@ layout: default
 title: Jasa Google Ads
 description: Layanan manajemen dan optimasi kampanye Google Ads profesional untuk meningkatkan traffic, leads, dan penjualan bisnis Anda.
 permalink: /layanan/google-ads/
+og_image: '/assets/img/og/layanan-google-ads.jpg'
 ---
 
 <div class="service-detail-page">
   <div class="container">
     <!-- Hero Section -->
-    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/google-ads-hero.jpg' | relative_url }}')">
+    <div class="service-hero service-hero--photo" style="--hero-photo:url('{{ '/assets/img/google-ads-hero.webp' | relative_url }}')">
       <h1>Jasa Google Ads</h1>
       <p class="lead">Maksimalkan ROI dengan kampanye iklan Google yang teroptimasi dan berbasis data</p>
     </div>

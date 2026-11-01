@@ -3,6 +3,7 @@ layout: default
 title: Produk Aksisoft
 description: Rangkaian produk digital Aksisoft untuk mobilitas, operasi pelanggan, retail, pendidikan, dan pendampingan ibadah harian.
 permalink: /produk/
+og_image: '/assets/img/og/produk-og.jpg'
 ---
 
 <!-- Editorial Burgundy product index: product-led cards, specific proof, and consultation-first pricing. -->
@@ -15,7 +16,7 @@ permalink: /produk/
 <section class="product-index-grid reveal-section" aria-label="Katalog Produk Aksisoft">
   <article class="product-index-card product-index-ridesip">
     <span class="product-card-no">01</span>
-    <img src="{{ '/assets/img/products/ridesip-logo.png' | relative_url }}" alt="Logo RideSip" class="product-card-logo">
+    <img width="200" height="200"  src="{{ '/assets/img/products/ridesip-logo.webp' | relative_url }}" alt="Logo RideSip" class="product-card-logo">
     <h2>RideSip</h2>
     <p>Superapp untuk menghubungkan merchant, pesanan makanan, belanja harian, dan kurir instan dalam satu layanan lokal.</p>
     <a href="{{ '/produk/ridesip/' | relative_url }}">Pelajari RideSip <span aria-hidden="true">↗</span></a>

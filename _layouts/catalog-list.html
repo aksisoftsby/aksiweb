@@ -16,8 +16,8 @@ layout: default
     {% for item in items %}
     <article class="catalog-card">
       <a class="catalog-thumb" href="{{ item.url | relative_url }}">
-        {% if item.thumbnail %}
-        <img src="{{ item.thumbnail }}" alt="{{ item.title }}" width="1280" height="800" loading="{% if forloop.index <= 8 %}eager{% else %}lazy{% endif %}" {% if forloop.index <= 4 %}fetchpriority="high"{% endif %} decoding="async" onload="this.classList.add('is-loaded')">
+        {% if item.thumbnail %}{% assign dt = site.data.imgdims[item.thumbnail] %}
+        <img src="{{ item.thumbnail }}" alt="Tampilan template {{ item.title }}" {% if dt %}width="{{ dt.w }}" height="{{ dt.h }}"{% else %}width="760" height="428"{% endif %} loading="{% if forloop.index <= 8 %}eager{% else %}lazy{% endif %}" {% if forloop.index <= 4 %}fetchpriority="high"{% endif %} decoding="async" onload="this.classList.add('is-loaded')">
         {% endif %}
       </a>
       <div class="catalog-body">
@@ -25,7 +25,7 @@ layout: default
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p class="catalog-desc">{{ item.description | truncate: 110 }}</p>
         <div class="catalog-meta">
-          {% if item.price and item.price > 0 %}<span class="catalog-price">Rp {{ item.price | number_with_delimiter }}</span>{% endif %}
+          {% if item.price and item.price > 0 %}<span class="catalog-price">Rp {{ item.price | rupiah }}</span>{% endif %}
           {% if item.rating and item.rating > 0 %}<span class="catalog-rating">★ {{ item.rating }}</span>{% endif %}
           {% if item.version %}<span>v{{ item.version }}</span>{% endif %}
         </div>
