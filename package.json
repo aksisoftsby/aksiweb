@@ -6,7 +6,8 @@
     "gen:articles": "node generate-seo-articles.js",
     "gen:products": "node generate-products-data.js",
     "gen:websites": "node generate.js",
-    "gen:ebooks": "node generate-ebooks-data.js"
+    "gen:ebooks": "node generate-ebooks-data.js",
+    "pdf:compro": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-compro-pdf.ps1"
   },
   "devDependencies": {
     "js-yaml": "^4.1.0"
