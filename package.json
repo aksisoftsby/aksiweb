@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "js-yaml": "^4.1.0"
+  },
+  "dependencies": {
+    "puppeteer": "^25.16.0"
   }
 }
