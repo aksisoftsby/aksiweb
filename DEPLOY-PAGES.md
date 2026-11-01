@@ -24,6 +24,26 @@ bash deploy-pages.sh
 Skrip ini: build Jekyll lokal → bersihkan `_site` → commit output ke
 `gh-pages` → push. Tunggu ±1 menit, situs live.
 
+## Memperbarui Company Profile PDF
+
+Jika isi atau desain `company-profile.html` berubah, buat ulang PDF sebelum deploy:
+
+```powershell
+npm run pdf:compro
+```
+
+Skrip tersebut menggunakan Microsoft Edge atau Google Chrome yang sudah terpasang, lalu memperbarui kedua salinan:
+- `assets/downloads/compro-aksisoft.pdf` — file yang disajikan pada website.
+- `compro-aksisoft.pdf` — salinan di root repository.
+
+Setelah PDF selesai dibuat, jalankan proses deploy seperti biasa:
+
+```bash
+bash deploy-pages.sh
+```
+
+Karena `gh-pages` adalah hasil build Jekyll dari `source`, file pada `assets/downloads/` akan ikut tersalin ke `_site/assets/downloads/` dan tersedia melalui tombol unduh pada halaman Kontak.
+
 ## Ruby portable
 
 Build memakai Ruby 3.3.12 + Jekyll 4.4.1 yang terpasang di
