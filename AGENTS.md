@@ -87,7 +87,7 @@ git add -A && git commit -m "…" && git push origin source
 
 **Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.737 `<img>`, semuanya patuh.
 
-**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (113 file) tetap JPG, karena crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibuat oleh `scripts/make-og.py` (mode `bg` / `frame` / `text`). Satu-satunya og JPG yang dipakai `<img>` biasa (`muslimhub-og.jpg`) sudah dikecualikan — halaman itu memakai `og_image` untuk versi JPG-nya.
+**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (113 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (324 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
 
 **Lebar file = lebar render sebenarnya** (bukan ukuran asli). Acuan desain:
 
