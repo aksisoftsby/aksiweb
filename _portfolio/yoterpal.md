@@ -6,6 +6,9 @@ category: Website Perusahaan
 image: /assets/img/portfolio/yoterpal.png
 site_url: https://yoterpal.com/
 site_label: yoterpal.com
+gallery:
+  - /assets/img/portfolio/yoterpal.png
+  - /assets/img/portfolio/yoterpal-mobile.png
 order: 3
 ---
 

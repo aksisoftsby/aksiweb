@@ -1,11 +1,69 @@
 ---
 layout: default
 ---
+{% comment %} Determine the service to sell based on the project category {% endcomment %}
+{% assign cat = page.category | default: '' %}
+{% case cat %}
+  {% when 'Aplikasi Android' %}
+    {% assign cta_service = 'aplikasi-custom-android' %}
+    {% assign cta_label = 'Layanan Aplikasi Custom &amp; Android' %}
+    {% assign cta_title = 'Punya ide aplikasi seperti ini? Kami bisa bangun untuk bisnis Anda.' %}
+    {% assign cta_desc = 'Kami mengembangkan aplikasi Android dan web dari konsep hingga rilis di Google Play — kasir UMKM, berita, utilitas, hingga sistem internal tim. Konsultasi kebutuhan dan estimasi biaya gratis, tanpa komitmen.' %}
+  {% when 'Website Berita' %}
+    {% assign cta_service = 'website-news-dynamic' %}
+    {% assign cta_label = 'Layanan Website News Dynamic' %}
+    {% assign cta_title = 'Ingin punya portal berita atau blog yang mudah dikelola?' %}
+    {% assign cta_desc = 'Kami membangun website dinamis dengan CMS yang memudahkan tim Anda menerbitkan dan mengelola konten secara mandiri — cepat, SEO-friendly, dan siap berkembang.' %}
+  {% when 'Website Perusahaan' %}
+    {% assign cta_service = 'website-static' %}
+    {% assign cta_label = 'Layanan Website Company Profile' %}
+    {% assign cta_title = 'Bisnis Anda belum punya website sekuat ini?' %}
+    {% assign cta_desc = 'Kami merancang dan membangun website company profile yang profesional, responsif, dan SEO-ready — lengkap dengan katalog produk, kontak WhatsApp, dan integrasi bisnis Anda.' %}
+  {% else %}
+    {% assign cta_service = '' %}
+    {% assign cta_label = 'Lihat semua layanan' %}
+    {% assign cta_title = 'Punya kebutuhan proyek serupa?' %}
+    {% assign cta_desc = 'Ceritakan tujuan dan tantangan bisnis Anda. Kami bantu rumuskan solusi digital yang tepat — dari website, aplikasi, hingga sistem operasional.' %}
+{% endcase %}
+
 <section class="page-hero">
-  <p class="eyebrow">{{ page.eyebrow | default: 'Portfolio' }}</p>
+  <p class="eyebrow">{{ cat | default: 'Portfolio' }}</p>
   <h1>{{ page.title }}</h1>
   {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  <div class="pf-hero-actions">
+    {% if page.site_url %}<a class="btn btn-primary" href="{{ page.site_url }}" target="_blank" rel="noopener noreferrer">{{ page.site_label | default: 'Kunjungi' }} <span aria-hidden="true">↗</span></a>{% endif %}
+    <a class="btn btn-outline" href="/kontak/?subject={{ 'Proyek serupa: ' | append: page.title | url_encode }}">Buat proyek serupa</a>
+  </div>
 </section>
+
+{% if page.image %}
+<figure class="pf-feature">
+  <div class="pf-feature-bar"><span></span><span></span><span></span><em>{{ page.site_label | default: page.title }}</em></div>
+  <img src="{{ page.image | relative_url }}" alt="Tampilan {{ page.title }}" loading="lazy">
+</figure>
+{% endif %}
+
 <section class="content-wrap">
   {{ content }}
+</section>
+
+{% if page.gallery %}
+<section class="pf-gallery">
+  <h2>Galeri proyek</h2>
+  <div class="pf-gallery-grid">
+    {% for g in page.gallery %}
+    <img src="{{ g | relative_url }}" alt="Screenshot {{ page.title }}" loading="lazy">
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="cta-section pf-cta">
+  <h2>{{ cta_title }}</h2>
+  <p>{{ cta_desc }}</p>
+  <div class="pf-cta-actions">
+    <a class="btn btn-large" href="/kontak/?subject={{ 'Konsultasi: ' | append: cta_label | strip_html | url_encode }}">Konsultasi Gratis</a>
+    <a class="btn btn-wa" href="https://wa.me/6281335206389?text={{ 'Halo Aksisoft, saya tertarik membuat proyek seperti ' | append: page.title | url_encode }}" target="_blank" rel="noopener noreferrer">Chat WhatsApp</a>
+  </div>
+  <a class="pf-cta-more" href="{% if cta_service != '' %}/layanan/{{ cta_service }}/{% else %}/layanan/{% endif %}">{{ cta_label }} <span aria-hidden="true">→</span></a>
 </section>
