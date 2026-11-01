@@ -19,6 +19,11 @@ layout: default
     {% assign cta_label = 'Layanan Website Company Profile' %}
     {% assign cta_title = 'Bisnis Anda belum punya website sekuat ini?' %}
     {% assign cta_desc = 'Kami merancang dan membangun website company profile yang profesional, responsif, dan SEO-ready — lengkap dengan katalog produk, kontak WhatsApp, dan integrasi bisnis Anda.' %}
+  {% when 'Toko Online' %}
+    {% assign cta_service = '' %}
+    {% assign cta_label = 'Layanan Pembuatan Toko Online' %}
+    {% assign cta_title = 'Toko Anda siap jualan online minggu ini?' %}
+    {% assign cta_desc = 'Kami bangun toko online lengkap — katalog produk, keranjang, pembayaran QRIS, cek ongkir otomatis, sampai halaman promo. Sistem yang sama dengan yang kami pakai sendiri untuk menjual setiap hari.' %}
   {% else %}
     {% assign cta_service = '' %}
     {% assign cta_label = 'Lihat semua layanan' %}

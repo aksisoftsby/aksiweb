@@ -231,6 +231,7 @@ PORTFOLIO = [
     ('devicescope', 'DeviceScope', 'Aplikasi info perangkat Android', 'assets/img/portfolio/devicescope.webp'),
     ('editor-id-app', 'Editor.id News', 'Aplikasi berita di Google Play', 'assets/img/portfolio/editor-id-app.webp'),
     ('muslimhub-app', 'MuslimHub', 'Portal ibadah web & Android', 'assets/img/portfolio/muslimhub-app.webp'),
+    ('tokogrosirbest', 'Toko Grosir Best', 'Toko online grosir & ritel', 'assets/img/portfolio/tokogrosirbest.webp'),
 ]
 for slug, title, sub, src in PORTFOLIO:
     make_frame(src, f'portfolio-{slug}.jpg', 'Portfolio', title, sub)

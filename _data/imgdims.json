@@ -635,6 +635,10 @@
 "h": 630,
 "w": 1200
 },
+"/assets/img/og/portfolio-tokogrosirbest.jpg": {
+"h": 630,
+"w": 1200
+},
 "/assets/img/og/portfolio-yoterpal.jpg": {
 "h": 630,
 "w": 1200
@@ -917,6 +921,26 @@
 },
 "/assets/img/portfolio/surendo.webp": {
 "h": 1333,
+"w": 1200
+},
+"/assets/img/portfolio/tokogrosirbest-mobile.webp": {
+"h": 791,
+"w": 1200
+},
+"/assets/img/portfolio/tokogrosirbest-produk.webp": {
+"h": 791,
+"w": 1200
+},
+"/assets/img/portfolio/tokogrosirbest-promo.webp": {
+"h": 747,
+"w": 1200
+},
+"/assets/img/portfolio/tokogrosirbest-terlaris.webp": {
+"h": 791,
+"w": 1200
+},
+"/assets/img/portfolio/tokogrosirbest.webp": {
+"h": 843,
 "w": 1200
 },
 "/assets/img/portfolio/yoterpal-mobile.webp": {

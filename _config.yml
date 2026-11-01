@@ -98,10 +98,22 @@ nav:
         url: /produk/muslimhub/
       - title: Aksisoft AI Chat
         url: /produk/ai-chat/
+  - title: Toko Grosir
+    url: https://tokogrosirbest.aksisoft.web.id/
+    hide_parent: true
+    children:
+      - title: Buka Toko Grosir Best
+        url: https://tokogrosirbest.aksisoft.web.id/
+      - title: Produk Digital (Lynk)
+        url: https://lynk.id/aksisoft
       - title: Template Website
         url: /website/
       - title: eBook & Worksheet
         url: /ebook/
+      - title: Pembayaran QRIS
+        url: /payment/
+      - title: Studi Kasus Portofolio
+        url: /portfolio/tokogrosirbest/
   - title: Portfolio
     url: /portfolio/
   - title: Blog
@@ -110,8 +122,6 @@ nav:
     url: /tentang/
   - title: Kontak
     url: /kontak/
-  - title: Lynk
-    url: https://lynk.id/aksisoft
 
 service_prices:
   # Harga Layanan Content Creator Video (dapat diedit sewaktu-waktu di config)

@@ -11,11 +11,14 @@
       {% for item in site.nav %}
         {% if item.children %}
           <div class="nav-item dropdown">
-            <a href="{{ item.url | relative_url }}" class="dropdown-toggle{% if page.url == item.url %} is-active{% endif %}" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
+            <a href="{{ item.url | relative_url }}"{% if item.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %} class="dropdown-toggle{% if page.url == item.url %} is-active{% endif %}" aria-haspopup="true" aria-expanded="false">{{ item.title }} <span class="dropdown-arrow" aria-hidden="true">▾</span></a>
             <ul class="dropdown-menu">
-              <li class="dropdown-parent-link"><a href="{{ item.url | relative_url }}">Semua {{ item.title }}</a></li>
+              {% unless item.hide_parent %}
+              {% if item.parent_label %}{% assign plabel = item.parent_label %}{% else %}{% assign plabel = 'Semua ' | append: item.title %}{% endif %}
+              <li class="dropdown-parent-link"><a href="{{ item.url | relative_url }}"{% if item.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ plabel }}</a></li>
+              {% endunless %}
               {% for child in item.children %}
-                <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                <li><a href="{{ child.url | relative_url }}"{% if child.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ child.title }}</a></li>
               {% endfor %}
             </ul>
           </div>
