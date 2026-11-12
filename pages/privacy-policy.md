@@ -68,7 +68,7 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 
 ## Kokoh App Bangunan (id.aksisoft.kokoh)
 
-**Ringkasan.** Kokoh App Bangunan adalah aplikasi kasir (POS) untuk toko bangunan dan material yang bekerja **sepenuhnya offline**. Seluruh data usaha — profil toko, produk, satuan dan harga bertingkat, transaksi penjualan, pembelian, piutang, stok, kas, dan laporan — disimpan **lokal di perangkat Anda** di dalam database aplikasi. Kami tidak memiliki server penyimpanan data, tidak membuat akun pengguna, tidak mengumpulkan analitik, dan **tidak menampilkan iklan**.
+**Ringkasan.** Kokoh App Bangunan adalah aplikasi kasir (POS) untuk toko bangunan dan material yang bekerja **sepenuhnya offline**. Seluruh data usaha — profil toko, produk, satuan dan harga bertingkat, transaksi penjualan, pembelian, piutang, stok, kas, dan laporan — disimpan **lokal di perangkat Anda** di dalam database aplikasi. Kami tidak memiliki server penyimpanan data, tidak membuat akun pengguna, dan tidak mengumpulkan analitik. Aplikasi **menampilkan iklan** dari Google AdMob (lihat bagian *Iklan* di bawah).
 
 **Data yang disimpan.** Semua data yang Anda masukkan tersimpan di perangkat Anda sendiri. Data tidak pernah dikirim ke server kami, dan tidak ada salinan yang kami simpan.
 
@@ -76,7 +76,15 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 
 **Ekspor, cadangan & berbagi.** Fitur **Back Up**, nota PDF, dan surat jalan membuat berkas di perangkat Anda atau membagikannya lewat aplikasi lain yang Anda pilih (misalnya WhatsApp atau email). Berkas tersebut sepenuhnya dalam kendali Anda; kami tidak menerima salinannya.
 
-**Izin.** Aplikasi hanya memakai izin INTERNET bawaan kerangka aplikasi (tidak dipakai untuk mengirim data usaha) serta akses penyimpanan/berbagi berkas ketika Anda sendiri menekan tombol ekspor atau bagikan.
+**Izin.** Aplikasi hanya memakai izin INTERNET (untuk memuat iklan) serta akses penyimpanan/berbagi berkas ketika Anda sendiri menekan tombol ekspor atau bagikan. Data usaha Anda tidak pernah dikirim melalui internet.
+
+**Iklan (Google AdMob).** Aplikasi menampilkan iklan **banner** dan **native advanced** dari **Google AdMob** pada halaman daftar (misalnya Produk, Pelanggan, Riwayat, Laporan, dan Pengaturan). Layar kasir, pembayaran, dan struk sengaja bebas iklan.
+
+- Untuk menayangkan iklan, Google Mobile Ads SDK dapat mengakses **ID Iklan (Advertising ID)** perangkat, informasi perangkat/aplikasi, alamat IP, serta data interaksi iklan. Data ini diproses Google sebagai penyedia layanan iklan pihak ketiga.
+- Kami **tidak** mengirim data usaha Anda (produk, transaksi, pelanggan, laporan) ke AdMob atau pihak lain.
+- Anda dapat menyetel ulang atau menghapus ID Iklan di **Setelan Android → Google → Iklan**.
+- Ketentuan Google: [Kebijakan Privasi & Persyaratan](https://policies.google.com/technologies/ads) dan [Cara Google menggunakan data](https://policies.google.com/technologies/partner-sites).
+- Di wilayah EEA/UK, persetujuan iklan ditanyakan melalui formulir persetujuan Google (UMP) saat aplikasi pertama kali dibuka.
 
 **Anak-anak.** Aplikasi ditujukan untuk pelaku usaha (pengguna dewasa) dan tidak mengumpulkan data pribadi siapa pun, termasuk anak-anak.
 
@@ -104,7 +112,7 @@ Aksisoft Media respects your privacy. Our apps generally **do not collect person
 
 **Kasir Stok** stores all business data (products, transactions, reports) **locally on your device**. There is no user account, no server, and no analytics. The app shows ads served by **Google AdMob** (banner and interstitial); Google acts as a third-party ad service — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Camera permission is used only for barcode scanning (scan results are used for the sale only). You can export your data as CSV/backup files that stay under your control.
 
-**Kokoh App Bangunan** is a fully **offline** point-of-sale app for building-material stores. All business data (store profile, products, multi-unit prices, sales, purchases, receivables, stock, cash, reports) is stored **locally on your device**; there is no account, no server, no analytics, and no ads. The app is unlocked with a locally hashed PIN. Backup, PDF receipts, and delivery notes are created only when you press the export/share button, and those files stay under your control.
+**Kokoh App Bangunan** is a fully **offline** point-of-sale app for building-material stores. All business data (store profile, products, multi-unit prices, sales, purchases, receivables, stock, cash, reports) is stored **locally on your device**; there is no account, no server, and no analytics. The app is unlocked with a locally hashed PIN. Backup, PDF receipts, and delivery notes are created only when you press the export/share button, and those files stay under your control. The app shows ads served by **Google AdMob** (banner and native advanced) on browsing screens; Google acts as a third-party ad service and may use the device **Advertising ID**, device/app information, IP address, and ad-interaction data — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Your business data is never sent to AdMob. Checkout, payment and receipt screens are ad-free.
 ---
 
 ## Kontak
