@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Kebijakan Privasi
-description: Kebijakan privasi aplikasi dan layanan Aksisoft Media, termasuk Crumb Trail dan Kasir Stok.
+description: Kebijakan privasi aplikasi dan layanan Aksisoft Media, termasuk Crumb Trail, Kasir Stok, dan Kokoh App Bangunan.
 eyebrow: Privasi
 permalink: /privacy-policy/
 og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
-Berlaku sejak: 13 Oktober 2026 — diperbarui 19 Oktober 2026
+Berlaku sejak: 13 Oktober 2026 — diperbarui 12 November 2026
 
 Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana aplikasi dan layanan kami menangani data. Secara umum, aplikasi kami **tidak mengumpulkan data pribadi** dan menyimpan data **hanya di perangkat Anda**. Sebagian aplikasi kami sepenuhnya offline tanpa iklan; aplikasi yang menampilkan iklan dijelaskan pada bagian masing-masing di bawah ini.
 
@@ -66,6 +66,22 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 
 ---
 
+## Kokoh App Bangunan (id.aksisoft.kokoh)
+
+**Ringkasan.** Kokoh App Bangunan adalah aplikasi kasir (POS) untuk toko bangunan dan material yang bekerja **sepenuhnya offline**. Seluruh data usaha — profil toko, produk, satuan dan harga bertingkat, transaksi penjualan, pembelian, piutang, stok, kas, dan laporan — disimpan **lokal di perangkat Anda** di dalam database aplikasi. Kami tidak memiliki server penyimpanan data, tidak membuat akun pengguna, tidak mengumpulkan analitik, dan **tidak menampilkan iklan**.
+
+**Data yang disimpan.** Semua data yang Anda masukkan tersimpan di perangkat Anda sendiri. Data tidak pernah dikirim ke server kami, dan tidak ada salinan yang kami simpan.
+
+**Akun & PIN.** Aplikasi memakai PIN yang Anda buat sendiri di perangkat untuk masuk; PIN disimpan sebagai *hash* lokal. Tidak ada pendaftaran, email, nomor telepon, atau login daring.
+
+**Ekspor, cadangan & berbagi.** Fitur **Back Up**, nota PDF, dan surat jalan membuat berkas di perangkat Anda atau membagikannya lewat aplikasi lain yang Anda pilih (misalnya WhatsApp atau email). Berkas tersebut sepenuhnya dalam kendali Anda; kami tidak menerima salinannya.
+
+**Izin.** Aplikasi hanya memakai izin INTERNET bawaan kerangka aplikasi (tidak dipakai untuk mengirim data usaha) serta akses penyimpanan/berbagi berkas ketika Anda sendiri menekan tombol ekspor atau bagikan.
+
+**Anak-anak.** Aplikasi ditujukan untuk pelaku usaha (pengguna dewasa) dan tidak mengumpulkan data pribadi siapa pun, termasuk anak-anak.
+
+---
+
 ## Kebijakan Umum
 
 **Data yang kami kumpulkan.** Aplikasi Aksisoft Media pada umumnya tidak mengumpulkan data pribadi. Jika suatu aplikasi memerlukan data tertentu, hal itu akan dijelaskan pada halaman aplikasi di Google Play dan/atau di dalam aplikasi itu sendiri.
@@ -87,6 +103,8 @@ Aksisoft Media respects your privacy. Our apps generally **do not collect person
 **Crumb Trail** stores all data (starters, feeding logs, timers, loaf journal, photos, and settings) **locally on your device**. There is no account, no server, no analytics, and no ads. Data never leaves your device unless you export it yourself. The app requests camera/file access only when you add a photo to a loaf entry. No location, contacts, or internet permissions are used to collect data. The app is suitable for general audiences and collects no personal data, including from children.
 
 **Kasir Stok** stores all business data (products, transactions, reports) **locally on your device**. There is no user account, no server, and no analytics. The app shows ads served by **Google AdMob** (banner and interstitial); Google acts as a third-party ad service — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Camera permission is used only for barcode scanning (scan results are used for the sale only). You can export your data as CSV/backup files that stay under your control.
+
+**Kokoh App Bangunan** is a fully **offline** point-of-sale app for building-material stores. All business data (store profile, products, multi-unit prices, sales, purchases, receivables, stock, cash, reports) is stored **locally on your device**; there is no account, no server, no analytics, and no ads. The app is unlocked with a locally hashed PIN. Backup, PDF receipts, and delivery notes are created only when you press the export/share button, and those files stay under your control.
 ---
 
 ## Kontak
