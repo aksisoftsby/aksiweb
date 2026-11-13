@@ -71,6 +71,8 @@ nav:
         url: /layanan/website-static/
       - title: Website News Dynamic
         url: /layanan/website-news-dynamic/
+      - title: SEO Website
+        url: /layanan/seo-website/
       - title: Content Creator Video
         url: /layanan/video-editing/
       - title: Aplikasi Custom
@@ -134,6 +136,10 @@ service_prices:
   email_starter: "Rp 1.500.000 (Setup & Broadcast Pertama)"
   email_growth: "Rp 3.000.000 / bulan"
   email_enterprise: "Rp 6.500.000 / bulan"
+  # Harga Layanan SEO Website
+  seo_setup: "Rp 3.500.000 (sekali bayar)"
+  seo_starter: "Rp 2.500.000 / bulan"
+  seo_growth: "Rp 5.500.000 / bulan"
 
 exclude:
   - README.md

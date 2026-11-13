@@ -31,6 +31,7 @@ og_image: '/assets/img/og/layanan-og.jpg'
 <div class="service-tabs">
   <button class="service-tab active" onclick="showService('static')">Website Static</button>
   <button class="service-tab" onclick="showService('dynamic')">Website News Dynamic</button>
+  <button class="service-tab" onclick="showService('seo')">SEO Website</button>
   <button class="service-tab" onclick="showService('video')">Content Creator Video</button>
   <button class="service-tab" onclick="showService('app')">Aplikasi Custom & Android</button>
   <button class="service-tab" onclick="showService('email')">Email Marketing</button>
@@ -150,6 +151,80 @@ og_image: '/assets/img/og/layanan-og.jpg'
     <a href="/kontak/" class="btn primary">Pilih Paket</a>
   </div>
   </div>
+</div>
+
+<!-- SEO Website -->
+<div id="seo" class="service-content">
+  <h2>Jasa SEO Website</h2>
+  <p>Rapikan fondasi teknis, konten, dan profil bisnis Anda di Google — lalu pantau hasilnya lewat laporan yang terbuka.</p>
+
+  <div class="price-table-row row-3">
+  <div class="package-card">
+    <h4>Setup Optimasi Awal</h4>
+    <div class="price">{{ site.service_prices.seo_setup }}</div>
+    <ul>
+      <li>Audit Teknis Lengkap dan Laporan Temuan</li>
+      <li>Riset hingga 20 Kata Kunci Prioritas</li>
+      <li>Perbaikan On-Page hingga 10 Halaman Utama</li>
+      <li>Setup Google Search Console dan Analytics</li>
+      <li>Sitemap, robots.txt, dan Schema Dasar</li>
+      <li>Optimasi Google Business Profile</li>
+      <li>Rekomendasi Tindak Lanjut</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20Setup%20SEO" class="btn primary">Mulai dari Audit</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Retainer Starter</h4>
+    <div class="price">{{ site.service_prices.seo_starter }}</div>
+    <ul>
+      <li>Monitoring Peringkat dan Trafik Bulanan</li>
+      <li>Optimasi On-Page hingga 5 Halaman/Bulan</li>
+      <li>1 Artikel Blog Teroptimasi per Bulan</li>
+      <li>Pengelolaan Google Business Profile</li>
+      <li>Perbaikan Masalah Teknis yang Muncul</li>
+      <li>Laporan Bulanan dan Konsultasi 30 Menit</li>
+      <li>Kontrak Minimal 6 Bulan</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20SEO%20Starter" class="btn primary">Pilih Paket</a>
+  </div>
+
+  <div class="package-card">
+    <h4>Retainer Growth</h4>
+    <div class="price">{{ site.service_prices.seo_growth }}</div>
+    <ul>
+      <li>Seluruh Isi Paket Starter</li>
+      <li>4 Artikel Teroptimasi per Bulan</li>
+      <li>Riset Kompetitor untuk Kata Kunci Prioritas</li>
+      <li>Optimasi hingga 10 Halaman/Bulan</li>
+      <li>Pengembangan Topik dan Internal Linking</li>
+      <li>Schema Lanjutan dan Optimasi Kecepatan</li>
+      <li>Rapat Evaluasi 60 Menit</li>
+    </ul>
+    <a href="/kontak/?subject=Paket%20SEO%20Growth" class="btn primary">Pilih Paket</a>
+  </div>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-item">
+      <strong>🔍 Berbasis Data</strong>
+      <p>Prioritas diambil dari Search Console, bukan tebakan</p>
+    </div>
+    <div class="feature-item">
+      <strong>🎯 Niat Pencarian</strong>
+      <p>Fokus pada kata kunci yang dicari calon pembeli</p>
+    </div>
+    <div class="feature-item">
+      <strong>🏗️ Aset Jangka Panjang</strong>
+      <p>Hasil tidak berhenti saat anggaran promosi dihentikan</p>
+    </div>
+    <div class="feature-item">
+      <strong>📊 Laporan Terbuka</strong>
+      <p>Pekerjaan, posisi kata kunci, dan kendala ditulis apa adanya</p>
+    </div>
+  </div>
+  <p><em>Belum termasuk tools SEO premium, pembelian backlink, artikel di luar kuota, dan pekerjaan developer besar. Tidak ada jaminan peringkat 1 — yang dikerjakan adalah fondasi teknis, konten, dan konsistensi.</em></p>
+  <p><a href="/layanan/seo-website/" class="btn primary">Lihat Detail Layanan</a></p>
 </div>
 
 <!-- Content Creator Video -->

@@ -208,6 +208,8 @@ SERVICES = [
      'assets/img/website-static-hero.webp'),
     ('website-news-dynamic', 'Jasa Website News Dynamic', 'Portal berita dengan CMS mudah',
      'assets/img/website-news-dynamic-hero.webp'),
+    ('seo-website', 'Jasa SEO Website', 'Audit teknis, on-page, konten, dan local SEO',
+     'assets/img/seo-website-hero.webp'),
     ('video-editing', 'Content Creator Video', 'Reels, promosi, dan company profile',
      'assets/img/video-creator-hero.webp'),
     ('aplikasi-custom-android', 'Aplikasi Custom & Android', 'Dari konsep hingga Google Play',

@@ -21,10 +21,10 @@ Bahasa konten situs: **Bahasa Indonesia**.
 | Stack | Jekyll 4.4.1 · Ruby 3.2.3 (Linux) · Liquid · CSS vanilla · sedikit JS |
 | Branch `source` | 100% source (koleksi, layout, data, aset, skrip) |
 | Branch `gh-pages` | hasil `_site/` + `.nojekyll` — di-*force* oleh build lokal, **tidak ada GitHub Actions** (kuota) |
-| Ukuran | ±324 halaman HTML · `assets/img` 40 MB · `_site` ±57 MB |
+| Ukuran | ±325 halaman HTML · `assets/img` 40 MB · `_site` ±57 MB |
 | Video | tidak pernah masuk repo; host di `cfcdn.aksisoft.my.id`, daftar di `_data/videos.json` |
 
-Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 9 · `layanan/` 8 · `produk/` 7 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
+Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 9 · `layanan/` 9 · `produk/` 7 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
 
 ---
 
@@ -85,9 +85,9 @@ git add -A && git commit -m "…" && git push origin source
 
 ## 4. Gambar: aturan WebP
 
-**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.737 `<img>`, semuanya patuh.
+**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.739 `<img>`, semuanya patuh.
 
-**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (113 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (324 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
+**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (114 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (325 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
 
 **Lebar file = lebar render sebenarnya** (bukan ukuran asli). Acuan desain:
 
@@ -112,9 +112,9 @@ Hematnya di `assets/img/templates` (24 MB) dan `assets/img/ebook` (7 MB) berasal
 | `scripts/localize-remote-imgs.py` | unduh gambar host lain ke `assets/img/` + perbaiki `_data/*.json` dan `_ebooks/*.md` |
 | `scripts/localize-template-shots.py` | galeri template remote @1920px → WebP lokal |
 | `scripts/resize-ebook-imgs.py` | samakan ukuran cover/screenshot katalog eBook |
-| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1058 entri) |
+| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1060 entri) |
 | `scripts/add-img-dims.py`, `scripts/add-missing-alt.py` | tambal atribut yang tertinggal |
-| `scripts/make-og.py` | bangkitkan 113 og:image |
+| `scripts/make-og.py` | bangkitkan 114 og:image |
 
 ---
 
@@ -246,6 +246,12 @@ Bahasa Indonesia natural, tanpa hype. "Anda" untuk pembaca. Istilah teknis boleh
 ## 12. Log update & perubahan
 
 Format entri: `YYYY-MM-DD · commit · ringkasan`. Tambah baris baru di **atas** setiap kali deploy. Riwayat penuh: `git log --date=short --pretty="%ad %h %s" source`.
+
+### 2026-11-13
+
+- **Halaman layanan baru `/layanan/seo-website/`**: tiga paket (Setup Optimasi Awal Rp 3.500.000 sekali bayar · Retainer Starter Rp 2.500.000/bulan · Retainer Growth Rp 5.500.000/bulan, harga di `service_prices`), cakupan 12 poin, alur kerja 4 tahap, 6 FAQ, dan bagian keterbukaan ("tidak ada jaminan peringkat 1", hasil awal 3–6 bulan, backlink massal tidak dijual, akses GSC/Analytics tetap di klien). Materi harga & bahasa jual disusun bersama Claude, lalu disunting ke gaya situs.
+- **Nav Layanan** dapat anak baru **SEO Website** (setelah Website News Dynamic); tab **SEO Website** ditambahkan di `/layanan/`.
+- Hero `assets/img/seo-website-hero.webp` (1400×560) + `assets/img/og/layanan-seo-website.jpg` (1200×630), entri baru di `scripts/make-og.py`.
 
 ### 2026-11-01 (sesi terbesar — semuanya sudah live)
 
