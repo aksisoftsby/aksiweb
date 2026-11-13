@@ -24,6 +24,11 @@ layout: default
     {% assign cta_label = 'Layanan Pembuatan Toko Online' %}
     {% assign cta_title = 'Toko Anda siap jualan online minggu ini?' %}
     {% assign cta_desc = 'Kami bangun toko online lengkap — katalog produk, keranjang, pembayaran QRIS, cek ongkir otomatis, sampai halaman promo. Sistem yang sama dengan yang kami pakai sendiri untuk menjual setiap hari.' %}
+  {% when 'Katalog & Direktori' %}
+    {% assign cta_service = 'aplikasi-custom-android' %}
+    {% assign cta_label = 'Layanan Aplikasi Custom' %}
+    {% assign cta_title = 'Butuh platform katalog atau direktori seperti ini?' %}
+    {% assign cta_desc = 'Kami membangun platform web lengkap dengan basis data, formulir pengajuan, moderasi admin, dan API — dari katalog event, direktori vendor, sampai portal komunitas. Konsultasi kebutuhan dan estimasi biaya gratis, tanpa komitmen.' %}
   {% else %}
     {% assign cta_service = '' %}
     {% assign cta_label = 'Lihat semua layanan' %}
