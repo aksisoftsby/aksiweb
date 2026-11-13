@@ -251,7 +251,7 @@ Format entri: `YYYY-MM-DD · commit · ringkasan`. Tambah baris baru di **atas**
 
 - **Halaman layanan baru `/layanan/seo-website/`**: tiga paket (Setup Optimasi Awal Rp 3.500.000 sekali bayar · Retainer Starter Rp 2.500.000/bulan · Retainer Growth Rp 5.500.000/bulan, harga di `service_prices`), cakupan 12 poin, alur kerja 4 tahap, 6 FAQ, dan bagian keterbukaan ("tidak ada jaminan peringkat 1", hasil awal 3–6 bulan, backlink massal tidak dijual, akses GSC/Analytics tetap di klien). Materi harga & bahasa jual disusun bersama Claude, lalu disunting ke gaya situs.
 - **Nav Layanan** dapat anak baru **SEO Website** (setelah Website News Dynamic); tab **SEO Website** ditambahkan di `/layanan/`.
-- Hero `assets/img/seo-website-hero.webp` (1400×560) + `assets/img/og/layanan-seo-website.jpg` (1200×630), entri baru di `scripts/make-og.py`.
+- Hero `assets/img/seo-website-hero.webp` (1400×560) + `assets/img/og/layanan-seo-website.jpg` (1200×630) dibuat dari hasil **Google Flow Nano Banana (image-to-image)**, lalu di-crop/kompres ke rasio hero layanan lain; entri baru di `scripts/make-og.py`.
 
 ### 2026-11-01 (sesi terbesar — semuanya sudah live)
 
