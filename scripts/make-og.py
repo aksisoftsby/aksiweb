@@ -24,7 +24,15 @@ PINK = (243, 200, 207)
 WHITE = (255, 255, 255)
 
 def font(name, size):
-    return ImageFont.truetype(f'/usr/share/fonts/truetype/lato/Lato-{name}.ttf', size)
+    """Lato dari OG_FONT_DIR / lokasi sistem; fallback Arial di Windows."""
+    for d in (os.environ.get('OG_FONT_DIR'), '/usr/share/fonts/truetype/lato'):
+        if d:
+            p = os.path.join(d, f'Lato-{name}.ttf')
+            if os.path.exists(p):
+                return ImageFont.truetype(p, size)
+    win = {'Bold': 'arialbd.ttf', 'Black': 'arialbd.ttf', 'Medium': 'arial.ttf'}
+    base = os.path.join(os.environ.get('WINDIR', r'C:\Windows'), 'Fonts')
+    return ImageFont.truetype(os.path.join(base, win.get(name, 'arial.ttf')), size)
 
 BOLD = lambda s: font('Bold', s)
 BLACK = lambda s: font('Black', s)
@@ -235,6 +243,9 @@ PORTFOLIO = [
     ('muslimhub-app', 'MuslimHub', 'Portal ibadah web & Android', 'assets/img/portfolio/muslimhub-app.webp'),
     ('tokogrosirbest', 'Toko Grosir Best', 'Toko online grosir & ritel', 'assets/img/portfolio/tokogrosirbest.webp'),
     ('eventmedia', 'EventMedia.id', 'Katalog event & direktori vendor', 'assets/img/portfolio/eventmedia.webp'),
+    ('dadu-dungeon', 'Dadu Dungeon', 'Game RPG dadu piksel di Google Play', 'assets/img/portfolio/dadu-dungeon.webp'),
+    ('aksi-file-manager', 'Aksi File Manager', 'Pengelola berkas Android', 'assets/img/portfolio/aksi-file-manager.webp'),
+    ('aksi-office', 'Aksi Office', 'Office offline: Word, Excel, PDF', 'assets/img/portfolio/aksi-office.webp'),
 ]
 for slug, title, sub, src in PORTFOLIO:
     make_frame(src, f'portfolio-{slug}.jpg', 'Portfolio', title, sub)
@@ -245,7 +256,7 @@ PRODUCTS = [
     ('aksi-crm', 'Aksi CRM', 'CRM & operasional pelanggan', 'assets/img/products/aksi-crm-dashboard.webp'),
     ('aksisoft-pos', 'AksiSoft POS', 'Kasir & operasional ritel', 'assets/img/products/aksisoft-pos-dashboard.webp'),
     ('websekolah', 'WebSekolah + PPDB', 'Website sekolah & pendaftaran online', 'assets/img/products/websekolah-home.webp'),
-    ('muslimhub', 'MuslimHub', 'Portal ibadah web & Android', 'assets/img/products/muslimhub-og.jpg'),
+    ('muslimhub', 'MuslimHub', 'Portal ibadah web & Android', 'assets/img/products/muslimhub-og.webp'),
     ('ai-chat', 'Aksisoft AI Chat', 'Asisten AI untuk bisnis', None),
 ]
 for slug, title, sub, src in PRODUCTS:

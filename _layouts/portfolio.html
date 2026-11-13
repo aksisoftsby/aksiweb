@@ -24,6 +24,11 @@ layout: default
     {% assign cta_label = 'Layanan Pembuatan Toko Online' %}
     {% assign cta_title = 'Toko Anda siap jualan online minggu ini?' %}
     {% assign cta_desc = 'Kami bangun toko online lengkap — katalog produk, keranjang, pembayaran QRIS, cek ongkir otomatis, sampai halaman promo. Sistem yang sama dengan yang kami pakai sendiri untuk menjual setiap hari.' %}
+  {% when 'Game Android' %}
+    {% assign cta_service = 'aplikasi-custom-android' %}
+    {% assign cta_label = 'Layanan Aplikasi Custom &amp; Android' %}
+    {% assign cta_title = 'Punya ide game atau aplikasi Android sendiri?' %}
+    {% assign cta_desc = 'Kami membangun aplikasi Android dari konsep sampai rilis di Google Play — termasuk game 2D ringan seperti Dadu Dungeon: mekanik permainan, aset, progresi, sampai penyimpanan lokal tanpa server. Konsultasi kebutuhan dan estimasi biaya gratis.' %}
   {% when 'Katalog & Direktori' %}
     {% assign cta_service = 'aplikasi-custom-android' %}
     {% assign cta_label = 'Layanan Aplikasi Custom' %}

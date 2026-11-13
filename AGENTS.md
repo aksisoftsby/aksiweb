@@ -21,10 +21,10 @@ Bahasa konten situs: **Bahasa Indonesia**.
 | Stack | Jekyll 4.4.1 · Ruby 3.2.3 (Linux) · Liquid · CSS vanilla · sedikit JS |
 | Branch `source` | 100% source (koleksi, layout, data, aset, skrip) |
 | Branch `gh-pages` | hasil `_site/` + `.nojekyll` — di-*force* oleh build lokal, **tidak ada GitHub Actions** (kuota) |
-| Ukuran | ±326 halaman HTML · `assets/img` 38 MB · `_site` ±52 MB |
+| Ukuran | ±329 halaman HTML · `assets/img` 38 MB · `_site` ±53 MB |
 | Video | tidak pernah masuk repo; host di `cfcdn.aksisoft.my.id`, daftar di `_data/videos.json` |
 
-Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 10 · `layanan/` 9 · `produk/` 7 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
+Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 13 · `layanan/` 9 · `produk/` 7 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
 
 ---
 
@@ -85,9 +85,9 @@ git add -A && git commit -m "…" && git push origin source
 
 ## 4. Gambar: aturan WebP
 
-**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.747 `<img>`, semuanya patuh.
+**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.765 `<img>`, semuanya patuh.
 
-**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (115 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (326 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
+**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (118 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (329 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
 
 **Lebar file = lebar render sebenarnya** (bukan ukuran asli). Acuan desain:
 
@@ -112,9 +112,9 @@ Hematnya di `assets/img/templates` (24 MB) dan `assets/img/ebook` (7 MB) berasal
 | `scripts/localize-remote-imgs.py` | unduh gambar host lain ke `assets/img/` + perbaiki `_data/*.json` dan `_ebooks/*.md` |
 | `scripts/localize-template-shots.py` | galeri template remote @1920px → WebP lokal |
 | `scripts/resize-ebook-imgs.py` | samakan ukuran cover/screenshot katalog eBook |
-| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1066 entri) |
+| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1078 entri) |
 | `scripts/add-img-dims.py`, `scripts/add-missing-alt.py` | tambal atribut yang tertinggal |
-| `scripts/make-og.py` | bangkitkan 115 og:image |
+| `scripts/make-og.py` | bangkitkan 118 og:image |
 
 ---
 
@@ -160,7 +160,7 @@ Yang tidak boleh naik saat audit: `title>60`, `desc>160`, JSON-LD invalid, tanpa
 
 Skrip penjaga: `scripts/fix-truncated-titles.py` (pasang `seo_title`), `scripts/seo-frontmatter.py` (front matter massal), `scripts/fix-h1.py` (turunkan `#` → `##` karena layout sudah mencetak `<h1>`). **Satu `h1` per halaman.**
 
-`jekyll-sitemap` menulis `sitemap.xml` (±328 URL), `robots.txt` dan `404.html` tersedia di akar.
+`jekyll-sitemap` menulis `sitemap.xml` (±331 URL), `robots.txt` dan `404.html` tersedia di akar.
 
 ---
 
@@ -190,7 +190,7 @@ Regenerasi data katalog (butuh akses internet & host terkait): `npm run gen:webs
 layout: portfolio
 title: Nama — Deskripsi Pendek
 description: "…"                       # tanda kutip kalau ada titik-koma
-category: Website Perusahaan            # menentukan CTA: Aplikasi Android · Website Berita · Website Perusahaan · Toko Online · Katalog & Direktori
+category: Website Perusahaan            # menentukan CTA: Aplikasi Android · Website Berita · Website Perusahaan · Toko Online · Katalog & Direktori · Game Android
 image: /assets/img/portfolio/<slug>.webp
 site_url: https://…
 site_label: domain-tampildi-tombol
@@ -249,6 +249,8 @@ Format entri: `YYYY-MM-DD · commit · ringkasan`. Tambah baris baru di **atas**
 
 ### 2026-11-13
 
+- **Tiga portofolio aplikasi Play Store**: **Dadu Dungeon** (`_portfolio/dadu-dungeon.md`, `order: 9`, kategori baru **Game Android** — CTA ke layanan Aplikasi Custom), **Aksi File Manager** (`aksi-file-manager.md`, `order: 10`) dan **Aksi Office** (`aksi-office.md`, `order: 11`), keduanya kategori Aplikasi Android. Angka diambil dari halaman Play (kategori, rating usia, tanggal update, pernyataan Data Safety) dan deskripsi resmi — **unduhan tidak diklaim** karena ketiganya baru terbit 26–30 Oktober 2026 (Play masih 0+/1+), dan itu ditulis terbuka di bagian "Hasil & Angka". Aset: hero 1200×843 bergaya cover (ikon + judul + strip 4 tangkapan layar) dan 2 tile galeri 1200×791 per aplikasi, semuanya dari ikon/screenshot resmi Play Store yang diunduh lalu dikomposisi ulang; `og/portfolio-<slug>.jpg` lewat `scripts/make-og.py`.
+- **`scripts/make-og.py` diperbaiki agar jalan di Windows**: `font()` kini mencari Lato di `OG_FONT_DIR` → `/usr/share/fonts/truetype/lato` → fallback Arial (`WINDIR\Fonts`), dan entri produk `muslimhub-og.jpg` yang sudah tidak ada diganti `muslimhub-og.webp` (skrip sebelumnya berhenti di tengah jalan).
 - **Portofolio baru EventMedia.id** (`_portfolio/eventmedia.md`, `order: 8`): katalog event + direktori vendor di `eventmedia.my.id`. Kategori baru **Katalog & Direktori** di `_layouts/portfolio.html` (CTA ke layanan Aplikasi Custom). Angka diambil dari sumber yang bisa dicek: 39 URL sitemap, 25 endpoint API (OpenAPI 3.0.3), 8 event (6 tayang), 8 kategori, 8 kota, 6 profil direktori, direktori Rp 20.000 sekali bayar — angka pemasaran situs ("500+ event", "100K+ pengguna") tidak dipakai karena tidak terverifikasi. Aset: hero `eventmedia.webp` (1200×843) + 4 tangkapan galeri 1200×791 (`event`, `direktori`, `artikel`, `kota`) + `og/portfolio-eventmedia.jpg`; entri `eventmedia` ditambahkan ke `PORTFOLIO` di `scripts/make-og.py`.
 - **Halaman layanan baru `/layanan/seo-website/`**: tiga paket (Setup Optimasi Awal Rp 3.500.000 sekali bayar · Retainer Starter Rp 2.500.000/bulan · Retainer Growth Rp 5.500.000/bulan, harga di `service_prices`), cakupan 12 poin, alur kerja 4 tahap, 6 FAQ, dan bagian keterbukaan ("tidak ada jaminan peringkat 1", hasil awal 3–6 bulan, backlink massal tidak dijual, akses GSC/Analytics tetap di klien). Materi harga & bahasa jual disusun bersama Claude, lalu disunting ke gaya situs.
 - **Nav Layanan** dapat anak baru **SEO Website** (setelah Website News Dynamic); tab **SEO Website** ditambahkan di `/layanan/`.
