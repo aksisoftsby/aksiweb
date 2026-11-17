@@ -56,6 +56,13 @@ og_image: '/assets/img/og/produk-og.jpg'
     <p>Chat AI gratis tanpa login dan tanpa limit untuk tanya jawab, pembuatan konten, penulisan kode, serta produktivitas harian di ai.aksisoft.web.id.</p>
     <a href="{{ '/produk/ai-chat/' | relative_url }}">Pelajari AI Chat <span aria-hidden="true">↗</span></a>
   </article>
+  <article class="product-index-card product-index-erp">
+    <span class="product-card-no">07</span>
+    <span class="product-card-initial">E</span>
+    <h2>Aksisoft ERP</h2>
+    <p>ERP cloud untuk UMKM: penjualan, pembelian, stok per gudang, akuntansi otomatis, CRM, SDM, dan chat tim dalam satu aplikasi web.</p>
+    <a href="{{ '/produk/aksisoft-erp/' | relative_url }}">Pelajari Aksisoft ERP <span aria-hidden="true">↗</span></a>
+  </article>
 </section>
 
 <section class="product-index-note reveal-section">

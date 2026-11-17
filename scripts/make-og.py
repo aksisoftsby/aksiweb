@@ -257,6 +257,7 @@ PRODUCTS = [
     ('aksisoft-pos', 'AksiSoft POS', 'Kasir & operasional ritel', 'assets/img/products/aksisoft-pos-dashboard.webp'),
     ('websekolah', 'WebSekolah + PPDB', 'Website sekolah & pendaftaran online', 'assets/img/products/websekolah-home.webp'),
     ('muslimhub', 'MuslimHub', 'Portal ibadah web & Android', 'assets/img/products/muslimhub-og.webp'),
+    ('aksisoft-erp', 'Aksisoft ERP', 'ERP cloud: penjualan, stok, akuntansi', 'assets/img/products/aksisoft-erp-dashboard.webp'),
     ('ai-chat', 'Aksisoft AI Chat', 'Asisten AI untuk bisnis', None),
 ]
 for slug, title, sub, src in PRODUCTS:

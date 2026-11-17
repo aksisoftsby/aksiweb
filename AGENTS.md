@@ -21,10 +21,10 @@ Bahasa konten situs: **Bahasa Indonesia**.
 | Stack | Jekyll 4.4.1 · Ruby 3.2.3 (Linux) · Liquid · CSS vanilla · sedikit JS |
 | Branch `source` | 100% source (koleksi, layout, data, aset, skrip) |
 | Branch `gh-pages` | hasil `_site/` + `.nojekyll` — di-*force* oleh build lokal, **tidak ada GitHub Actions** (kuota) |
-| Ukuran | ±329 halaman HTML · `assets/img` 38 MB · `_site` ±53 MB |
+| Ukuran | ±330 halaman HTML · `assets/img` 38 MB · `_site` ±53 MB |
 | Video | tidak pernah masuk repo; host di `cfcdn.aksisoft.my.id`, daftar di `_data/videos.json` |
 
-Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 13 · `layanan/` 9 · `produk/` 7 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
+Sebaran halaman hasil build: `jasa/` 200 · `website/` 56 · `ebook/` 25 · `portfolio/` 13 · `layanan/` 9 · `produk/` 8 · `blog/` 5, sisanya halaman tunggal (beranda, tentang, kontak, payment, privacy, company-profile ID & EN).
 
 ---
 
@@ -85,9 +85,9 @@ git add -A && git commit -m "…" && git push origin source
 
 ## 4. Gambar: aturan WebP
 
-**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.765 `<img>`, semuanya patuh.
+**Semua `<img>` di output harus:** `.webp` · di-host sendiri (0 gambar remote) · punya `alt` · punya `width` + `height` dari `_data/imgdims.json`. Ini dicek otomatis oleh `scripts/audit-site.py`; angka terkini: 1.775 `<img>`, semuanya patuh.
 
-**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (118 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (329 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
+**Pengecualian yang disengaja:** `assets/img/og/*.jpg` (119 file) tetap JPG dan **hanya** dipakai sebagai meta `og:image` (330 kemunculan, 0 di antaranya lewat `<img>`) — crawler media sosial (WhatsApp, Telegram, Facebook, X) tidak reliabel dengan WebP. Ukurannya selalu **1200×630**, dibangkitkan `scripts/make-og.py` (mode `bg` / `frame` / `text`). Kalau sebuah gambar og perlu **tampil sebagai konten**, jangan rujuk file JPG-nya: pakai salinan WebP,contoh `assets/img/products/muslimhub-og.webp` yang dipakai company profile dan halaman MuslimHub, sementara `og_image` tetap menunjuk JPG.
 
 **Lebar file = lebar render sebenarnya** (bukan ukuran asli). Acuan desain:
 
@@ -112,9 +112,9 @@ Hematnya di `assets/img/templates` (24 MB) dan `assets/img/ebook` (7 MB) berasal
 | `scripts/localize-remote-imgs.py` | unduh gambar host lain ke `assets/img/` + perbaiki `_data/*.json` dan `_ebooks/*.md` |
 | `scripts/localize-template-shots.py` | galeri template remote @1920px → WebP lokal |
 | `scripts/resize-ebook-imgs.py` | samakan ukuran cover/screenshot katalog eBook |
-| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1078 entri) |
+| `scripts/img-dims.py` | bangun ulang `_data/imgdims.json` (1086 entri) |
 | `scripts/add-img-dims.py`, `scripts/add-missing-alt.py` | tambal atribut yang tertinggal |
-| `scripts/make-og.py` | bangkitkan 118 og:image |
+| `scripts/make-og.py` | bangkitkan 119 og:image |
 
 ---
 
@@ -160,7 +160,7 @@ Yang tidak boleh naik saat audit: `title>60`, `desc>160`, JSON-LD invalid, tanpa
 
 Skrip penjaga: `scripts/fix-truncated-titles.py` (pasang `seo_title`), `scripts/seo-frontmatter.py` (front matter massal), `scripts/fix-h1.py` (turunkan `#` → `##` karena layout sudah mencetak `<h1>`). **Satu `h1` per halaman.**
 
-`jekyll-sitemap` menulis `sitemap.xml` (±331 URL), `robots.txt` dan `404.html` tersedia di akar.
+`jekyll-sitemap` menulis `sitemap.xml` (±332 URL), `robots.txt` dan `404.html` tersedia di akar.
 
 ---
 
@@ -246,6 +246,14 @@ Bahasa Indonesia natural, tanpa hype. "Anda" untuk pembaca. Istilah teknis boleh
 ## 12. Log update & perubahan
 
 Format entri: `YYYY-MM-DD · commit · ringkasan`. Tambah baris baru di **atas** setiap kali deploy. Riwayat penuh: `git log --date=short --pretty="%ad %h %s" source`.
+
+### 2026-11-17
+
+- **Halaman produk baru `/produk/aksisoft-erp/`** (`pages/produk-aksisoft-erp.md`, layout `product`, `product_key: erp`, `product_order: 7`): sembilan modul, alur dokumen dari penawaran sampai pembayaran, kartu stok, laporan, dan paket harga (Mulai gratis · Tumbuh Rp 149.000 · Maju Rp 349.000 · Juragan Rp 749.000 per bulan; pembayaran tahunan dua bulan gratis; harga belum termasuk PPN). Fakta diambil dari situs resmi `erp.aksisoft.web.id` dan akun demo publik. Tangkapan layar masih menyala dengan label "Data demo", dan halaman menyatakan gambar tersebut bukan data pelanggan serta tidak mengklaim jumlah pengguna.
+- **Tujuh WebP 1100×902** di `assets/img/products/aksisoft-erp-*.webp` dari layar demo asli: dasbor, faktur, kartu stok, laba rugi, aging, pipeline, dan stok per gudang. `assets/img/og/produk-aksisoft-erp.jpg` dibangkitkan lewat entri baru di daftar `PRODUCTS` pada `scripts/make-og.py`. Akun demo diakses memakai Playwright Chrome; kredensial demo bersifat publik dan sengaja **tidak** ditulis ke repo.
+- **Integrasi katalog**: entri baru di `_data/products.json` (kartu muncul di `/portfolio/`; dua produk unggulan di beranda tetap sama), kartu 07 di `/produk/`, dan anak menu **Aksisoft ERP** di `nav` → Produk.
+- **`assets/css/products.css`**: aksen indigo untuk `product-erp` dan `product-index-erp`, grid `.product-shot-grid` untuk empat tangkapan laporan, serta judul hero ERP memakai `clamp(2.7rem,4.4vw,4.4rem)` dan `text-wrap: balance` supaya tidak ada baris kata tunggal di lebar 1024–1920px. `build-css.py` dijalankan ulang.
+- **Jumlah hasil build**: 330 halaman, 1.775 `<img>`, 1086 entri imgdims, 119 og:image, sitemap ±332 URL, audit **BERSIH**.
 
 ### 2026-11-13
 

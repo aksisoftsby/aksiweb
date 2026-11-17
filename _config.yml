@@ -100,6 +100,8 @@ nav:
         url: /produk/muslimhub/
       - title: Aksisoft AI Chat
         url: /produk/ai-chat/
+      - title: Aksisoft ERP
+        url: /produk/aksisoft-erp/
   - title: Toko Grosir
     url: https://tokogrosirbest.aksisoft.web.id/
     hide_parent: true

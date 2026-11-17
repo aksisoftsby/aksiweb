@@ -671,6 +671,10 @@
 "h": 630,
 "w": 1200
 },
+"/assets/img/og/produk-aksisoft-erp.jpg": {
+"h": 630,
+"w": 1200
+},
 "/assets/img/og/produk-aksisoft-pos.jpg": {
 "h": 630,
 "w": 1200
@@ -1034,6 +1038,34 @@
 "/assets/img/products/aksi-crm-login.webp": {
 "h": 654,
 "w": 760
+},
+"/assets/img/products/aksisoft-erp-aging.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-dashboard.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-faktur.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-kartu-stok.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-laba-rugi.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-pipeline.webp": {
+"h": 902,
+"w": 1100
+},
+"/assets/img/products/aksisoft-erp-stok.webp": {
+"h": 902,
+"w": 1100
 },
 "/assets/img/products/aksisoft-pos-dashboard.webp": {
 "h": 475,

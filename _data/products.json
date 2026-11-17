@@ -82,5 +82,19 @@
     "hero_image": "/assets/img/aksisoft-hero-burgundy.webp",
     "hero_alt": "Antarmuka percakapan kecerdasan buatan dari Aksisoft",
     "description": "Akses chat AI langsung dari browser tanpa perlu daftar akun, tanpa batasan percakapan, dan 100% gratis untuk produktivitas Anda."
+  },
+  {
+    "product_name": "Aksisoft ERP",
+    "product_initial": "E",
+    "product_label": "ERP cloud untuk UMKM",
+    "product_key": "erp",
+    "product_order": 7,
+    "product_domain": "erp.aksisoft.web.id",
+    "product_url": "https://erp.aksisoft.web.id",
+    "logo": "",
+    "url": "/produk/aksisoft-erp/",
+    "hero_image": "/assets/img/products/aksisoft-erp-dashboard.webp",
+    "hero_alt": "Dasbor Aksisoft ERP pada akun demo Depo Bangunan Sentosa",
+    "description": "Aksisoft ERP menyatukan penjualan, pembelian, stok per gudang, akuntansi otomatis, CRM, SDM, dan chat tim dalam satu aplikasi web yang bisa dibuka dari browser maupun ponsel."
   }
 ]
