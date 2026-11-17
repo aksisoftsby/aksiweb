@@ -7,5 +7,17 @@
 .product-page.product-muslimhub .product-btn:hover{background:#08382C;border-color:#08382C}
 .product-page.product-muslimhub .product-live-link,.product-page.product-muslimhub .product-contact-band a{color:#0B4A3A}
 .product-page.product-muslimhub .product-proof img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+/* Aksisoft ERP: aksen indigo mengikuti warna aplikasi, plus grid tangkapan layar laporan. */
+.product-index-card.product-index-erp{background:linear-gradient(160deg,#ffffff 52%,#e8e9ff)}
+.product-page.product-erp .product-initial,.product-index-erp .product-card-initial{background:#4338CA}
+.product-page.product-erp .product-btn{color:var(--white);border-color:#4338CA;background:#4338CA}
+.product-page.product-erp .product-btn:hover{background:#3730A3;border-color:#3730A3}
+.product-page.product-erp .product-live-link{color:#4338CA}
+.product-page.product-erp .product-hero h1{font-size:clamp(2.7rem,4.4vw,4.4rem);text-wrap:balance}
+.product-shot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-top:2.6rem}
+.product-shot-grid figure{display:flex;margin:0;padding:.55rem;border:1px solid var(--line);background:var(--white);flex-direction:column}
+.product-shot-grid img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+.product-shot-grid figcaption{padding:.7rem .1rem 0;color:var(--muted);font-size:.59rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 @media(max-width:840px){.product-hero{grid-template-columns:1fr;min-height:unset}.product-hero-visual{max-width:650px}.product-intro{grid-template-columns:1fr;gap:1rem}.feature-grid-six{grid-template-columns:repeat(2,1fr)}.product-proof,.product-proof-reverse{grid-template-columns:1fr}.product-package-grid{grid-template-columns:1fr}.product-package-grid article{min-height:270px}.product-index-note{grid-template-columns:1fr;gap:1rem}.product-index-grid{grid-template-columns:1fr}.product-index-card{min-height:290px}}
 @media(max-width:540px){.product-hero{padding-top:4rem}.product-hero h1,.product-index-hero h1{font-size:clamp(3rem,13vw,4.4rem)}.product-hero-visual:before{right:-.8rem}.product-feature-grid,.feature-grid-six{grid-template-columns:1fr}.product-section-heading{grid-template-columns:1fr;gap:1rem}.product-section-heading h2{font-size:2.5rem}.product-proof{padding:1.4rem}.product-proof-copy{padding-top:1.5rem}.product-flow li{grid-template-columns:45px 1fr}.product-contact-band{align-items:flex-start;flex-direction:column}.product-index-hero{padding-top:4rem}.product-index-note{margin-bottom:3.5rem}}
+@media(max-width:840px){.product-shot-grid{grid-template-columns:1fr}}
