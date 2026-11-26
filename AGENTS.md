@@ -247,6 +247,11 @@ Bahasa Indonesia natural, tanpa hype. "Anda" untuk pembaca. Istilah teknis boleh
 
 Format entri: `YYYY-MM-DD · commit · ringkasan`. Tambah baris baru di **atas** setiap kali deploy. Riwayat penuh: `git log --date=short --pretty="%ad %h %s" source`.
 
+### 2026-11-26
+
+- **Halaman kebijakan privasi aplikasi Bimbel Offline** (`pages/privacy-policy-bimbel-offline.md`, `permalink: /privacy-policy-bimbel-offline/`): aplikasi offline-first `id.aksisoft.bimbelhub` tanpa izin INTERNET, tanpa server/akun/login daring, data siswa/guru/jadwal/absensi/keuangan di SQLite lokal `bimbel_offline.sqlite`, PIN 4 digit, backup/restore JSON lokal, tombol WhatsApp via `url_launcher` hanya saat ditekan, tanpa iklan dan analitik. Hak pengguna, retensi/penghapusan data, dan kontak developer disertakan.
+- **Hub `/privacy-policy/`** mendapat bagian Bimbel Offline, ringkasan bahasa Inggris, dan tautan di daftar kebijakan khusus aplikasi; tanggal pembaruan hub jadi 26 November 2026.
+
 ### 2026-11-17
 
 - **Halaman produk baru `/produk/aksisoft-erp/`** (`pages/produk-aksisoft-erp.md`, layout `product`, `product_key: erp`, `product_order: 7`): sembilan modul, alur dokumen dari penawaran sampai pembayaran, kartu stok, laporan, dan paket harga (Mulai gratis · Tumbuh Rp 149.000 · Maju Rp 349.000 · Juragan Rp 749.000 per bulan; pembayaran tahunan dua bulan gratis; harga belum termasuk PPN). Fakta diambil dari situs resmi `erp.aksisoft.web.id` dan akun demo publik. Tangkapan layar masih menyala dengan label "Data demo", dan halaman menyatakan gambar tersebut bukan data pelanggan serta tidak mengklaim jumlah pengguna.

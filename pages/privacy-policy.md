@@ -7,7 +7,7 @@ permalink: /privacy-policy/
 og_image: '/assets/img/og/tentang-og.jpg'
 ---
 
-Berlaku sejak: 13 Oktober 2026 — diperbarui 12 November 2026
+Berlaku sejak: 13 Oktober 2026 — diperbarui 26 November 2026
 
 Aksisoft Media menghormati privasi pengguna. Halaman ini menjelaskan bagaimana aplikasi dan layanan kami menangani data. Secara umum, aplikasi kami **tidak mengumpulkan data pribadi** dan menyimpan data **hanya di perangkat Anda**. Sebagian aplikasi kami sepenuhnya offline tanpa iklan; aplikasi yang menampilkan iklan dijelaskan pada bagian masing-masing di bawah ini.
 
@@ -47,6 +47,18 @@ Kasir Stok dapat bekerja sepenuhnya **offline** — data usaha Anda (produk, tra
 **Ekspor & cadangan.** Fitur ekspor membuat berkas (CSV/cadangan) di perangkat Anda atau berbagi melalui aplikasi lain yang Anda pilih; berkas tersebut dalam kendali Anda sepenuhnya.
 
 **Anak-anak.** Aplikasi tidak dirancang khusus untuk anak-anak dan tidak menampilkan iklan format konten anak.
+
+---
+
+## Bimbel Offline (id.aksisoft.bimbelhub)
+
+**Ringkasan.** Bimbel Offline adalah aplikasi bimbingan belajar yang bekerja **sepenuhnya offline** dan **tidak meminta izin INTERNET**. Tidak ada server, akun pengguna, atau login daring. Seluruh data — siswa, guru, program, jadwal, absensi, tagihan, pembayaran, pengeluaran, dan honor guru — tersimpan **hanya di perangkat Anda** dalam database SQLite (`bimbel_offline.sqlite`).
+
+**Keamanan.** Aplikasi dibuka dengan **PIN 4 digit** yang Anda atur sendiri di perangkat. Kami tidak mengetahui PIN Anda dan tidak mengirimkannya ke mana pun.
+
+**Tanpa iklan dan analitik.** Aplikasi tidak menampilkan iklan pihak ketiga, tidak memakai ID iklan, tidak memiliki analytics, dan tidak mengumpulkan atau mengirim data pribadi ke pihak ketiga.
+
+**Cadangan & WhatsApp.** Backup dan restore JSON dilakukan sendiri oleh Anda secara lokal lewat menu Pengaturan. Tombol WhatsApp hanya membuka aplikasi WhatsApp ketika Anda sengaja menekannya. Detail lengkap: [Kebijakan privasi Bimbel Offline](/privacy-policy-bimbel-offline/).
 
 ---
 
@@ -112,6 +124,8 @@ Aksisoft Media respects your privacy. Our apps generally **do not collect person
 
 **Kasir Stok** stores all business data (products, transactions, reports) **locally on your device**. There is no user account, no server, and no analytics. The app shows ads served by **Google AdMob** (banner and interstitial); Google acts as a third-party ad service — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Camera permission is used only for barcode scanning (scan results are used for the sale only). You can export your data as CSV/backup files that stay under your control.
 
+**Bimbel Offline** is a fully **offline** tutoring-management app with **no INTERNET permission**, no server, no account, and no online login. All student, teacher, schedule, attendance, and finance data is stored locally in SQLite (`bimbel_offline.sqlite`) and the app is unlocked with a 4-digit PIN you set yourself. There are no third-party ads and no analytics. JSON backup and restore are performed locally by you, and WhatsApp buttons open WhatsApp only when you deliberately tap them. Details: [Bimbel Offline privacy policy](/privacy-policy-bimbel-offline/).
+
 **Kokoh App Bangunan** is a fully **offline** point-of-sale app for building-material stores. All business data (store profile, products, multi-unit prices, sales, purchases, receivables, stock, cash, reports) is stored **locally on your device**; there is no account, no server, and no analytics. The app is unlocked with a locally hashed PIN. Backup, PDF receipts, and delivery notes are created only when you press the export/share button, and those files stay under your control. The app shows ads served by **Google AdMob** (banner and native advanced) on browsing screens; Google acts as a third-party ad service and may use the device **Advertising ID**, device/app information, IP address, and ad-interaction data — see [Google's privacy & terms](https://policies.google.com/technologies/ads). Your business data is never sent to AdMob. Checkout, payment and receipt screens are ad-free.
 ---
 
@@ -121,4 +135,4 @@ Pertanyaan tentang kebijakan ini dapat dikirim ke:
 
 - Situs: [aksisoft.web.id](https://aksisoft.web.id)
 - Kontak: [halaman kontak](/kontak/)
-- Kebijakan khusus aplikasi: [PDF Manager Tools](/privacy-policy/pdf-manager-tools/) · [Aksi File Manager](/privacy-policy-aksifile/)
+- Kebijakan khusus aplikasi: [PDF Manager Tools](/privacy-policy/pdf-manager-tools/) · [Aksi File Manager](/privacy-policy-aksifile/) · [Bimbel Offline](/privacy-policy-bimbel-offline/)
